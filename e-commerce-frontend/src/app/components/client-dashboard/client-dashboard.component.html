@@ -1,0 +1,117 @@
+<!-- app.component.html -->
+<app-navbar></app-navbar>
+<div class="header">
+  <div class="hero">
+    <br><br>
+  <h1><h1>Bienvenue à <span class="highlight">Hastech Auto!</span> </h1></h1>
+  <p class="first">Trouvez la pièce qu'il vous faut en quelques clics.</p>
+  <br>
+  <p class="second">Découvrez notre large sélection de pièces détachées pour toutes les marques et modèles de véhicules.</p>
+  <p class="third"> Commandez en toute confiance et profitez de nos offres exclusives !</p>
+</div>
+  <!-- app.component.html -->
+<div class="search-container">
+  <!-- Search Tabs -->
+  <div class="search-tabs">
+    <button [class.active]="activeTab === 'vehicleInfo'" (click)="activeTab = 'vehicleInfo'">Rechercher avec les informations du véhicule</button>
+    <button [class.active]="activeTab === 'serialNumber'" (click)="activeTab = 'serialNumber'">Rechercher par numéro de série</button>
+  </div>
+
+  <!-- Vehicle Information Search -->
+  <div class="search" *ngIf="activeTab === 'vehicleInfo'">
+    <label>Rechercher avec les informations du véhicule</label>
+    <div class="search-fields">
+      <!-- Marque -->
+      <select [(ngModel)]="vehicleInfo.brand" (change)="onBrandChange()">
+        <option value="" disabled selected>Sélectionner la marque</option>
+        <option *ngFor="let brand of brands" [value]="brand">{{ brand }}</option>
+      </select>
+  
+      <!-- Année -->
+      <select [(ngModel)]="vehicleInfo.year" (change)="onYearChange()" [disabled]="!filteredYears.length">
+        <option value="" disabled selected>Sélectionner l'année</option>
+        <option *ngFor="let year of filteredYears" [value]="year">{{ year }}</option>
+      </select>
+  
+      <!-- Modèle -->
+      <select [(ngModel)]="vehicleInfo.model" (change)="onModelChange()" [disabled]="!filteredModels.length">
+        <option value="" disabled selected>Sélectionner le modèle</option>
+        <option *ngFor="let model of filteredModels" [value]="model">{{ model }}</option>
+      </select>
+  
+      <!-- Outils -->
+      <select [(ngModel)]="vehicleInfo.tools" [disabled]="!filteredTools.length">
+        <option value="" disabled selected>Sélectionner les outils</option>
+        <option *ngFor="let tool of filteredTools" [value]="tool">{{ tool }}</option>
+      </select>
+  
+      <button [disabled]="!vehicleInfo.tools">Rechercher</button>
+    </div>
+  </div>
+  
+
+  <!-- Serial Number Search -->
+  <div *ngIf="activeTab === 'serialNumber'" class="search">
+    <label>Rechercher par numéro de série</label>
+    <div class="search-fields">
+      <input type="text"  [(ngModel)]="serialNumber" placeholder="Entrez le numéro de série" />
+      <button (click)="searchBySerialNumber()">Rechercher</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div *ngIf="searchResults && searchResults.length > 0"  class="search-results">
+  <h2>⚡Résultat de la recherche</h2>
+  <ul class="flex flex-wrap gap-4 overflow-x-auto">
+    <li *ngFor="let result of searchResults" class="flex-none w-60">
+      <div class="h-80 bg-gray-50 p-3 flex flex-col gap-1 rounded-2xl">
+        <div class="h-48 bg-gray-700 rounded-xl"></div>
+        <div class="flex flex-col gap-4">
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-col">
+              <span class="text-lg font-semibold text-gray-800">{{ result.product_name }}</span>
+              <span class="text-sm text-gray-600">{{ result.noserie }}</span>
+              <span class="text-xl font-bold text-gray-900">{{ result.price | currency:'EUR' }}</span>
+            </div>
+          </div>
+          <!-- Button to add to cart -->
+          <button
+            class="mt-4 py-2 px-6 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+            (click)="addToCart(result)">
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- Si aucun résultat n'est trouvé -->
+<ng-template #nosearchResults >
+  <h2 class="noresult">⚡Résultat de la recherche</h2>
+
+  <div class="text-center text-gray-500">Aucun produit disponiblee.</div>
+</ng-template>
+
+<!-- Afficher le template si les résultats sont vides -->
+<div *ngIf="searchResults && searchResults.length === 0" class="no-results">
+  <ng-container *ngTemplateOutlet="nosearchResults"></ng-container>
+</div>
+
+
+<div class="products">
+  <h2>⚡Produits récemment ajoutés</h2>
+  <br>
+  <div class="product-grid">
+    <app-product-list></app-product-list>
+  </div>
+</div>
+
+<div class="categories">
+  <br>
+  <h2>⚡Pièces Auto</h2>
+  <div class="category-grid">
+    <app-product-list></app-product-list>
+  </div>
+</div>

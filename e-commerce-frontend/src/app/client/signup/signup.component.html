@@ -1,0 +1,25 @@
+<!-- signup.component.html -->
+<app-navbar></app-navbar>
+<form autocomplete="on" (ngSubmit)="signup()">
+  <label for="name">First Name:</label>
+  <input type="text" [(ngModel)]="signupData.first_name" id="first_name" name="first_name" autocomplete="first_name" required />
+
+  <label for="name">Last Name:</label>
+  <input type="text" [(ngModel)]="signupData.last_name" id="last_name" name="last_name" autocomplete="last_name" required />
+
+  <label for="email">Email:</label>
+  <input type="email" [(ngModel)]="signupData.email" id="email" name="email" autocomplete="email" required />
+
+  <label for="email">Phone:</label>
+  <input type="tel" [(ngModel)]="signupData.phone" id="phone" name="phone" autocomplete="phone" required />
+
+  <label for="password">Password:</label>
+  <input type="password" [(ngModel)]="signupData.password" id="password" name="password" autocomplete="password" required />
+
+  <label for="confirmPassword">Confirm Password:</label>
+  <input type="password" [(ngModel)]="signupData.password" id="password" name="password" autocomplete="password" required />
+
+  <button type="submit">Sign Up</button>
+
+  <p>Already have an account? <a routerLink="/client/login">Login</a></p>
+</form>

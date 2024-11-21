@@ -1,0 +1,56 @@
+<app-navbar></app-navbar>
+<div class="checkout-container">
+  <!-- Etape 1: Panier -->
+  <div *ngIf="currentStep === 1">
+    <h2>Etape 1: Panier</h2>
+    <div *ngFor="let item of cartItems">
+      <p>{{ item.product_name }} - {{ item.quantity }} x {{ item.price }}€</p>
+    </div>
+    <p><strong>Total: {{ total }}€</strong></p>
+    <button (click)="nextStep()">Suivant</button>
+  </div>
+
+  <!-- Etape 2: Livraison -->
+  <div *ngIf="currentStep === 2">
+    <h2>Etape 2: Livraison</h2>
+    <label for="address">Adresse:</label>
+    <input type="text" id="address" [(ngModel)]="shippingInfo.house_name" placeholder="Entrez votre adresse" />
+    
+    <label for="coustreet_namentry">Ville:</label>
+    <input type="text" id="street_name" [(ngModel)]="shippingInfo.street_name" placeholder="Entrez votre ville" />
+    
+    <label for="pincode">Code Postal:</label>
+    <input type="text" id="pincode" [(ngModel)]="shippingInfo.pincode" placeholder="Entrez votre code postal" />
+    
+    <label for="shipping_method">Méthode de Livraison:</label>
+    <select id="shipping_method" [(ngModel)]="shippingInfo.shipping_method">
+      <option value="standard">Standard</option>
+      <option value="express">Express</option>
+    </select>
+    
+    <button (click)="prevStep()">Précédent</button>
+    <button (click)="nextStep()">Suivant</button>
+  </div>
+
+  <!-- Etape 3: Paiement -->
+  <div *ngIf="currentStep === 3">
+    <h2>Etape 3: Paiement</h2>
+    <label for="paymentMethod">Méthode de Paiement:</label>
+    <select id="paymentMethod" [(ngModel)]="paymentMethod">
+      <option value="creditCard">Carte de crédit</option>
+      <option value="paypal">PayPal</option>
+    </select>
+    
+    <div *ngIf="paymentMethod === 'creditCard'">
+      <label for="cardNumber">Numéro de carte:</label>
+      <input type="text" id="cardNumber" [(ngModel)]="paymentDetails.cardNumber" placeholder="Entrez le numéro de carte" />
+    </div>
+    
+    <div *ngIf="paymentMethod === 'paypal'">
+      <p>Se connecter à PayPal pour compléter le paiement.</p>
+    </div>
+    
+    <button (click)="prevStep()">Précédent</button>
+    <button (click)="placeOrder()">Valider la commande</button>
+  </div>
+</div>

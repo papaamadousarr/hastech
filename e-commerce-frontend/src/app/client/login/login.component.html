@@ -1,0 +1,60 @@
+<app-navbar></app-navbar>
+
+<div class="container" [ngClass]="{'right-panel-active': isRightPanelActive}" id="container">
+	<div class="form-container sign-up-container">
+		<form (ngSubmit)="signup()">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" [(ngModel)]="signupData.first_name" id="first_name" name="first_name" autocomplete="first_name" required />
+			<input type="text" [(ngModel)]="signupData.last_name" id="last_name" name="last_name" autocomplete="last_name" required />
+			<input type="email" [(ngModel)]="signupData.email" id="email" name="email" autocomplete="email" required />
+			<input type="phone" [(ngModel)]="signupData.phone" id="phone" name="phone" autocomplete="phone" required />
+			<input type="password" [(ngModel)]="signupData.password" id="password" name="password" autocomplete="password" required />
+			<input type="password" [(ngModel)]="signupData.confirmPassword" id="confirmPassword" name="confirmPassword" autocomplete="confirmPassword" required />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form (ngSubmit)="login()">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input type="email" [(ngModel)]="credentials.email" id="email" name="email" placeholder="email" required />
+			<input type="password" [(ngModel)]="credentials.password" id="password" name="password" placeholder="password" required />
+			<a href="#">Forgot your password?</a>
+			<button type="submit">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" (click)="toggleSignIn()">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" (click)="toggleSignUp()">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>
+		Created with <i class="fa fa-heart"></i> by
+		<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+		- Read how I created this and how you can join the challenge
+		<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
+	</p>
+</footer>

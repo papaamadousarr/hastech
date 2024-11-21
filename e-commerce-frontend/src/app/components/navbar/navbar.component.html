@@ -1,0 +1,22 @@
+<!-- app.component.html -->
+<nav class="navbar">
+    <a href="#"><div class="logo">
+      Hastech <span class="highlight">Auto</span>
+    </div></a>
+    <ul class="nav-links">
+      <li><a href="#">Pièces auto ▼</a></li>
+      <li><a href="#">Huile Moteur ▼</a></li>
+      <li><a href="#">Pneus ▼</a></li>
+      <li><a href="#">Accessoires & entretien ▼</a></li>
+      <li><a href="#">Outillage ▼</a></li>
+    </ul>
+    <div class="account-cart">
+      <!-- Affiche "Signin" si l'utilisateur n'est pas connecté, sinon "Compte" -->
+      <a *ngIf="!isLoggedIn" href="/login" class="account">Signin</a>
+      <a *ngIf="isLoggedIn" href="#" class="account">Compte</a>
+      <a href="/cart" class="cart">Panier</a>
+      <button *ngIf="isLoggedIn" (click)="logout()" class="logout-button">Logout</button>
+
+    </div>
+  </nav>
+  

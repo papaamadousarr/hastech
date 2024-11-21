@@ -1,0 +1,28 @@
+<div *ngIf="products.length > 0; else noProducts" class="parent">
+  <ul class="flex flex-wrap gap-4 overflow-x-auto">
+    <li *ngFor="let product of products" class="flex-none w-60">
+      <div class="h-80 bg-gray-50 p-3 flex flex-col gap-1 rounded-2xl">
+        <div class="h-48 bg-gray-700 rounded-xl"></div>
+        <div class="flex flex-col gap-4">
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-col">
+              <span class="text-lg font-semibold text-gray-800">{{ product.product_name }}</span>
+              <span class="text-sm text-gray-600">{{ product.noserie }}</span>
+              <span class="text-xl font-bold text-gray-900">{{ product.price | currency:'EUR' }}</span>
+            </div>
+          </div>
+          <!-- Button to add to cart -->
+          <button
+            class="mt-4 py-2 px-6 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300"
+            (click)="addToCart(product)">
+            Ajouter au panier
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<ng-template #noProducts>
+  <div class="text-center text-gray-500">Aucun produit disponible.</div>
+</ng-template>

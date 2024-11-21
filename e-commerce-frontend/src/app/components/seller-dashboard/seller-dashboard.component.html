@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+<div class="dashboard-container">
+    <h2>Tableau de Bord Vendeur</h2>
+    
+    <section class="sales-stats">
+      <h3>Statistiques de Ventes</h3>
+      <p>Ventes Totales: {{ salesStats.totalSales | currency }}</p>
+      <p>Commandes Totales: {{ salesStats.totalOrders }}</p>
+    </section>
+  
+    <section class="products">
+      <h3>Vos Produits</h3>
+      <ul>
+        <li *ngFor="let product of products">
+          {{ product.product_name }} - {{ product.price | currency }}
+          <button (click)="updateProduct(product)">Mettre à jour</button>
+          <button (click)="deleteProduct(product.id)">Supprimer</button>
+        </li>
+      </ul>
+    </section>
+  
+    <section class="add-product">
+     <app-add-product></app-add-product>
+      
+    </section>
+  </div>
+  
