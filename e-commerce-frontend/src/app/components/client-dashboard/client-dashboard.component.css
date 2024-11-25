@@ -21,7 +21,10 @@ body {
   position: relative;
   height: 500px;
 }
-
+.numserie{
+  font-style: normal;
+  color: black;
+}
 .hero::before {
   content: '';
   position: absolute;

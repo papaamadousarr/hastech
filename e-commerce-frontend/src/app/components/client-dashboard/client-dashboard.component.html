@@ -54,7 +54,7 @@
   <div *ngIf="activeTab === 'serialNumber'" class="search">
     <label>Rechercher par numéro de série</label>
     <div class="search-fields">
-      <input type="text"  [(ngModel)]="serialNumber" placeholder="Entrez le numéro de série" />
+      <input type="text"  [(ngModel)]="serialNumber" placeholder="Entrez le numéro de série" class="numserie" />
       <button (click)="searchBySerialNumber()">Rechercher</button>
     </div>
   </div>

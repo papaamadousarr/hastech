@@ -13,7 +13,7 @@
     <div class="account-cart">
       <!-- Affiche "Signin" si l'utilisateur n'est pas connecté, sinon "Compte" -->
       <a *ngIf="!isLoggedIn" href="/login" class="account">Signin</a>
-      <a *ngIf="isLoggedIn" href="#" class="account">Compte</a>
+      <a *ngIf="isLoggedIn" routerLink="/account" class="account">Compte</a>
       <a href="/cart" class="cart">Panier</a>
       <button *ngIf="isLoggedIn" (click)="logout()" class="logout-button">Logout</button>
 

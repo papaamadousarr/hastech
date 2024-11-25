@@ -1,0 +1,14 @@
+Semaine 23/11/2024:
+- [ ] Database management
+    - [ ] Create a Database mongodb
+    - [ ] Create a database schema for the website
+    - [ ] Create a user flow for the website
+
+- [ ] Registrations and Login
+    - [ ] Create a registration page
+    - [ ] Create a login page
+    - [ ] Implement user authentication and authorization
+    - [ ] Implement forgot password functionality
+- [ ] Client page
+    - [ ] Create a client page
+    - [ ] Implement client page functionality
