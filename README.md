@@ -1,114 +1,125 @@
-# Projet E-Commerce : Backend Golang et Frontend Angular
 
-## Description du projet
+# E-Commerce Project: Backend in Golang and Frontend in Angular
 
-Ce projet est une plateforme de e-commerce avec un backend en Go (Golang) et un frontend en Angular. Il permet :
-- Aux clients de parcourir et acheter des pièces détachées.
-- Aux vendeurs de gérer leurs produits.
-- Une gestion sécurisée des utilisateurs grâce à l'authentification JWT.
+## Project Description
+
+This project is an e-commerce platform with a Go (Golang) backend and an Angular frontend. It provides:
+- Customers the ability to browse and purchase spare parts.
+- Sellers tools to manage their products.
+- Secure user management with JWT authentication.
 
 ---
 
-## Technologies utilisées
+## Technologies Used
 
 ### Backend
-- **Langage** : Golang
-- **Base de données** : MongoDB
-- **Framework Web** : Gin
+- **Language**: Golang
+- **Database**: MongoDB
+- **Web Framework**: Gin
 
 ### Frontend
-- **Langage** : TypeScript
-- **Framework** : Angular
-- **Styles** : SCSS
+- **Language**: TypeScript
+- **Framework**: Angular
+- **Styles**: SCSS
 
 ---
 
-## Prérequis
+## Prerequisites
 
-Avant de démarrer, vous devez avoir les éléments suivants installés sur votre machine :
-- **Node.js** (16 ou supérieur)
+Before getting started, make sure you have the following installed:
+- **Node.js** (version 16 or higher)
 - **Angular CLI** (`npm install -g @angular/cli`)
-- **Golang** (1.20 ou supérieur)
-- **MongoDB** (local ou via MongoDB Atlas)
-- **Git** pour cloner le projet
+- **Golang** (version 1.20 or higher)
+- **MongoDB** (locally or via MongoDB Atlas)
+- **Git** to clone the project repository
 
 ---
 
-## Installation
+## Installation and Setup
 
-### Étape 1 : Cloner le projet
+### Step 1: Clone the Project
 
 ```bash
 git clone https://github.com/papaamadousarr/hashtech.git
 cd hastech
-
-```
-### Étape 2 : Installer le backend
-
-
-## 1. Accédez au répertoire backend : 
-```bash
-cd e-commerce
-```
-## 2. Téléchargez les dépendances Go :
-
-```bash
-go mod tidy
 ```
 
-### Étape 3 : Installer le frontend
+### Step 2: Set Up the Backend
 
-## 1. Accédez au répertoire frontend : 
-```bash
-cd e-commerce-frontend
-```
-## 2. Installez les dépendances du projet :
-```bash
-npm install
+1. Navigate to the backend directory:
+   ```bash
+   cd e-commerce
+   ```
 
-```
+2. Install Go dependencies:
+   ```bash
+   go mod tidy
+   ```
 
-## Lancement du projet
+### Step 3: Set Up the Frontend
 
-### Backend
+1. Navigate to the frontend directory:
+   ```bash
+   cd e-commerce-frontend
+   ```
 
+2. Install project dependencies:
+   ```bash
+   npm install
+   ```
+
+---
+
+## Running the Project
+
+### Start the Backend Server
+
+Run the following command to start the backend server:
 ```bash
 go run main.go
 ```
 
-### Frontend
+### Start the Frontend Server
 
+Run the following command to start the frontend server:
 ```bash
 ng serve
 ```
 
-## Structure du projet
+---
+
+## Project Structure
+
 ```bash
 Hastech/
 ├── e-commerce/
-│   ├── main.go                # Fichier principal
-│   ├── controllers/           # Gestion des requêtes
-│   ├── models/                # Modèles de données
-│   ├── routes/                # Définition des routes
-│   └── Database               # Base de données
+│   ├── main.go                # Main file
+│   ├── controllers/           # Request handlers
+│   ├── models/                # Data models
+│   ├── routes/                # Route definitions
+│   └── Database/              # Database configuration
 ├── e-commerce-frontend/
 │   ├── src/
-│   │   ├── app/               # Composants Angular
-│   │   ├── assets/            # Images et ressources
-│   │   └── environments/      # Configuration Angular
+│   │   ├── app/               # Angular components
+│   │   ├── assets/            # Images and resources
+│   │   └── environments/      # Angular configurations
 └── README.md                  # Documentation
-
 ```
 
-## Fonctionnalités principales
+---
 
-- Authentification et autorisation avec JWT
-- Recherche et affichage des produits
-- Gestion du panier
-- Gestion des commandes
-- Interface utilisateur réactive et adaptée aux appareils mobiles
+## Key Features
 
+- Authentication and authorization with JWT
+- Product search and display
+- Cart management
+- Order management
+- Responsive and mobile-friendly user interface
 
-## Auteur
+---
 
-Projet réalisé par [**Papa Amadou SARR**].
+## Author
+
+- Lead Developper : **Papa Amadou SARR (CTO)**
+- 
+Copyright HASTECH GROUP 
