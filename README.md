@@ -120,6 +120,7 @@ Hastech/
 
 ## Author
 
-- Lead Developper : **Papa Amadou SARR (CTO)**
-- 
+- Group CEO and Co-Developper: **Hassan LO**
+- Lead Developper & CTO : **Papa Amadou SARR**
+
 Copyright HASTECH GROUP 
