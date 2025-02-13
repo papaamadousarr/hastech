@@ -1,0 +1,105 @@
+.account-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -20px;
+}
+
+.box {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 64em) {
+  .box {
+    width: 25%;
+  }
+}
+
+.box a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  text-decoration: none;
+  color: #666;
+  background: #f8f8f8;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 20px;
+}
+
+.box a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.box a mat-icon {
+  font-size: 40px;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 15px;
+  color: #ff9900;
+  transition: all 0.3s ease;
+
+}
+
+/* Admin specific styling */
+.box[ng-reflect-ng-if="true"] a {
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+}
+
+.box[ng-reflect-ng-if="true"] a:hover {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+.box.admin-box {
+  display: block !important;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box.admin-box a {
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+}
+
+.box.admin-box a:hover {
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.icon-text {
+  font-size: 16px;
+  color: #ff9900;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.box a span {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.content {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
+  padding: 20px;
+  min-height: 300px;
+}
+
+.box a:hover mat-icon {
+  transform: scale(1.1);
+  color: #ff7600; /* Slightly darker orange on hover */
+}
+.box a:hover span {
+  color: #333; /* Darker text on hover */
+}

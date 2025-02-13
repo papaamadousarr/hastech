@@ -1,0 +1,6 @@
+<div class="upload-container">
+    <h2>Upload Products</h2>
+    <input type="file" (change)="onFileChange($event)" accept=".csv" />
+    <button (click)="uploadProducts()" [disabled]="!products.length">Upload</button>
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+  </div>

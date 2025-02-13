@@ -1,0 +1,97 @@
+<div class="container mx-auto px-4 py-8">
+  
+    <!-- Brand Header -->
+    <div class="bg-white rounded-lg shadow-sm p-6 mb-8">
+      <div class="flex items-center gap-4">
+        <img [src]="brandLogo" [alt]="selectedBrand" class="w-16">
+        <h1 class="text-xl font-semibold">{{selectedBrand | uppercase}} Yedek Parça</h1>
+      </div>
+      <p class="text-sm text-gray-600 mt-2">Tüm Modeller</p>
+    </div>
+  
+  
+  <!-- Loading State -->
+  <div *ngIf="loading" class="text-center py-8">
+    <p class="text-gray-600">Loading vehicle models...</p>
+  </div>
+
+  <!-- Error State -->
+  <div *ngIf="error" class="text-center py-8 text-red-600">
+    {{ error }}
+  </div>
+
+  <!-- Content -->
+  <div *ngIf="!loading && !error">
+    <!-- Breadcrumb -->
+    <div class="mb-6">
+      <div class="flex items-center text-sm">
+        <button (click)="goBack()" class="text-gray-600 hover:text-[#f85a00] flex items-center">
+          <span class="mr-2">←</span> 
+          {{ selectedVariant ? 'Back to Variants' : (selectedModel ? 'Back to Models' : 'Back to Brands') }}
+        </button>
+        <span class="mx-2 text-gray-400">/</span>
+        <span class="text-gray-900 capitalize">{{selectedBrand}}</span>
+        <ng-container *ngIf="selectedModel">
+          <span class="mx-2 text-gray-400">/</span>
+          <span class="text-gray-900">{{selectedModel}}</span>
+        </ng-container>
+        <ng-container *ngIf="selectedVariant">
+          <span class="mx-2 text-gray-400">/</span>
+          <span class="text-gray-900">{{selectedVariant.model_variant}}</span>
+        </ng-container>
+      </div>
+    </div>
+
+    <!-- Models Grid -->
+    <div *ngIf="!selectedModel" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div *ngFor="let model of models" 
+           (click)="onModelSelect(model.name)"
+           class="cursor-pointer">
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+          <div class="p-4">
+            <img [src]="model.image_url" 
+                 [alt]="model.name"
+                 class="w-full h-40 object-contain">
+          </div>
+          <div class="p-4 border-t">
+            <h3 class="text-lg font-medium text-center">{{model.name}}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Variants Grid -->
+    <div *ngIf="selectedModel && !selectedVariant" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div *ngFor="let variant of variants" 
+           (click)="onVariantSelect(variant)"
+           class="cursor-pointer">
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+          <div class="p-4">
+            <img [src]="variant.image_url" 
+                 [alt]="variant.model_variant"
+                 class="w-full h-48 object-contain">
+          </div>
+          <div class="p-4 border-t">
+            <h3 class="text-lg font-medium">{{variant.model_variant}}</h3>
+            <p class="text-sm text-gray-600 mt-1">{{getYearsFromVariant(variant.model_variant!)}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Engine Types Grid -->
+    <div *ngIf="selectedVariant" class="space-y-6">
+      <h2 class="text-xl font-semibold mb-4">Select Engine Type</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div *ngFor="let engine of engineTypes"
+             (click)="onEngineSelect(engine)"
+             class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+          <div class="flex flex-col">
+            <span class="text-lg font-medium">{{engine.name}}</span>
+            <span class="text-sm text-gray-600">{{engine.power}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

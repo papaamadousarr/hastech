@@ -1,0 +1,62 @@
+<div class="page-content">
+  <!-- Left Sidebar -->
+  <div class="sidebar">
+    <!-- Replace the vehicle search box with the component -->
+    <app-vehicle-search></app-vehicle-search>
+    
+    <!-- Categories Section -->
+    <div class="categories-section">
+       <h3 class="categories-title">CATEGORIES</h3>
+       <div class="categories-search">
+         <input 
+         type="text"
+         class="form-control"
+         placeholder="Search in Categories"
+         (input)="searchCategories($event)">
+      </div>
+         <ul class="categories-list">
+           <li *ngFor="let subCategory of subCategories" class="category-item">
+             <div class="category-header" (click)="toggleSubCategory(subCategory)">
+               <span class="category-name">{{subCategory.name}}</span>
+               <span class="arrow" [class.expanded]="subCategory.isExpanded">›</span>
+             </div>
+             <div *ngIf="subCategory.isExpanded">
+               <div *ngFor="let part of subCategory.parts">
+                 <label>
+                   <input type="radio" name="selectedPart" [value]="part.id">
+                   {{part.name}}
+                 </label>
+               </div>
+             </div>
+           </li>
+         </ul>
+     </div>
+  </div>
+   <!-- Main Content -->
+  <div class="main-content">
+    <!-- Alphabet Filter -->
+    <div class="alphabet-filter">
+      <a href="javascript:void(0)" 
+         class="filter-item" 
+         [class.active]="selectedLetter === 'All'"
+         (click)="onLetterSelect('All')">
+        All
+      </a>
+      <a href="javascript:void(0)" 
+         class="filter-item" 
+         *ngFor="let letter of 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')"
+         [class.active]="selectedLetter === letter"
+         (click)="onLetterSelect(letter)">
+        {{letter}}
+      </a>
+    </div>
+     <!-- Brands Grid -->
+    <div class="brands-grid">
+      <div class="brand-card" *ngFor="let brand of filteredBrands">
+        <a [routerLink]="['/vehicle-parts', brand.id]" class="brand-link">
+          <img [src]="brand.logoUrl" [alt]="brand.name">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container mx-auto px-4 py-8">
+    <!-- Title -->
+    <div class="text-center mb-8">
+      <h2 class="text-2xl font-semibold">Popular Car Brands Original Spare Parts</h2>
+    </div>
+  
+    <!-- Brands Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div *ngFor="let brand of carBrands" 
+           (click)="onBrandSelect(brand.id)"
+           class="brand-card">
+        <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+          <div class="flex flex-col items-center">
+            <img [src]="brand.logo" 
+                 [alt]="brand.name" 
+                 class="w-24 h-24 object-contain mb-4">
+            <h3 class="text-lg text-gray-800 text-center">{{brand.name}}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- View All Brands Button -->
+    <div class="text-center mt-8">
+      <button class="view-all-button">
+        View All Car Brands
+      </button>
+    </div>
+  </div>

@@ -1,0 +1,18 @@
+<div class="bg-[#132530]">
+  <div class="max-w-7xl mx-auto px-4">
+    <!-- Categories Navigation -->
+    <nav class="py-2">
+      <ul class="flex space-x-8 overflow-x-auto">
+        <li *ngFor="let category of categories" 
+            class="text-[#8e979c] hover:text-[#f85a00] group flex-shrink-0">
+          <a [routerLink]="['/category', category.slug]" class="flex items-center">
+            <span class="w-5 h-5 mr-2 bg-contain bg-no-repeat bg-center transition-all duration-200 filter-[#8e979c] group-hover:filter-[#f85a00]" 
+                  [style.backgroundImage]="'url(/assets/icons/' + category.icon + ')'">
+            </span>
+            <span class="text-sm whitespace-nowrap">{{category.name}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
