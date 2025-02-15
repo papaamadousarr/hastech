@@ -1,39 +1,40 @@
 <!-- vehicle-search.component.html -->
-<div class="vehicle-search-container p-4">
-  <h2 class="text-lg font-medium mb-4">Select Car Brand First </h2>
+<div class="vehicle-search-container p-4 bg-white rounded-[3px] shadow">
+  <h2 class="text-base font-medium mb-4">Select Vehicle to find spare parts</h2>
   
   <!-- Brand Selection -->
   <div class="mb-4">
+    <label class="block text-sm text-gray-600 mb-1">Select Car Brand First </label>
     <div class="select-wrapper">
       <select 
         [(ngModel)]="selectedBrand" 
         (change)="onBrandSelect()"
         name="brand"
-        class="form-select"
+        class="w-full p-2 border rounded bg-white"
       >
         <option value="">1. Select Car Brand </option>
         <option *ngFor="let brand of brands" [value]="brand.id">
           {{brand.name}}
         </option>
-
       </select>
     </div>
   </div>
 
   <!-- Model Selection -->
   <div class="mb-4">
+    <label class="block text-sm text-gray-600 mb-1">Select Car Model </label>
     <div class="select-wrapper">
       <select 
         [(ngModel)]="selectedModel"
         (change)="onModelSelect()"
         name="model"
-        class="form-select"
+        class="w-full p-2 border rounded"
+        [class.bg-gray-50]="!selectedBrand"
         [disabled]="!selectedBrand"
       >
         <option value="">2. Select Car Model </option>
         <option *ngFor="let model of models" [value]="model.id">
           {{model.name}} ({{model.years}})
-
         </option>
       </select>
     </div>
@@ -41,19 +42,19 @@
 
   <!-- Engine Selection -->
   <div class="mb-4">
+    <label class="block text-sm text-gray-600 mb-1">Select Car Engine Type </label>
     <div class="select-wrapper">
       <select 
         [(ngModel)]="selectedEngine"
         name="engine"
-        class="form-select"
+        class="w-full p-2 border rounded"
+        [class.bg-gray-50]="!selectedModel"
         [disabled]="!selectedModel"
       >
-        <option value="">3.Select Car Engine Type </option>
+        <option value="">3. Select Car Engine Type </option>
         <option *ngFor="let engine of engines" [value]="engine.id">
           {{engine.name}} ({{engine.power}})
         </option>
-
-
       </select>
     </div>
   </div>
@@ -62,22 +63,22 @@
   <button 
     (click)="onSearch()"
     [disabled]="!selectedBrand || !selectedModel || !selectedEngine"
-    class="search-button"
+    class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 disabled:bg-gray-300"
   >
     Ara
   </button>
 
   <!-- Chassis Number Search -->
-  <div class="mt-6">
-    <h3 class="text-md font-medium mb-2">Search by VIN Number</h3>
-    <div class="flex gap-2">
+  <div class="chassis-search">
+    <h3 class="text-base font-medium mb-2">Search by Chassis Number</h3>
+    <div class="chassis-search-container">
       <input 
         type="text" 
-        placeholder="Şase Numarası (17 karakter)"
+        placeholder="Chassis Number (17 characters)"
         class="chassis-input"
       >
       <button class="chassis-search-button">
-        Ara
+        Search
       </button>
     </div>
   </div>

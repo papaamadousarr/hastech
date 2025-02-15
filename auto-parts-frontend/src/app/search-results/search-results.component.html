@@ -1,321 +1,69 @@
-<div class="search-results-page bg-gray-100">
-  <!-- Loading State -->
-  <div *ngIf="loading" class="container mx-auto px-4 py-8 text-center">
-    <p>Loading...</p>
-  </div>
-
-  <!-- Error State -->
-  <div *ngIf="error" class="container mx-auto px-4 py-8 text-center text-red-600">
-    {{ error }}
-  </div>
-
-  <!-- Main Content -->
-  <div *ngIf="!loading && !error && vehicleInfo">
-    <!-- Breadcrumb -->
-    <div class="container mx-auto px-4 py-2">
-      <div class="text-sm">
-        <a href="/" class="text-gray-600">Auto Spare Parts</a> / 
-        <a href="#" class="text-gray-600">{{ vehicleInfo.brand }}</a> /
-        <a href="#" class="text-gray-600">{{ vehicleInfo.model }}</a> /
-        <span class="text-gray-900">{{ vehicleInfo.engine }}</span>
-      </div>
-    </div>
-
-    <!-- Vehicle Info -->
-    <div class="container mx-auto px-4 py-4">
-      <div class="bg-white rounded-lg shadow-sm p-4 flex items-center justify-between">
+<div class="bg-gray-50">
+  <!-- Fixed Header with Vehicle Info -->
+  <header class="sticky top-0 bg-white shadow-sm z-10">
+    <div class="container max-w-[1200px]">
+      <div class="flex items-center justify-between py-3">
         <div class="flex items-center gap-4">
-          <img [src]="getVehicleImage() || 'default-fallback-image.jpg'" 
-               [alt]="vehicleInfo.brand + ' ' + vehicleInfo.model" 
-               class="w-32 h-auto object-contain">
+          <img [src]="getVehicleImage()" 
+               [alt]="vehicleInfo?.model" 
+               class="w-32 h-20 object-contain">
           <div>
-            <h1 class="text-xl font-bold">{{ vehicleInfo.brand }} {{ vehicleInfo.model }}</h1>
-            <p class="text-gray-600">{{ vehicleInfo.engine }}</p>
+            <h1 class="text-lg font-medium">{{vehicleInfo?.brand | uppercase}} {{vehicleInfo?.model}}</h1>
+            <p class="text-sm text-gray-600">{{vehicleInfo?.engine}}</p>
           </div>
         </div>
-        <div class="flex gap-4">
-          <button (click)="changeVehicle()" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+        <div class="flex gap-2">
+          <button (click)="changeVehicle()" 
+                  class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
             Change Vehicle
           </button>
-          <button (click)="showVehicleDetails()" class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">
+          <button (click)="showVehicleDetails()" 
+                  class="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200">
             Vehicle Details
           </button>
         </div>
       </div>
     </div>
+  </header>
 
-    <!-- Categories Grid -->
-    <div class="container mx-auto px-4 py-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Filters -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
+  <!-- Categories Grid -->
+  <main class="container max-w-[1200px]">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-6">
+      <div *ngFor="let category of categories" 
+           class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+        <div class="p-6">
           <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10102.png" alt="Filters" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Filters</h2>
+            <img [src]="category.icon" [alt]="category.name" class="w-20 h-20">
+            <h2 class="text-xl font-semibold">{{category.name}}</h2>
           </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Air Filter</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Pollen Filter</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Filter</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Fuel Filter</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Drain Plug</a></li>
+          <ul class="space-y-3">
+            <li *ngFor="let sub of category.subcategories">
+              <a href="#" class="text-gray-600 hover:text-[#f85a00]">{{sub.name}}</a>
+            </li>
           </ul>
         </div>
+      </div>
+    </div>
+  </main>
 
-        <!-- Oils and Fluids -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/01J7ATK5G0KQF8RVWG7NZ4YR76.png" alt="Oils" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Oils and Fluids</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Engine Oil</a></li>
-          </ul>
-        </div>
+  <!-- Add this right after the closing </div> of the main content -->
+  <div *ngIf="showVehicleSelector" 
+       class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50 backdrop-blur-sm">
+    <div class="bg-white rounded-lg w-full max-w-lg">
+      <div class="flex justify-between items-center p-4 border-b">
+        <h2 class="text-xl font-medium">Vehicle Selection</h2>
+        <button (click)="showVehicleSelector = false" class="text-gray-500 hover:text-gray-700">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
 
-        <!-- Brakes -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10106.png" alt="Brakes" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Brakes</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Disc</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Pad</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Pad Sensor Cable</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">ABS Sensor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Switch</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Reverse Gear Switch</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Vacuum Pump</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Caliper</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Master Cylinder</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Brake Hose</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Handbrake Cable</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Tire Pressure Sensor</a></li>
-          </ul>
-        </div>
-
-        <!-- Ignition System -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10354.png" alt="Ignition System" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Ignition System</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Glow Plug</a></li>
-          </ul>
-        </div>
-
-        <!-- Suspension -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10113.png" alt="Suspension" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Suspension</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Shock Absorber</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Strut Mount and Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Shock Absorber Boot and Buffer</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Shock Absorber Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Sway Bar Bush</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Complete Axle</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Subframe Bush</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Strut Top Mount</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Axle Carrier</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Tie Rod End</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Ball Joint and Control Arm</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Axle Carrier Complete</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Control Arm Bush</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">CV Joint Boot</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Wheel Hub and Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Control Arm</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Sway Bar Link</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Steering Rack</a></li>
-          </ul>
-        </div>
-
-        <!-- Clutch -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10106.png" alt="Clutch" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Clutch</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Flywheel Bolt and Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Clutch Set</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Clutch Central and Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Flywheel</a></li>
-          </ul>
-        </div>
-
-        <!-- Timing Chain and Bearing -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/01J7WV3B6CNEHGNNA2J5QY9DXP.png" alt="Timing Chain" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Timing Chain and Bearing</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Timing Chain</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Timing Chain Set</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Timing Tensioner Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">V-Belt Tensioner Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">V-Belt</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Pump Chain Set</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Pump Chain</a></li>
-          </ul>
-        </div>
-
-        <!-- Fuel System -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10354.png" alt="Fuel System" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Fuel System</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Injector</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Throttle Body</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">EGR Valve</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Fuel Hose</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Air Filter Box and Parts</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">EGR Cooler</a></li>
-          </ul>
-        </div>
-
-        <!-- Transmission -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10338.png" alt="Transmission" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Transmission</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Transmission Mount</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Drive Shaft Mount</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Seal</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Reverse Gear Switch</a></li>
-          </ul>
-        </div>
-
-        <!-- Lighting -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10110.png" alt="Lighting" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Lighting</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">License Plate Light</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Headlight</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Tail Light</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Rear View Mirror</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Bulb</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Mirror Glass</a></li>
-          </ul>
-        </div>
-
-        <!-- Engine -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10111.png" alt="Engine" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Engine</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Valve Guide and Seat</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Connecting Rod Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Rocker Cover Gasket</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Manifold</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Main Bearing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Turbo Hose and Gasket</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Camshaft Position Sensor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Crankshaft Pulley</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Pressure Switch</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Cylinder Head</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Engine Mount</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Air Hose</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">MAP Sensor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Gasket Set</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Rocker Cover</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Crankshaft Gear</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Cylinder Head Gasket</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Crankshaft Sensor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Turbocharger</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Valve Stem Seal</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Pan Gasket</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Manifold Gasket</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Crankshaft Seal</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Oil Pump</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Engine Oil Cooler</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Cylinder Head Bolt</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Mass Air Flow Sensor</a></li>
-          </ul>
-        </div>
-
-        <!-- Steering -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10112.png" alt="Steering" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Steering</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Steering Pump</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Steering Boot</a></li>
-          </ul>
-        </div>
-
-        <!-- Body Parts -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10101.png" alt="Body Parts" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Body Parts</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Wiper Blade</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Rear View Mirror</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Mirror Glass</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Sliding Door Roller</a></li>
-          </ul>
-        </div>
-
-        <!-- Cooling and Heating -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10341.png" alt="Cooling and Heating" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Cooling and Heating</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Water Pump Hose</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">AC Compressor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">AC Radiator</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Thermostat</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Blower Motor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Radiator Expansion Tank</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Radiator Fan and Motor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Intercooler</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Water Pump</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Thermostat Housing</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">AC Pressure Switch</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Temperature Switch</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Radiator Hose</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Expansion Tank Cap</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Heater Radiator</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Exhaust Temperature Sensor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Heater Hose</a></li>
-          </ul>
-        </div>
-
-        <!-- Electrical -->
-        <div class="bg-white rounded-lg shadow-sm p-6">
-          <div class="flex items-center gap-4 mb-4">
-            <img src="https://bcdn.aloparca.com/category/image/10105.png" alt="Electrical" class="w-16 h-16">
-            <h2 class="text-xl font-semibold">Electrical</h2>
-          </div>
-          <ul class="space-y-2">
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Alternator</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Washer Pump</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Starter Motor</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Alternator Pulley</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Relay and Flasher</a></li>
-            <li><a href="#" class="text-gray-600 hover:text-[#f85a00]">Ambient Temperature Sensor</a></li>
-          </ul>
-        </div>
+      <div class="p-6">
+        <app-vehicle-search 
+          (searchComplete)="onSearchComplete($event)"
+          [isDialog]="true">
+        </app-vehicle-search>
       </div>
     </div>
   </div>

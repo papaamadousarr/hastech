@@ -14,7 +14,7 @@ import { VehicleSearchComponent } from './vehicle-search/vehicle-search.componen
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { VehicleModelSelectionComponent } from './vehicle-model-selection/vehicle-model-selection.component';
 import { VehicleBrandSelectionComponent } from './vehicle-brand-selection/vehicle-brand-selection.component';
-
+import { CategoryProductsComponent } from './category-products/category-products.component';
 
 
 export const routes: Routes = [
@@ -36,7 +36,7 @@ export const routes: Routes = [
   { path: 'account/profile', component: ProfileComponent },
   { path: 'account/change-password', component: ChangePasswordComponent },
   { path: 'account/addresses', component: AddressesComponent },
-  {
+  /*{
     path: 'category/:id',
     component: ProductCategoryComponent,
   },
@@ -44,6 +44,7 @@ export const routes: Routes = [
     path: 'category/:id/:subcategoryId',
     component: ProductCategoryComponent,
   },
+  */
   {
     path: 'account/product-management',
     component: ProductUploadComponent,
@@ -70,6 +71,10 @@ export const routes: Routes = [
   {
     path: 'vehicle-brands',
     component: VehicleBrandSelectionComponent
+  },
+  {
+    path: 'category/:categoryId',
+    component: CategoryProductsComponent
   },
   {
     path: '**',

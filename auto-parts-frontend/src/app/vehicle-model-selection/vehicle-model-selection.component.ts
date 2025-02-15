@@ -45,6 +45,9 @@ export class VehicleModelSelectionComponent implements OnInit {
   brandLogo: string = '';
   loading: boolean = true;
   error: string | null = null;
+  showAllModels: boolean = false;
+  selectedModelImage: string = '';
+  selectedModelYears: string = '';
 
   constructor(
     private http: HttpClient,
@@ -119,6 +122,12 @@ export class VehicleModelSelectionComponent implements OnInit {
           console.error('Error loading variants:', err);
         }
       });
+      const modelDetails = this.models.find(m => m.name === modelName);
+    if (modelDetails) {
+      this.selectedModelImage = modelDetails.image_url;
+    }
+    // Load variants for this model
+    this.onModelSelect(modelName);
   }
 
   onVariantSelect(variant: VehicleDetail) {
@@ -135,13 +144,24 @@ export class VehicleModelSelectionComponent implements OnInit {
     }
   }
 
-  onEngineSelect(engine: EngineType) {
-    if (this.selectedVariant) {
-      console.log('Selected engine:', engine);
-      // Proceed with navigation or other logic
-    } else {
-      console.error('No variant selected');
-    }
+  onEngineSelect(engine: { name: string; power: string }) {
+    // Store selected vehicle details if needed
+    const vehicleDetails = {
+      brand: this.selectedBrand,
+      model: this.selectedModel,
+      variant: this.selectedVariant?.model_variant,
+      engine: engine.name
+    };
+
+    // Navigate to search results with query params
+    this.router.navigate(['/search-results'], {
+      queryParams: {
+        brand: this.selectedBrand,
+        model: this.selectedModel,
+        variant: this.selectedVariant?.model_variant,
+        engine: engine.name
+      }
+    });
   }
 
   goBack() {

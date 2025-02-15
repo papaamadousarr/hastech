@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ProductService, VehicleModel } from '../services/product.service';
+import { Input } from '@angular/core';
 
 interface Brand {
   id: string;
@@ -32,6 +33,7 @@ interface VehicleEngine {
 })
 export class VehicleSearchComponent implements OnInit {
   @Output() searchComplete = new EventEmitter<any>();
+  @Input() isDialog = false;
 
   selectedBrand: string = '';
   selectedModel: string = '';

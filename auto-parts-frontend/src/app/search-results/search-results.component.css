@@ -363,27 +363,96 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Reset container styles */
 :host {
   display: block;
-  min-height: 100vh;
-  overflow-y: auto;
 }
 
 .container {
-  height: auto;
-  min-height: 100vh;
-  overflow-y: auto;
-  padding-bottom: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
 }
 
-/* Make sure grid container doesn't have a fixed height */
+/* Fix header spacing */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Remove any extra spacing */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* Ensure proper content flow */
+.bg-gray-50 {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(249, 250, 251);
+}
+
+/* Categories grid container */
 .grid {
-  height: auto;
-  overflow: visible;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
-/* Ensure content boxes expand properly */
-.bg-white {
-  height: auto;
-  overflow: visible;
+/* Remove any margin collapse */
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* Ensure proper image sizing */
+.w-24.h-16 {
+  width: 6rem;
+  height: 4rem;
+  object-fit: contain;
+}
+
+/* Remove any unnecessary margins */
+h1, p {
+  margin: 0;
+}
+
+/* Fix button spacing */
+.gap-2 {
+  gap: 0.5rem;
+}
+
+/* Ensure proper shadow */
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
 }

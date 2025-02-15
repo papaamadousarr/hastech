@@ -1,0 +1,221 @@
+<div class="min-h-screen bg-gray-50">
+  <!-- Breadcrumb -->
+  <div class="bg-white border-b">
+    <div class="container mx-auto px-4 py-2">
+      <nav class="text-sm">
+        <ol class="flex items-center space-x-2">
+          <li><a href="/" class="text-gray-600 hover:text-[#f85a00]">Auto Parts</a></li>
+          <li><span class="text-gray-400">/</span></li>
+          <li><a href="/category-products" class="text-gray-600 hover:text-[#f85a00]">Category</a></li>
+          <li><span class="text-gray-400">/</span></li>
+          <li><span class="text-gray-600">{{currentCategory?.name || 'Categories'}}</span></li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Vehicle Search and Category Image Container -->
+  <div class="container mx-auto px-4 py-6">
+    <div class="flex gap-6">
+      <!-- Vehicle Search Box -->
+      <div class="flex-1">
+        <app-vehicle-search [isDialog]="false"></app-vehicle-search>
+      </div>
+      
+      <!-- Category Image - Added flex centering -->
+      <div class="w-[300px] flex-shrink-0 flex items-center justify-center">
+        <img [src]="currentCategory?.icon" 
+             [alt]="currentCategory?.name" 
+             class="w-full h-auto object-contain">
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Container -->
+  <div class="container mx-auto px-4">
+    <!-- Sort and Filter Controls -->
+    <div class="flex justify-end gap-4 mb-6">
+      <select class="border rounded-md px-3 py-2 bg-white">
+        <option value="">Sort by</option>
+        <option value="price_asc">Price (Low to High)</option>
+        <option value="price_desc">Price (High to Low)</option>
+        <option value="name_asc">Name (A-Z)</option>
+        <option value="name_desc">Name (Z-A)</option>
+        <option value="newest">Newest First</option>
+        <option value="popular">Most Popular</option>
+      </select>
+      
+      <select class="border rounded-md px-3 py-2 bg-white">
+        <option value="">Filter by</option>
+        <option value="in_stock">In Stock</option>
+        <option value="on_sale">On Sale</option>
+        <option value="new_arrivals">New Arrivals</option>
+        <option value="brand">By Brand</option>
+        <option value="price_range">Price Range</option>
+      </select>
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-6">
+      <!-- Left Sidebar - Categories -->
+      <div class="w-full lg:w-[320px] flex-shrink-0">
+        <!-- Categories List -->
+        <div class="bg-white rounded-[3px] shadow p-4">
+          <h3 class="font-medium text-lg mb-4">Categories</h3>
+          <ul class="space-y-1">
+            <li *ngFor="let category of categories" 
+                [class.text-[#f85a00]]="category.id === categoryId">
+              <div class="flex items-center justify-between px-4 py-2 hover:bg-gray-50 cursor-pointer rounded-[3px]"
+                   (click)="toggleCategory(category.id)">
+                <div class="flex items-center gap-3">
+                  <img [src]="category.icon" [alt]="category.name" class="w-[32px] h-[32px]">
+                  <span class="text-[14px]">{{category.name}}</span>
+                </div>
+                <svg class="w-4 h-4 transform transition-transform text-gray-400"
+                     [class.rotate-180]="category.isOpen"
+                     xmlns="http://www.w3.org/2000/svg" 
+                     viewBox="0 0 20 20" 
+                     fill="currentColor">
+                  <path fill-rule="evenodd" 
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" 
+                        clip-rule="evenodd"/>
+                </svg>
+              </div>
+              
+              <!-- Subcategories -->
+              <div *ngIf="category.isOpen" class="ml-4 mt-1">
+                <ul class="space-y-1">
+                  <li *ngFor="let sub of category.subcategories">
+                    <a [routerLink]="[sub.url]" 
+                       class="block px-4 py-2 hover:bg-gray-100 relative"
+                       [class.bg-orange-100]="sub.id === activeSubcategoryId">
+                      <div class="flex items-center">
+                        <img *ngIf="sub.icon" 
+                             [src]="sub.icon" 
+                             [alt]="sub.name" 
+                             class="w-6 h-6 object-cover rounded-full mr-2"
+                             loading="lazy">
+                        <div *ngIf="!sub.icon" 
+                             class="w-6 h-6 bg-gray-200 rounded-full mr-2 flex items-center justify-center">
+                          <span class="text-xs text-gray-500">{{sub.name[0]}}</span>
+                        </div>
+                        <span>{{sub.name}}</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right Content - Products -->
+      <div class="flex-1">
+        <!-- Loading State -->
+        <div *ngIf="loading" class="flex justify-center items-center h-64">
+          <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-[#f85a00]"></div>
+        </div>
+
+        <!-- No Products State -->
+        <div *ngIf="!loading && products.length === 0" 
+             class="flex flex-col items-center justify-center h-64 bg-white rounded-lg shadow-sm">
+          <svg class="w-16 h-16 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                  d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+          </svg>
+          <h3 class="text-lg font-medium text-gray-900">No products found</h3>
+          <p class="text-gray-500">Try adjusting your filters or browse other categories</p>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="space-y-6">
+          <!-- Individual Product Cards -->
+          <div *ngFor="let product of products" 
+               class="bg-white shadow-md rounded-lg overflow-hidden p-6 transition duration-300 hover:shadow-xl">
+            <div class="flex flex-col md:flex-row">
+              <!-- Left - Product Image and Brand -->
+              <div class="w-full md:w-1/2 mb-4 md:mb-0 relative">
+                <a [href]="'/brands/' + product.brandSlug" class="flex items-center space-x-2">
+                  <img [src]="product.brandLogo" 
+                       [alt]="product.brand"
+                       class="absolute top-0 left-0 z-10 m-2 h-16 w-16 object-contain bg-white p-1 rounded-md shadow-md">
+                </a>
+                <a [href]="product.url">
+                  <img [src]="product.image" 
+                       [alt]="product.name"
+                       class="w-full object-cover h-48 md:h-56 rounded-md">
+                </a>
+              </div>
+
+              <!-- Middle - Product Info -->
+              <div class="w-full md:w-1/2 px-2 md:px-6">
+                <h3 class="text-lg font-semibold mb-2">
+                  <a [href]="product.url" class="text-[#132530] hover:text-[#f85a00] transition duration-300">
+                    {{product.name}}
+                  </a>
+                </h3>
+                <p class="text-sm text-gray-600 mb-3">{{product.description}}</p>
+                <p class="text-sm mb-2">
+                  <strong class="text-[#132530]">Ürün numarası:</strong> 
+                  <span class="text-[#4d7187]">{{product.partNumber}}</span>
+                </p>
+
+                <!-- Product Criteria Desktop -->
+                <div class="hidden md:block">
+                  <div class="criteria-list space-y-2">
+                    <p *ngFor="let spec of product.specifications | slice:0:4" class="text-sm">
+                      <strong class="text-[#132530]">{{spec.label}}:</strong>
+                      <span class="text-[#4d7187]">{{spec.value}}</span>
+                    </p>
+                  </div>
+                  <button *ngIf="product.specifications.length > 4" 
+                          class="text-[#f85a00] hover:text-[#d94d00] text-sm mt-2 focus:outline-none transition duration-300">
+                    Daha Fazla Göster
+                  </button>
+                </div>
+
+                <!-- Product Criteria Mobile -->
+                <button class="block md:hidden text-[#f85a00] hover:text-[#d94d00] text-sm mb-2 focus:outline-none transition duration-300">
+                  Ürün Özelliklerini Göster
+                </button>
+              </div>
+
+              <!-- Right - Price and Purchase -->
+              <div class="w-full md:w-1/4 flex flex-col justify-between mt-4 md:mt-0 px-2">
+                <div>
+                  <span class="text-2xl font-bold text-[#f85a00] block mt-1">
+                    {{product.price}} TL
+                  </span>
+                  <span class="text-sm text-green-500 flex items-center" *ngIf="product.inStock">
+                    <span class="h-2 w-2 bg-green-500 rounded-full mr-1"></span>
+                    Stokta var
+                  </span>
+                </div>
+
+                <div class="mt-4">
+                  <div class="flex items-center justify-between space-x-2">
+                    <!-- Quantity Controls -->
+                    <div class="flex items-center border border-gray-300 rounded-md">
+                      <button class="px-3 py-2 text-gray-600 hover:text-gray-700 hover:bg-gray-100 rounded-l-md transition duration-300">−</button>
+                      <input type="number" class="w-10 text-center border-none focus:ring-0 text-sm" value="1" min="1">
+                      <button class="px-3 py-2 text-gray-600 hover:text-gray-700 hover:bg-gray-100 rounded-r-md transition duration-300">+</button>
+                    </div>
+                    
+                    <!-- Add to Cart Button -->
+                    <button class="flex-grow bg-[#f85a00] text-white px-3 py-3 rounded-md hover:bg-[#d94d00] flex items-center justify-center transition duration-300 ease-in-out text-sm whitespace-nowrap">
+                      Sepete Ekle
+                    </button>
+                  </div>
+
+                  <a [href]="product.url" class="mt-3 text-center block text-[#4d7187] hover:text-[#f85a00] hover:underline transition duration-300 text-sm">
+                    Ürün Detayları
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

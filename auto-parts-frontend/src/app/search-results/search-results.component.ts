@@ -7,11 +7,15 @@ import { VehicleDetails } from '../interfaces/product-category.interface';
 import { catchError, finalize } from 'rxjs/operators';
 import { of } from 'rxjs';
 import { VehicleService } from '../services/vehicle.service';
+import { HttpClient } from '@angular/common/http';
+import { map } from 'rxjs/operators';
+import { VehicleSearchComponent } from '../vehicle-search/vehicle-search.component';
 
 interface Category {
   id: string;
   name: string;
   icon: string;
+  slug: string;
   subcategories: Subcategory[];
 }
 
@@ -24,19 +28,22 @@ interface Subcategory {
 interface VehicleInfo {
   brand: string;
   model: string;
+  variant: string;
   engine: string;
   year?: string;
+  modelImage: string;
 }
 
 @Component({
   selector: 'app-search-results',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, VehicleSearchComponent],
   templateUrl: './search-results.component.html',
   styleUrls: ['./search-results.component.css']
 })
 export class SearchResultsComponent implements OnInit {
-  vehicleInfo: VehicleInfo | null = null;
+  vehicleInfo: any;
+  vehicleDetails: any;
   selectedCategory: string = '';
   searchQuery: string = '';
   error: string | null = null;
@@ -45,13 +52,14 @@ export class SearchResultsComponent implements OnInit {
   //loading = false;
   //imagePath: string = '';
   //vehicleImage: string = '';
-
+  showVehicleSelector = false;
 
   categories = [
     {
       id: 'filters',
       name: 'Filters',
-      icon: 'assets/icons/filter-icon.png',
+      icon: '/assets/images/category/icons/filters.png',
+      slug: 'filters',
       subcategories: [
         { id: 'air-filter', name: 'Air Filter' },
         { id: 'pollen-filter', name: 'Pollen Filter' },
@@ -63,7 +71,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'oils',
       name: 'Oils and Fluids',
-      icon: 'https://bcdn.aloparca.com/category/image/01J7ATK5G0KQF8RVWG7NZ4YR76.png',
+      icon: '/assets/images/category/icons/fluids.png',
       subcategories: [
         { id: 'engine-oil', name: 'Engine Oil' }
       ]
@@ -71,7 +79,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'brakes',
       name: 'Brakes',
-      icon: 'https://bcdn.aloparca.com/category/image/10103.png',
+      icon: '/assets/images/category/icons/brakesystem.png',
       subcategories: [
         { id: 'brake-disc', name: 'Brake Disc' },
         { id: 'brake-pad', name: 'Brake Pad' },
@@ -90,7 +98,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'ignition',
       name: 'Ignition System',
-      icon: 'https://bcdn.aloparca.com/category/image/10354.png',
+      icon: '/assets/images/category/icons/ignition.png',
       subcategories: [
         { id: 'glow-plug', name: 'Glow Plug' }
       ]
@@ -98,7 +106,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'suspension',
       name: 'Suspension',
-      icon: 'https://bcdn.aloparca.com/category/image/10113.png',
+      icon: '/assets/images/category/icons/suspension.png',
       subcategories: [
         { id: 'shock-absorber', name: 'Shock Absorber' },
         { id: 'strut-mount-bearing', name: 'Strut Mount and Bearing' },
@@ -123,7 +131,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'clutch',
       name: 'Clutch',
-      icon: 'https://bcdn.aloparca.com/category/image/10106.png',
+      icon: '/assets/images/category/icons/clutch.png',
       subcategories: [
         { id: 'flywheel-bolt-bearing', name: 'Flywheel Bolt and Bearing' },
         { id: 'clutch-set', name: 'Clutch Set' },
@@ -134,7 +142,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'timing',
       name: 'Timing Chain and Bearing',
-      icon: 'https://bcdn.aloparca.com/category/image/10107.png',
+      icon: '/assets/images/category/icons/timing.png',
       subcategories: [
         { id: 'timing-chain', name: 'Timing Chain' },
         { id: 'timing-chain-set', name: 'Timing Chain Set' },
@@ -148,7 +156,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'fuel',
       name: 'Fuel System',
-      icon: 'https://bcdn.aloparca.com/category/image/10108.png',
+      icon: '/assets/images/category/icons/fuelsystem.png',
       subcategories: [
         { id: 'injector', name: 'Injector' },
         { id: 'throttle-body', name: 'Throttle Body' },
@@ -161,7 +169,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'transmission',
       name: 'Transmission',
-      icon: 'https://bcdn.aloparca.com/category/image/10109.png',
+      icon: '/assets/images/category/icons/transmission.png',
       subcategories: [
         { id: 'transmission-mount', name: 'Transmission Mount' },
         { id: 'drive-shaft-mount', name: 'Drive Shaft Mount' },
@@ -172,7 +180,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'lighting',
       name: 'Lighting',
-      icon: 'https://bcdn.aloparca.com/category/image/10110.png',
+      icon: '/assets/images/category/icons/lightnings.png',
       subcategories: [
         { id: 'license-plate-light', name: 'License Plate Light' },
         { id: 'headlight', name: 'Headlight' },
@@ -185,7 +193,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'engine',
       name: 'Engine',
-      icon: 'https://bcdn.aloparca.com/category/image/10111.png',
+      icon: '/assets/images/category/icons/engines.png',
       subcategories: [
         { id: 'valve-guide', name: 'Valve Guide and Seat' },
         { id: 'connecting-rod-bearing', name: 'Connecting Rod Bearing' },
@@ -219,7 +227,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'steering',
       name: 'Steering',
-      icon: 'https://bcdn.aloparca.com/category/image/10112.png',
+      icon: '/assets/images/category/icons/steering.png',
       subcategories: [
         { id: 'steering-pump', name: 'Steering Pump' },
         { id: 'steering-boot', name: 'Steering Boot' }
@@ -228,7 +236,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'body',
       name: 'Body Parts',
-      icon: 'https://bcdn.aloparca.com/category/image/10101.png',
+      icon: '/assets/images/category/icons/bodyparts.png',
       subcategories: [
         { id: 'wiper-blade', name: 'Wiper Blade' },
         { id: 'rear-view-mirror', name: 'Rear View Mirror' },
@@ -239,7 +247,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'cooling-heating',
       name: 'Cooling and Heating',
-      icon: 'https://bcdn.aloparca.com/category/image/10104.png',
+      icon: '/assets/images/category/icons/cooling.png',
       subcategories: [
         { id: 'water-pump-hose', name: 'Water Pump Hose' },
         { id: 'ac-compressor', name: 'AC Compressor' },
@@ -263,7 +271,7 @@ export class SearchResultsComponent implements OnInit {
     {
       id: 'electrical',
       name: 'Electrical',
-      icon: 'https://bcdn.aloparca.com/category/image/10105.png',
+      icon: '/assets/images/category/icons/electrical.png',
       subcategories: [
         { id: 'alternator', name: 'Alternator' },
         { id: 'washer-pump', name: 'Washer Pump' },
@@ -284,19 +292,19 @@ export class SearchResultsComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private productService: ProductService,
-    private vehicleService: VehicleService
+    private vehicleService: VehicleService,
+    private http: HttpClient
   ) {}
 
   ngOnInit() {
     this.route.queryParams.subscribe(params => {
-      if (params['brand'] && params['model']) {
-        this.vehicleInfo = {
-          brand: params['brand'],
-          model: params['model'],
-          engine: params['engine'] || ''
-        };
-        this.loadPartsForVehicle();
-      }
+      this.vehicleInfo = {
+        brand: params['brand'],
+        model: params['model'],
+        variant: params['variant'],
+        engine: params['engine']
+      };
+      this.loadVehicleDetails();
     });
   }
 
@@ -314,6 +322,7 @@ export class SearchResultsComponent implements OnInit {
           id: cat.id,
           name: cat.name,
           icon: cat.imageUrl,
+          slug: cat.name.toLowerCase().replace(/ /g, '-'),
           subcategories: []
         }));
       });
@@ -362,21 +371,19 @@ export class SearchResultsComponent implements OnInit {
       });
   }
 
+  loadVehicleDetails() {
+    this.http.get<any[]>('assets/data/vehicle_details.json')
+      .subscribe(data => {
+        this.vehicleDetails = data.find(item => 
+          item.brand.toLowerCase() === this.vehicleInfo.brand.toLowerCase() &&
+          item.model_name === this.vehicleInfo.model &&
+          item.model_variant === this.vehicleInfo.variant
+        );
+      });
+  }
+
   getVehicleImage(): string {
-    if (!this.vehicleInfo?.brand || !this.vehicleInfo?.model) {
-        return 'https://bcdn.aloparca.com/model_series_cars_photo/10266.jpg?width=192'; // Return default image path until we have a better solution
-    }
-
-    // Initialize a variable to hold the image path
-    let imagePath: string = '';
-
-    // Subscribe to the observable to get the image path
-    this.productService.getModelImage(this.vehicleInfo.brand, this.vehicleInfo.model)
-        .subscribe(image => {
-            imagePath = image; // Assign the image path to the variable
-        });
-
-    return imagePath; // This will return an empty string initially
+    return this.vehicleDetails?.image_url || 'assets/images/default-car.png';
   }
 
   onSubcategorySelect(categoryId: string, subcategoryId: string) {
@@ -404,9 +411,7 @@ export class SearchResultsComponent implements OnInit {
   }
 
   changeVehicle() {
-    // Navigate back to vehicle selection
-    this.productService.clearVehicleSelection();
-    this.router.navigate(['/']);
+    this.showVehicleSelector = true;
   }
 
   showVehicleDetails() {
@@ -440,5 +445,17 @@ export class SearchResultsComponent implements OnInit {
       queryParams: { ...this.searchParams, category: categoryId },
       queryParamsHandling: 'merge'
     });
+  }
+
+  private getModelImage(brand: string, model: string): string {
+    // Logic to fetch or return the model image URL based on brand and model
+    return 'default-image-url.jpg'; // Replace with actual logic
+  }
+
+  onSearchComplete(searchParams: any) {
+    this.router.navigate(['/search-results'], {
+      queryParams: searchParams
+    });
+    this.showVehicleSelector = false;
   }
 }
