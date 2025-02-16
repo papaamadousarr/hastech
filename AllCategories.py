@@ -705,45 +705,56 @@ translations = {
     "Egzoz Manifoldu": "Exhaust Manifold"
 }
 
-# Fonction pour traduire un texte si absent du dictionnaire
+# Fonction pour traduire un texte
 def translate_text(text):
     if text in translations:
-        return translations[text]  # Utiliser la traduction manuelle si dispo
+        return translations[text]
     else:
         translated = GoogleTranslator(source="tr", target="en").translate(text)
-        translations[text] = translated  # Ajouter au dictionnaire
+        translations[text] = translated
         return translated
 
 # Initialiser la structure de données
 categories_data = []
 
 # Trouver toutes les catégories principales
-categories = soup.find_all("li", class_="border-b last:border-b-0")
+categories = soup.find_all("li", class_="border-b")
+
+if not categories:
+    print("⚠ Aucune catégorie trouvée ! Vérifie la structure du fichier HTML.")
+else:
+    print(f"✅ {len(categories)} catégories trouvées.")
 
 for category in categories:
-    category_name = category.find("span").text.strip()
+    category_name_tag = category.find("span")
+    if not category_name_tag:
+        continue  # Sauter cette catégorie si elle n'a pas de nom
+
+    category_name = category_name_tag.text.strip()
     category_name_en = translate_text(category_name)  # Traduction dynamique
     category_img = category.find("img")["src"] if category.find("img") else ""
-    
+
     subcategories = []
-    
-    # Trouver toutes les sous-catégories
-    subcategory_items = category.find_all("li")
-    
+    subcategory_items = category.find_all("li")  # Extraire toutes les sous-catégories
+
+    if not subcategory_items:
+        print(f"⚠ Aucune sous-catégorie trouvée pour {category_name}")
+
     for subcategory in subcategory_items:
         sub_a = subcategory.find("a")
         sub_img = subcategory.find("img")
-        
-        if sub_a and sub_img:
+
+        if sub_a:
             sub_name = sub_a.find("span").text.strip()
             sub_name_en = translate_text(sub_name)  # Traduction dynamique
-            
+            sub_link = sub_a["href"]
+
             subcategories.append({
                 "name": sub_name_en,
-                "image": sub_img["src"],
+                "image": sub_img["src"] if sub_img else "",
+                "url": sub_link
             })
-    
-    # Ajouter la catégorie principale avec ses sous-catégories
+
     categories_data.append({
         "category": category_name_en,
         "image": category_img,
@@ -754,4 +765,4 @@ for category in categories:
 with open("categories_en.json", "w", encoding="utf-8") as json_file:
     json.dump(categories_data, json_file, indent=4, ensure_ascii=False)
 
-print("✅ Data successfully saved in categories_en.json with full translation.")
+print("✅ Extraction complète. Données enregistrées dans categories_en.json")

@@ -5,26 +5,41 @@
         "subcategories": [
             {
                 "name": "Air Filter",
-                "image": "https://bcdn.aloparca.com/subcategory/images/hava-filtresi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/hava-filtresi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/filtreler/hava-filtresi"
             },
             {
                 "name": "Cabin Filter",
-                "image": "https://bcdn.aloparca.com/subcategory/images/polen-filtresi.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/polen-filtresi.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/filtreler/polen-filtresi"
             },
             {
                 "name": "Oil Filter",
-                "image": "https://bcdn.aloparca.com/subcategory/images/yag-filtresi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/yag-filtresi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/filtreler/yag-filtresi"
             },
             {
                 "name": "Fuel Filter",
-                "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtresi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtresi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/filtreler/yakit-filtresi"
+            },
+            {
+                "name": "K",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/filtreler/karter-tapasi"
             }
         ]
     },
     {
         "category": "Oils and Fluids",
         "image": "https://bcdn.aloparca.com/category/image/01J7ATK5G0KQF8RVWG7NZ4YR76.png?width=32",
-        "subcategories": []
+        "subcategories": [
+            {
+                "name": "M",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/yaglar-ve-sivilar/motor-yag"
+            }
+        ]
     },
     {
         "category": "Brakes",
@@ -32,27 +47,33 @@
         "subcategories": [
             {
                 "name": "Brake disc",
-                "image": "https://bcdn.aloparca.com/subcategory/images/fren-disk-ayna.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/fren-disk-ayna.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/fren/fren-disk"
             },
             {
                 "name": "Brake Pads",
-                "image": "https://bcdn.aloparca.com/subcategory/images/fren-disk-balata.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/fren-disk-balata.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/fren/fren-balatasi"
             },
             {
                 "name": "Lining warning cable",
-                "image": "https://bcdn.aloparca.com/subcategory/images/balata-ikaz-kablosu.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/balata-ikaz-kablosu.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/fren/balata-ikaz-kablosu"
             },
             {
                 "name": "ABS Sensor",
-                "image": "https://bcdn.aloparca.com/subcategory/images/abs-sensoru.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/abs-sensoru.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/fren/abs-sensoru"
             },
             {
                 "name": "Brake hose",
-                "image": "https://bcdn.aloparca.com/subcategory/images/fren-hortumu.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/fren-hortumu.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/fren/fren-hortumu"
             },
             {
                 "name": "Tire pressure sensor",
-                "image": "https://bcdn.aloparca.com/subcategory/images/lastik-basinc-sensoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/lastik-basinc-sensoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/fren/lastik-basinc-sensoru"
             }
         ]
     },
@@ -62,50 +83,81 @@
         "subcategories": [
             {
                 "name": "Shock Absorber",
-                "image": "https://bcdn.aloparca.com/subcategory/images/amortisor.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/amortisor.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/amortisor"
+            },
+            {
+                "name": "A",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/amortisor-takozu-ve-rulmani"
+            },
+            {
+                "name": "A",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/amortisor-korugu-ve-darbe-emici"
             },
             {
                 "name": "Bend iron tire",
-                "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demir-lastigi.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demir-lastigi.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/viraj-demir-lastigi"
+            },
+            {
+                "name": "T",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/travers-torsiyon-takoz-burc"
             },
             {
                 "name": "Rot head",
-                "image": "https://bcdn.aloparca.com/subcategory/images/rot-basi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/rot-basi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/rot-basi"
             },
             {
                 "name": "Rotil and Rotilli Arm",
-                "image": "https://bcdn.aloparca.com/subcategory/images/rotil-ve-rotilli-kol.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/rotil-ve-rotilli-kol.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/rotil-ve-rotilli-kol"
             },
             {
                 "name": "Swing Sign",
-                "image": "https://bcdn.aloparca.com/subcategory/images/salincak-burcu.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/salincak-burcu.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/salincak-burcu"
             },
             {
                 "name": "Poria and bearing",
-                "image": "https://bcdn.aloparca.com/subcategory/images/porya-rulmani.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/porya-rulmani.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/porya-ve-rulman"
             },
             {
                 "name": "Branch",
-                "image": "https://bcdn.aloparca.com/subcategory/images/denge-kolu.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/denge-kolu.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/denge-kolu"
             },
             {
                 "name": "Swing",
-                "image": "https://bcdn.aloparca.com/subcategory/images/salincak.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/salincak.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/salincak"
             },
             {
                 "name": "Bend iron strap rot",
-                "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demir-aski-rotu.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demir-aski-rotu.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/viraj-demir-aski-rotu"
             },
             {
                 "name": "Rot mile",
-                "image": "https://bcdn.aloparca.com/subcategory/images/rot-mili.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/rot-mili.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/suspansiyon/rot-mili"
             }
         ]
     },
     {
         "category": "Timing Chain and Bearings",
         "image": "https://bcdn.aloparca.com/category/image/01J7WV3B6CNEHGNNA2J5QY9DXP.png?width=32",
-        "subcategories": []
+        "subcategories": [
+            {
+                "name": "V",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/triger-zincir-ve-rulman/v-kayisi"
+            }
+        ]
     },
     {
         "category": "Fuel System",
@@ -113,7 +165,8 @@
         "subcategories": [
             {
                 "name": "Warehouse",
-                "image": "https://bcdn.aloparca.com/subcategory/images/depo-samandirasi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/depo-samandirasi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/yakit-sistemi/depo-samandirasi"
             }
         ]
     },
@@ -123,7 +176,8 @@
         "subcategories": [
             {
                 "name": "Headlight",
-                "image": "https://bcdn.aloparca.com/subcategory/images/far.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/far.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/aydinlatma/far"
             }
         ]
     },
@@ -133,31 +187,38 @@
         "subcategories": [
             {
                 "name": "Valve tire",
-                "image": "https://bcdn.aloparca.com/subcategory/images/supap-lastigi.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/supap-lastigi.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/supap-lastigi"
             },
             {
                 "name": "Eccentric speed sensor",
-                "image": "https://bcdn.aloparca.com/subcategory/images/eksantrik-devir-sensoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/eksantrik-devir-sensoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/eksantrik-devir-sensoru"
             },
             {
                 "name": "Crankshand",
-                "image": "https://bcdn.aloparca.com/subcategory/images/krank-sensoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/krank-sensoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/krank-sensoru"
             },
             {
                 "name": "Engine wedge",
-                "image": "https://bcdn.aloparca.com/subcategory/images/motor-takozu.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/motor-takozu.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/motor-takozu"
             },
             {
                 "name": "Crankshaft",
-                "image": "https://bcdn.aloparca.com/subcategory/images/krank-kecesi.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/krank-kecesi.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/krank-kecesi"
             },
             {
                 "name": "Crank",
-                "image": "https://bcdn.aloparca.com/subcategory/images/krank-kasnak.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/krank-kasnak.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/krank-kasnak"
             },
             {
                 "name": "Air flow rate",
-                "image": "https://bcdn.aloparca.com/subcategory/images/hava-debimetresi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/hava-debimetresi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/motor/hava-debimetresi"
             }
         ]
     },
@@ -167,7 +228,8 @@
         "subcategories": [
             {
                 "name": "Steering wheel",
-                "image": "https://bcdn.aloparca.com/subcategory/images/direksiyon-korugu.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/direksiyon-korugu.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/direksiyon/direksiyon-korugu"
             }
         ]
     },
@@ -177,7 +239,8 @@
         "subcategories": [
             {
                 "name": "Wiper broom",
-                "image": "https://bcdn.aloparca.com/subcategory/images/silecek-supurgesi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/silecek-supurgesi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/dis-kaporta-aksami/silecek-supurgesi"
             }
         ]
     },
@@ -187,15 +250,18 @@
         "subcategories": [
             {
                 "name": "Air conditioner radiator",
-                "image": "https://bcdn.aloparca.com/subcategory/images/klima-radyatoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/klima-radyatoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/sogutma/klima-radyatoru"
             },
             {
                 "name": "Pump in cycle",
-                "image": "https://bcdn.aloparca.com/subcategory/images/devirdaim-su-pompasi.png?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/devirdaim-su-pompasi.png?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/sogutma/devirdaim-su-pompasi"
             },
             {
                 "name": "Heating",
-                "image": "https://bcdn.aloparca.com/subcategory/images/hararet-musuru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/hararet-musuru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/sogutma/hararet-musuru"
             }
         ]
     },
@@ -205,15 +271,23 @@
         "subcategories": [
             {
                 "name": "Glass water motor",
-                "image": "https://bcdn.aloparca.com/subcategory/images/cam-su-motoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/cam-su-motoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/elektrik/cam-su-motoru"
+            },
+            {
+                "name": "K",
+                "image": "",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/elektrik/korna"
             },
             {
                 "name": "Parking sensor",
-                "image": "https://bcdn.aloparca.com/subcategory/images/park-sensoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/park-sensoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/elektrik/park-sensoru"
             },
             {
                 "name": "Outdoor temperature sensor",
-                "image": "https://bcdn.aloparca.com/subcategory/images/dis-hava-sicaklik-sensoru.jpg?width=24"
+                "image": "https://bcdn.aloparca.com/subcategory/images/dis-hava-sicaklik-sensoru.jpg?width=24",
+                "url": "https://aloparca.com/yedek-parcalar/audi/audi-a6/audi-a6-c8-sedan-4a2-022018/audi-a6-s6-tdi-mild-hybrid-quattro-253-kw-344-ps-012021/kategori/elektrik/dis-hava-sicaklik-sensoru"
             }
         ]
     }
