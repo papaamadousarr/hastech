@@ -1,0 +1,969 @@
+{
+    "titles": [
+        {
+            "title": "AUDI A4 B9 Sedan (8W2, 8WC) (05.2015 - ...)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.4 TFSI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (183 kW / 249 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (185 kW / 252 PS)"
+                        },
+                        {
+                            "name": "S4 quattro (260 kW / 354 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (90 kW / 122 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "40 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "40 TDI quattro (140 kW / 190 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel/elektrikli",
+                    "engines": [
+                        {
+                            "name": "40 TDI Mild Hybrid (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "40 TDI Mild Hybrid quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "S4 TDI Mild Hybrid quattro (255 kW / 347 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin/elektrikli",
+                    "engines": [
+                        {
+                            "name": "45 TFSI Mild Hybrid (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (183 kW / 249 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (195 kW / 265 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B9 Avant (8W5, 8WD) (08.2015 - ...)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.4 TFSI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (183 kW / 249 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (185 kW / 252 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (90 kW / 122 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "40 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "40 TDI quattro (140 kW / 190 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Diesel/Elektirikli",
+                    "engines": [
+                        {
+                            "name": "40 TDI Mild Hybrid (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "40 TDI Mild Hybrid quattro (150 kW / 204 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B9 Allroad (8WH) (01.2016 - ...)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI quattro (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "40 TDI quattro (140 kW / 190 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Diesel/Elektirikli",
+                    "engines": [
+                        {
+                            "name": "40 TDI Mild Hybrid quattro (150 kW / 204 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin/elektrikli",
+                    "engines": [
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (183 kW / 249 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (195 kW / 265 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "45 TFSI quattro (195 kW / 265 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B8 Sedan (8K2) (11.2007 - 12.2015)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 TFSI (118 kW / 160 PS)"
+                        },
+                        {
+                            "name": "1.8 TFSI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "1.8 TFSI (88 kW / 120 PS)"
+                        },
+                        {
+                            "name": "1.8 TFSI quattro (118 kW / 160 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (165 kW / 224 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (165 kW / 224 PS)"
+                        },
+                        {
+                            "name": "3.2 FSI quattro (195 kW / 265 PS)"
+                        },
+                        {
+                            "name": "S4 quattro (245 kW / 333 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (105 kW / 143 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (88 kW / 120 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (105 kW / 143 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (176 kW / 240 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (180 kW / 245 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B8 Avant (8K5) (11.2007 - 12.2015)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 TFSI (118 kW / 160 PS)"
+                        },
+                        {
+                            "name": "1.8 TFSI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "1.8 TFSI (88 kW / 120 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (165 kW / 224 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (165 kW / 224 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (200 kW / 272 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (105 kW / 143 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (88 kW / 120 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (105 kW / 143 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (176 kW / 240 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (180 kW / 245 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B8 Allroad (8KH) (04.2009 - 05.2016)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI quattro (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (105 kW / 143 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "2.0 TFSI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (165 kW / 224 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B7 Sedan (8EC) (11.2004 - 06.2008)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.6 (75 kW / 102 PS)"
+                        },
+                        {
+                            "name": "1.8 T (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "1.8 T (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (147 kW / 200 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (149 kW / 203 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (147 kW / 200 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.2 FSI quattro (188 kW / 255 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (89 kW / 121 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (93 kW / 126 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI 16V (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (171 kW / 233 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B7 Cabrio (8HE) (01.2002 - 12.2009)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 T (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI 16V (147 kW / 200 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (147 kW / 200 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B7 Avant (8ED) (11.2004 - 06.2008)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 T (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (147 kW / 200 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (147 kW / 200 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (89 kW / 121 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (93 kW / 126 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI 16V (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (120 kW / 163 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B6/B7 Cabrio (8H7, 8HE) (04.2002 - 03.2009)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 T (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "1.8 T (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.4 (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.4 (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "3.0 (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 (162 kW / 220 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.5 TDI (120 kW / 163 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B6 Sedan (8E2) (11.2000 - 12.2004)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.6 (75 kW / 102 PS)"
+                        },
+                        {
+                            "name": "1.8 T (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "1.8 T (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "1.8 T (127 kW / 173 PS)"
+                        },
+                        {
+                            "name": "1.8 T (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.0 FSI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.4 (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.4 (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "3.0 (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 (164 kW / 223 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (164 kW / 223 PS)"
+                        },
+                        {
+                            "name": "S4 quattro (184 kW / 250 PS)"
+                        },
+                        {
+                            "name": "S4 quattro (253 kW / 344 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (74 kW / 101 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI quattro (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (132 kW / 180 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B6 Avant (8E5) (04.2001 - 12.2004)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 T (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "1.8 T (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (164 kW / 223 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (74 kW / 101 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (114 kW / 155 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (132 kW / 180 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B5 Sedan (8D2) (11.1994 - 09.2001)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "1.8 (92 kW / 125 PS)"
+                        },
+                        {
+                            "name": "1.8 T (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.4 (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.4 (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.4 (121 kW / 165 PS)"
+                        },
+                        {
+                            "name": "2.8 quattro (128 kW / 174 PS)"
+                        },
+                        {
+                            "name": "2.8 quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.8 quattro (142 kW / 193 PS)"
+                        },
+                        {
+                            "name": "S4 quattro (187 kW / 254 PS)"
+                        },
+                        {
+                            "name": "S4 quattro (195 kW / 265 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (55 kW / 75 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (66 kW / 90 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (81 kW / 110 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (110 kW / 150 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A4 B5 Avant (8D5) (11.1994 - 09.2001)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "1.8 (92 kW / 125 PS)"
+                        },
+                        {
+                            "name": "1.8 quattro (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "1.8 T (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (132 kW / 180 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (66 kW / 90 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (81 kW / 110 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI quattro (81 kW / 110 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI quattro (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (110 kW / 150 PS)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
