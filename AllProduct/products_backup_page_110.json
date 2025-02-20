@@ -1,0 +1,3502 @@
+[
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "545,99 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500008-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/321cb44688b8463b7d3880d82c7c7d705ca76c29.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.160,87 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500009-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d2acd3edcfd2978149ede33dc0d63403f341f9e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "607,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500011-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7c89d2da248b6893c72d960c4d5fb7d68f38669f.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "503,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500012-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/37d73314775b2fee501802ab514576e2f0b1524d.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "626,13 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500017-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/14fe1a29a7394b4484c4e4d8084a8f910bdd8eb8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "647,04 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65500018-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f90a2b32de855e222939c31b1a326b122819ed8f.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "718,17 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500019-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dfbd12708d21f903e92bf72e5fd860085ceb03ee.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "468,45 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500020-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8d51157a1d205b0cf999b6a1e220b6922a455654.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "607,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500021-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/690bb2944f718cbf30017f2b12439b9badc4f1eb.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "757,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65500022-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d7f90ed3a4f58dc20e3c88e8e8e11fab78df2c0f.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "541,43 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70500001-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/30530713beacc4c12dc31d94561ac871893d911e.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "691,94 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70500002-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0a6289375b43f37a060f36f3ba18b3365b4d88ea.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "640,46 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70500003-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2abee476c3753c9f98a2649f6f9d64454227fa3b.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "652,85 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70500004-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ffbee67e2eafe531dd7379c9b6196d50e16ef7d8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "507,54 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75500013-devirdaim-su-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a52eae1e2377a428c207428f36a3c5468c4f3763.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.134,56 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-80500001-devirdaim-988641",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/fb16fc0ff7ce79c1d4d00880f535c76d0a3c8592.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "539,48 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500001-devirdaim-980158-p542",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4f738aadfb49107c2005b2a6d3654b54a6b596d8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "632,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500002-devirdaim-980134-p550",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/04b361226200e1aa315a30bcd38c283777a75937.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "577,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500003-devirdaim-980137-p541",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b67e7eaef722273b1c065afd281ec1733a54418b.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "647,63 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500004-devirdaim-980136-p556",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a3afb73659b4d422b379ca73941e6adc808a1269.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "573,35 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500006-devirdaim-980251-p551",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b3dc6f0f1b43aeedad819d07dde8d48f97163242.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "748,62 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500011-devirdaim-980130-980260-p545",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3eb8d1e0574ee93ea04c15e61f76c50e4870f839.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "635,25 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500012-devirdaim-980130-980260-p545",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8959ee9e584a5c1954abe5da1c1bc9d76bf21137.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "634,26 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90500013-devirdaim-980189-980551-p574",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/056cb1026b5a29f884b05585e8bfc3ad18cf99ac.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "598,11 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500014-devirdaim-980155-p518",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cb8b9047bfa747d0bbc1324b7021a4790e8095c8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "474,32 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500015-devirdaim-980148-p512",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8a44b9c9f7d171c1de2dd1a637680bb1ec533783.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "718,17 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500016-devirdaim-980167-p544",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4187709dd1b84b2ef022894c420f79b61d9e91d1.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "727,11 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500017-devirdaim-980168-p559",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ec083f5cc85bb00a1b1283aa01b9320964e61e3d.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.061,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500018-devirdaim-980258",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3bcafb766a813aa4a4d70e47ed4c9ff8b87bf41c.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "535,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500019-devirdaim-980259-p569",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/76a7e8d1be35a987343520e494be33583a36f3ce.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "616,35 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500020-devirdaim-980270-p581",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c45c82fbd2a7110beb385e7dc9b457990ecfaf8b.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "597,47 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500021-devirdaim-980272-p582",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b9bacafbb559b3090a8a7f7090c8427dfd811bbd.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "607,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500022-devirdaim-980276-p587",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1787bcf90938adcb9e6cbcbaf05e0bddd0b12104.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "593,55 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500024-devirdaim-980293-p655",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6a38067117bf7a3f78c5fbeef3d6dc11b5b3a545.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.333,82 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90500026-devirdaim-980294-p656",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/69f497c158d989d47142cf3997e9b84e0a146f61.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "607,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500027-devirdaim-980295-p657-yarim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5efabced26f73714af7bc75841f23b4e21c97c81.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "588,99 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500029-devirdaim-980257-p566",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/707b5d4ee6e447644c758850071e4dd650a06ce8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.672,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500030-devirdaim-980332-komple",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ad466725bcd9b152fc0155eb8bcaf821e222d858.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "756,48 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500031-devirdaim-980298-p660",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/472709d86546fc90abd97ab313dc070758f64574.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "6.134,86 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500034-devirdaim-980320",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d7f7af3d764f2dff4e21430f2962191b5c9a978a.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "3.601,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500035-devirdaim-p651-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6d097554da9bb80136393630da2758c0964d259d.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "568,79 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500036-devirdaim-p547",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8bf8a51d60106d519e475cd625aff68c334b8f1e.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.312,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500037-devirdaim-p684",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e4391a54f9597bb54f0a83658ae34ea487ee89d9.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "683,43 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90500038-devirdaim-soketsiz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/68bc0c45c26547daa461e1c8bf26619a3e922ac8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "505,59 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90615038-pompa-gergisi-ayarli-531-0276-30",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e8ae6acc92f1dc8314643c7a6b5c5b64ee617924.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "270,24 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90615039-pompa-gergisi-sabit-531-0343-30",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/22cdcf3a4e2e48f26eb5759d7b8b25d48342a7a1.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.033,77 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-61500001-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9b17a262268fb9691bb18fa4688da082f4b2e8b1.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "965,66 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15500045-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/494469cd15ea92f4fa0b49bf80864f9035739020.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.061,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15500046-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c03bad3e544c38b79e81aaf90b9bbdcd475c36ff.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.685,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15500055-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/847092ea7243b46e0e859bea7556ed6c6cf68154.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "8.037,86 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15500059-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0875516657670aa253d1a360972e4a75768e4093.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "543,38 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25500007-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/aa78a30166982e49337b0d61cc69a95ffec2e2e6.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "590,30 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25500008-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3705ede85ebc59be460d1a7e810c65268362b3a2.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.297,07 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25500010-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f475dd2670f390caa50c985938076e4802ff9770.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "707,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30500029-devirdaim-3557014-2189253",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/47cb657a771b48e9b67d1ea5c735533ea55ca519.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "740,05 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30500030-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1e33a16439d79c435030c463c4d7df992de947f8.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "707,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30500031-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a4b291f380b0b08bd04acab20eb9e41d471eb581.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.093,97 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60500027-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4ed06e1ef2da3192d67f2251c61aa478b9a049a1.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "888,85 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65500010-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/10f470aed45468ac3db9c47d4fc9d805167ed7e4.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.177,27 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-62500001-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/08ba6bdd80d81cfb62489e4b2b439b634aeaf955.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.723,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25500013-devirdaim-komple-plastikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/75712a5e426c693bbdc99d76959cc9abb6d1dbf5.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "645,02 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90500005-devirdaim-980256-980135-p565",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/888a5bc1c4237e150193a4ab57df8dac38ed58c5.webp?width=358&height=358"
+    },
+    {
+        "name": "Pump in cycle",
+        "price": "1.092,64 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-15500021-devirdaim",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e31ad96b7ed56f80e303ec9100258e07b761e540.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "62,14 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25916005-ayna-sinyali-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8e91d21ce1412d3025cea209a1e126a196b1be98.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "79,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30916004-ayna-sinyali-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9bc6b35482cd6a13c75a84766ffaf2723f043c3b.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "79,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30916005-ayna-sinyali-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5511fc07705dbd13bc7d09ae07d399db94cdc068.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "160,54 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60916001-ayna-sinyali-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f986fef7de57662b54c4e198362094251d5d055f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "129,92 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60916002-ayna-sinyali-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/76c686b64c17a11f1169d7a26415e5b6a1b5b049.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "38,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75916001-ayna-sinyali-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0edb1103178c2abc92ab112e41083c184fc1cde9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "38,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75916002-ayna-sinyali-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c87df9bfdd626386fafa57cd52abeaf7dc31b3e8.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "34,32 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75916004-ayna-sinyali-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cb2e58cfd045ae4334e885a6f3913503d722af2d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "770,46 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90916008-ayna-sinyali-sol-vm-6187wl",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c5e47912a321a3b75cef83d261ffd26a0a32b461.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "860,37 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90916009-ayna-sinyali-sag-alt-kapakli-vm-6197wr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4a61b352b531d772e5ced36cc1b0c2b3a090d1f5.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "900,59 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90916010-ayna-sinyali-sol-alt-kapakli-vm-6197wl",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2a0a879cd52850fee6d02b3341df0e64b00fdb31.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "916,41 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90916011-ayna-sinyali-sag-alt-kapakli-vm-388wr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/22272b8579fe73de55351b6db975e0e53e36faee.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "164,96 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90916002-ayna-sinyali-sag-197wr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c3de109cc02a4b966e1cba9ce1cebb9cc34dae46.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "1.408,47 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90916005-ayna-sinyali-sag-alt-kapakli-vm-389wr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/34e44f190e7713fcbe5e8db03b26b3d7178719b3.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "164,96 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90916001-ayna-sinyali-sol-197wl",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d8da63b500bcb58a8eaa0e7420065b7531945f43.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror signal",
+        "price": "64,04 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-70810003-ayna-sinyali-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5794942343882f65adb0fc2083c9ec5965fe358c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "14.037,72 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15900009-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-aydinlatmali-hafizali-mavi-cam-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/652d2daa1b994547d555953564b8c378febd55cc.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "9.870,49 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15900010-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-mavi-cam-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b8e627d2b8dc1606fb01d00e68c7fc0a32a24665.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "14.037,72 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15900020-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-aydinlatmali-hafizali-mavi-cam-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/acde090cd9263ea51c45128789c48c9235129a2a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "17.390,77 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15900024-dis-dikiz-aynasi-sag-elektrikli-aydinlatmali-hafizali-camsiz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/eeb51509c292583c077325da8a5c3e8836aea1c5.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "6.197,19 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15900031-dis-dikiz-aynasi-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ca4d4e8636834508df4d8379f8e24c4343d58850.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.774,18 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900007-dis-dikiz-aynasi-sag-mekanik-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d77214f56b7b53445db6f55be5943b2a8c122ebf.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.774,18 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900008-dis-dikiz-aynasi-sol-mekanik-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/07789798b3feb079c48b65aaaad177004a5ca63d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.867,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900010-dis-dikiz-aynasi-sol-uzun-kol-pikap",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/852966c5fb6adec620fdd12c9dca0ee81d438d3b.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.302,29 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900016-dis-dikiz-aynasi-sol-kisa-kol-binek-motrezist",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c737318b69cda2a6fcd85f3c2c1dbf20b995c470.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.127,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900017-dis-dikiz-aynasi-sag-rhd",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f1a4364f518ad4e36fc7eb422b1dbf9355f6a9d5.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.127,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900018-dis-dikiz-aynasi-sol-rhd",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5cd89fd78f679d991c849e2f39be306ff64bd2a9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.834,24 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900020-dis-dikiz-aynasi-sol-rhd-k-kolmotrezist",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1ff855e34866a078334ce8e787553d66968c7a9d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.217,01 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900025-dis-dikiz-aynasi-sag-rhd-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/901a428df260e89abe1d6cd40f285889f8bbb9ea.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.375,96 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900039-dis-dikiz-aynasi-sag-manuel-degisen-kapakli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/00dc2b42e440650a5e617b5af07173c92f6b34f8.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.013,10 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900046-dis-dikiz-aynasi-sol-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1d9891a5352d509708803ecf6818cfd81a03d092.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.205,86 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900052-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1b3d6631e62c0c547a982f04b44187918692b453.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.478,79 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900054-dis-dikiz-aynasi-sol-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3e3f7d457b5920ef05d313e66d865d06d91bcf6a.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.863,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900057-dis-dikiz-aynasi-sag-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/455871e0e32d3bf8f7fdade83fa9e4e0ab028f91.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.110,72 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900059-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9e0ab92813568fea421c806e51ff94a485cc37ed.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.972,93 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900061-dis-dikiz-aynasi-sag-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a8a4455ebfc15a90d1affe80b519d0f6f12c0a3e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.634,70 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900077-dis-dikiz-aynasi-sag-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cdd28449e6be9ac80a4ea4b41a6a255589400595.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.983,67 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900078-dis-dikiz-aynasi-sol-mekanik-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6b7b8734dc21f06d5a7a886f7072e61bef779ab7.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.144,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900079-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e7e7d034ab93501b7e6a7808fe8732931dc5c34a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.836,85 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900080-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e3bea2f98bf74f0f484fdd78226ceaf17235b423.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.365,94 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900081-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/20ea98760672f275275139753ff5442e13271f1b.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.000,33 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900084-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a8dbaf6afe5421c269ed6f0a861fd5f5ff80eb87.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.716,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900087-dis-dikiz-aynasi-sag-katlanmaz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b04f0de1e1d5c39092a0ec64079cffb55a5b70db.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.310,97 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900092-dis-dikiz-aynasi-sol-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e950000bf072de2addeb8cf3faf4994d24f9d0b2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "4.155,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900098-dis-dikiz-aynasi-sag-elektrikli-sinyalli-katlanir-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7a230b034a12314b27b8de158a84af6fa81d4b61.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.450,37 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900102-dis-dikiz-aynasi-sag-manuel-kisa-kollu-sinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5546880cc3db25337ae8673e5f626deb859315bb.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.572,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900104-dis-dikiz-aynasi-sag-beyaz-siny-sagdan-direksiyon-elektrikli-katlanir-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9af29919484df6ca2dbf0b2b03e510f83f1d3276.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.514,61 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900106-dis-dikiz-aynasi-sag-beyaz-siny-sagdan-direksiyon-elektrikli-uzun-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5fe84b3f58a90b1ecf8138a3d8733d7b9362f7ab.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.549,03 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900108-dis-dikiz-aynasi-sag-beyaz-siny-sagdan-direksiyon-manuel-kisa-kollu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f282a4b22b7fdee8ab3db2e800d74bd39aefe795.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.765,60 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900111-dis-dikiz-aynasi-sag-sari-sinyalli-elektrikli-katlanmaz-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b1d2ba98a8ae8458d98bc28842889734fc7f28a3.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.098,05 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900130-dis-ayna-sol-elektrikli-katlanir-isitmali-astarli-sinyalli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/348f0cc3689ff6f16af4731894c3688b07643538.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.847,59 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40900005-dis-dikiz-aynasi-sag-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/45f7b006cfcd7283cffc82a8996cea8b803aaa7a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.387,68 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40900011-dis-dikiz-aynasi-sag-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6cfbee8baea317edddeb7759d8474c4e960ae321.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.395,87 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40900012-dis-dikiz-aynasi-sol-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b30e4f328125a6b8e6c7b67295b847af14fbdcb2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.630,37 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-40900014-dis-dikiz-aynasi-sol-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/05cce90f5b14b14df75d4c29e4ef5c2907036328.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.809,74 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40900016-dis-dikiz-aynasi-sol-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2273947867e97ca60aa6d47c37f499894212e8b9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.972,93 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40900017-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dc785d3f6eb5ff129dda76ec2898f0cd9ee3062a.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.107,11 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900001-dis-dikiz-aynasi-sag-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f2fd06f9046d40ca4d0c810a0c4c326654a9ed2c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.018,68 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900006-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d721cbe0e6f5257756b203f450988803356c1ac6.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.167,01 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900011-dis-dikiz-aynasi-sol-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/61663ca65f5ed7b7a44ba4766f0ddab303b9d64b.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.740,12 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900013-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7b4fda78805f31d939bf30550a45e4f740eacce2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.004,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900014-dis-dikiz-aynasi-sag-11p-elektrikli-isitmali-astarli-sinyalli-hafizali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8dc304058bb1e879f2bef05171ee1c26577bff7c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.965,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900022-dis-dikiz-aynasi-sag-13p-elektrikli-katlanir-isitmali-astarli-sinyalli-hafizali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2f0e6dda6de0d42ab5df2874f0769f2b87784963.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.484,98 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900033-dis-dikiz-aynasi-sol-elektrikli-katlanir-astarli-sinyalli-hafizali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d58292c73b7d0ae04e4494561f8b01189b7ae2e4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "11.305,96 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900036-dis-dikiz-aynasi-sag-9p-elektrikli-katlanir-isitmali-astarli-sinyalli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/56ea2f473a0210a37c9c285c23fc6020854edc88.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.484,98 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900037-dis-dikiz-aynasi-sol-9p-elektrikli-katlanir-isitmali-astarli-sinyalli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/04ca6fa6e4a91dc2d35da67dba02d72d37db4ee2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "10.434,47 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900069-dis-dikiz-aynasi-sol-elektrikli-katlanir-isitmali-hafizali-kor-noktali-kapaksiz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c7e6bd028b5067b69c1bda077d35a16e689dc052.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "6.239,10 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900070-dis-dikiz-aynasi-sag-elektrikli-katlanir-sinyalli-hafizali-kor-noktali-govde",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3fc34b35ec2eb8df0237f9c83a188568c5000393.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.305,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900007-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6ac2f8c8ef8db5f865045279667c82bb8e6df841.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.305,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900008-dis-dikiz-aynasi-sag-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bd968130d84eac319257ed074fae232fa6c9bf97.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.993,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900019-dis-dikiz-aynasi-sol-elektrikli-isitmali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a0755fcc9f2d97b16741d981a9a925cec916ace2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.353,63 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900026-dis-dikiz-aynasi-sag-manuelastli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8d37e7c4fe0b115cdb912a5b3052c4cdbea24cd4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.448,95 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900028-dis-dikiz-aynasi-sag-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/da1a2b46a2d2d2005e573a4daef7c14a93984729.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.250,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900034-dis-dikiz-aynasi-sag-manuel-fume",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/961c6d8cbb29fbdab2e9e4f06b0aa2c397d8a13f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.932,28 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900039-dis-dikiz-aynasi-sol-elektrikli-fume",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d0f141104a640f4e54b4c193c53a166e8aff6f0a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.931,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900041-dis-dikiz-aynasi-sol-elektrikli-astli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c167d4a165204c14a07ab6f0c0578eed684cb0e2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.461,08 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65900043-dis-dikiz-aynasi-sag-18h5p-elektrikli-isitmali-astarli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/efe2611caeb23c643580a25f638ddb4dc2b4d68d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.321,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900046-dis-dikiz-aynasi-sol-elektrikli-isitmali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3839320b830dd63b56c261ca06373cca008b073f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.363,55 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900047-dis-dikiz-aynasi-sag-katlanir-elektrikliastli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3f3c1e57197077ce24a1261f5f14c7da7dac9164.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.081,21 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900049-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-3-kapi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/26a8799689f1569d997218be917a6a589fc3fb40.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.283,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900050-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali-3-kapi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bfcc189694daeb9cf75ee5dfab400dfd4dfefd21.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.107,11 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900001-dis-dikiz-aynasi-sag-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f2fd06f9046d40ca4d0c810a0c4c326654a9ed2c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.018,68 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900006-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d721cbe0e6f5257756b203f450988803356c1ac6.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.167,01 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900011-dis-dikiz-aynasi-sol-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/61663ca65f5ed7b7a44ba4766f0ddab303b9d64b.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.740,12 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900013-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7b4fda78805f31d939bf30550a45e4f740eacce2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.004,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900014-dis-dikiz-aynasi-sag-11p-elektrikli-isitmali-astarli-sinyalli-hafizali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8dc304058bb1e879f2bef05171ee1c26577bff7c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.965,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900022-dis-dikiz-aynasi-sag-13p-elektrikli-katlanir-isitmali-astarli-sinyalli-hafizali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2f0e6dda6de0d42ab5df2874f0769f2b87784963.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.484,98 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900033-dis-dikiz-aynasi-sol-elektrikli-katlanir-astarli-sinyalli-hafizali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d58292c73b7d0ae04e4494561f8b01189b7ae2e4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "11.305,96 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900036-dis-dikiz-aynasi-sag-9p-elektrikli-katlanir-isitmali-astarli-sinyalli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/56ea2f473a0210a37c9c285c23fc6020854edc88.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "12.484,98 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900037-dis-dikiz-aynasi-sol-9p-elektrikli-katlanir-isitmali-astarli-sinyalli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/04ca6fa6e4a91dc2d35da67dba02d72d37db4ee2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "10.434,47 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900069-dis-dikiz-aynasi-sol-elektrikli-katlanir-isitmali-hafizali-kor-noktali-kapaksiz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c7e6bd028b5067b69c1bda077d35a16e689dc052.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "6.239,10 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60900070-dis-dikiz-aynasi-sag-elektrikli-katlanir-sinyalli-hafizali-kor-noktali-govde",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3fc34b35ec2eb8df0237f9c83a188568c5000393.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.305,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900007-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6ac2f8c8ef8db5f865045279667c82bb8e6df841.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.305,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900008-dis-dikiz-aynasi-sag-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bd968130d84eac319257ed074fae232fa6c9bf97.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.993,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900019-dis-dikiz-aynasi-sol-elektrikli-isitmali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a0755fcc9f2d97b16741d981a9a925cec916ace2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.353,63 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900026-dis-dikiz-aynasi-sag-manuelastli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8d37e7c4fe0b115cdb912a5b3052c4cdbea24cd4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.448,95 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900028-dis-dikiz-aynasi-sag-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/da1a2b46a2d2d2005e573a4daef7c14a93984729.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.250,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900034-dis-dikiz-aynasi-sag-manuel-fume",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/961c6d8cbb29fbdab2e9e4f06b0aa2c397d8a13f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.932,28 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900039-dis-dikiz-aynasi-sol-elektrikli-fume",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d0f141104a640f4e54b4c193c53a166e8aff6f0a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.931,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900041-dis-dikiz-aynasi-sol-elektrikli-astli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c167d4a165204c14a07ab6f0c0578eed684cb0e2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.461,08 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65900043-dis-dikiz-aynasi-sag-18h5p-elektrikli-isitmali-astarli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/efe2611caeb23c643580a25f638ddb4dc2b4d68d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.321,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900046-dis-dikiz-aynasi-sol-elektrikli-isitmali-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3839320b830dd63b56c261ca06373cca008b073f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.363,55 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900047-dis-dikiz-aynasi-sag-katlanir-elektrikliastli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3f3c1e57197077ce24a1261f5f14c7da7dac9164.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.081,21 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900049-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-3-kapi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/26a8799689f1569d997218be917a6a589fc3fb40.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.283,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900050-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali-3-kapi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bfcc189694daeb9cf75ee5dfab400dfd4dfefd21.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.720,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900023-dis-dikiz-aynasi-sol-elektrikli-isitmali-sinyalli-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7fc4a249e4dffa14d2a52923dc02ef4320aef336.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.475,49 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900025-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali-e-0715184nhel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/28b04e613d9f53758082d3fff651570ec21b847a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.301,57 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900026-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-e-0716184nher",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f33738d5077d9306fc67eb6becf5c40b3c3df61f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.163,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900027-dis-dikiz-aynasi-sol-elektrikli-isitmali-kor-noktali-e-1903-373ehal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/14ef2394e8954a3ead062d943d6032f5adba33c3.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.687,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900030-dis-dikiz-aynasi-sol-elektrikli-otomatik-katlama-vm-018ebcal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5d30d3a9553d354441bcd42089a53fe6342700ca.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.687,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900031-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-sinyalli-kor-noktali-vm-018ebcar",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d01dd034d0c07adab411fe4c862e36c9f6c0330c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.968,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900035-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-hafizali-vm-383ne",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7ebc78f599d06101123eac98e42ea019600129f3.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.394,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900036-dis-dikiz-aynasi-sol-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-kor-noktali-vm-38",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/72a1249bb5e9b8ed912d5668374e552f50f60425.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.079,59 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900038-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali-3-kapi-vm-010ehal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/06abea57a417db842ef948fb8e34144aab84616e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.464,34 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90900040-dis-dikiz-aynasi-sol-elektrikli-otomatik-katlama-vm-382nebal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f48d1eac971957e6c74de760019e72e2cc15c54e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.659,68 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900041-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-hafizali-vm-389ne",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8a6f911a729964d785c6f05927ed0dda26a58f60.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.887,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900043-dis-dikiz-aynasi-sag-elektrikli-otomatik-katlama-vm-197ebr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7dde55ab0d43dd4f46854e16dcdec8b0bc38aab8.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.481,38 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900045-dis-dikiz-aynasi-sag-elektrikli-otomatik-katlama-vm-382nebr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7c491d9485e104c7ff187549f3f347679c0333ba.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "4.923,98 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900048-dis-dikiz-aynasi-sol-elektrikli-katlanir-isitmali-kor-noktali-vm-6196ebal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dc3c41d9dd4bb49a1f870ba4c856480b961a2d46.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "4.415,24 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900050-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-383ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/74291c484dc76ae559ed0afd9d8971cdde0c6123.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.400,14 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900052-dis-dikiz-aynasi-sol-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-kor-noktali-vm-63",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/529e3748c38517e9f66c14d8add5fc7eb9c1cbd0.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "4.144,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900053-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-sinyalli-vm-383ehpr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/360926ffc72ff8594d2359fe9e77339d7cd1b69e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "4.484,19 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900055-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-hafizali-vm-6381n",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6318b141f099a04f365035a4645f43f2b6704b42.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.572,05 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900057-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-5-kapi-vm-011ehr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a95974963ff08aae5c2e8caa7c67d13d06f32e4e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.951,23 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900058-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-018ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/87b9249e75fdb9918f96c489a9cdf95d0855375e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.951,23 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900059-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-018ehpr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e30454b9e5b14f39b6374a230b7b5dfaf75be0ef.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.022,79 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900060-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-kor-noktali-vm-6190ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/eee685a30bd7186caf8a3b2ddf3b9110c6228295.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "5.252,46 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900061-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-vm-6190ehpr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e89eccbcbb596ccd8d7a25cc753130967fbfb2ed.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.951,46 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90900062-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-381ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a871b240095c2ad0dd0a7ffd77b7e64d366ff8a2.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.155,06 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900063-dis-dikiz-aynasi-sag-elektrikli-isitmali-sinyalli-astarli-vm-6194ehpr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b0bbcc497c0433a9750fe0bc094055186d819231.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.155,06 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900064-dis-dikiz-aynasi-sol-elektrikli-isitmali-sinyalli-astarli-kor-noktali-vm-6194ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9c73b76091e578c13aa81a50ddca8724c48d90be.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.352,15 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900065-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-sinyalli-hafizali-vm-6187ehpcr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/43aef92df0cc0c5ff83e393272251ac199daa633.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "6.877,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900067-dis-dikiz-aynasi-sag-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-hafizali-vm-6187e",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b3ea476d107c3bedafe4c87cdccd3ee0892447c0.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "6.005,93 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90900068-dis-dikiz-aynasi-sol-elektrikli-katlanir-isitmali-astarli-sinyalli-alt-aydinlatmali-kor-noktali-vm-61",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a96f1613438f821bd4cb6a375bfcb9528dbe452f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.168,09 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900070-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-197ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/408571ffba257f14816081f8dbf6e221207ecda2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.168,09 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900071-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-sinyalli-vm-197ehpr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/78134cac3bb4cca7b46ccb9075dddb7a1d648379.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.399,25 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900072-dis-dikiz-aynasi-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f16bf27f15214a0febd776fcea39afd1d2d3b4cc.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.399,25 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900073-dis-dikiz-aynasi-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8f50b9620a8e13be6c5a21b1a9ac94095bc56d8a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.774,01 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900074-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-kare-soket-vm-388ehal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/32b9b5222f45470c0c3089cdea1c943be095d308.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.307,84 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90900076-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-6187ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ebcd0edaa1ccecfa921724c785d2fa58309c7910.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.342,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900077-dis-dikiz-aynasi-sag-elektrikli-isitmali-vm-6196ehr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bc25a05237d8737e7af0bd163267c90b4b043e34.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.367,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900079-dis-dikiz-aynasi-sag-elektrikli-isitmali-astarli-sinyalli-vm-6381ehpr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6e2217c368188e7c54ee1a0e9c997a67c9afcd41.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.207,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900056-dis-dikiz-aynasi-sag-elektrikliastli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/15674e76f85e8bf705d4505de67bc5cf231038e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.536,33 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900005-dis-dikiz-aynasi-sol-elekcift-camlisinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dc48834218e2042801f69e33ea669f567c1eced5.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.536,33 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900006-dis-dikiz-aynasi-sag-elekcift-camlisinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9a4c70b32df93863c213db2e8270df847970c4b4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.623,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900007-dis-dikiz-aynasi-sol-mekaniksinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e95e1b102cf0d9ea8f1d1046d52934e15e2aea33.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.623,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900008-dis-dikiz-aynasi-sag-mekaniksinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/580d7dd4dc77aa8b64d54f9520744d8194792fac.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.468,62 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900010-dis-dikiz-aynasi-sag-mekanikcift-camlisinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f803cb2bb7cb871caa156ac11a97a3f68a5cf0d2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.272,70 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900013-dis-dikiz-aynasi-sol-elastresiztansli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0b4f9971773bdd7588c2e86f7ae32030ae9789bc.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.352,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900016-dis-dikiz-aynasi-sag-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/441bb4165b7b9a8035ab762675ad829fb886be09.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.691,04 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900017-dis-dikiz-aynasi-sol-elek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a09f2539d15fcc2cca9a6a76baf95f52d6e9b9fe.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.691,04 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900018-dis-dikiz-aynasi-sag-elek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6b1c3cd44987fed176ec40bd713bc9d28a02835f.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.725,11 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900021-dis-dikiz-aynasi-sol-elekast",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bf3788803b8df61391710fde5a24b361c5396275.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.860,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900025-dis-dikiz-aynasi-sol-elek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f80b130dcaf62938f99bd04b9cd6e037560aa1a8.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.860,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900026-dis-dikiz-aynasi-sag-elek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/42dac3392f34ea6188fec95b3352117d5eb62e81.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.907,65 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900029-dis-dikiz-aynasi-sol-elekast",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d43d6bb6234097d7361daf244ba9d9d8225c52a9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.907,65 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900030-dis-dikiz-aynasi-sag-elekast",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/069bf8a8ba09348ae840e79f1eee25e2b7d3ec4e.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.636,69 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900031-dis-dikiz-aynasi-sol-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bcf12cf61ca33600c337d6c58214bcc485c382eb.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.636,69 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-25900032-dis-dikiz-aynasi-sag-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b169ecfcde0774930063a089232b02213fa3bcd3.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.786,82 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-25900034-dis-dikiz-aynasi-sag-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/53a3b4615a9217488c6bb59915e6d1781327b338.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.430,30 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900073-dis-dikiz-aynasi-sag-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3ee170096f0ffc558ef1d9f57d8d959a6ee8d023.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.229,84 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-70900019-dis-dikiz-aynasi-sag-manuel-astarsiz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/90bea5e326a1b72a1f6c92b97e5bd9e993cfa0b6.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "4.448,15 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-70900055-dis-dikiz-aynasi-sag-elektrikli-rezistansli-otomatik-katlanir",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b3f1f38997146395434026089318418c0774647d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.055,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900011-dis-dikiz-aynasi-sag-kisa-kol-binek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e4490dba3a4e2ca4477a72cdd5cfeadc031f6bda.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.399,33 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900024-dis-dikiz-aynasi-sol-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0ace7d26e29badc21614cc3912117317883f53a7.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.114,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900091-dis-dikiz-aynasi-sag-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/478bb3e51d2de60421aae10e5419505d40794e05.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.317,09 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900109-dis-dikiz-aynasi-sol-sari-sinyalli-elektrikli-katlanir-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/529fdc0c154116b2e5cd8806cbfc5d5dd6548932.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.055,31 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900012-dis-dikiz-aynasi-sol-kisa-kol-binek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3159246c29e688ce58a17a51ca10b6990309b1e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.444,51 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900053-dis-dikiz-aynasi-sag-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b5188f2a2ddd6458fe3113449228456a8a07f7e0.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "9.053,74 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15900004-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-mavi-cam-kor-noktali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d3f63d64cdfcfb2412af771708f3616ec470d6a9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "967,46 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900022-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8020896ccbeb79e3a27f7bee23c5f8f5535092b2.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.857,33 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900099-dis-dikiz-aynasi-sol-beyaz-sinyalli-elektrikli-katlanmaz-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/264fc8db9f3859a561667393f8074dc190ffbd00.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.857,33 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900100-dis-dikiz-aynasi-sag-elektrikli-katlanmaz-kisa-kol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f881cef8565a3db6ba1e0ce7057e81cd552ef3e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.522,16 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900113-dis-dikiz-aynasi-sol-sari-sinyalli-manuel-kisa-kollu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b8042cddc3ba2a081dc49b93f011cad169987c49.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.747,06 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900127-dis-dikiz-aynasi-sag-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7321b847b0a905c4d1732413ef1c1a10e147fd45.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.107,11 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60900002-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e53613f2f864dba39dc7ad72ccc8ac3b31890862.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.167,01 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60900010-dis-dikiz-aynasi-sag-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/77fbcad504513e3eae3bdba26c65cd7167748fc1.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.167,01 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90900009-dis-dikiz-aynasi-sol-e-2251",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/631d6d43d6f26e520574815353159df6cf58d936.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.167,01 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900010-dis-dikiz-aynasi-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/62da77748bd9061e3866c9ac0780591ffc49f683.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.447,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900078-dis-dikiz-aynasi-sol-elektrikli-isitmali-astarli-sinyalli-kor-noktali-vm-6381ehpal",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/56fd16fea6e1cf4681d2ee6cefb201e7d400143a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.055,05 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900013-dis-dikiz-aynasi-sag-kisa-kol-binek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/08e0a12aedd7d38165bc2653495927dedb175a32.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "869,79 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900014-dis-dikiz-aynasi-sol-kisa-kol-binek",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/061baa0cbe2f34b6f03806ea41febc7a0d84874c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.399,33 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900023-dis-dikiz-aynasi-sag-elektrikli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ae98a44fa07535abb7988f2655fe1f074e28cefa.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.317,09 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30900110-dis-dikiz-aynasi-sag-rhd-elektrikli-katlanir-kisa-kol-sinyalli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3381faf3cae284534de6d43bf452a3a3ec99bf5b.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.076,82 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900119-dis-dikiz-aynasi-sag-uzun-kol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/93f2e2f236e0219722852f689d33d5d35051c774.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.076,82 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900120-dis-dikiz-aynasi-sol-uzun-kol-manuel-soldan-direksiyon",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/10ef13374adbca3ed635ab06046733f9d964e43d.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.119,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900128-dis-dikiz-aynasi-sol-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bdfd70c321abae79de4204fa46779691a086aa1a.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.245,38 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900033-dis-dikiz-aynasi-sag-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b1d668b04eb8ee5a33f93e78490cf9ed0f7362a4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.245,38 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900034-dis-dikiz-aynasi-sol-manuel",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7e2b40ed1bb709d0d6f3c0a9fb7d6f6ac32faaa1.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.205,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30900062-dis-dikiz-aynasi-sol-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5c959b6936e74fe52121a04ce5eb8b2c3dddc115.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "1.967,85 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900030-dis-dikiz-aynasi-sag-manuel-fume",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b09dda4ee4ee76816db95bd8757c03814da6fbd4.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "3.163,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90900028-dis-dikiz-aynasi-sag-e-1904-373ehr-normal-katlanir",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f2615fc330b1f0c6d2a0713cc19d3da1e2f4654c.webp?width=358&height=358"
+    },
+    {
+        "name": "Rearview mirror",
+        "price": "2.048,61 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65900054-dis-dikiz-aynasi-sol-elektrikli-isitmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/fbfe371f46ebbee9a93affc5d64cff72e10787da.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering Hydraulic Oil Store",
+        "price": "811,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30371003-direksiyon-hidrolik-yag-deposu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2b06be261445118e789184f9d59c4ca8b6fc97c0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering Hydraulic Oil Store",
+        "price": "659,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30371004-direksiyon-hidrolik-yag-deposu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e08127a0e488e40ddf94a91084bbfadd1a7de59b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering Hydraulic Oil Store",
+        "price": "842,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30371005-direksiyon-hidrolik-yag-deposu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f582f78cfe4c4b5a347577c5cbaa0b3cc6bc5f09.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering Hydraulic Oil Store",
+        "price": "473,67 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90971001-direksiyon-hidrolik-yag-deposu-100-623-0000",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/02948c2c55ecfd4a3f8c37b82c51af856ca85fb8.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "421,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30725003-direksiyon-hortumu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/13ad4e254eb1daa5b829d566efb3b6fdb4462200.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "372,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30725004-direksiyon-hortumu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c8eabbb4a22159386773047544aca7d6ae4444bd.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "3.145,14 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30725034-direksiyon-hortumu-pompa-direks-disli-giris-kutu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f6d40b93f8ed6c066c147e5d72844d092bf6bff7.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "2.060,93 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30725035-direksiyon-hortumu-pompa-direks-disli-giris-kutu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4f9f2019119368e7dea27e8a407a7a1642e69c70.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Steering hose",
+        "price": "7.530,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30725038-direksiyon-hortumu-pompadandir-dis-kutusuna",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/67ab64f583f55f69fbb22381b3fb8443d94e62c0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "125,08 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30725075-direksiyon-hortumu-depo-pompa-arasi-benzinli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f8e89e3d1859e11c5be7abf75718be3ee537b46b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "192,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30720260-direksiyon-hortumu-depo-pompa-arasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c7e7d0a255fe32ffff35680780d3bb26b2c19a3e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering hose",
+        "price": "154,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75720060-direksiyon-hortumu-reservuar-hortumu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0886b41e2309896f3784cf14ca7a3319f967a8cb.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "95,48 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705035-direksiyon-rot-korugu-mekanik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3f23b9cfa7edd5d90af342067ce0a72788b132be.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "68,52 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705036-direksiyon-rot-korugu-hidrolik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/09996ac010455d813eef6844ba34072c01f0b49c.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705037-direksiyon-korugu-sag-kisa",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/11cd1f0ed9838fee5a6aeeeccc014051bedb2820.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705038-direksiyon-korugu-sol-uzun",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cfb2e6372667f5c1a70598a41e53d566c303e92e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705039-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8ac9321617854a19752e99a48048c37c2a168321.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "133,10 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705040-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/614aee375c6c080830be89db185de07a184ea45d.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705041-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6515f2571bed163e54282a4f012040fbeeb64679.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "178,92 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705042-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/61c1a188eee2ab653de8851d54b0894801930d78.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705048-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ef32d8bbf293970d260dacf783d342530161eb3a.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705051-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a34f92c2bb95e803cea773c958d5ef5a18dd4349.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "84,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30705055-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2c9de74c4979159a476846d771a7ab313db69d19.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "118,66 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40705007-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/427ab8b9d478e2bd603df012e86513771bc64162.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "79,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60705001-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1a99542027f58f2bfc6d99976a1606e99cfd98be.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "71,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60705002-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e7fe0c05cf01e83366b6e85551c533b53de96d17.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "165,27 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-16705010-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/42990fb746bd37a1f880c5013c1bf41b05b92a01.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "180,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-16705012-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2284b4c2fe0b4dabadfeb1931b2999cb69c6c3fa.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "134,08 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705027-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e5d2ddf709ac6cd12629a46aba8631e65e3b3c48.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "163,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705028-direksiyon-rot-korugu-kit",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a2130e16523a0875f90ef861911073062a926e40.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "43,68 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705031-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/da490d82e17396e8394e12e3af2a0dfa8f980e2f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "173,92 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705048-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/eedf5e0fab3b495ac0987cd32786d0a9398ec4e3.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "145,36 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705049-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1782f0826920bdbd6620ea00de5ba88ab12ec080.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "501,78 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705050-direksiyon-rot-korugu-hiddiricin",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c3448f13e26a6cee80a9f28c41bf744f477d6a24.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "490,97 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705051-direksiyon-rot-korugu-hiddirharic",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0aacb211ce028d34c4d5e6afa383f3ca393fbe67.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "137,48 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705054-direksiyon-rot-korugu-elekservo-diricin",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1d48735c2351acc632d5923754266481a6ee203c.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "143,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705005-rot-mil-korugu-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f2efe66f10e0ffd53c6b6de4cacb81f39c4cc321.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "188,14 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705006-rot-korugu-sagsol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4d5c4093c3dfb9b3406f893e3291ca4a403b7aec.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "185,03 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705010-direksiyon-korugu-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6d83aadc9110e80356145dbac31ac393dd3f3383.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "87,88 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-70705012-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b86bb89a2ca75832097320de122710cb5d40097e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "191,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75705006-direksiyon-rot-korugu-sagsol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a5e817e14e6acc864fa879f8d1d14a465022c4ee.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "113,04 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75705011-direksiyon-rot-korugu-sagsol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b899b4b2297c101723ffeb12838571bdb91b4a9b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "119,08 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-75700063-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2ebb6f723169c53aff6b9e0782d57803c7ed7bda.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "123,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705012-direksiyon-rot-korugu-31054-33739-01",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6dc4af1ba1da0028489a733428820f50b3e1bcca.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "160,88 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90705013-direksiyon-rot-korugu-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dfce3407a7acc68bcd5f504226332bbb9f27cfa4.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "108,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705014-direksiyon-rot-korugu-21698-30177-02",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a285720f74713a441602284cd245fc1fd05450c2.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "104,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705024-direksiyon-rot-korugu-21700-30235-01-koyo-tip",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/539d023cc1414efa2965cdb13dbf595bd271cd70.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "193,34 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705025-direksiyon-rot-korugu-38621-34703-01-trw-tip",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/84b1380f97446970141b4f3ecd9360be72fe69b3.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "178,92 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705034-direksiyon-rot-korugu-sag-45478",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0544a204513cdb44a339d58925db7615f150d357.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "129,36 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90705037-direksiyon-rot-korugu-10849-3017501",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6940bf3ef0f9584ca9e535747adaf2272a1bf072.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "123,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705038-direksiyon-rot-korugu-21694-3012701",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/59d48cf6b0484e62cb2bcdfb68e06bb344c7a00f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "159,32 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705052-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7a467ad00fb8abd88b345d898d4a89903bfec158.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "197,72 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-16705011-direksiyon-rot-korugu-hidrolik-direksiyon-icin",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/645c2b9edfa39349ef151fe1cc7b983e5ae03f09.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "78,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705011-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1dc1686d937c80b7cce8c7909d4946c2a3db1a8d.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering box",
+        "price": "2.033,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30360002-direksiyon-kutusu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/33f0cc4e570c2f75c3d59c295cc938d674ed157c.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering box",
+        "price": "2.573,17 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30360003-direksiyon-kutusu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/511507151634d9ca60254aac92c06fc7dc38174d.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "145,36 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705049-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1782f0826920bdbd6620ea00de5ba88ab12ec080.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "501,78 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705050-direksiyon-rot-korugu-hiddiricin",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c3448f13e26a6cee80a9f28c41bf744f477d6a24.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "490,97 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65705051-direksiyon-rot-korugu-hiddirharic",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0aacb211ce028d34c4d5e6afa383f3ca393fbe67.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "137,48 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705054-direksiyon-rot-korugu-elekservo-diricin",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1d48735c2351acc632d5923754266481a6ee203c.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "143,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705005-rot-mil-korugu-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f2efe66f10e0ffd53c6b6de4cacb81f39c4cc321.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "188,14 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705006-rot-korugu-sagsol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4d5c4093c3dfb9b3406f893e3291ca4a403b7aec.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "185,03 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705010-direksiyon-korugu-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6d83aadc9110e80356145dbac31ac393dd3f3383.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "87,88 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-70705012-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b86bb89a2ca75832097320de122710cb5d40097e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "191,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75705006-direksiyon-rot-korugu-sagsol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a5e817e14e6acc864fa879f8d1d14a465022c4ee.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "113,04 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-75705011-direksiyon-rot-korugu-sagsol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b899b4b2297c101723ffeb12838571bdb91b4a9b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "119,08 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-75700063-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2ebb6f723169c53aff6b9e0782d57803c7ed7bda.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "123,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705012-direksiyon-rot-korugu-31054-33739-01",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6dc4af1ba1da0028489a733428820f50b3e1bcca.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "160,88 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90705013-direksiyon-rot-korugu-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dfce3407a7acc68bcd5f504226332bbb9f27cfa4.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "108,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705014-direksiyon-rot-korugu-21698-30177-02",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a285720f74713a441602284cd245fc1fd05450c2.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "104,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705024-direksiyon-rot-korugu-21700-30235-01-koyo-tip",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/539d023cc1414efa2965cdb13dbf595bd271cd70.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "193,34 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705025-direksiyon-rot-korugu-38621-34703-01-trw-tip",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/84b1380f97446970141b4f3ecd9360be72fe69b3.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "178,92 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705034-direksiyon-rot-korugu-sag-45478",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0544a204513cdb44a339d58925db7615f150d357.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "129,36 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90705037-direksiyon-rot-korugu-10849-3017501",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6940bf3ef0f9584ca9e535747adaf2272a1bf072.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "123,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90705038-direksiyon-rot-korugu-21694-3012701",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/59d48cf6b0484e62cb2bcdfb68e06bb344c7a00f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "159,32 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-65705052-direksiyon-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7a467ad00fb8abd88b345d898d4a89903bfec158.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "197,72 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-16705011-direksiyon-rot-korugu-hidrolik-direksiyon-icin",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/645c2b9edfa39349ef151fe1cc7b983e5ae03f09.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering wheel",
+        "price": "78,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70705011-direksiyon-rot-korugu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/1dc1686d937c80b7cce8c7909d4946c2a3db1a8d.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering box",
+        "price": "2.033,36 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30360002-direksiyon-kutusu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/33f0cc4e570c2f75c3d59c295cc938d674ed157c.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering box",
+        "price": "2.573,17 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30360003-direksiyon-kutusu",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/511507151634d9ca60254aac92c06fc7dc38174d.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.408,29 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15355035-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/713b03060406a5750b77715cc4e10498fbc66670.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.230,42 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30355001-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/38bd0e9faf00a9a18a4027ce9afca592aeca0cd5.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.586,95 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30355002-direksiyon-pompasi-aceker1c1c-3a696-ae",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ac9593d7730c12266d93a012740b46afafe61ece.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.557,49 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-30355004-direksiyon-pompasi-kasnakli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6fb94557053a0b25d8d2b130855bac46531e5e07.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.099,79 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30355006-direksiyon-pompasi-komple-ac-ps-siyah",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5da674a7c4a6bd893fa5e66e7ad566c3e7a1929f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.667,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30355007-direksiyon-pompasi-klimali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/46cbf892c6d750d97a37eea56d5eb751cadb4128.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.256,05 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30355009-direksiyon-pompasi-komple-kasnakli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a0dde07b52330c549355ab9fbf7713ffc9695718.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.346,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355002-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6d11237b4cb282a89b6d507205e66d14d962b156.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.698,99 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355004-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d4d9b73d4080f48924caf465102425b598fdd7c7.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.931,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355005-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dbb11e3a71b0bca652a759150c2409d455299044.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.077,41 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355006-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e84ed6d47329e1d51f8ed10546d785330565a7af.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.954,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355008-direksiyon-pompasi-hidrolik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/611926cd0151c4533cd10c126ab4b7b64b147317.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.315,23 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355013-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b42c7cda61235f377a84426dd6f1ab30a29bf6b0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.954,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355016-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d4654ae6f60f46e49db21a8d4d7d2f8932edac0e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.488,43 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40355017-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/578387c9ddc47ae6cc37db73e6dac9a5d8c0e953.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.871,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355001-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a2949310a6895f31838190deb8b8dfe06604b51d.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.481,48 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355002-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b60bee27f770b78e103c242a0bf8e34579c06da8.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.954,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355003-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/eb189eeaedf9313b0b3833191064b4128fd3d1b8.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.754,04 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355004-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/00e79f1f9bccbe40123896d69beecf9731a7848f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.810,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355005-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/93c415190adf25b3cdde3b0a9c09cef83a38a3e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.346,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355006-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/dcb41b448facfb477f7c0f18f04c9b6a2ad33cbd.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.816,26 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355007-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/183c5984e09d47d33e1c8d4b9fb74fd1b997c2c3.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.532,30 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355008-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/aa44a619ffb4e6c09de6e66db9fa7387a3fc121f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.591,49 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355009-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3c07497f9b6a53c8f8d0382f01570e8162f984ab.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.658,43 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60355010-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/60a1ed4d8cef6a46bca93946e2133c252f983307.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.834,73 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355012-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/94a297c0ce29fb18ddc95154e5c77d40df603bad.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.064,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355013-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/94996ff25d5eefb7056fdfa9380c601e8d45930b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.077,13 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60355014-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/556a58f6a2a26c5b67b4700e8a049a6c905080c5.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.034,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355015-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f0ed73dac0dd4176d38928b3b3d5a001aa86b5a0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.173,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355017-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6a997145ba549858d2780d3e98d127ed41976d5b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.068,73 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355018-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/abcc75b9d043a4e041b444f5fc36367bc28e68c8.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.722,44 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355019-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f28b443d7c6dd91030f27009b8b918c60b22833f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.810,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355020-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d7c260156fe4013e78bb50a89adf135d0a4268dd.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "5.137,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355021-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c45d670560e34be41d81f1058723f0160007781f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.754,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355022-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/50b3f1d6d480dd9a6fc04abcfb0e002a279f79cd.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.328,80 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355023-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ebddb7b6e5c638dc8be97636888a6f0bc43fd36d.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "1.996,09 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355024-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8c478bcad79ae11dc8a181942881e371d2a4ca88.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.941,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355029-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9be826afb0da7fcdb43fdc98bcb56f7a56112c55.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.618,90 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60355030-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d2446853d21b5c1cb7a5bd7b9b1be2d6d4bf4096.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.210,99 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355031-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5c68b11aa6666b810a39fbac233ea7c5ceb1cda0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.752,19 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355003-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2637532dea5d926e8befb3c5006cec6e9e64c0e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.612,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355004-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/53570585b9e47342608e9479190e4a3ac8d49e00.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "1.922,12 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355005-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c29cd94f616c1b0028fcfdd8714ff9dc9a3ea5c9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "1.921,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355006-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3f4a08c95c4d74996bc4a4b269fe478919ba1ee9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.634,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70355004-direksiyon-pompasi-hidrolik-kasnak-135-mm",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2796b6c337022329a9bd5c011fe5f3a0ad930245.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.683,79 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70355007-direksiyon-pompasi-hidrolik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/17dea3f7bf00f2e1ce8762a778ef1ae8f51e843e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.042,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90355005-direksiyon-pompasi-jpr388",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cdfe4ec7dd8cd3af11d202d3c86b9cf1be43ee74.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.192,02 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90355008-direksiyon-pompasi-jpr734",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4deb062630948c8550f67ef1dd7efc788b7a7339.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.658,43 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60355010-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/60a1ed4d8cef6a46bca93946e2133c252f983307.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.834,73 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355012-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/94a297c0ce29fb18ddc95154e5c77d40df603bad.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.064,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355013-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/94996ff25d5eefb7056fdfa9380c601e8d45930b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.077,13 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60355014-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/556a58f6a2a26c5b67b4700e8a049a6c905080c5.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.034,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355015-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f0ed73dac0dd4176d38928b3b3d5a001aa86b5a0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.173,53 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355017-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6a997145ba549858d2780d3e98d127ed41976d5b.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.068,73 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355018-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/abcc75b9d043a4e041b444f5fc36367bc28e68c8.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.722,44 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355019-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f28b443d7c6dd91030f27009b8b918c60b22833f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.810,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355020-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d7c260156fe4013e78bb50a89adf135d0a4268dd.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "5.137,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355021-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c45d670560e34be41d81f1058723f0160007781f.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.754,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355022-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/50b3f1d6d480dd9a6fc04abcfb0e002a279f79cd.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.328,80 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355023-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ebddb7b6e5c638dc8be97636888a6f0bc43fd36d.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "1.996,09 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355024-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/8c478bcad79ae11dc8a181942881e371d2a4ca88.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.941,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355029-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9be826afb0da7fcdb43fdc98bcb56f7a56112c55.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.618,90 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-60355030-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d2446853d21b5c1cb7a5bd7b9b1be2d6d4bf4096.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "3.210,99 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60355031-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5c68b11aa6666b810a39fbac233ea7c5ceb1cda0.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.752,19 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355003-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2637532dea5d926e8befb3c5006cec6e9e64c0e9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "4.612,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355004-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/53570585b9e47342608e9479190e4a3ac8d49e00.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "1.922,12 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355005-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c29cd94f616c1b0028fcfdd8714ff9dc9a3ea5c9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "1.921,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65355006-direksiyon-pompasi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3f4a08c95c4d74996bc4a4b269fe478919ba1ee9.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.634,91 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70355004-direksiyon-pompasi-hidrolik-kasnak-135-mm",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2796b6c337022329a9bd5c011fe5f3a0ad930245.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.683,79 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70355007-direksiyon-pompasi-hidrolik",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/17dea3f7bf00f2e1ce8762a778ef1ae8f51e843e.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.042,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90355005-direksiyon-pompasi-jpr388",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cdfe4ec7dd8cd3af11d202d3c86b9cf1be43ee74.webp?width=358&height=358"
+    },
+    {
+        "name": "Steering pump",
+        "price": "2.192,02 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90355008-direksiyon-pompasi-jpr734",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4deb062630948c8550f67ef1dd7efc788b7a7339.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.280,11 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836007-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a7caef6f8283bc027d30fd4ac9f9701e67fbb7df.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "3.043,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836008-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/abc99071e06543b7bba9ca272ea529cbe4969dd6.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.207,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836009-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/52988e6e7edbee34b9fe30da7161844d16ba27ff.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "962,01 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836010-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/65ef95d0c2fdf5dc84ab8df5cc87ad158af2b2ef.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.858,31 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836011-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7ae19b2d4e740ac94db88b94e48b51550e7bdf07.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "3.248,45 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836012-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4cc526d4cc869b3bb1a4b11f7e4e4345be3ed192.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.645,44 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836013-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/cc5205ec6859db8d35eb5e110e2b46aa89c3377b.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "4.344,65 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836014-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ebc8f1947caf0d5b157f5579b630952997c4f4ce.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.773,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836016-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/337f5f596b57e1c8e6efb0f0935cb09d8dea5c12.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.364,58 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836017-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b9fae908d4bacfca8c593d546f577738608ee2bc.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.027,14 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65836018-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/224b6e34e1878dc0a8b5bc2dd28e408b6f62f810.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.489,03 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70836001-egr-valfi-9673258680-iv-su-sogutmali",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ec9791e6b69b8284f02f6ca5b51a6695cce3646a.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.140,07 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70836002-egr-valfi-kablosuz-9672880080-1618nr",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/da72ee225fea4b9ea13469863f1fd61cde8c27b0.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "3.629,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70836003-egr-valfi-36000980",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/448cffc1490ee36fccd2ee2975e1cce716a823ca.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "3.248,45 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-70836005-egr-valfi",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/9aac1cb096d78b055f5d8884f9d361f3ecc2aa1c.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.785,47 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836001-egr-valfi-728248170",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2f50eba02053d290de28960aa92226d89b967156.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.376,10 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836003-egr-valfi-722785170",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/87020fc7ec6d591c8844217bbee7953d622c30d4.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.391,94 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836004-egr-valfi-724809160-7496d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/83f20856432b0612a2e89de2c51b8941d4c5dcb6.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.669,66 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836005-egr-valfi-724809200-7372d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/388720c9503dfa6541146c475ba8a53e0a028b94.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "4.800,19 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836006-egr-valfi-408-275-002-001z",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3339c4551049872d1846eaedff49ab700d5636aa.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "1.402,62 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836007-egr-valfi-724809170-7293d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ae387d93af0733e5f9f5761071c2709ecd7c8bed.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "3.092,08 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836008-egr-valfi-700424-710940r",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2aafac269aa5790576ee0c5d8e26a70fe1457786.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "4.975,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836009-egr-valfi-408-265-001-005z",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/814d81847fe818723017da153b847a5ba0459c19.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "4.754,75 TL",
+        "availability": "Unknown Availability",
+        "link": "https://aloparca.com/product/bsg-90836010-egr-valfi-408-265-001-002z",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/21e7dbb4dbf0fdffacef2a2fc4fefee4a5b51908.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.575,74 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836012-egr-valfi-724809320-7451d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d50b30a7caf9efefa51e2087ccedb740e7d68e26.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.669,66 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836013-egr-valfi-724809380-7649d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c9ae4d021c3c23990c3701661f29f364df8b3382.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "4.098,16 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836014-egr-valfi-724809310-7271d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ebf20e2fd8da1f7cf5b45abe14ace2b0cfb50675.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "3.880,98 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836018-egr-valfi-710863d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/29f4c2abf83d76d351e17fd02ef9b3ca345e1fa1.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "4.155,71 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836019-egr-valfi-710862d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/284b58735b13b47cfb916847bf13561d4a405337.webp?width=358&height=358"
+    },
+    {
+        "name": "EGR valve",
+        "price": "2.636,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90836015-egr-valfi-724809520-7223d",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/eba78240916c2b55210db86fae99086e1bdb02c9.webp?width=358&height=358"
+    },
+    {
+        "name": "Additional Brake Lamp (3rd Stop)",
+        "price": "141,32 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90810013-ek-fren-lambasi-ust-orta",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/73b2e0977ab37460b01aadff1521460d6be3a074.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "438,48 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15837027-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f06486c67971d6cb1ddb3869ee27c3edad6843ed.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "357,05 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15837029-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e05e4c2f42cc498daaa654eba11705f3682c478a.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "351,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15837038-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/e7f3bdbf40afdc8ec82646c1d9b4df7bcb9796ad.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "375,93 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15840013-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f08a1511e1fab22a56fb3f7ea31d3e8255317f65.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "276,90 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15840015-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/39355145b49367036e1339b925faf555c131e3da.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "350,52 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15840017-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/bfc29e53225894758e06a5b1190ef9002bf3b822.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "451,52 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15840018-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/96fcddbf4d8a72fdf0b9afc2650760e11731c86c.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "453,47 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15840019-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/0f15a5696be7ae14dccf7dd2a0727a024e87ca37.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "394,83 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15840020-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2c0a6f4497831d49c0523976b15e3a67d102993a.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "401,34 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30840024-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/aceb3db929d637c1135dfc6df10536fa7485c506.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "392,88 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30840025-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/71ad66cf4b906778203fe09d4bcc77983afef14e.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "379,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30840065-eksantrik-devir-sensoru-lr016847-19207vy602-18-230",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/a260625c0f1c3cc1073af21e60054bdf18d082ae.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "371,37 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30840067-eksantrik-devir-sensoru-96374991801920ej2s6q12k073aa1148056",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/632e35e99b2351e7a000653e6ea84b6aa8f391ef.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "387,66 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40840006-eksantrikkrank-mil-sensoru-tdc-sensoru-krank-pozisyon-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/fddc065e258452ffd1d1b51742363fa005a4639b.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "413,07 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-40840010-krank-pozisyon-sensoru-krank-aci-sensoru-tdc-sensoru-eksantrik-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/07771b179f277dc3278daac39b71b2f8a961c2d7.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "418,29 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840048-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f0ddacc15534d4813cc4a67b431405e06ef943b4.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "426,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840049-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/19d1d6c8105ef8030417ec8b7ce6282b1b70c12e.webp?width=358&height=358"
+    },
+    {
+        "name": "Unknown Product",
+        "price": "Price Not Available",
+        "availability": "Unknown Availability",
+        "link": "#",
+        "image": "https://bcdn.aloparca.com/category/icons/10105.svg"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "388,32 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840050-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/7abed1fec1d1a8a1e12825354e9190e8c9d9bcf8.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "372,68 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840052-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b8a2896597c8ddcca626b27233d05e7de52adb5e.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "354,44 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840053-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5f5c838a24441d1b22b471db2a98ee32d4fed152.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "447,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840054-eksantrik-devir-sensoru-sol",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/eee0eb642e378d4a4785a7c7a1ca3b799adbccb1.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "406,56 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840055-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/96f10aba76b64fe75e6f3d219a07af6a5988de95.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "419,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840056-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/73c48a3fc28dcb58212f8e6e0cffaf78613f4027.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "442,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840060-eksantrik-devir-sensoru-sag",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/22338e2b04afa3da6f9c931c1bb1374e99d3e1b5.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "505,59 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840061-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/4524e5fd470f19b5477812865a822a83f15561cf.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "447,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-60840064-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c47bcb200703c8ab18fece69e3d91039043233a8.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "356,39 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-16840002-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5b30401f9cdfcbe537c24bf7d29fe2e25c999d2e.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "359,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65840020-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/2c50d161eb2ffe05d64e1c208739d92b11daeb4d.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "341,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65840021-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/75ceea2918fa6998521593493016701a02841e84.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "440,45 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65840022-eksantrik-devir-sensoru-3-fisli",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/ebbb9f30830b79edaf05654a6a5264558a5c1035.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "377,24 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-65840025-eksantrik-devir-sensoru",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/f8c240d20d7475688f5e06e12bc4f7c2db27fd73.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "239,76 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90840027-eksantrik-devir-sensoru-0986280429",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/5b2c1707af72f187aacaa47fc95f103b8f80ac35.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "419,60 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90840028-eksantrik-devir-sensoru-90423",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/3c733458a434dfbc9536024c7a0e2beaad3a17f5.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "169,40 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90840029-eksantrik-devir-sensoru-0232101031-impuls",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/c67884a2d354b21ed84791e10127c58e482f10c4.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "273,00 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90840034-eksantrik-devir-sensoru-0232101024-hall",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6ee1072c7de42aa5c8167d74768cafd74c803def.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric speed sensor",
+        "price": "271,04 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-90840035-eksantrik-devir-sensoru-0986280420",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/d22684253f9f243f79dc9a2a3e2c61db28962ed0.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric gear",
+        "price": "5.034,20 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15109004-vanos-egzoz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/6f96d404f90a401da14e874aaff9886f523fd1a7.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric gear",
+        "price": "3.398,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15109005-vanos-egzoz",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b6ca4a11bba482da3be8e496ab2dd3dc0df22d91.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric gear",
+        "price": "3.341,84 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15109006-vanos-emme",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/54c68ebe711882658e2178acb52ee044e48591ea.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric gear",
+        "price": "6.191,75 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-15109008-vanos-emme",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/b1fb14ec01fab65419e129bb362bfc920a4b0ce9.webp?width=358&height=358"
+    },
+    {
+        "name": "Eccentric cover seal",
+        "price": "151,64 TL",
+        "availability": "In stock",
+        "link": "https://aloparca.com/product/bsg-30116028-eksantrik-kapak-contasi-on",
+        "image": "https://bcdn.aloparca.com/yedek-parca-resimleri/4455/073b3dcc9d6b6c52061520acd1d7c51e13600633.webp?width=358&height=358"
+    }
+]

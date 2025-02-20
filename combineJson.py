@@ -22,4 +22,4 @@ def merge_json_files(input_folder, output_file):
     print(f"Fichier combiné enregistré sous : {output_file}")
 
 # Exemple d'utilisation
-merge_json_files("CombineJson", "fichier_combine.json")
+merge_json_files("AllProduct", "fichier_combine.json")
