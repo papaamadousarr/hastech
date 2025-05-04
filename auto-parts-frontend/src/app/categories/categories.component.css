@@ -1,0 +1,32 @@
+/* Custom scrollbar for the category list */
+ul::-webkit-scrollbar {
+  height: 4px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+/* Icon filters */
+.filter-8e979c {
+  filter: invert(60%) sepia(14%) saturate(343%) hue-rotate(167deg) brightness(90%) contrast(87%);
+}
+
+.group:hover .group-hover\:filter-f85a00 {
+  filter: invert(45%) sepia(98%) saturate(1887%) hue-rotate(351deg) brightness(102%) contrast(101%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  ul {
+    padding-bottom: 8px; /* Space for scrollbar */
+  }
+  
+  .text-sm {
+    font-size: 12px;
+  }
+}

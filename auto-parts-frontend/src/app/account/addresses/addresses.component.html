@@ -1,0 +1,23 @@
+<div class="addresses-section">
+  <h2>My Addresses</h2>
+  <div *ngIf="successMessage" class="success-message">{{ successMessage }}</div>
+  <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+  <form (ngSubmit)="addAddress()" #addressForm="ngForm" class="address-form">
+    <div class="form-group">
+      <label>New Address</label>
+      <textarea [(ngModel)]="newAddress" name="address" required></textarea>
+    </div>
+    <button type="submit" [disabled]="!addressForm.valid">Add Address</button>
+  </form>
+
+  <div class="address-list">
+    <div *ngFor="let address of addresses" class="address-item">
+      <p>{{ address.fullAddress }}</p>
+      <div class="address-actions">
+        <button (click)="editAddress(address)">Edit</button>
+        <button (click)="deleteAddress(address._id)">Delete</button>
+      </div>
+    </div>
+  </div>
+</div> 

@@ -1,0 +1,73 @@
+{
+    "title": "Dodge",
+    "models": [
+        {
+            "name": "CALIBER",
+            "image": "https://bcdn.aloparca.com/car-images/2RXulLTV3vr475BwvnTZKcp184AyOpE6e3WWeJ7H.png?width=219"
+        },
+        {
+            "name": "NITRO",
+            "image": "https://bcdn.aloparca.com/car-images/iTDlvXnIHVVdfh3sEyfql7c7PQ8bn60b0pxQ2GdN.png?width=219"
+        },
+        {
+            "name": "JOURNEY",
+            "image": "https://bcdn.aloparca.com/car-images/5SpjQaXLbo0EJ8GPooe9HOUuek11cSbMb7rYHN39.png?width=219"
+        },
+        {
+            "name": "RAM",
+            "image": "https://bcdn.aloparca.com/car-images/EtMugQc3locC89PSvpo5jo1jop728F7RdeKCW8Wx.png?width=219"
+        },
+        {
+            "name": "CHALLENGER",
+            "image": "https://bcdn.aloparca.com/car-images/iLJZo5o7LKSZvPLme4YUFoz6czdsoJsp1TOI5eK4.png?width=219"
+        },
+        {
+            "name": "CHARGER",
+            "image": "https://bcdn.aloparca.com/car-images/CofFGkaOZcLCRpAb29iCn4YgQc7ch2ZMdEKGK7Vp.png?width=219"
+        },
+        {
+            "name": "DURANGO",
+            "image": "https://bcdn.aloparca.com/car-images/HlSaBtCfD6VJcAMlDSkoPYu4zXQLbFiWUmqKrbDn.png?width=219"
+        },
+        {
+            "name": "AVENGER",
+            "image": "https://bcdn.aloparca.com/car-images/5HRb3GfMQS1yzHyWQK4ctS8loGQFjmFyM2jV3jWo.png?width=219"
+        },
+        {
+            "name": "MAGNUM",
+            "image": "https://bcdn.aloparca.com/car-images/beajJx8CdMc2g2DGBYV4anOA6hZUnysRX1aVwVUu.png?width=219"
+        },
+        {
+            "name": "DAKOTA",
+            "image": "https://bcdn.aloparca.com/car-images/iMNCGL0qVRMOC5fC3WiVcTkGOc0XTMpS8Wt9xNhg.png?width=219"
+        },
+        {
+            "name": "VIPER",
+            "image": "https://bcdn.aloparca.com/car-images/rmOyOAMEQmnGVADA4OkRqFJyBWehbslNjvWq6c1y.png?width=219"
+        },
+        {
+            "name": "DART",
+            "image": "https://bcdn.aloparca.com/car-images/Twy4O00NxUHKB92EQGihdkHesy3yjeoclyazOTjJ.png?width=219"
+        },
+        {
+            "name": "RAMCHARGER",
+            "image": "https://bcdn.aloparca.com/car-images/NB0iiuPMTo1rfvu1X3qetqZngdLC5eWuFAmoNIir.png?width=219"
+        },
+        {
+            "name": "NEON",
+            "image": "https://bcdn.aloparca.com/car-images/trLd5ynqdJCElDDTEvHJIDAjcwQOYPCaaoXW0kNZ.png?width=219"
+        },
+        {
+            "name": "SPRINTER",
+            "image": "https://bcdn.aloparca.com/car-images/tiV4eQK0j09rhEPjhNjIPoJBEtonUAKsdbtn03wO.png?width=219"
+        },
+        {
+            "name": "STRATUS",
+            "image": "https://bcdn.aloparca.com/car-images/XaOxdmaMO4RJD3lrlXw6gP6cEUSHraB1waYLgk6X.png?width=219"
+        },
+        {
+            "name": "i10",
+            "image": "https://bcdn.aloparca.com/car-images/Yfsq93jdLbo8OFfSzRPRHozELfXXo9vbXCAp3X7B.png?width=219"
+        }
+    ]
+}

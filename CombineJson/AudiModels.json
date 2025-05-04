@@ -1,0 +1,155 @@
+{
+    "title": "Audi",
+    "models": [
+        {
+            "name": "A4",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a4",
+            "image": "https://bcdn.aloparca.com/car-images/4dfI91linA4MOJgY6ZsDm8jmNA7dQPvtLo43Oc2e.png?width=219"
+        },
+        {
+            "name": "A6",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a6",
+            "image": "https://bcdn.aloparca.com/car-images/eoUKjl9OJlZdGaZc22oRbyTJfTUvi8c72KJepjzN.png?width=219"
+        },
+        {
+            "name": "A3",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a3",
+            "image": "https://bcdn.aloparca.com/car-images/xNm3MHs3sP2VEGlkP40LQO9S4p6ElfL89ICOsKRj.png?width=219"
+        },
+        {
+            "name": "A5",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a5",
+            "image": "https://bcdn.aloparca.com/car-images/vRX3kRQguCITVuMVnWDruegBenwOkgsFQM8S5aTZ.png?width=219"
+        },
+        {
+            "name": "Q5",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-q5",
+            "image": "https://bcdn.aloparca.com/car-images/xrXS8GDYoEOEpCZQXo9foSnNPL6D8HKhspzj1YCN.png?width=219"
+        },
+        {
+            "name": "A1",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a1",
+            "image": "https://bcdn.aloparca.com/car-images/5YS9ZhjizGfhSbg0NwOWAAOJWyO76RzZn4HL2n1O.png?width=219"
+        },
+        {
+            "name": "80",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-80",
+            "image": "https://bcdn.aloparca.com/car-images/SlfdyWu1BWMcl5jxvnBBEKJ1yY1QbdgXb5IFAcLv.png?width=219"
+        },
+        {
+            "name": "A2",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a2",
+            "image": "https://bcdn.aloparca.com/car-images/5QI0ruuCI2VAFy1LJI5v5L0b60A5OLRi5ZRibSaw.png?width=219"
+        },
+        {
+            "name": "TT",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-tt",
+            "image": "https://bcdn.aloparca.com/car-images/NmT5CPOn4q7TmsNyS6APtKzQQrFQwI6NXDKqn7Oo.png?width=219"
+        },
+        {
+            "name": "A8",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a8",
+            "image": "https://bcdn.aloparca.com/car-images/ZwCe7mPHC8T8zQe7SZdghYhkWIPiJRrJGsOKFqyB.png?width=219"
+        },
+        {
+            "name": "Q7",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-q7",
+            "image": "https://bcdn.aloparca.com/car-images/QZyor4G8vI679Z9nwYvbeVYJ8bflIHQpgCqMfohe.png?width=219"
+        },
+        {
+            "name": "Q3",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-q3",
+            "image": "https://bcdn.aloparca.com/car-images/tJTgFDF8eV7E1YYxo8U7wTWeswXSDNvnlXSTLjaw.png?width=219"
+        },
+        {
+            "name": "100",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-100",
+            "image": "https://bcdn.aloparca.com/car-images/JNIZJBujz7i1q5WiLr9ea1gtGUqmZiD9sZqifwZS.png?width=219"
+        },
+        {
+            "name": "A7",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-a7",
+            "image": "https://bcdn.aloparca.com/car-images/S1uErH22so4ZQAzBC2thC45bTwpTNElznMPKs8sz.png?width=219"
+        },
+        {
+            "name": "CABRIOLET",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-cabriolet",
+            "image": "https://bcdn.aloparca.com/car-images/7sTMjfxhm4YikmSVQYDU9mj5vpp1nyRrU5Juhc9I.png?width=219"
+        },
+        {
+            "name": "COUPE",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-coupe",
+            "image": "https://bcdn.aloparca.com/car-images/dYO2t9yzuLg6iwpAorvxNKh3drCLcdy0cS03u5ZS.png?width=219"
+        },
+        {
+            "name": "ALLROAD",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-allroad",
+            "image": "https://bcdn.aloparca.com/car-images/0BHG7tHZLekE35w1qnguqgA8yXpWy01bHqoFhbQ1.png?width=219"
+        },
+        {
+            "name": "90",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-90",
+            "image": "https://bcdn.aloparca.com/car-images/i8SqM2RgIefF4DwRomOg5OZ9fUeUNrS3Au19JNe7.png?width=219"
+        },
+        {
+            "name": "Q2",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-q2",
+            "image": "https://bcdn.aloparca.com/car-images/OyO5jT3tbdsF1qT5ThG2T2TYbvHJXeWfeEoaP2Fh.png?width=219"
+        },
+        {
+            "name": "R8",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-r8",
+            "image": "https://bcdn.aloparca.com/car-images/eUk1OEQCRTqnkyRKyOVK48bBp4hQJfJ3IscZIlqf.png?width=219"
+        },
+        {
+            "name": "200",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-200",
+            "image": "https://bcdn.aloparca.com/car-images/QQzTWnTLVMDdlLBnqAhBL49zErIop6iHBPbf921N.png?width=219"
+        },
+        {
+            "name": "V8",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-v8",
+            "image": "https://bcdn.aloparca.com/car-images/hBXM8QHstuiKxW59vuOVMkPU6IfYFJOa643YnLtg.png?width=219"
+        },
+        {
+            "name": "Q8",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-q8",
+            "image": "https://bcdn.aloparca.com/car-images/XuoC1rhRZIUGkqk8KVFwDBzg9va0fbW9L0rdNtAU.png?width=219"
+        },
+        {
+            "name": "QUATTRO",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-quattro",
+            "image": "https://bcdn.aloparca.com/car-images/9TdDrQVa1I1TdhlcLVlK40b7FjAETH5muBTphySY.png?width=219"
+        },
+        {
+            "name": "E-TRON",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-e-tron",
+            "image": "https://bcdn.aloparca.com/car-images/RlN7Xm5zHHpeHdmkyp9gR7PA1aFHo5x5bz4Rrhlb.png?width=219"
+        },
+        {
+            "name": "50",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-50",
+            "image": "https://bcdn.aloparca.com/car-images/hQAEuPoXdMDXZWh96bDussJOaWa3HndbarsmMFsC.png?width=219"
+        },
+        {
+            "name": "60",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-60",
+            "image": "https://bcdn.aloparca.com/car-images/Pt6fRxlXD5vIhiUpDyWqBZndqxvcJfznf0P0VOC5.png?width=219"
+        },
+        {
+            "name": "Q4",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-q4",
+            "image": "https://bcdn.aloparca.com/car-images/NTah8uPkTSzDMMBEmSsb2cHNwCI7RagnvQ2xGNf2.png?width=219"
+        },
+        {
+            "name": "75",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-75",
+            "image": "https://bcdn.aloparca.com/car-images/b2OGfQzhT3Xs5VafMEJxkoZTGUk79gAdg7F5a1dn.png?width=219"
+        },
+        {
+            "name": "F103",
+            "url": "https://aloparca.com/oto-yedek-parca/audi/audi-f103",
+            "image": "https://bcdn.aloparca.com/car-images/C5KXrd4RlE8yS9ko0tBuxAGhb0auVchPWm90qmNG.png?width=219"
+        }
+    ]
+}

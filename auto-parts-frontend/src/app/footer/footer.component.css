@@ -1,0 +1,15 @@
+/* Additional custom styles if needed */
+.container {
+  max-width: 1280px;
+}
+
+/* Hover effect for links */
+a:hover {
+  transition: all 0.3s ease;
+}
+
+/* Social media icons hover effect */
+.social-icon:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease;
+}

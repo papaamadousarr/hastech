@@ -1,0 +1,149 @@
+<div class="user-page">
+  <div class="container">
+    <h2 class="title">{{ isLogin ? 'Login' : 'Sign Up' }}</h2>
+    
+    <div class="main-area">
+      <!-- Login Form -->
+      <form *ngIf="isLogin" class="auth-form" (ngSubmit)="onLogin()" #loginForm="ngForm">
+        <div class="form-container">
+          <!-- Error/Success Messages -->
+          <div *ngIf="errorMessage" class="error-message">
+            {{ errorMessage }}
+          </div>
+          <div *ngIf="successMessage" class="success-message">
+            {{ successMessage }}
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <div class="input-wrapper">
+              <input 
+                name="email" 
+                type="email" 
+                [(ngModel)]="loginData.email"
+                required
+                email
+                #emailInput="ngModel"
+                [class.is-invalid]="emailInput.invalid && emailInput.touched"
+                placeholder="Enter your email">
+            </div>
+            <div *ngIf="emailInput.invalid && emailInput.touched" class="validation-message">
+              <span *ngIf="emailInput.errors?.['required']">Email is required</span>
+              <span *ngIf="emailInput.errors?.['email']">Please enter a valid email</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Password</label>
+            <div class="input-wrapper">
+              <input 
+                name="password" 
+                type="password" 
+                [(ngModel)]="loginData.password"
+                required
+                #passwordInput="ngModel"
+                [class.is-invalid]="passwordInput.invalid && passwordInput.touched"
+                placeholder="Enter your password">
+            </div>
+            <div *ngIf="passwordInput.invalid && passwordInput.touched" class="validation-message">
+              <span *ngIf="passwordInput.errors?.['required']">Password is required</span>
+            </div>
+          </div>
+
+          <button 
+            type="submit" 
+            class="submit-btn"
+            [disabled]="isSubmitting || loginForm.invalid">
+            {{ isSubmitting ? 'LOGGING IN...' : 'LOGIN' }}
+          </button>
+          
+          <div class="form-actions">
+            <a class="action-link" (click)="toggleForm()">NEW USER</a>
+            <a class="action-link" href="/forgot-password">FORGOT PASSWORD</a>
+          </div>
+        </div>
+      </form>
+
+      <!-- Signup Form -->
+      <form *ngIf="!isLogin" class="auth-form" (ngSubmit)="onSignup()" #signupForm="ngForm">
+        <div class="form-container">
+          <!-- Error/Success Messages -->
+          <div *ngIf="errorMessage" class="error-message">
+            {{ errorMessage }}
+          </div>
+          <div *ngIf="successMessage" class="success-message">
+            {{ successMessage }}
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <div class="input-wrapper">
+              <input 
+                name="name" 
+                type="text" 
+                [(ngModel)]="signupData.name"
+                required
+                minlength="2"
+                #nameInput="ngModel"
+                [class.is-invalid]="nameInput.invalid && nameInput.touched"
+                placeholder="Enter your name">
+            </div>
+            <div *ngIf="nameInput.invalid && nameInput.touched" class="validation-message">
+              <span *ngIf="nameInput.errors?.['required']">Name is required</span>
+              <span *ngIf="nameInput.errors?.['minlength']">Name must be at least 2 characters</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <div class="input-wrapper">
+              <input 
+                name="email" 
+                type="email" 
+                [(ngModel)]="signupData.email"
+                required
+                email
+                #signupEmailInput="ngModel"
+                [class.is-invalid]="signupEmailInput.invalid && signupEmailInput.touched"
+                placeholder="Enter your email">
+            </div>
+            <div *ngIf="signupEmailInput.invalid && signupEmailInput.touched" class="validation-message">
+              <span *ngIf="signupEmailInput.errors?.['required']">Email is required</span>
+              <span *ngIf="signupEmailInput.errors?.['email']">Please enter a valid email</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Password</label>
+            <div class="input-wrapper">
+              <input 
+                name="password" 
+                type="password" 
+                [(ngModel)]="signupData.password"
+                required
+                minlength="6"
+                #signupPasswordInput="ngModel"
+                [class.is-invalid]="signupPasswordInput.invalid && signupPasswordInput.touched"
+                placeholder="Enter your password">
+            </div>
+            <div *ngIf="signupPasswordInput.invalid && signupPasswordInput.touched" class="validation-message">
+              <span *ngIf="signupPasswordInput.errors?.['required']">Password is required</span>
+              <span *ngIf="signupPasswordInput.errors?.['minlength']">Password must be at least 6 characters</span>
+            </div>
+          </div>
+
+          <button 
+            type="submit" 
+            class="submit-btn"
+            [disabled]="isSubmitting || signupForm.invalid">
+            {{ isSubmitting ? 'SIGNING UP...' : 'SIGN UP' }}
+          </button>
+
+          <div class="form-actions">
+            <a class="action-link" (click)="toggleForm()">EXISTING USER? LOGIN</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

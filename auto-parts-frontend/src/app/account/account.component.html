@@ -1,0 +1,74 @@
+<div class="profile-page">
+  <div class="container">
+    <div class="main-area">
+      <div class="content">
+        <div class="account-grid">
+          <!-- Orders -->
+          <div class="box">
+            <a routerLink="orders">
+              <mat-icon>shopping_cart</mat-icon>
+              <span>MY ORDERS</span>
+            </a>
+          </div>
+
+          <!-- Coupons -->
+          <div class="box">
+            <a routerLink="coupons">
+              <mat-icon>local_offer</mat-icon>
+              <span>MY COUPONS</span>
+            </a>
+          </div>
+
+          <!-- Update Profile -->
+          <div class="box">
+            <a routerLink="profile">
+              <mat-icon>person</mat-icon>
+              <span>UPDATE PROFILE</span>
+            </a>
+          </div>
+
+          <!-- Change Password -->
+          <div class="box">
+            <a routerLink="change-password">
+              <mat-icon>lock</mat-icon>
+              <span>CHANGE PASSWORD</span>
+            </a>
+          </div>
+
+          <!-- Addresses -->
+          <div class="box">
+            <a routerLink="addresses">
+              <mat-icon>location_on</mat-icon>
+              <span>MY ADDRESSES</span>
+            </a>
+          </div>
+
+          <!-- Bank Details -->
+          <div class="box">
+            <a routerLink="bank-details">
+              <mat-icon>account_balance</mat-icon>
+              <span>BANK DETAILS</span>
+            </a>
+          </div>
+
+          <!-- Support Center -->
+          <div class="box">
+            <a routerLink="support">
+              <mat-icon>headset_mic</mat-icon>
+              <span>SUPPORT CENTER</span>
+            </a>
+          </div>
+
+          <!-- Product Management (Admin Only) -->
+          <div class="box" *ngIf="isAdmin">
+            <a routerLink="product-upload">
+              <mat-icon>upload</mat-icon>
+              <span>UPLOAD PRODUCTS</span>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

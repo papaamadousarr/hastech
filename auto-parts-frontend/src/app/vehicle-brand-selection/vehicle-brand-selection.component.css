@@ -1,0 +1,28 @@
+.brand-card {
+    cursor: pointer;
+  }
+  
+  .brand-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .view-all-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #f85a00;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .view-all-button:hover {
+    background-color: #d94e00;
+  }
+  
+  /* Ensure images maintain aspect ratio */
+  img {
+    transition: transform 0.2s ease-in-out;
+  }

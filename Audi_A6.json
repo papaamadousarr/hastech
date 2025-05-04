@@ -1,0 +1,901 @@
+{
+    "titles": [
+        {
+            "title": "AUDI A6 C8 Sedan (4A2) (02.2018 - ...)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "40 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "45 TDI quattro (183 kW / 249 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Diesel/Elektirikli",
+                    "engines": [
+                        {
+                            "name": "40 TDI Mild Hybrid (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "45 TDI Mild Hybrid quattro (170 kW / 231 PS)"
+                        },
+                        {
+                            "name": "50 TDI Mild Hybrid quattro (210 kW / 286 PS)"
+                        },
+                        {
+                            "name": "S6 TDI Mild Hybrid quattro (253 kW / 344 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel/elektrikli",
+                    "engines": [
+                        {
+                            "name": "40 TDI Mild Hybrid quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "45 TDI Mild Hybrid quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "45 TDI Mild Hybrid quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "S6 TDI Mild Hybrid quattro (257 kW / 349 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "40 TFSI (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "45 TFSI (185 kW / 252 PS)"
+                        },
+                        {
+                            "name": "45 TFSI quattro (185 kW / 252 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin/elektrikli",
+                    "engines": [
+                        {
+                            "name": "40 TFSI Mild Hybrid (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid (195 kW / 265 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (195 kW / 265 PS)"
+                        },
+                        {
+                            "name": "S6 TFSI Mild Hybrid quattro (331 kW / 450 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C8 Avant (4A5) (05.2018 - ...)",
+            "categories": [
+                {
+                    "category": "Diesel/Elektirikli",
+                    "engines": [
+                        {
+                            "name": "40 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "40 TDI Mild Hybrid (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "40 TDI Mild Hybrid quattro (150 kW / 204 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "45 TFSI (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI quattro (195 kW / 265 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin/elektrikli",
+                    "engines": [
+                        {
+                            "name": "45 TFSI Mild Hybrid (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid (195 kW / 265 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "45 TFSI Mild Hybrid quattro (195 kW / 265 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C7 Sedan (4G2, 4GC) (11.2010 - 09.2018)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (176 kW / 239 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (200 kW / 272 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (230 kW / 313 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (235 kW / 320 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (240 kW / 326 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "2.0 TFSI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI (185 kW / 252 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (164 kW / 223 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (183 kW / 249 PS)"
+                        },
+                        {
+                            "name": "2.0 TFSI quattro (185 kW / 252 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (220 kW / 300 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (228 kW / 310 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (245 kW / 333 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (250 kW / 340 PS)"
+                        },
+                        {
+                            "name": "S6 quattro (309 kW / 420 PS)"
+                        },
+                        {
+                            "name": "S6 quattro (331 kW / 450 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin/elektrikli",
+                    "engines": [
+                        {
+                            "name": "2.0 TFSI Hybrid (180 kW / 245 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C7 Avant (4G5, 4GD) (05.2011 - 09.2018)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "2.0 40 TFSI quattro (185 kW / 252 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (220 kW / 300 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (228 kW / 310 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (245 kW / 333 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (200 kW / 272 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (230 kW / 313 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (235 kW / 320 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (240 kW / 326 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C7 Allroad (4GH, 4GJ) (01.2012 - 09.2018)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "3.0 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (150 kW / 204 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (180 kW / 245 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (200 kW / 272 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (230 kW / 313 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (235 kW / 320 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "3.0 TFSI quattro (228 kW / 310 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (245 kW / 333 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C6 Sedan (4F2) (05.2004 - 03.2011)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (89 kW / 121 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (165 kW / 225 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (171 kW / 233 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (176 kW / 240 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "2.0 TFSI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.4 (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.4 quattro (130 kW / 177 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI (154 kW / 210 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI quattro (154 kW / 210 PS)"
+                        },
+                        {
+                            "name": "2.8 FSI quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "2.8 V6 (142 kW / 193 PS)"
+                        },
+                        {
+                            "name": "3.0 (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (213 kW / 290 PS)"
+                        },
+                        {
+                            "name": "3.0 TFSI quattro (220 kW / 299 PS)"
+                        },
+                        {
+                            "name": "3.2 FSI (188 kW / 255 PS)"
+                        },
+                        {
+                            "name": "3.2 FSI (195 kW / 265 PS)"
+                        },
+                        {
+                            "name": "3.2 FSI quattro (183 kW / 249 PS)"
+                        },
+                        {
+                            "name": "3.2 FSI quattro (188 kW / 255 PS)"
+                        },
+                        {
+                            "name": "4.2 FSI quattro (257 kW / 350 PS)"
+                        },
+                        {
+                            "name": "4.2 quattro (246 kW / 335 PS)"
+                        },
+                        {
+                            "name": "RS6 5.0 quattro (426 kW / 580 PS)"
+                        },
+                        {
+                            "name": "S6 5.2 quattro (320 kW / 435 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C6 Avant (4F5) (03.2005 - 08.2011)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.0 TDI (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.0 TDI (89 kW / 121 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (165 kW / 225 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (171 kW / 233 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (176 kW / 240 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "4.2 FSI quattro (257 kW / 350 PS)"
+                        },
+                        {
+                            "name": "4.2 quattro (246 kW / 335 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C6 Allroad (4FH) (05.2006 - 08.2011)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.7 TDI quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.7 TDI quattro (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (155 kW / 211 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (171 kW / 233 PS)"
+                        },
+                        {
+                            "name": "3.0 TDI quattro (176 kW / 240 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C5 Sedan (4B2) (01.1997 - 01.2005)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 T (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.0 (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.4 (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.4 (115 kW / 156 PS)"
+                        },
+                        {
+                            "name": "2.4 (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.4 (121 kW / 165 PS)"
+                        },
+                        {
+                            "name": "2.4 (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.4 quattro (115 kW / 156 PS)"
+                        },
+                        {
+                            "name": "2.4 quattro (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.4 quattro (121 kW / 165 PS)"
+                        },
+                        {
+                            "name": "2.4 quattro (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.7 quattro (187 kW / 254 PS)"
+                        },
+                        {
+                            "name": "2.7 quattro (195 kW / 265 PS)"
+                        },
+                        {
+                            "name": "2.7 T (169 kW / 230 PS)"
+                        },
+                        {
+                            "name": "2.7 T quattro (169 kW / 230 PS)"
+                        },
+                        {
+                            "name": "2.7 T quattro (184 kW / 250 PS)"
+                        },
+                        {
+                            "name": "2.8 (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.8 (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.8 (142 kW / 193 PS)"
+                        },
+                        {
+                            "name": "3.0 (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (164 kW / 223 PS)"
+                        },
+                        {
+                            "name": "4.2 quattro (220 kW / 299 PS)"
+                        },
+                        {
+                            "name": "RS6 quattro (331 kW / 450 PS)"
+                        },
+                        {
+                            "name": "S6 quattro (250 kW / 340 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (81 kW / 110 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (114 kW / 155 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (132 kW / 180 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C5 Avant (4B5) (11.1997 - 01.2005)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 T (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "1.8 T quattro (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.4 (100 kW / 136 PS)"
+                        },
+                        {
+                            "name": "2.4 (115 kW / 156 PS)"
+                        },
+                        {
+                            "name": "2.4 (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.4 (121 kW / 165 PS)"
+                        },
+                        {
+                            "name": "2.4 (125 kW / 170 PS)"
+                        },
+                        {
+                            "name": "2.8 (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.8 (140 kW / 190 PS)"
+                        },
+                        {
+                            "name": "2.8 (142 kW / 193 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (160 kW / 218 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (162 kW / 220 PS)"
+                        },
+                        {
+                            "name": "3.0 quattro (164 kW / 223 PS)"
+                        },
+                        {
+                            "name": "4.2 quattro (220 kW / 299 PS)"
+                        },
+                        {
+                            "name": "S6 4.2 quattro (250 kW / 340 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (81 kW / 110 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (85 kW / 115 PS)"
+                        },
+                        {
+                            "name": "1.9 TDI (96 kW / 130 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (114 kW / 155 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (132 kW / 180 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (132 kW / 180 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C4 Sedan (4A2) (06.1994 - 10.1997)",
+            "categories": [
+                {
+                    "category": "Benzin",
+                    "engines": [
+                        {
+                            "name": "1.8 (92 kW / 125 PS)"
+                        },
+                        {
+                            "name": "1.8 quattro (92 kW / 125 PS)"
+                        },
+                        {
+                            "name": "2.0 16V quattro (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.6 (102 kW / 139 PS)"
+                        },
+                        {
+                            "name": "2.6 (110 kW / 150 PS)"
+                        },
+                        {
+                            "name": "2.8 (120 kW / 163 PS)"
+                        },
+                        {
+                            "name": "2.8 (128 kW / 174 PS)"
+                        },
+                        {
+                            "name": "2.8 (142 kW / 193 PS)"
+                        }
+                    ]
+                },
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "1.9 TDI (66 kW / 90 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (103 kW / 140 PS)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "AUDI A6 C4 Avant (4A5) (06.1994 - 12.1997)",
+            "categories": [
+                {
+                    "category": "Dizel",
+                    "engines": [
+                        {
+                            "name": "2.5 TDI (103 kW / 140 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI (85 kW / 116 PS)"
+                        },
+                        {
+                            "name": "2.5 TDI quattro (103 kW / 140 PS)"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

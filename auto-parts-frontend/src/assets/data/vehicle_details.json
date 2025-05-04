@@ -1,0 +1,751 @@
+[
+  {
+    "brand": "hyundai",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_hyundai.svg"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "image_url": "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent I Sedan (X-3) (05.1994 - 01.2000)",
+    "Engine_types": "1.3 (44 kW / 60 PS) ; 1.3 (55 kW / 75 PS) ; 1.3 i 12V (62 kW / 84 PS) ; 1.5 (69 kW / 94 PS) ; 1.5 (81 kW / 110 PS) ; 1.5 i 12V (65 kW / 88 PS) ; 1.5 i 16V (73 kW / 99 PS)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/3864.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent I Hatchback (X-3) (05.1994 - 01.2000)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1294.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent II Sedan (LC) (09.1999 - 12.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4903.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent II Hatchback (LC) (09.1999 - 12.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4597.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent III Sedan (MC) (11.2005 - 11.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5623.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent III Hatchback (MC) (11.2005 - 12.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5622.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent IV Sedan (RB) (08.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10468.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent IV Hatchback (RB) (11.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9145.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent Hatchback (HC) (01.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent V Sedan (HC) (01.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38807.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ATOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/A2rH9emRMsLZxvuWeXAbQmS0JoopOMtisyXGQsZD.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ATOS",
+    "model_variant": "Atos (MX) (01.1997 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/3511.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ATOS",
+    "model_variant": "Atos Hatchback (11.1997 - 10.2000)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7480.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "BAYON",
+    "image_url": "https://bcdn.aloparca.com/car-images/TS5ySchHdt1eazb0mT0TKBBQA2Yg2lXyNETQpXr9.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "BAYON",
+    "model_variant": "Bayon (BC3) (05.2021 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/42211.jpg?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "COUPE",
+    "image_url": "https://bcdn.aloparca.com/car-images/3AmMKTAo5GX3a9j3JdlclEDFt4JaoKe3JUs1iXI9.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "COUPE",
+    "model_variant": "Coupe I (RD) (06.1996 - 04.2002)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1575.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "COUPE",
+    "model_variant": "Coupe II (GK) (01.2001 - 11.2009)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4849.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/NT87WHotZowJ9RWt92vfKbVLC4F35kJy0ydVrmfJ.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra II Kombi (J2, RD) (03.1998 - 06.2002)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/37032.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra III Sedan (XD) (03.2000 - 09.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4687.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra III Hatchback (XD) (03.2000 - 08.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/34822.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra IV Kombi (HD) (09.2005 - 12.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/34822.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra IV Sedan (HD) (11.2005 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7471.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra V Coupe (JK) (09.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10704.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra V Sedan (MD) (09.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10165.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra VI Sedan (AD, ADA) (09.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/36491.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra VII Sedan (CN7) (03.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/40567.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "EXCEL",
+    "image_url": "https://bcdn.aloparca.com/car-images/8pgwrJdGfFwcbR3QykJfXJaWqZVw0bVMUGssHFKp.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "EXCEL",
+    "model_variant": "Excel II Sedan (X2) (01.1990 - 11.1995)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "EXCEL",
+    "model_variant": "Excel II Hatchback (X2) (01.1990 - 11.1995)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GALLOPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/gxp3rFsWr8v18jzct5yHWj4mB1f6WlISu168whRe.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GALLOPER",
+    "model_variant": "Galloper I (08.1991 - 07.1998)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4942.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GALLOPER",
+    "model_variant": "Galloper II (02.1997 - 12.2003)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4694.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/OcEmVf0xSSfFeCBecxVvyeNYfBXonl8HQ5thnqPf.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "model_variant": "Genesis I Coupe (BK) (01.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9143.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "model_variant": "Genesis I Sedan (BH) (01.2008 - 12.2015)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9142.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "model_variant": "Genesis II Sedan (DH) (06.2014 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/13121.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GETZ",
+    "image_url": "https://bcdn.aloparca.com/car-images/X3SR67ij1g2lHXmP6KRVb3v8DqqgJYEpTsdvBLht.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GETZ",
+    "model_variant": "Getz (TB) (08.2002 - 12.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4901.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "image_url": "https://bcdn.aloparca.com/car-images/QuwCd9Or0WIClBjkd31GdM793taZWhnnTlxGHv7C.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (HG) (01.2011 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9626.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (IG) (11.2016 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38100.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (LX) (08.1992 - 05.1999)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (TG) (06.2003 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5485.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur I (L) (04.1986 - 07.1992)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "image_url": "https://bcdn.aloparca.com/car-images/vEPRHfC1CbKE2jWLEY23k2B2XAOK3e9lxxU6vTEs.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 / Starex MPV (A1) (06.1997 - 12.2007)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1988.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Cargo (TQ) (02.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7377.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Panelvan (A1) (10.1997 - 04.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4623.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Platform/Şasi (06.2000 - 10.2005)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/6028.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Travel (TQ) (02.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8043.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ih1g2ijlLIJH4pZXRRzIk1sZNktPrkL3mGWQ0U7g.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Minibüs/Otobüs (P) (07.1993 - 10.2004)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Panelvan (07.1993 - 12.2004)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Pickup (05.1996 - 10.2001)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Platform/Şasi (07.1993 - 08.1998)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Platform/Şasi (CRDi) (01.2004 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10467.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "image_url": "https://bcdn.aloparca.com/car-images/qhey5jpBIWCJ6AVFILiDljcVxJOCEa1v8NGmSt1r.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "model_variant": "H350 Minibüs/Otobüs (04.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14150.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "model_variant": "H350 Panelvan (04.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14151.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "model_variant": "H350 Platform/Şasi (04.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14148.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "image_url": "https://bcdn.aloparca.com/car-images/XGfsbMhp99dlrY5xBbyxQyKusFeb1Pta8AasNNGX.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 I (PA) (10.2007 - 02.2016)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7368.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 II Cargo (BA, IA) (08.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/40003.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 II Sedan (IA, BA) (12.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14488.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 II Hatchback (IA, BA) (08.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/11774.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 III Sedan (AI3) (02.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 III Hatchback (AC3, AI3) (09.2019 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/40259.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "image_url": "https://bcdn.aloparca.com/car-images/xv9zCl2mxI8hA7bDtjPN2qIt2iGgxLOybF9r8MQR.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 I Hatchback (PB) (08.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8009.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 II Active (GB) (09.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/36989.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 II Coupe (GB) (05.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14317.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 II Hatchback (GB, IB) (11.2014 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/13362.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 III (BC3, BI3) (08.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41340.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "image_url": "https://bcdn.aloparca.com/car-images/6e3bqTruo2eOnLtvzrb15xeEiBXq2S6vXwR1mfOm.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 I Kombi (FD) (10.2007 - 06.2012)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/6985.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 I Hatchback (FD) (10.2007 - 11.2011)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/6442.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 II Coupe (GD) (05.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/11261.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 II Kombi (GD) (06.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10736.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 II Hatchback (GD) (06.2011 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10445.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 III Fastback (PDE, PDEN) (06.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38363.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 III Kombi (PDE) (03.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/37929.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 III Hatchback (PDE, PD, PDEN) (11.2016 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/37426.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i40",
+    "image_url": "https://bcdn.aloparca.com/car-images/44stoDUy8iDMcsiCCyvWDmMfPRMEMVlwT8HSjH4c.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i40",
+    "model_variant": "i40 Kombi (VF) (07.2011 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9650.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i40",
+    "model_variant": "i40 Sedan (VF) (03.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10446.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "IONIQ",
+    "image_url": "https://bcdn.aloparca.com/car-images/2XddBQvEfrvIleldKdDP6ZsSWKZqNGywvqeRziQN.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "IONIQ",
+    "model_variant": "Ioniq (AE) (03.2016 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/36715.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "IONIQ",
+    "model_variant": "Ioniq 5 (NE) (07.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41919.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix20",
+    "image_url": "https://bcdn.aloparca.com/car-images/TghL0QiegAPaTLRHwAMsn1qxv9n7eb3yfuSa2FNX.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix20",
+    "model_variant": "ix20 (JC) (11.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9045.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix35",
+    "image_url": "https://bcdn.aloparca.com/car-images/DVc7OJupxhAnhGxnEg28Q9idXbZZxEDxynPliRN7.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix35",
+    "model_variant": "ix35 (LM, EL, ELH) (08.2009 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8260.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix35",
+    "model_variant": "ix35 Panelvan (08.2009 - 12.2015)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix55",
+    "image_url": "https://bcdn.aloparca.com/car-images/a10p5AbnnVnk7F1erJgVHF5imzkZMqle1TOQGLkk.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix55",
+    "model_variant": "ix55 (EN) (09.2006 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8056.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "KONA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7LFpJJJTBxYQcrNSEAm1ru3e3Z7YpL7X4bH8IcnY.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "KONA",
+    "model_variant": "Kona (OS) SUV (06.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41036.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "KONA",
+    "model_variant": "Kona Box Body / SUV (OS) (06.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38087.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "MATRIX",
+    "image_url": "https://bcdn.aloparca.com/car-images/OgxlNAkUl5jGMS6tfo6rFfEdIlQakE3tp3YtMcjj.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "MATRIX",
+    "model_variant": "Matrix (FC) (06.2001 - 08.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4789.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "S-COUPE",
+    "image_url": "https://bcdn.aloparca.com/car-images/epL7UjeUUG1rFCrZOpmRQSWywtHfajaSGbnRQlxt.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "S-COUPE",
+    "model_variant": "S-Coupé (SLC) (02.1990 - 05.1996)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1298.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "image_url": "https://bcdn.aloparca.com/car-images/9cfjqZxiueqOCGf4jJXspZcyUoJBXBEHu3DEai6c.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fe I (SM) (11.2000 - 03.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4712.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fe II (CM) (10.2005 - 12.2012)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5600.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fé III (DM) (09.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10515.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fé IV (TM) (02.2018 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38591.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fé IV Box Body / SUV (TM) (02.2018 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41039.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "image_url": "https://bcdn.aloparca.com/car-images/5KpWNkIBA5dZmJiJs8jU0cz9tTiaTqduG16h6SUl.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata IV (EF) (03.1998 - 12.2005)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/3682.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata V (NF) (12.2004 - 11.2012)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5426.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata VI (YF) (01.2009 - 12.2015)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4847.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata VII (LF) (06.2014 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14965.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata VIII (DN8) (03.2019 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/39857.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "STARIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/xOL48QTxSHDPFSEgjR2aiCjO8Ii283waaUb1I8XG.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "STARIA",
+    "model_variant": "Staria Minibüs/Otobüs (US4) (01.2021 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41997.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TERRACAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/TvpsnmdLm3qerYKETt9s2hDpQ4jcyStyJHoJZNLS.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TERRACAN",
+    "model_variant": "Terracan (HP) (06.2001 - 03.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4836.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TERRACAN",
+    "model_variant": "Terracan Box Body / SUV (HP) (06.2001 - 03.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41052.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TRAJET",
+    "image_url": "https://bcdn.aloparca.com/car-images/UoRYfdWJtZm9AuqUcus3uwHqmD7Yew7SrQ5vkGYg.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TRAJET",
+    "model_variant": "Trajet (FO) (03.2000 - 07.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4627.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "image_url": "https://bcdn.aloparca.com/car-images/DhjRJfofdJR7dp0MTOMhu0C7ql6Yd5BnPtAs9Bfj.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson (JM) (08.2004 - 11.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5157.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson (NX4, NX4E) (10.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41629.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson (TL, TLE) (05.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14316.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson Box Body / SUV (TLE) (05.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41037.jpg?height=128"
+  }
+]
