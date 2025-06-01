@@ -1,0 +1,453 @@
+{
+    "brands": {
+      "BMW": {
+        "logo": "https://bcdn.aloparca.com/vehicles/bmw/bmw.svg",
+        "models": {
+          "1_SERIES": {
+            "name": "1 Series",
+            "image": "https://bcdn.aloparca.com/vehicles/bmw/1-series.png",
+            "variants": {
+              "116i": {
+                "name": "116i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/116i.png",
+                "years": "2019-2024"
+              },
+              "118i": {
+                "name": "118i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/118i.png",
+                "years": "2019-2024"
+              },
+              "120i": {
+                "name": "120i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/120i.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "3_SERIES": {
+            "name": "3 Series",
+            "image": "https://bcdn.aloparca.com/vehicles/bmw/3-series.png",
+            "variants": {
+              "316i": {
+                "name": "316i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/316i.png",
+                "years": "2019-2024"
+              },
+              "320i": {
+                "name": "320i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/320i.png",
+                "years": "2019-2024"
+              },
+              "330i": {
+                "name": "330i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/330i.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "5_SERIES": {
+            "name": "5 Series",
+            "image": "https://bcdn.aloparca.com/vehicles/bmw/5-series.png",
+            "variants": {
+              "520i": {
+                "name": "520i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/520i.png",
+                "years": "2019-2024"
+              },
+              "530i": {
+                "name": "530i",
+                "image": "https://bcdn.aloparca.com/vehicles/bmw/530i.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "MERCEDES": {
+        "logo": "https://bcdn.aloparca.com/vehicles/mercedes/mercedes.svg",
+        "models": {
+          "A_CLASS": {
+            "name": "A Class",
+            "image": "https://bcdn.aloparca.com/vehicles/mercedes/a-class.png",
+            "variants": {
+              "A180": {
+                "name": "A180",
+                "image": "https://bcdn.aloparca.com/vehicles/mercedes/a180.png",
+                "years": "2019-2024"
+              },
+              "A200": {
+                "name": "A200",
+                "image": "https://bcdn.aloparca.com/vehicles/mercedes/a200.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "C_CLASS": {
+            "name": "C Class",
+            "image": "https://bcdn.aloparca.com/vehicles/mercedes/c-class.png",
+            "variants": {
+              "C180": {
+                "name": "C180",
+                "image": "https://bcdn.aloparca.com/vehicles/mercedes/c180.png",
+                "years": "2019-2024"
+              },
+              "C200": {
+                "name": "C200",
+                "image": "https://bcdn.aloparca.com/vehicles/mercedes/c200.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "AUDI": {
+        "logo": "https://bcdn.aloparca.com/vehicles/audi/audi.svg",
+        "models": {
+          "A3": {
+            "name": "A3",
+            "image": "https://bcdn.aloparca.com/vehicles/audi/a3.png",
+            "variants": {
+              "30_TFSI": {
+                "name": "30 TFSI",
+                "image": "https://bcdn.aloparca.com/vehicles/audi/a3-30tfsi.png",
+                "years": "2019-2024"
+              },
+              "35_TFSI": {
+                "name": "35 TFSI",
+                "image": "https://bcdn.aloparca.com/vehicles/audi/a3-35tfsi.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "A4": {
+            "name": "A4",
+            "image": "https://bcdn.aloparca.com/vehicles/audi/a4.png",
+            "variants": {
+              "40_TFSI": {
+                "name": "40 TFSI",
+                "image": "https://bcdn.aloparca.com/vehicles/audi/a4-40tfsi.png",
+                "years": "2019-2024"
+              },
+              "45_TFSI": {
+                "name": "45 TFSI",
+                "image": "https://bcdn.aloparca.com/vehicles/audi/a4-45tfsi.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "VOLKSWAGEN": {
+        "logo": "https://bcdn.aloparca.com/vehicles/volkswagen/volkswagen.svg",
+        "models": {
+          "GOLF": {
+            "name": "Golf",
+            "image": "https://bcdn.aloparca.com/vehicles/volkswagen/golf.png",
+            "variants": {
+              "1.0_TSI": {
+                "name": "1.0 TSI",
+                "image": "https://bcdn.aloparca.com/vehicles/volkswagen/golf-1.0tsi.png",
+                "years": "2019-2024"
+              },
+              "1.5_TSI": {
+                "name": "1.5 TSI",
+                "image": "https://bcdn.aloparca.com/vehicles/volkswagen/golf-1.5tsi.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "PASSAT": {
+            "name": "Passat",
+            "image": "https://bcdn.aloparca.com/vehicles/volkswagen/passat.png",
+            "variants": {
+              "1.5_TSI": {
+                "name": "1.5 TSI",
+                "image": "https://bcdn.aloparca.com/vehicles/volkswagen/passat-1.5tsi.png",
+                "years": "2019-2024"
+              },
+              "2.0_TDI": {
+                "name": "2.0 TDI",
+                "image": "https://bcdn.aloparca.com/vehicles/volkswagen/passat-2.0tdi.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "TOYOTA": {
+        "logo": "https://bcdn.aloparca.com/vehicles/toyota/toyota.svg",
+        "models": {
+          "COROLLA": {
+            "name": "Corolla",
+            "image": "https://bcdn.aloparca.com/vehicles/toyota/corolla.png",
+            "variants": {
+              "1.6": {
+                "name": "1.6",
+                "image": "https://bcdn.aloparca.com/vehicles/toyota/corolla-1.6.png",
+                "years": "2019-2024"
+              },
+              "1.8_HYBRID": {
+                "name": "1.8 Hybrid",
+                "image": "https://bcdn.aloparca.com/vehicles/toyota/corolla-1.8hybrid.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "YARIS": {
+            "name": "Yaris",
+            "image": "https://bcdn.aloparca.com/vehicles/toyota/yaris.png",
+            "variants": {
+              "1.0": {
+                "name": "1.0",
+                "image": "https://bcdn.aloparca.com/vehicles/toyota/yaris-1.0.png",
+                "years": "2019-2024"
+              },
+              "1.5_HYBRID": {
+                "name": "1.5 Hybrid",
+                "image": "https://bcdn.aloparca.com/vehicles/toyota/yaris-1.5hybrid.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "RAV4": {
+            "name": "RAV4",
+            "image": "https://bcdn.aloparca.com/vehicles/toyota/rav4.png",
+            "variants": {
+              "2.0": {
+                "name": "2.0",
+                "image": "https://bcdn.aloparca.com/vehicles/toyota/rav4-2.0.png",
+                "years": "2019-2024"
+              },
+              "2.5_HYBRID": {
+                "name": "2.5 Hybrid",
+                "image": "https://bcdn.aloparca.com/vehicles/toyota/rav4-2.5hybrid.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "CITROEN": {
+        "logo": "https://bcdn.aloparca.com/vehicles/citroen/citroen.svg",
+        "models": {
+          "C3": {
+            "name": "C3",
+            "image": "https://bcdn.aloparca.com/vehicles/citroen/c3.png",
+            "variants": {
+              "1.2_PURETECH": {
+                "name": "1.2 PureTech",
+                "image": "https://bcdn.aloparca.com/vehicles/citroen/c3-1.2puretech.png",
+                "years": "2019-2024"
+              },
+              "1.5_BLUEHDI": {
+                "name": "1.5 BlueHDi",
+                "image": "https://bcdn.aloparca.com/vehicles/citroen/c3-1.5bluehdi.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "C4": {
+            "name": "C4",
+            "image": "https://bcdn.aloparca.com/vehicles/citroen/c4.png",
+            "variants": {
+              "1.2_PURETECH": {
+                "name": "1.2 PureTech",
+                "image": "https://bcdn.aloparca.com/vehicles/citroen/c4-1.2puretech.png",
+                "years": "2019-2024"
+              },
+              "1.5_BLUEHDI": {
+                "name": "1.5 BlueHDi",
+                "image": "https://bcdn.aloparca.com/vehicles/citroen/c4-1.5bluehdi.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "KIA": {
+        "logo": "https://bcdn.aloparca.com/vehicles/kia/kia.svg",
+        "models": {
+          "SPORTAGE": {
+            "name": "Sportage",
+            "image": "https://bcdn.aloparca.com/vehicles/kia/sportage.png",
+            "variants": {
+              "1.6_T_GDI": {
+                "name": "1.6 T-GDi",
+                "image": "https://bcdn.aloparca.com/vehicles/kia/sportage-1.6tgdi.png",
+                "years": "2019-2024"
+              },
+              "1.6_CRDI": {
+                "name": "1.6 CRDi",
+                "image": "https://bcdn.aloparca.com/vehicles/kia/sportage-1.6crdi.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "CEED": {
+            "name": "Ceed",
+            "image": "https://bcdn.aloparca.com/vehicles/kia/ceed.png",
+            "variants": {
+              "1.0_T_GDI": {
+                "name": "1.0 T-GDi",
+                "image": "https://bcdn.aloparca.com/vehicles/kia/ceed-1.0tgdi.png",
+                "years": "2019-2024"
+              },
+              "1.6_CRDI": {
+                "name": "1.6 CRDi",
+                "image": "https://bcdn.aloparca.com/vehicles/kia/ceed-1.6crdi.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "HYUNDAI": {
+        "logo": "https://bcdn.aloparca.com/vehicles/hyundai/hyundai.svg",
+        "models": {
+          "I20": {
+            "name": "i20",
+            "image": "https://bcdn.aloparca.com/vehicles/hyundai/i20.png",
+            "variants": {
+              "1.0_T_GDI": {
+                "name": "1.0 T-GDi",
+                "image": "https://bcdn.aloparca.com/vehicles/hyundai/i20-1.0tgdi.png",
+                "years": "2019-2024"
+              },
+              "1.2_MPI": {
+                "name": "1.2 MPI",
+                "image": "https://bcdn.aloparca.com/vehicles/hyundai/i20-1.2mpi.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "TUCSON": {
+            "name": "Tucson",
+            "image": "https://bcdn.aloparca.com/vehicles/hyundai/tucson.png",
+            "variants": {
+              "1.6_T_GDI": {
+                "name": "1.6 T-GDi",
+                "image": "https://bcdn.aloparca.com/vehicles/hyundai/tucson-1.6tgdi.png",
+                "years": "2019-2024"
+              },
+              "1.6_CRDI": {
+                "name": "1.6 CRDi",
+                "image": "https://bcdn.aloparca.com/vehicles/hyundai/tucson-1.6crdi.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "FORD": {
+        "logo": "https://bcdn.aloparca.com/vehicles/ford/ford.svg",
+        "models": {
+          "FOCUS": {
+            "name": "Focus",
+            "image": "https://bcdn.aloparca.com/vehicles/ford/focus.png",
+            "variants": {
+              "1.0_ECOBOOST": {
+                "name": "1.0 EcoBoost",
+                "image": "https://bcdn.aloparca.com/vehicles/ford/focus-1.0ecoboost.png",
+                "years": "2019-2024"
+              },
+              "1.5_ECOBLUE": {
+                "name": "1.5 EcoBlue",
+                "image": "https://bcdn.aloparca.com/vehicles/ford/focus-1.5ecoblue.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "KUGA": {
+            "name": "Kuga",
+            "image": "https://bcdn.aloparca.com/vehicles/ford/kuga.png",
+            "variants": {
+              "1.5_ECOBOOST": {
+                "name": "1.5 EcoBoost",
+                "image": "https://bcdn.aloparca.com/vehicles/ford/kuga-1.5ecoboost.png",
+                "years": "2019-2024"
+              },
+              "2.0_ECOBLUE": {
+                "name": "2.0 EcoBlue",
+                "image": "https://bcdn.aloparca.com/vehicles/ford/kuga-2.0ecoblue.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "PEUGEOT": {
+        "logo": "https://bcdn.aloparca.com/vehicles/peugeot/peugeot.svg",
+        "models": {
+          "208": {
+            "name": "208",
+            "image": "https://bcdn.aloparca.com/vehicles/peugeot/208.png",
+            "variants": {
+              "1.2_PURETECH": {
+                "name": "1.2 PureTech",
+                "image": "https://bcdn.aloparca.com/vehicles/peugeot/208-1.2puretech.png",
+                "years": "2019-2024"
+              },
+              "1.5_BLUEHDI": {
+                "name": "1.5 BlueHDi",
+                "image": "https://bcdn.aloparca.com/vehicles/peugeot/208-1.5bluehdi.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "3008": {
+            "name": "3008",
+            "image": "https://bcdn.aloparca.com/vehicles/peugeot/3008.png",
+            "variants": {
+              "1.2_PURETECH": {
+                "name": "1.2 PureTech",
+                "image": "https://bcdn.aloparca.com/vehicles/peugeot/3008-1.2puretech.png",
+                "years": "2019-2024"
+              },
+              "1.5_BLUEHDI": {
+                "name": "1.5 BlueHDi",
+                "image": "https://bcdn.aloparca.com/vehicles/peugeot/3008-1.5bluehdi.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      },
+      "RENAULT": {
+        "logo": "https://bcdn.aloparca.com/vehicles/renault/renault.svg",
+        "models": {
+          "CLIO": {
+            "name": "Clio",
+            "image": "https://bcdn.aloparca.com/vehicles/renault/clio.png",
+            "variants": {
+              "1.0_TCE": {
+                "name": "1.0 TCe",
+                "image": "https://bcdn.aloparca.com/vehicles/renault/clio-1.0tce.png",
+                "years": "2019-2024"
+              },
+              "1.5_BLUE_DCI": {
+                "name": "1.5 Blue dCi",
+                "image": "https://bcdn.aloparca.com/vehicles/renault/clio-1.5bluedci.png",
+                "years": "2019-2024"
+              }
+            }
+          },
+          "MEGANE": {
+            "name": "Megane",
+            "image": "https://bcdn.aloparca.com/vehicles/renault/megane.png",
+            "variants": {
+              "1.3_TCE": {
+                "name": "1.3 TCe",
+                "image": "https://bcdn.aloparca.com/vehicles/renault/megane-1.3tce.png",
+                "years": "2019-2024"
+              },
+              "1.5_BLUE_DCI": {
+                "name": "1.5 Blue dCi",
+                "image": "https://bcdn.aloparca.com/vehicles/renault/megane-1.5bluedci.png",
+                "years": "2019-2024"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

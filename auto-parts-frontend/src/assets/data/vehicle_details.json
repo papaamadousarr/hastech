@@ -1,0 +1,5280 @@
+[
+  {
+    "brand": "hyundai",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_hyundai.svg"
+  },
+  {
+    "brand": "audi",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_audi.svg"
+  },
+  {
+    "brand": "bmw",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_bmw.svg"
+  },
+  {
+    "brand": "citroen",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_citroen.svg"
+  },
+  {
+    "brand": "fiat",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_fiat.svg"
+  },
+  {
+    "brand": "ford",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_ford.svg"
+  },
+  {
+    "brand": "hyundai",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_hyundai.svg"
+  },
+  {
+    "brand": "mercedes",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_mercedes-benz.svg"
+  },
+  {
+    "brand": "opel",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_opel.svg"
+  },
+  {
+    "brand": "peugeot",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_peugeot.svg"
+  },
+  {
+    "brand": "citroen",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_citroen.svg"
+  },
+  {
+    "brand": "honda",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_honda.svg"
+  },
+  {
+    "brand": "renault",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_renault.svg"
+  },
+  {
+    "brand": "volkswagen",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_volkswagen.svg"
+  },
+  {
+    "brand": "toyota",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_toyota.svg"
+  },
+  {
+    "brand": "porsche",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_porsche.svg"
+  },
+  {
+    "brand": "kia",
+    "image_url": "https://bcdn.aloparca.com/car-maker-images/marka_kia.svg"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "image_url": "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent I Sedan (X-3) (05.1994 - 01.2000)",
+    "Engine_types": "1.3 (44 kW / 60 PS) ; 1.3 (55 kW / 75 PS) ; 1.3 i 12V (62 kW / 84 PS) ; 1.5 (69 kW / 94 PS) ; 1.5 (81 kW / 110 PS) ; 1.5 i 12V (65 kW / 88 PS) ; 1.5 i 16V (73 kW / 99 PS)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/3864.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent I Hatchback (X-3) (05.1994 - 01.2000)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1294.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent II Sedan (LC) (09.1999 - 12.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4903.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent II Hatchback (LC) (09.1999 - 12.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4597.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent III Sedan (MC) (11.2005 - 11.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5623.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent III Hatchback (MC) (11.2005 - 12.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5622.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent IV Sedan (RB) (08.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10468.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent IV Hatchback (RB) (11.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9145.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent Hatchback (HC) (01.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ACCENT",
+    "model_variant": "Accent V Sedan (HC) (01.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38807.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ATOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/A2rH9emRMsLZxvuWeXAbQmS0JoopOMtisyXGQsZD.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ATOS",
+    "model_variant": "Atos (MX) (01.1997 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/3511.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ATOS",
+    "model_variant": "Atos Hatchback (11.1997 - 10.2000)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7480.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "BAYON",
+    "image_url": "https://bcdn.aloparca.com/car-images/TS5ySchHdt1eazb0mT0TKBBQA2Yg2lXyNETQpXr9.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "BAYON",
+    "model_variant": "Bayon (BC3) (05.2021 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/42211.jpg?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "COUPE",
+    "image_url": "https://bcdn.aloparca.com/car-images/3AmMKTAo5GX3a9j3JdlclEDFt4JaoKe3JUs1iXI9.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "COUPE",
+    "model_variant": "Coupe I (RD) (06.1996 - 04.2002)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1575.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "COUPE",
+    "model_variant": "Coupe II (GK) (01.2001 - 11.2009)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4849.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/NT87WHotZowJ9RWt92vfKbVLC4F35kJy0ydVrmfJ.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra II Kombi (J2, RD) (03.1998 - 06.2002)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/37032.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra III Sedan (XD) (03.2000 - 09.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4687.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra III Hatchback (XD) (03.2000 - 08.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/34822.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra IV Kombi (HD) (09.2005 - 12.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/34822.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra IV Sedan (HD) (11.2005 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7471.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra V Coupe (JK) (09.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10704.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra V Sedan (MD) (09.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10165.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra VI Sedan (AD, ADA) (09.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/36491.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ELANTRA",
+    "model_variant": "Elantra VII Sedan (CN7) (03.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/40567.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "EXCEL",
+    "image_url": "https://bcdn.aloparca.com/car-images/8pgwrJdGfFwcbR3QykJfXJaWqZVw0bVMUGssHFKp.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "EXCEL",
+    "model_variant": "Excel II Sedan (X2) (01.1990 - 11.1995)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "EXCEL",
+    "model_variant": "Excel II Hatchback (X2) (01.1990 - 11.1995)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GALLOPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/gxp3rFsWr8v18jzct5yHWj4mB1f6WlISu168whRe.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GALLOPER",
+    "model_variant": "Galloper I (08.1991 - 07.1998)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4942.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GALLOPER",
+    "model_variant": "Galloper II (02.1997 - 12.2003)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4694.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/OcEmVf0xSSfFeCBecxVvyeNYfBXonl8HQ5thnqPf.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "model_variant": "Genesis I Coupe (BK) (01.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9143.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "model_variant": "Genesis I Sedan (BH) (01.2008 - 12.2015)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9142.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GENESIS",
+    "model_variant": "Genesis II Sedan (DH) (06.2014 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/13121.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GETZ",
+    "image_url": "https://bcdn.aloparca.com/car-images/X3SR67ij1g2lHXmP6KRVb3v8DqqgJYEpTsdvBLht.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GETZ",
+    "model_variant": "Getz (TB) (08.2002 - 12.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4901.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "image_url": "https://bcdn.aloparca.com/car-images/QuwCd9Or0WIClBjkd31GdM793taZWhnnTlxGHv7C.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (HG) (01.2011 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9626.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (IG) (11.2016 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38100.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (LX) (08.1992 - 05.1999)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur (TG) (06.2003 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5485.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "GRANDEUR",
+    "model_variant": "Grandeur I (L) (04.1986 - 07.1992)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "image_url": "https://bcdn.aloparca.com/car-images/vEPRHfC1CbKE2jWLEY23k2B2XAOK3e9lxxU6vTEs.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 / Starex MPV (A1) (06.1997 - 12.2007)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1988.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Cargo (TQ) (02.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7377.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Panelvan (A1) (10.1997 - 04.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4623.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Platform/Şasi (06.2000 - 10.2005)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/6028.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H-1",
+    "model_variant": "H-1 Travel (TQ) (02.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8043.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ih1g2ijlLIJH4pZXRRzIk1sZNktPrkL3mGWQ0U7g.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Minibüs/Otobüs (P) (07.1993 - 10.2004)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Panelvan (07.1993 - 12.2004)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Pickup (05.1996 - 10.2001)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Platform/Şasi (07.1993 - 08.1998)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H100",
+    "model_variant": "H100 Platform/Şasi (CRDi) (01.2004 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10467.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "image_url": "https://bcdn.aloparca.com/car-images/qhey5jpBIWCJ6AVFILiDljcVxJOCEa1v8NGmSt1r.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "model_variant": "H350 Minibüs/Otobüs (04.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14150.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "model_variant": "H350 Panelvan (04.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14151.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "H350",
+    "model_variant": "H350 Platform/Şasi (04.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14148.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "image_url": "https://bcdn.aloparca.com/car-images/XGfsbMhp99dlrY5xBbyxQyKusFeb1Pta8AasNNGX.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 I (PA) (10.2007 - 02.2016)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/7368.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 II Cargo (BA, IA) (08.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/40003.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 II Sedan (IA, BA) (12.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14488.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 II Hatchback (IA, BA) (08.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/11774.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 III Sedan (AI3) (02.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i10",
+    "model_variant": "i10 III Hatchback (AC3, AI3) (09.2019 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/40259.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "image_url": "https://bcdn.aloparca.com/car-images/xv9zCl2mxI8hA7bDtjPN2qIt2iGgxLOybF9r8MQR.png?height=192"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 I Hatchback (PB) (08.2008 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8009.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 II Active (GB) (09.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/36989.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 II Coupe (GB) (05.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14317.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 II Hatchback (GB, IB) (11.2014 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/13362.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i20",
+    "model_variant": "i20 III (BC3, BI3) (08.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41340.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "image_url": "https://bcdn.aloparca.com/car-images/6e3bqTruo2eOnLtvzrb15xeEiBXq2S6vXwR1mfOm.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 I Kombi (FD) (10.2007 - 06.2012)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/6985.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 I Hatchback (FD) (10.2007 - 11.2011)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/6442.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 II Coupe (GD) (05.2013 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/11261.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 II Kombi (GD) (06.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10736.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 II Hatchback (GD) (06.2011 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10445.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 III Fastback (PDE, PDEN) (06.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38363.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 III Kombi (PDE) (03.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/37929.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i30",
+    "model_variant": "i30 III Hatchback (PDE, PD, PDEN) (11.2016 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/37426.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i40",
+    "image_url": "https://bcdn.aloparca.com/car-images/44stoDUy8iDMcsiCCyvWDmMfPRMEMVlwT8HSjH4c.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i40",
+    "model_variant": "i40 Kombi (VF) (07.2011 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9650.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "i40",
+    "model_variant": "i40 Sedan (VF) (03.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10446.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "IONIQ",
+    "image_url": "https://bcdn.aloparca.com/car-images/2XddBQvEfrvIleldKdDP6ZsSWKZqNGywvqeRziQN.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "IONIQ",
+    "model_variant": "Ioniq (AE) (03.2016 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/36715.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "IONIQ",
+    "model_variant": "Ioniq 5 (NE) (07.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41919.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix20",
+    "image_url": "https://bcdn.aloparca.com/car-images/TghL0QiegAPaTLRHwAMsn1qxv9n7eb3yfuSa2FNX.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix20",
+    "model_variant": "ix20 (JC) (11.2010 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/9045.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix35",
+    "image_url": "https://bcdn.aloparca.com/car-images/DVc7OJupxhAnhGxnEg28Q9idXbZZxEDxynPliRN7.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix35",
+    "model_variant": "ix35 (LM, EL, ELH) (08.2009 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8260.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix35",
+    "model_variant": "ix35 Panelvan (08.2009 - 12.2015)",
+    "image_url": "https://bcdn.aloparca.com/nocar.webp"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix55",
+    "image_url": "https://bcdn.aloparca.com/car-images/a10p5AbnnVnk7F1erJgVHF5imzkZMqle1TOQGLkk.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "ix55",
+    "model_variant": "ix55 (EN) (09.2006 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/8056.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "KONA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7LFpJJJTBxYQcrNSEAm1ru3e3Z7YpL7X4bH8IcnY.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "KONA",
+    "model_variant": "Kona (OS) SUV (06.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41036.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "KONA",
+    "model_variant": "Kona Box Body / SUV (OS) (06.2017 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38087.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "MATRIX",
+    "image_url": "https://bcdn.aloparca.com/car-images/OgxlNAkUl5jGMS6tfo6rFfEdIlQakE3tp3YtMcjj.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "MATRIX",
+    "model_variant": "Matrix (FC) (06.2001 - 08.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4789.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "S-COUPE",
+    "image_url": "https://bcdn.aloparca.com/car-images/epL7UjeUUG1rFCrZOpmRQSWywtHfajaSGbnRQlxt.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "S-COUPE",
+    "model_variant": "S-Coupé (SLC) (02.1990 - 05.1996)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/1298.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "image_url": "https://bcdn.aloparca.com/car-images/9cfjqZxiueqOCGf4jJXspZcyUoJBXBEHu3DEai6c.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fe I (SM) (11.2000 - 03.2006)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4712.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fe II (CM) (10.2005 - 12.2012)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5600.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fé III (DM) (09.2012 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/10515.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fé IV (TM) (02.2018 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/38591.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SANTA FE",
+    "model_variant": "Santa Fé IV Box Body / SUV (TM) (02.2018 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41039.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "image_url": "https://bcdn.aloparca.com/car-images/5KpWNkIBA5dZmJiJs8jU0cz9tTiaTqduG16h6SUl.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata IV (EF) (03.1998 - 12.2005)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/3682.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata V (NF) (12.2004 - 11.2012)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5426.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata VI (YF) (01.2009 - 12.2015)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4847.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata VII (LF) (06.2014 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14965.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "SONATA",
+    "model_variant": "Sonata VIII (DN8) (03.2019 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/39857.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "STARIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/xOL48QTxSHDPFSEgjR2aiCjO8Ii283waaUb1I8XG.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "STARIA",
+    "model_variant": "Staria Minibüs/Otobüs (US4) (01.2021 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41997.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TERRACAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/TvpsnmdLm3qerYKETt9s2hDpQ4jcyStyJHoJZNLS.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TERRACAN",
+    "model_variant": "Terracan (HP) (06.2001 - 03.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4836.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TERRACAN",
+    "model_variant": "Terracan Box Body / SUV (HP) (06.2001 - 03.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41052.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TRAJET",
+    "image_url": "https://bcdn.aloparca.com/car-images/UoRYfdWJtZm9AuqUcus3uwHqmD7Yew7SrQ5vkGYg.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TRAJET",
+    "model_variant": "Trajet (FO) (03.2000 - 07.2008)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/4627.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "image_url": "https://bcdn.aloparca.com/car-images/DhjRJfofdJR7dp0MTOMhu0C7ql6Yd5BnPtAs9Bfj.png?width=219"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson (JM) (08.2004 - 11.2010)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/5157.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson (NX4, NX4E) (10.2020 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41629.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson (TL, TLE) (05.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/14316.jpg?height=128"
+  },
+  {
+    "brand": "hyundai",
+    "model_name": "TUCSON",
+    "model_variant": "Tucson Box Body / SUV (TLE) (05.2015 -...)",
+    "image_url": "https://bcdn.aloparca.com/model_series_cars_photo/41037.jpg?height=128"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A4",
+    "image_url": "https://bcdn.aloparca.com/car-images/4dfI91linA4MOJgY6ZsDm8jmNA7dQPvtLo43Oc2e.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A6",
+    "image_url": "https://bcdn.aloparca.com/car-images/eoUKjl9OJlZdGaZc22oRbyTJfTUvi8c72KJepjzN.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A3",
+    "image_url": "https://bcdn.aloparca.com/car-images/xNm3MHs3sP2VEGlkP40LQO9S4p6ElfL89ICOsKRj.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A5",
+    "image_url": "https://bcdn.aloparca.com/car-images/vRX3kRQguCITVuMVnWDruegBenwOkgsFQM8S5aTZ.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "Q5",
+    "image_url": "https://bcdn.aloparca.com/car-images/xrXS8GDYoEOEpCZQXo9foSnNPL6D8HKhspzj1YCN.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A1",
+    "image_url": "https://bcdn.aloparca.com/car-images/5YS9ZhjizGfhSbg0NwOWAAOJWyO76RzZn4HL2n1O.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "80",
+    "image_url": "https://bcdn.aloparca.com/car-images/SlfdyWu1BWMcl5jxvnBBEKJ1yY1QbdgXb5IFAcLv.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A2",
+    "image_url": "https://bcdn.aloparca.com/car-images/5QI0ruuCI2VAFy1LJI5v5L0b60A5OLRi5ZRibSaw.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "TT",
+    "image_url": "https://bcdn.aloparca.com/car-images/NmT5CPOn4q7TmsNyS6APtKzQQrFQwI6NXDKqn7Oo.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A8",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZwCe7mPHC8T8zQe7SZdghYhkWIPiJRrJGsOKFqyB.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "Q7",
+    "image_url": "https://bcdn.aloparca.com/car-images/QZyor4G8vI679Z9nwYvbeVYJ8bflIHQpgCqMfohe.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "Q3",
+    "image_url": "https://bcdn.aloparca.com/car-images/tJTgFDF8eV7E1YYxo8U7wTWeswXSDNvnlXSTLjaw.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "100",
+    "image_url": "https://bcdn.aloparca.com/car-images/JNIZJBujz7i1q5WiLr9ea1gtGUqmZiD9sZqifwZS.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "A7",
+    "image_url": "https://bcdn.aloparca.com/car-images/S1uErH22so4ZQAzBC2thC45bTwpTNElznMPKs8sz.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "CABRIOLET",
+    "image_url": "https://bcdn.aloparca.com/car-images/7sTMjfxhm4YikmSVQYDU9mj5vpp1nyRrU5Juhc9I.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "COUPE",
+    "image_url": "https://bcdn.aloparca.com/car-images/dYO2t9yzuLg6iwpAorvxNKh3drCLcdy0cS03u5ZS.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "ALLROAD",
+    "image_url": "https://bcdn.aloparca.com/car-images/0BHG7tHZLekE35w1qnguqgA8yXpWy01bHqoFhbQ1.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "90",
+    "image_url": "https://bcdn.aloparca.com/car-images/i8SqM2RgIefF4DwRomOg5OZ9fUeUNrS3Au19JNe7.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "Q2",
+    "image_url": "https://bcdn.aloparca.com/car-images/OyO5jT3tbdsF1qT5ThG2T2TYbvHJXeWfeEoaP2Fh.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "R8",
+    "image_url": "https://bcdn.aloparca.com/car-images/eUk1OEQCRTqnkyRKyOVK48bBp4hQJfJ3IscZIlqf.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "200",
+    "image_url": "https://bcdn.aloparca.com/car-images/QQzTWnTLVMDdlLBnqAhBL49zErIop6iHBPbf921N.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "V8",
+    "image_url": "https://bcdn.aloparca.com/car-images/hBXM8QHstuiKxW59vuOVMkPU6IfYFJOa643YnLtg.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "Q8",
+    "image_url": "https://bcdn.aloparca.com/car-images/XuoC1rhRZIUGkqk8KVFwDBzg9va0fbW9L0rdNtAU.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "QUATTRO",
+    "image_url": "https://bcdn.aloparca.com/car-images/9TdDrQVa1I1TdhlcLVlK40b7FjAETH5muBTphySY.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "E-TRON",
+    "image_url": "https://bcdn.aloparca.com/car-images/RlN7Xm5zHHpeHdmkyp9gR7PA1aFHo5x5bz4Rrhlb.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "50",
+    "image_url": "https://bcdn.aloparca.com/car-images/hQAEuPoXdMDXZWh96bDussJOaWa3HndbarsmMFsC.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "60",
+    "image_url": "https://bcdn.aloparca.com/car-images/Pt6fRxlXD5vIhiUpDyWqBZndqxvcJfznf0P0VOC5.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "Q4",
+    "image_url": "https://bcdn.aloparca.com/car-images/NTah8uPkTSzDMMBEmSsb2cHNwCI7RagnvQ2xGNf2.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "75",
+    "image_url": "https://bcdn.aloparca.com/car-images/b2OGfQzhT3Xs5VafMEJxkoZTGUk79gAdg7F5a1dn.png?width=219"
+  },
+  {
+    "brand": "audi",
+    "model_name": "F103",
+    "image_url": "https://bcdn.aloparca.com/car-images/C5KXrd4RlE8yS9ko0tBuxAGhb0auVchPWm90qmNG.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "3 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ot3fIWRhFx4mztqViSbnuhv6IPUbYAEDmVZO7P3V.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "5 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/xaS0UKyHSH5NZpfvAKim9zVo5vPAMs8OIMM5Ztx8.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "1 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/hZ1UrQ9mlsoER2Ss8AlWSF1OdUAjjv1EIC8wHiVJ.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X3",
+    "image_url": "https://bcdn.aloparca.com/car-images/XNwobBM4ovKXj6zX27sReUD1Ft4lwOQ6MyDAlv6Q.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X1",
+    "image_url": "https://bcdn.aloparca.com/car-images/b9eAuD3DUkQiUooiFWf0lCwWajXinZfXqwSWmUdy.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X5",
+    "image_url": "https://bcdn.aloparca.com/car-images/KMBcVRgXRAslWWdjPUWhElHNleAFNczJ4Ei49gkB.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "2 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/DPBhJqbIgHMMrwa6YrVziD9AwRckWtPiaO5IiBW1.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "7 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/wQyYtpiKlBGlQkOZcHRts3lkeD9CFFevMAKPA8rR.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "4 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/euVyvqpCNG9ULnZM19uwPpqxjFXCp4v6MtMEod8h.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "Z4",
+    "image_url": "https://bcdn.aloparca.com/car-images/dpoP12Tt08b2bMrjUnyQHfWQkGzTOJ1hD8G51D6V.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "6 Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/JCXbVkqZqtj7imQ5JkHxW0pJOvLqpIBjbQjt57yQ.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "Z3",
+    "image_url": "https://bcdn.aloparca.com/car-images/t6E499cCwE4aPBQV1h99LNkLY7zoGyJbvOSD2e45.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X6",
+    "image_url": "https://bcdn.aloparca.com/car-images/b3xeT98NdXgbjRoFTibD0mlTrvYZBgSAL7n9KkRW.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X4",
+    "image_url": "https://bcdn.aloparca.com/car-images/i3YnteMSaHtrxf8omqVFsNYbfDR3OdcRXDzge2W2.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "iX",
+    "image_url": "https://bcdn.aloparca.com/car-images/POku5pKWxX6bFbuCQeE8wNqVoPxUs2b4Sp7L0Nog.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "02",
+    "image_url": "https://bcdn.aloparca.com/car-images/j8Y3kvF0lHOJz1ZzOZRmM7Yg3WmTseD2s5GlFTke.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X2",
+    "image_url": "https://bcdn.aloparca.com/car-images/3O3yTZGT129tW6SVQZBfUcgRBaRShmx01v58Tkvm.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "i3",
+    "image_url": "https://bcdn.aloparca.com/car-images/C5EwrX4oan35h6RnfNfwJfxaJRuLvjy7uhJjDOTz.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "8er",
+    "image_url": "https://bcdn.aloparca.com/car-images/Zg2Z9GwU33W5Q6tSlU1IubW8jrfBwtYJm2XIVDtm.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "E9",
+    "image_url": "https://bcdn.aloparca.com/car-images/5Rb3HQSYfLwhq5suLrF5KrYm804J3P1PGs5Yysyk.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "Z1",
+    "image_url": "https://bcdn.aloparca.com/car-images/Fg9t3I5ultE3ZdOeHifU6uhcEjVSpuFz1YLxglaL.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "E3",
+    "image_url": "https://bcdn.aloparca.com/car-images/ClmN3n1NDcKEPv3a8xu8QU72m494FG4MNcqpMGY4.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "X7",
+    "image_url": "https://bcdn.aloparca.com/car-images/kGErLgxlV2wCzxZJbS7LOyXAr58jkr69gFSkz22q.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "1500-2000",
+    "image_url": "https://bcdn.aloparca.com/car-images/VynL1w5rr0x6THqkXphzntVtN9I5CMFmpFOZXsAp.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "i4",
+    "image_url": "https://bcdn.aloparca.com/car-images/dWqLv6X8E6AxKJFifIhG8T1rZt6OSpEB0Go6evUL.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "iX3",
+    "image_url": "https://bcdn.aloparca.com/car-images/0I1CW39yzzp2wjfjaDBAzjwV1jNHpPKnePKIPoIt.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "ISETTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/SPV9OZiVW9Ihu75rJKMr0VjyoGQvhv70chKoklif.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "700",
+    "image_url": "https://bcdn.aloparca.com/car-images/JiOyh7n3HsBcCihvRYm6rxPyIQ6QFwEUFQU5fzc3.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "Z8",
+    "image_url": "https://bcdn.aloparca.com/car-images/9FSTBzwcxCg9TKGwI7QLgyrL0jk3YgAk7dyiiAN6.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "i8",
+    "image_url": "https://bcdn.aloparca.com/car-images/s1Vt9hRFQ7BB30HVulXABOY2pJcLeeEsnMpIoFmG.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "502",
+    "image_url": "https://bcdn.aloparca.com/car-images/kZ8I83UvMkxEyRsJexUzKO860FO31st3TWntFae8.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "501",
+    "image_url": "https://bcdn.aloparca.com/car-images/iopbXD5XRticD7mvpmg9FE5QnTzxUkbZpCbhnULE.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "M1",
+    "image_url": "https://bcdn.aloparca.com/car-images/QfNEczHcdml6i3XPUFdUtsmwluVHTeqY8x1nMfuO.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "2600-3200 V8",
+    "image_url": "https://bcdn.aloparca.com/car-images/yvXGSvZYUuenK3OTbMZdPsecumphjEF8wXyF1uVH.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "1600 GT",
+    "image_url": "https://bcdn.aloparca.com/car-images/UEIvYV34OdP1ANYR5XZjQkmTLmUkdwBQrOT1Wq91.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "340",
+    "image_url": "https://bcdn.aloparca.com/car-images/nnYdqaVR3A7ZUxsmmFYsIltT4EpsUOv00msTRPzk.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "600",
+    "image_url": "https://bcdn.aloparca.com/car-images/V2o5cNYc7xK976jvq1xSRGWxjY0kuO13uPlMDbnN.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "503",
+    "image_url": "https://bcdn.aloparca.com/car-images/ypf7ovGZUMfHShGzzgEZcNiAtfS3xmCcTuRGA3as.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "507",
+    "image_url": "https://bcdn.aloparca.com/car-images/RNQlfYznvAEeYnNuNKXFE3rQSu4elaM175WjpJ5F.png?width=219"
+  },
+  {
+    "brand": "bmw",
+    "model_name": "GLAS",
+    "image_url": "https://bcdn.aloparca.com/car-images/AcwCJnyJNXhCSvkqJFuDuGtLAPmctx3dszNIw0GU.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "TIGGO 7",
+    "image_url": "https://bcdn.aloparca.com/car-images/uEnLLZb5u1jlPlAbwMXZQPGaXSgJgJ0olfRM88Sg.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "TIGGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/6ZkatFabK9HGXbNjtzPwRZOrvkEFJkP9uz2J8Oef.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "AMULET / COWIN",
+    "image_url": "https://bcdn.aloparca.com/car-images/HyWrRcZ7T9aoVjvEaer9YTKosyFQSTvYixOMab5d.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "TIGGO 5",
+    "image_url": "https://bcdn.aloparca.com/car-images/86JxS01ogFHXH083jJKNjZXhXtuTCLm9PlwSZD9L.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "A3",
+    "image_url": "https://bcdn.aloparca.com/car-images/9q73xHvDWzt3VegGsiAW83qPDu7WorGh5kKTXB7G.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "TIGGO 3",
+    "image_url": "https://bcdn.aloparca.com/car-images/EBVZIWOq7Db9wGIMvDS00MuZGEtpiG03sPKIX3ei.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "ARRIZO",
+    "image_url": "https://bcdn.aloparca.com/car-images/v6HPoOJIj4Iq5LQID49UNBp2yBE8oziKsBr8keG5.png?width=219"
+  },
+  {
+    "brand": "chery",
+    "model_name": "TIGGO DR",
+    "image_url": "https://bcdn.aloparca.com/car-images/PufVI1GvVsCZiiyPNmViIIXuBtkPs6ivvs7sbDrw.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CAPTIVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Rklv2PqjNnTPolJvmkbQLsAM8MK7qwQpQyWeWwjq.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CRUZE",
+    "image_url": "https://bcdn.aloparca.com/car-images/ueRxNMHVFfar6HV1SiemQJs5Ni2rTD6pyM67K0ox.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "AVEO",
+    "image_url": "https://bcdn.aloparca.com/car-images/GQ9ljUhp7I9LEGJapnU8uXuKyziqzFZPHTBzX6qZ.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "ORLANDO",
+    "image_url": "https://bcdn.aloparca.com/car-images/LIx8B8H8g4IEWsacIT2CZQ624QKpzRcpZ05pwasx.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "MATIZ",
+    "image_url": "https://bcdn.aloparca.com/car-images/E7ZY2oeZAPx4sCy21gPsxya0LVbPzJhg2rr6QhnB.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "SPARK",
+    "image_url": "https://bcdn.aloparca.com/car-images/Dmnq7mLlJyHagrO3nEHTxtARls6L3WFDp4AJgoKY.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CAMARO",
+    "image_url": "https://bcdn.aloparca.com/car-images/AJPGZmu0b1j7b6UJSu99aBvMeSccgxI6DxCnNgtY.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CORVETTE",
+    "image_url": "https://bcdn.aloparca.com/car-images/G3d8fhbPFaTwRz776epDIOqN3wypLEOyB2zzN7DB.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "NUBIRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7ImAXrMpTY7KJyq4iTX0KuyEAykXCXwY5fEqXYv5.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "LACETTI",
+    "image_url": "https://bcdn.aloparca.com/car-images/qCQTywUVbTXmrSgnLCDjBdF5Z0AXQWsYx8L3smPg.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "TRAX",
+    "image_url": "https://bcdn.aloparca.com/car-images/U7a2tm4lhsmuVIQDgME3VeuOlFy0RvdDtFSX8Kx4.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "EPICA",
+    "image_url": "https://bcdn.aloparca.com/car-images/v4LqWOFpgF32GvtoxMSv7iOyO70ERKxFHnbdAej5.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "TAHOE",
+    "image_url": "https://bcdn.aloparca.com/car-images/YC6kVW10mQMCWujbA4uvH56h4NABfXzIjksRJ3yu.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "MALIBU",
+    "image_url": "https://bcdn.aloparca.com/car-images/uIDPyapWIt7r5E4ncyHQ0aKRnN8B48rSW7cnY0Tl.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "HHR",
+    "image_url": "https://bcdn.aloparca.com/car-images/Cru45Nm9YJqMqJnR2dnoEszxiLr5ZJGVqCwGdrJd.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "BLAZER S10",
+    "image_url": "https://bcdn.aloparca.com/car-images/OfvIzIlVZYa2iIypYu64O1a7izf0yb2g0l8UuuD1.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "TRAILBLAZER",
+    "image_url": "https://bcdn.aloparca.com/car-images/KGpHs9QptCv2eTm2XyqI6UtfcuQbYijx23kwYvXf.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "REZZO",
+    "image_url": "https://bcdn.aloparca.com/car-images/B9ZDaRwcBpce2FLieHoNoWwOxjhL4RjQne2BnBmC.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "SILVERADO",
+    "image_url": "https://bcdn.aloparca.com/car-images/3azdMZ4dFi9k8KxEKGdyl2407EuQe3dbKOgk1inA.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "ASTRO",
+    "image_url": "https://bcdn.aloparca.com/car-images/4wXQZY45CVBiETzQB8zGr5gnaNHuF73rhJ4JMsMh.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "S10",
+    "image_url": "https://bcdn.aloparca.com/car-images/i1ifROH4zE9V6NvNrN5xlwknmc7vbLRtDG6yZoSN.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "TRANS SPORT",
+    "image_url": "https://bcdn.aloparca.com/car-images/3SFhn5wAITvayQNeL1Rt6Z73ZseKMv0dbMC8DIuW.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "BLAZER K5",
+    "image_url": "https://bcdn.aloparca.com/car-images/VI89DAxd2oNzwDCCltSsLvgbw4udXKJ0k9FZQRxv.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "EVANDA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZgdEZehG5N87KYEEr5uUYWbLbUqn60Z6Jr65KLad.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "C1500",
+    "image_url": "https://bcdn.aloparca.com/car-images/himdI1fmuji42OirBYPdCmfPir3HK2rPsnh1xvQN.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CAPRICE",
+    "image_url": "https://bcdn.aloparca.com/car-images/pmZ4igWGKsoeLurbexr3agOyIpHewBvIx01V0ibb.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "AVALANCHE",
+    "image_url": "https://bcdn.aloparca.com/car-images/9mH2FW3G6Rn9LVtxlxEF9rC2vkKJmSBOTluzoeob.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "SUBURBAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/IdGpiin4wpA6xfHSOm9RyVtITv8k3GTLniFwqUH2.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "EXPRESS",
+    "image_url": "https://bcdn.aloparca.com/car-images/E17JHuL1bLQfZLOW4gXb6EjUsFVztFpOWKnrn5Vp.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "VOLT",
+    "image_url": "https://bcdn.aloparca.com/car-images/mYGKoOc6WAc9kII0Q7826hEINrH1orcDnTq2WkVu.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "ALERO",
+    "image_url": "https://bcdn.aloparca.com/car-images/WnatpFhu04sFjIMQX3AQNH6l7jgZk7yJAuNOapkX.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "IMPALA",
+    "image_url": "https://bcdn.aloparca.com/car-images/h2tImSuP4kNurDYu0wPca0sIFEQJMG9EWc6Vu5Uv.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "COLORADO",
+    "image_url": "https://bcdn.aloparca.com/car-images/cwguxrKbWmZMu4VzfoxBasud3xgLyvqgoLPRqlOi.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "K2500",
+    "image_url": "https://bcdn.aloparca.com/car-images/LyOOMxGBQZpAKXzCumZEyVr8s3dTozlFSp7hCNVa.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "TRAVERSE",
+    "image_url": "https://bcdn.aloparca.com/car-images/PPzltXnYzhBlA6JMlLuXcVrbGUeDP2KxXTX4bln9.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CAPRICE CLASSIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/f25MqaxvHTu3DwByhOicYcfX7TwuQMLCINQmeQtW.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "ASTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/C9e2M74YDnYD89ORMIMuhNxb73qAdIiMYxI3uaG1.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "AGILE",
+    "image_url": "https://bcdn.aloparca.com/car-images/adXJka5k9sV58HKBGIxjoMV5pUmo8LfRac6pQmyO.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "BERETTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7VorFRsCCOnBKYYgJw8hnxGoUYmdp6EiduKe0ii8.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "BLAZER",
+    "image_url": "https://bcdn.aloparca.com/car-images/8aAJk8kucgFuls1fuvoHBprb9cINffwaxb2l6bv6.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "EQUINOX",
+    "image_url": "https://bcdn.aloparca.com/car-images/WNAP0j9tvkCqf3WOaIj4qUZZ68IYSq0P3s0nMBSB.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "LANOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/NHM1Fbc0K8JV2zE6ojFsMeTAdrG8hopxnVg4C6Ye.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "NIVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/lA3dNpCcNWe8elTAC4OpQHGIV64vZhRClgO9nl8o.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "COBALT",
+    "image_url": "https://bcdn.aloparca.com/car-images/jROSIBWvzXkF6SiHY0DvfhL6gJbSJNgciQ1Qt6jM.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CHEVELLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/4wsoDTbBwUOElUSY877VCz4TFQj2ZoqSJHlQFEE8.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "OPTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/bwbDo1IBwdOGywAkndKY4mMVO5X7x6E9W2FYePVH.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "LUMINA",
+    "image_url": "https://bcdn.aloparca.com/car-images/lCm5BltNhCZSz4MPy0gQXPFYolOJL1iFcRmbPFgY.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CHEVY",
+    "image_url": "https://bcdn.aloparca.com/car-images/v8os2XkzLFgaByUdecKPZuNbcNwCMKYfsVHLhRXd.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "MONTE CARLO",
+    "image_url": "https://bcdn.aloparca.com/car-images/aRLYxhVoWpBJF2O8LyNcaxEuBU1sKjgxAjZhBppv.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "NOVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/KnhLXa9HYx9cVRNDprnWljSgETsxx0SnaXjq30u9.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CAVALIER",
+    "image_url": "https://bcdn.aloparca.com/car-images/CeOUcDsccmxAJsxE5ZWV7qHKXs1kz4r9TR8a6Rhk.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "UPLANDER",
+    "image_url": "https://bcdn.aloparca.com/car-images/uhJa6zuc1ZlZsUO7UxzXu1ryOy3CgoMP1ghEUKMo.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CORSA",
+    "image_url": "https://bcdn.aloparca.com/car-images/fSkqljZQjWWBk5Z0PkPZtQFPFc3UZBO30wTSlNwf.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "TRACKER",
+    "image_url": "https://bcdn.aloparca.com/car-images/AVq8UhKhpuFwLFwZzca3lIE6UmHcgrtPfXaNYCtK.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "BOLT",
+    "image_url": "https://bcdn.aloparca.com/car-images/Pu9tiRdj1PDBelE2JYxZheC1oYK5rXnem6EKzFM4.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "MONZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/YNWyVFhUSj7MCZDGzeA5dahAqguqGUZb3oq4ug2R.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "BEAT",
+    "image_url": "https://bcdn.aloparca.com/car-images/dOU72MYnT4NRV0sntBAVQHecQCbao6EYn9OcHCHM.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CORSICA",
+    "image_url": "https://bcdn.aloparca.com/car-images/dhR9sK6esURM0D6LxD2b2MuCfcFeF4qh7M4UAqpe.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "SAIL",
+    "image_url": "https://bcdn.aloparca.com/car-images/nPtcDTtNbDzCyB4ImGvdRpptqxhNh8SkBJLR4ah7.png?width=219"
+  },
+  {
+    "brand": "chevrolet",
+    "model_name": "CITATION",
+    "image_url": "https://bcdn.aloparca.com/car-images/4ivMPBSk63et5YSTvZ1hz21ZW2fdo29CsswcGGNv.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "300",
+    "image_url": "https://bcdn.aloparca.com/car-images/njuq2niq6xHU8mdhpvrn8dMBI5gjcu0217LIwqgP.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "VOYAGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/JwqXKm0MYPC6wThIe2kdp4U5UKZ9nQGieDB752Re.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "PT CRUISER",
+    "image_url": "https://bcdn.aloparca.com/car-images/8SLBZb2seL1qmLI8e2aBLRhHIvttYH3JkP59Goqz.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "GRAND VOYAGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/Tk2IB522edQS0NdhskV4VB1RCQFOQpv2nYEQRTTj.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "SEBRING",
+    "image_url": "https://bcdn.aloparca.com/car-images/RxuIKzMHwuQ89rmaK2Tuxq3oK5eJ6HPzQYT2eXs2.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "CROSSFIRE",
+    "image_url": "https://bcdn.aloparca.com/car-images/quQRKdDGbSQnDZ383Eb1218QV2AhSN2Hb3Adv3OR.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "STRATUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/Tyc9YYFw0MdfAm2f5YIUDqbINC6KPFx5pL38HbMC.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "LE BARON",
+    "image_url": "https://bcdn.aloparca.com/car-images/1QPwqvzuoiHF3R4iUhZMCLo6vjOdc2tbVvCwnRn2.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "PACIFICA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Rwm5nXAp9f1j8JwX8Syc2tpCgYr6KN4dObenPVZR.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "NEON",
+    "image_url": "https://bcdn.aloparca.com/car-images/XVGgtIc3jMqvy7xnBfJepxXOYT9PaaEO1egH0Ygj.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "200",
+    "image_url": "https://bcdn.aloparca.com/car-images/WTMydYLi9qm9tbhIVmqn822hgVtjH65dKbQXxKrP.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "VISION",
+    "image_url": "https://bcdn.aloparca.com/car-images/NfHlUVAeBpz1TcTgmh5x7i9L3Wz3wji1uhJYKVdZ.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "SARATOGA",
+    "image_url": "https://bcdn.aloparca.com/car-images/LiWqRJA6Zh1w49o5ZZTn5mo4bbhmqm4c92cBwitN.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "PROWLER",
+    "image_url": "https://bcdn.aloparca.com/car-images/uSGSMtY9LHVeZdFUYZ7epAjePNCP9B62Y9ZvgPgb.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "NEW YORKER",
+    "image_url": "https://bcdn.aloparca.com/car-images/TtyY80y2Or6SE0KOCBN3EUTcuKzoha0yhDULM5we.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "ASPEN",
+    "image_url": "https://bcdn.aloparca.com/car-images/kqhJdMHIhKUI63B1XwBUA0H0Fl5EVW9Xs7aQuOhR.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "DAYTONA",
+    "image_url": "https://bcdn.aloparca.com/car-images/51GnYPfRHQ47iNHCUo0dt6JBpBgLXz2gnsk2plCf.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "VIPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/WoYgfjFQPGkVTLXR5oURYu6vCjgbEWaYAbsxa3MS.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "CIRRUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/qoFYledKY7eEslCib5WIaJ68g2uNTHF4vXkyY1A8.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "DELTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ytx8K3h7YSAuPLRQFtnRTznfkATer2TVlZ5o5JOM.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "ES",
+    "image_url": "https://bcdn.aloparca.com/car-images/hsKtzRFrn8f6Ue4WASyWeSTgTkFQY5XMmP97uxim.png?width=219"
+  },
+  {
+    "brand": "chrysler",
+    "model_name": "YPSILON",
+    "image_url": "https://bcdn.aloparca.com/car-images/hpwYlXzDWNNLGoYCXaI2cLK8EzQ7vaVlTDtozaS5.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C4",
+    "image_url": "https://bcdn.aloparca.com/car-images/SmfGmX5joFlZVtDWU8L3t8FdRjJSD0xbTle4yBn7.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "BERLINGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/chI9v0DG7C8TX0UVLchHVbB7NKFRFydV5qv86QMh.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "JUMPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/75nfXas3ZJIFqtFdOmHVM7E7nxErb93vzfRImKpv.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C3",
+    "image_url": "https://bcdn.aloparca.com/car-images/QGbQfsVvJx1YwMYsYq8mI819LWap02JkRco3LrDj.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C5",
+    "image_url": "https://bcdn.aloparca.com/car-images/TWeqijM7GfjBYvea1FL2msIOz7csbjnTMeCRjvn5.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C1",
+    "image_url": "https://bcdn.aloparca.com/car-images/VbPwKPDh8j0QVwd14Iddbp3aCxr7F4uwvOqQOYE0.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "XSARA",
+    "image_url": "https://bcdn.aloparca.com/car-images/UdmcFsTna3dfbBe7qpBX4EHlEhB0FJ8dCMeM05dA.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "JUMPY",
+    "image_url": "https://bcdn.aloparca.com/car-images/Gu3hgXQY4zpIjMGS95qx1XLQ1mJ85PHK8EjfPh5u.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C2",
+    "image_url": "https://bcdn.aloparca.com/car-images/OOMHsvw3gTr8fhxvltcgNJLWivoN9vOSLsnGrff9.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "DS3",
+    "image_url": "https://bcdn.aloparca.com/car-images/GXoEuGcM6pzudMhkHiRppW3OkS5AQMM9G0r5mWCB.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C8",
+    "image_url": "https://bcdn.aloparca.com/car-images/oGahG8JOj786rNn6K7Lwu0FAi0PU9A39HhdJhBtv.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "SAXO",
+    "image_url": "https://bcdn.aloparca.com/car-images/j6SqP2AQZK1IQr0JxFBBNZJmATOA1TEsbHVRoqKV.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C-CROSSER",
+    "image_url": "https://bcdn.aloparca.com/car-images/VdsSTaVTuBoJBPF46cVjf2krxeI1HZsBxewsqhKR.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "NEMO",
+    "image_url": "https://bcdn.aloparca.com/car-images/mRpaTKmSd40rWnAC7SkRfA8xggMLAH5oZ5XqNvrX.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "SPACETOURER",
+    "image_url": "https://bcdn.aloparca.com/car-images/P6GTpLIdkyUzcId26NqshIR3rlUUL8Wdcr7AKtdm.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "DS4",
+    "image_url": "https://bcdn.aloparca.com/car-images/sZVLIX7yewCBjITmJ1e3mLSiyPzuKobdwEDRGPwP.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "XANTIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ol1cSNeWNNNk5wHQIgMxrFBGGpOllDBAf6dXfWqw.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "XM",
+    "image_url": "https://bcdn.aloparca.com/car-images/xcdNrckYyBTW6LYwP9ESjesCIVubgZ8bElVXImYp.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C25",
+    "image_url": "https://bcdn.aloparca.com/car-images/6uYmTv8E1AWMxZHVxrZAn6whJvmbNYNABtdJ3T2O.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C6",
+    "image_url": "https://bcdn.aloparca.com/car-images/iCIZmaQcjGZ9m7qVMseLpcENyj9fDSYXy9o9tTbB.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "DS5",
+    "image_url": "https://bcdn.aloparca.com/car-images/HF4CJZ6w6hltmsDCPfK1vnInWCqK9HzJJGRzs20R.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "2CV",
+    "image_url": "https://bcdn.aloparca.com/car-images/tKtL5uSDTbF2m58clZT7ibSfcxispFMJhqwFbahZ.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "AX",
+    "image_url": "https://bcdn.aloparca.com/car-images/cenKEEgUd7MGfMV6igSgFFaDcfIWbSlQWeSxRwZ5.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C15",
+    "image_url": "https://bcdn.aloparca.com/car-images/rUz1OzQhH4YF5ZGytSZcuCJ8FvfXjFYSv9eDeSIa.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "CX",
+    "image_url": "https://bcdn.aloparca.com/car-images/mdpSxnjFuByVWUgUiUV4aC1KWxc6bzqY7hxd83RV.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "BX",
+    "image_url": "https://bcdn.aloparca.com/car-images/1SsgBH3G5UgjZDBOdtt1JjHbEakpfSpKOhEQwxio.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "ZX",
+    "image_url": "https://bcdn.aloparca.com/car-images/thPjQixkf3Xyzpk3VNSWdujyJR5aRDK3a2114KNK.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C-ELYSEE",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZhKILUdokMakED7YtbMyopXvpGK8ZFtOBcGn49MF.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "EVASION",
+    "image_url": "https://bcdn.aloparca.com/car-images/2nxdxr8dxMptXvrbZCSYjRDo1DOUbFPQTtwTPLDj.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "VISA",
+    "image_url": "https://bcdn.aloparca.com/car-images/zsKdylTu8wPPg9Pkt2h8micM5kuoNy0QoGYuaOkB.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "DS",
+    "image_url": "https://bcdn.aloparca.com/car-images/qHsq51k6zdSITkX4rAiBIC4M1hCvyuQWMk70csGx.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "GS",
+    "image_url": "https://bcdn.aloparca.com/car-images/G0TqJvVAaQ7rQdKYOkPUGJJvIhisfusAYcuEWIIX.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "AMI",
+    "image_url": "https://bcdn.aloparca.com/car-images/vZq74oPW63smToq3fxWl8lZU8c1NiuC1Bc9gEDTS.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C-ZERO",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ut7kRpcvFoJwry9JHhXhBOXsjNhLrw9hZTATsb26.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "ACADIANE",
+    "image_url": "https://bcdn.aloparca.com/car-images/AJnspdftzpG9uvYFQd0c1cGxEMJJyY5o9rYkJW4u.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "DYANE",
+    "image_url": "https://bcdn.aloparca.com/car-images/P89H3PHekU225TXooEmr8l8Ut6YANirduU6UHX53.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "ID",
+    "image_url": "https://bcdn.aloparca.com/car-images/DbOgHXaSeB3yukIcny399QpAZK5dzxVBxuUpy4aB.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "SM",
+    "image_url": "https://bcdn.aloparca.com/car-images/AP2NpThlSodMtTjbXhpjjGLBVnMlzZNzJOQ7Ix19.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "E-MEHARI",
+    "image_url": "https://bcdn.aloparca.com/car-images/DRxFPuuzDpQpUpwiU4LffqignTtlvs2jsrPboXIv.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "HY",
+    "image_url": "https://bcdn.aloparca.com/car-images/mOIrjdzW5LD1zcIIROn1SpjvLHi33HtYDCf0Mk6J.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "MEHARI",
+    "image_url": "https://bcdn.aloparca.com/car-images/gFIDpSKRYunFqNBxo9Z2fU590O2n5wSlm3qPk8zr.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "LNA",
+    "image_url": "https://bcdn.aloparca.com/car-images/HojBDfijmpP07Ig98UgUFEffhNlFHHMFyzKvhEiD.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "C35",
+    "image_url": "https://bcdn.aloparca.com/car-images/JuktQ7tNFSycSCgACnbbbnAY0Ar86tUkoL85jAAQ.png?width=219"
+  },
+  {
+    "brand": "citroen",
+    "model_name": "AXEL",
+    "image_url": "https://bcdn.aloparca.com/car-images/5c17WpaPLRA37XpBMoUzECXKy4o1S3bzJOV6Wwgy.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "SANDERO",
+    "image_url": "https://bcdn.aloparca.com/car-images/uiH8UYjBO4rN5tBSovOR79YuKlDdARuS30vA1d2X.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "DUSTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/dNowzHRpSM8ZvUhmPeabcYK7CbUgS3bc1mZzWheI.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "LOGAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/MOCGlqGeBuQ9QLv3uBtTC96QOSrK7flbjjvPPlHw.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "DOKKER",
+    "image_url": "https://bcdn.aloparca.com/car-images/RKtU5lYo78a7IbtIEK4PMczp7zuWMHTUjLiTqM32.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "LODGY",
+    "image_url": "https://bcdn.aloparca.com/car-images/pNSRw0JVzVih1lMgbeRWjNLFqMHcJKVLKB9TKPK4.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "SPRING",
+    "image_url": "https://bcdn.aloparca.com/car-images/crsrJ1sakrOs07IwZJP8IvDld59MjkybLZjENGT6.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "JOGGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/O009nqewUu0VSDi5yXOCwIN0fovzcff0hjlCxEBZ.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1310",
+    "image_url": "https://bcdn.aloparca.com/car-images/uQwO9WMJwdL0triI6U4xMiQ8gOZvk9PaPZhQDXzc.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1300",
+    "image_url": "https://bcdn.aloparca.com/car-images/6cqPJYOt1Y6nHumoIrEOzCDsGHxKNvWynGsJMVYN.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "SOLENZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZauI5JpyyQOLkjyz5JzdT6DHbAxbKUOoJEkYsrKW.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "PICK UP",
+    "image_url": "https://bcdn.aloparca.com/car-images/PZ19vvmBrf025hoJgsQR0yLKyY2Viqo76Oyr2lzO.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1410",
+    "image_url": "https://bcdn.aloparca.com/car-images/E1YSrTm5Plqn6aCwe2K37clcMPszr3E7IBP0iRx7.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1100",
+    "image_url": "https://bcdn.aloparca.com/car-images/GoiCxNFb5y8mShykPdV6mldEBQ1cN8VhrsWQVcv8.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1309",
+    "image_url": "https://bcdn.aloparca.com/car-images/q7wOJ2OXfzZi1wFOZGBWfClrXUZTmSkNhroUWMwb.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1304",
+    "image_url": "https://bcdn.aloparca.com/car-images/nT2fSphilBd05l3che4fCtFinZ6fLG5uWfz4G9Ap.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "1325",
+    "image_url": "https://bcdn.aloparca.com/car-images/5PBZWC2C5wYENVkE2YdOZXOMSkecMi5FbBlFDeTW.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "SUPERNOVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/LvuEHI5RmpUJtu8AvLVNg1zxJAyWrKjnQqKC07Ow.png?width=219"
+  },
+  {
+    "brand": "dacia",
+    "model_name": "NOVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Vu1fdhU3e2b3YV1lSbIjj0qlSMCwuhdXhN5Juqud.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "CALIBER",
+    "image_url": "https://bcdn.aloparca.com/car-images/2RXulLTV3vr475BwvnTZKcp184AyOpE6e3WWeJ7H.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "NITRO",
+    "image_url": "https://bcdn.aloparca.com/car-images/iTDlvXnIHVVdfh3sEyfql7c7PQ8bn60b0pxQ2GdN.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "JOURNEY",
+    "image_url": "https://bcdn.aloparca.com/car-images/5SpjQaXLbo0EJ8GPooe9HOUuek11cSbMb7rYHN39.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "RAM",
+    "image_url": "https://bcdn.aloparca.com/car-images/EtMugQc3locC89PSvpo5jo1jop728F7RdeKCW8Wx.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "CHALLENGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/iLJZo5o7LKSZvPLme4YUFoz6czdsoJsp1TOI5eK4.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "CHARGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/CofFGkaOZcLCRpAb29iCn4YgQc7ch2ZMdEKGK7Vp.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "DURANGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/HlSaBtCfD6VJcAMlDSkoPYu4zXQLbFiWUmqKrbDn.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "AVENGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/5HRb3GfMQS1yzHyWQK4ctS8loGQFjmFyM2jV3jWo.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "MAGNUM",
+    "image_url": "https://bcdn.aloparca.com/car-images/beajJx8CdMc2g2DGBYV4anOA6hZUnysRX1aVwVUu.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "DAKOTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/iMNCGL0qVRMOC5fC3WiVcTkGOc0XTMpS8Wt9xNhg.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "VIPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/rmOyOAMEQmnGVADA4OkRqFJyBWehbslNjvWq6c1y.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "DART",
+    "image_url": "https://bcdn.aloparca.com/car-images/Twy4O00NxUHKB92EQGihdkHesy3yjeoclyazOTjJ.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "RAMCHARGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/NB0iiuPMTo1rfvu1X3qetqZngdLC5eWuFAmoNIir.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "NEON",
+    "image_url": "https://bcdn.aloparca.com/car-images/trLd5ynqdJCElDDTEvHJIDAjcwQOYPCaaoXW0kNZ.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "SPRINTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/tiV4eQK0j09rhEPjhNjIPoJBEtonUAKsdbtn03wO.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "STRATUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/XaOxdmaMO4RJD3lrlXw6gP6cEUSHraB1waYLgk6X.png?width=219"
+  },
+  {
+    "brand": "dodge",
+    "model_name": "i10",
+    "image_url": "https://bcdn.aloparca.com/car-images/Yfsq93jdLbo8OFfSzRPRHozELfXXo9vbXCAp3X7B.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "DUCATO",
+    "image_url": "https://bcdn.aloparca.com/car-images/FsjgA90DNhisFZxEHwrV9v1SzdAugwnaq6qwFKnD.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "500",
+    "image_url": "https://bcdn.aloparca.com/car-images/459GpBJ9b0W5tw9nouaJ6vqSzcqPxNPup7IAPmT5.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "PANDA",
+    "image_url": "https://bcdn.aloparca.com/car-images/9lAf0jY6c1VtvU9iDN8gNQmpWYlIySAd3NckZ5iO.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "GRANDE PUNTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/6fgsIeNFaDaF22tzR7fGal9vS0KZ8D5LnFP0o41x.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "PUNTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZwErWUSM6ja8TB5mWST7mHOiWoLngojCrBE7jxJ2.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "DOBLO",
+    "image_url": "https://bcdn.aloparca.com/car-images/lTV9iwJEIw0eBtx1WK5UbXF6RGHwecvQjfDK6WjB.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "TIPO",
+    "image_url": "https://bcdn.aloparca.com/car-images/VrLSp5V86A8Hq5mEa5uo3ipO5GNgV9VizkMhrgxg.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "FREEMONT",
+    "image_url": "https://bcdn.aloparca.com/car-images/oon2VI3rjiz43HALpBv8Kyt5ihwEVtKlnAy8sp4v.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "BRAVO",
+    "image_url": "https://bcdn.aloparca.com/car-images/oUwZfG7fui8xMQZQ3gb5Gg6bZOk7UzQVb0EZQCmL.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "SCUDO",
+    "image_url": "https://bcdn.aloparca.com/car-images/arEMM2eZItTwYViHSJtS1rY9a2Thbcmw60XLOA3H.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "STILO",
+    "image_url": "https://bcdn.aloparca.com/car-images/l89durWbj5YEIuZNo36hdrUBjZ30505uzICzXOQZ.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "SEICENTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/g7H7n2DGEy7H14E0pkzf9eIk2XoaIaYpixLMvjfg.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "TALENTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/NrrxjLndVOuqQRgowpCRyXSvaXGoB0lmJ19ImLZz.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "CROMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/PH6DplNuf87rqbP2X140Flh7sZzucVZwipp7kvf1.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "BARCHETTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/D7CkR1L0TB7cgYNGsjqmy8mzPe8ZwtNVKswJefpi.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "FIORINO",
+    "image_url": "https://bcdn.aloparca.com/car-images/0tE3bCfvHCcawhk893OzMGSjizmRVVHFeFPxtgVC.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "QUBO",
+    "image_url": "https://bcdn.aloparca.com/car-images/xdGrsPkSO42YXw1uqgq0iuY0I4CrRktLvQwWTl6u.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "SEDICI",
+    "image_url": "https://bcdn.aloparca.com/car-images/l9yol9QV5f0XfuGXeqbiUH8Wdj1k77YEbDelaov1.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "COUPE",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ku4MYudf8mskpMuRFRruR1pyUtQup2u4pmOWJuKi.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "ULYSSE",
+    "image_url": "https://bcdn.aloparca.com/car-images/7kacTN6LyASVnjIAJfo3GqvBRsGzXK4SnBdezhFk.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "IDEA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ofYPW6cgeYcESV5zwWxm0isfaQuQBuCrNa98BXxl.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "124",
+    "image_url": "https://bcdn.aloparca.com/car-images/25MvnGoUu9nH3TyOWpqbmEqbNBHu8A6can3IGUQY.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "CINQUECENTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/exi2mYp0OMFjZnGXbelc301kw4a0m8ShQaViKUwz.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "UNO",
+    "image_url": "https://bcdn.aloparca.com/car-images/AtKyomOGQMnHyql5E48J0E4eTvXrmLNGuZzltxYl.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "MULTIPLA",
+    "image_url": "https://bcdn.aloparca.com/car-images/XmejbxZNDjBx3LKE0bMzdIhJi0SY7KySgWafXLEL.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "STRADA",
+    "image_url": "https://bcdn.aloparca.com/car-images/lOyb13LdvGmFHkNvAbWQMsATslu3mnu6WNo7WeEN.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "FULLBACK",
+    "image_url": "https://bcdn.aloparca.com/car-images/WxcirzvIChNb3GtkDb3sZ34kW7hg4BcADydt3CO6.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "X 1/9",
+    "image_url": "https://bcdn.aloparca.com/car-images/QfnMRBciqpw6P9EUObo7YhNtdmiYFfa4r81JXLSD.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "126",
+    "image_url": "https://bcdn.aloparca.com/car-images/nMQzBbXZ20je01DSaDI0phEnjTfzzJciukfM40UA.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "LINEA",
+    "image_url": "https://bcdn.aloparca.com/car-images/1ajvh5Xjp3syMc6tggN1ers8EUHOVsNForPW12sS.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "850",
+    "image_url": "https://bcdn.aloparca.com/car-images/abU4MyjJBMS9smSAkesRL73Lc4u6aCmRKJMVsyZj.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "MAREA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7UaDceG5fLZbAMo5CAq7RXhe9aYTEIXgckPVstua.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "BRAVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/6qJv4i8PdvFvXfHcnKChDAcGNBdqooH4aCdLT8rq.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "127",
+    "image_url": "https://bcdn.aloparca.com/car-images/PeuIfonjmMOkTdngeHnle0HY2VMFz5SfhcmNXg6U.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "128",
+    "image_url": "https://bcdn.aloparca.com/car-images/h09e1V4dGYc1vNEUtnjvJyZ3P6S1x8NwzRuuV1L9.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "PALIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/XDt4cvTFjGxF3Z2D5KbG6EWB9y7MT8OqRi0BRo6n.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "RITMO",
+    "image_url": "https://bcdn.aloparca.com/car-images/d4gbhgPZ2dZZRXtZKk5BiQkJzbIPU17E4Jqhf3lD.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "Topolino",
+    "image_url": "https://bcdn.aloparca.com/car-images/8epZj1havCEiIFhxcHDG1jThSAJqDu7GoUpeUaIx.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "TEMPRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/CQ8QGmFXfnDi7w3saANT7AneAchWtVq8BhyS4Xh3.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "131",
+    "image_url": "https://bcdn.aloparca.com/car-images/B9IDsmMDe1ZB9KIu2E5VZjc9x6kOyIq60FfGT8pJ.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "600",
+    "image_url": "https://bcdn.aloparca.com/car-images/mqdawiqvS0Vm4S4eUxa2jTFnTxOb926AKrBO0p0p.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "1500-2300",
+    "image_url": "https://bcdn.aloparca.com/car-images/EetFTUNVbderG6LWEOB5BG5IormGLDxcfEN6khT8.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "REGATA",
+    "image_url": "https://bcdn.aloparca.com/car-images/RVYuDw564odsPCSKPO3fXelED89R6DsmmqkucLWT.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "125",
+    "image_url": "https://bcdn.aloparca.com/car-images/nsaL4nijQ9lrwcXPcTMjzLMtLye3YfVaMdc04dZq.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "238",
+    "image_url": "https://bcdn.aloparca.com/car-images/jjJNdRT97M1EdkT8VKGWV7TLwsnFralwh9JqC0Dj.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "132",
+    "image_url": "https://bcdn.aloparca.com/car-images/QmRkGhoIhBjCcrKEFPjV56myo9I1pj9upWTZMT2z.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "130",
+    "image_url": "https://bcdn.aloparca.com/car-images/LzgHjaYzcCHHDhNGUgBHhRBY6a2JMe5HfOopWrWJ.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "900",
+    "image_url": "https://bcdn.aloparca.com/car-images/GbZyRWh0WjENXnu1lEyVUNWnLm0Ar0JNn1y2JiFc.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "ARGENTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/E8ZSjX9epS7j82Yrgi5k3MHYsCclcjmcYT1YMIOf.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "242",
+    "image_url": "https://bcdn.aloparca.com/car-images/FkJyLR1R3zybOzWCXymAmpTpZIjyz3ff3ZDobFHU.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "1000-Serie",
+    "image_url": "https://bcdn.aloparca.com/car-images/I1xMXfIVk5fZWLP36vqH45eDdNz7AUj66CAUzfPd.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "SIENA",
+    "image_url": "https://bcdn.aloparca.com/car-images/JLoDmDRVGiSS4yPnUs7Z7PW20WQWm4C6JRy6kJYJ.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "CAMPAGNOLA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ktWFXjVa65ZQ65myBAItghBlxac2TKogFu9cwoMx.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "DINO",
+    "image_url": "https://bcdn.aloparca.com/car-images/9YynUvDisn3xDmvJWmGPVTgbTM7kNpKePHee810F.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "DUNA",
+    "image_url": "https://bcdn.aloparca.com/car-images/iNdgx6cZtrEw40CjqgXFEvXw9jwk8MZtEGpeDKns.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "147",
+    "image_url": "https://bcdn.aloparca.com/car-images/fKoZN76YnknUM1mPdQGoewIOAxytWzs76YM5jpwN.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "ELBA",
+    "image_url": "https://bcdn.aloparca.com/car-images/hbCsUOFmlsh2NVKXDTm8vklwu2tMXlcLeBRR90Zb.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "URBAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/YEv5qL0mtlHNql5VpsuG0U71oaSSTp7B42NKiCCr.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "MOBI",
+    "image_url": "https://bcdn.aloparca.com/car-images/hpYP5MtJXLAoayI59Jg0PvC06qUCsclufjHTDmF3.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "AVVENTURA",
+    "image_url": "https://bcdn.aloparca.com/car-images/z4Tfmfv9U8w5XnTLgdaQvHxst8eyQs7f3bymxw93.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "MILLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/pv4lgpZe6ZRWfWZGRjXtYZnP5wgvjjAwXltwZGZ4.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "TORO",
+    "image_url": "https://bcdn.aloparca.com/car-images/aIQpMOf653vFqTKd58edX0Usn7OTxbJhb71hgmYO.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "ARGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/qh1scOQzvEppAngQOlNWd908xe6gUBzgk0fdJzAc.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "CRONOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/1p7GELnftdVHIn4VNtj9BCkqWGAVWR94UvL6aKu4.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "PULSE",
+    "image_url": "https://bcdn.aloparca.com/car-images/kYghtgT6rBuODiNhhRXShlPrAmeLBwr2pnfAKNBe.png?width=219"
+  },
+  {
+    "brand": "fiat",
+    "model_name": "PREMIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/z3Krl1hSJKMNqlng1m1zVtWnsfa66rQRFspd8LVt.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "FOCUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/ot31OlkoJT72iuJbqkxzItz7eayLwJSGHH9lFeAP.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "FIESTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/mTDl7JjdYyLBiKoo5uXj6C9QkCCNPLlAkubMwjHE.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "MONDEO",
+    "image_url": "https://bcdn.aloparca.com/car-images/qUYDgPMLjx5MZam5Gl3JQ1mEKJBe8oigadThrNt6.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TRANSIT",
+    "image_url": "https://bcdn.aloparca.com/car-images/0PlYamdDP5atgWOR7rVGhevCsOG4CY1zx5QxnelT.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "KUGA",
+    "image_url": "https://bcdn.aloparca.com/car-images/S7SLdveNQAxwm5BO4eVfAt6E0wxtGn0HUUvYLXOq.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "S-MAX",
+    "image_url": "https://bcdn.aloparca.com/car-images/msTmV3rwjk7xCw9aTogsaAbXECYUnLgkuuz9EIhM.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "C-MAX",
+    "image_url": "https://bcdn.aloparca.com/car-images/hxTDd6fbbvt8TQe1HRG2zjpSr4ZUF2IfnKQkqJJd.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "GALAXY",
+    "image_url": "https://bcdn.aloparca.com/car-images/IVn5lHxVlS1VkQWqa9PBr4xmI1bHnq4JlsdoOiRF.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TRANSIT Custom",
+    "image_url": "https://bcdn.aloparca.com/car-images/px5iWzwdrT2Do58KQfAJr8HWFt1bXaFtZ7f0z7dm.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "KA",
+    "image_url": "https://bcdn.aloparca.com/car-images/lrW5UM4lk3clV3SShVT1RrHd5bmtaFLvaOp1oHO1.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "RANGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/jMxx27rjUQ1Pe5wagUYKWcsVzL0fFmHLs9hGouZq.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "FUSION",
+    "image_url": "https://bcdn.aloparca.com/car-images/5Z1uS2al9fhiFRTaF3nxXGJiQlfATM61wigFOLeL.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "Tourneo Custom",
+    "image_url": "https://bcdn.aloparca.com/car-images/zoRVbIin742Bud5V6InO9lgM3BfsHShDjrr629ri.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TRANSIT CONNECT",
+    "image_url": "https://bcdn.aloparca.com/car-images/6dOG6lO2BHcUrFXHM0cO9vPldLFjotrGsyyoJiOz.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "ESCORT",
+    "image_url": "https://bcdn.aloparca.com/car-images/i6HZKcjRuHEEqadymKa6pKgfT27WR6DEphkcCgXm.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TOURNEO CONNECT",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZDR99iLRLNHEs3kgxzvcw8izAhQ69VOW80SEmJIi.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "B-MAX",
+    "image_url": "https://bcdn.aloparca.com/car-images/LQRmYLRReTS7Lth9a8q1MHC2b7KMPvEeeolVkfKA.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "ECOSPORT",
+    "image_url": "https://bcdn.aloparca.com/car-images/0t4aN7gr2izPRUkHHoPoB8RDTMnkEOlP9l0KE4yv.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "MAVERICK",
+    "image_url": "https://bcdn.aloparca.com/car-images/9bMsZVw3FdLvkTjxNzV4v6obRhNSGPflFWSbIOJl.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "PUMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/5qOeQwhtnkpBT5aB0gmpoSqDESCuoyZgeEVmwzD8.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "SIERRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/hh9YJXrglsdmOZAYhCAr7QEUDMkjzkGBzCWIrdCv.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "StreetKA",
+    "image_url": "https://bcdn.aloparca.com/car-images/5IKts9dO8E51gkDPxP9VJ28ePWIYUjgNLKcEPeSI.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "CAPRI",
+    "image_url": "https://bcdn.aloparca.com/car-images/FaGmNghItXqV4TnS2yUxyaLYEUhNP4gpPNeGy0z4.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TRANSIT COURIER",
+    "image_url": "https://bcdn.aloparca.com/car-images/boxFZkZfggWPhmFfZ4b4bpsPlzV0O2HLTUNaTpVW.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "Tourneo Courier",
+    "image_url": "https://bcdn.aloparca.com/car-images/JfvlpatL9mgFwC9MunPB4N0mMgnOfAlYjr1gX9KU.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "SCORPIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/74Qdzhdmh7ES94mujMAuCKAxDWKyN6Syr60cqrob.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TAUNUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/4cypNkXkUzryclmBJMslvZkHgzcxmp7tbuKTfPZ7.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "GRANADA",
+    "image_url": "https://bcdn.aloparca.com/car-images/vyDox2REcBuJpGcDQZ6lyG5b5eEZpR7rbwDF6col.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "COUGAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/i5mGKZXW07lkQmGIDf6ANG9WzWIIIYpEdFJwOXuR.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "ORION",
+    "image_url": "https://bcdn.aloparca.com/car-images/Fs49HFl7NrOAJLMyfqPHbWN5aXqGQ8d6IlSQKHCW.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "ACTIVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/zKnGU4i1aLl1GIsOtxckDGw6Yvv9CzTEz1N0Ae66.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "CONSUL",
+    "image_url": "https://bcdn.aloparca.com/car-images/SUzgBJhzUwJpokZpJLPpfnHo1Xu7fIg0blbFlroO.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "CORTINA",
+    "image_url": "https://bcdn.aloparca.com/car-images/tF9xH4qZbFNgwPaQ2rJySmkePdptCkCloxbBFYTQ.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "COURIER",
+    "image_url": "https://bcdn.aloparca.com/car-images/5zOslPURORA1LJQerQ5jdokFpXqvw1aj6SqmoVTp.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "GT",
+    "image_url": "https://bcdn.aloparca.com/car-images/qqMinAfWF4DpgcCgIlT4dxx4Ify0xiahLum7LYzo.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "P 100",
+    "image_url": "https://bcdn.aloparca.com/car-images/GBjZwjx1ZOexISJoVHuzZGtJxZTSL8f1FEVM8Mfu.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "ECONOVAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/bIDhE7ncSiEwCU0vDHlkRzjLXSzT1EbKBaUeQOWR.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "ZEPHYR",
+    "image_url": "https://bcdn.aloparca.com/car-images/40xgloxHqPL1E6SPJFyF7QvcqGQiPrctxsUZSzPk.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "FALCON",
+    "image_url": "https://bcdn.aloparca.com/car-images/4mmF8yvMwIyCsVwBVueBQnV5sWVMjAqbD9eHnEjt.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "CORSAIR",
+    "image_url": "https://bcdn.aloparca.com/car-images/HmEoJuWupmNiY2MDJvUGStsalhaF13qva6TEltaD.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "EVEREST",
+    "image_url": "https://bcdn.aloparca.com/car-images/6m0ndIv0XPaNSBBXDuzyPsR2yLJeCTvjm9SeGznT.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "FREESTYLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/l6sR5Wkj23qosvMT9rgjJV7zEfMvWPuOQhLEK72Y.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "F4000",
+    "image_url": "https://bcdn.aloparca.com/car-images/aTmO8P2vnYRtw2Qy41UnninSR9WAVoBDWC3l83aX.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "IKON",
+    "image_url": "https://bcdn.aloparca.com/car-images/yRKAIukOsLU1E2WakUnW5RW4tAvSsUdnhZrIrl1A.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TELSTAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/s3U1KWV8JrqNX9wCZeQqUfekJi3gnskWYZQtipob.png?width=219"
+  },
+  {
+    "brand": "ford",
+    "model_name": "TOPAZ",
+    "image_url": "https://bcdn.aloparca.com/car-images/JnBGQTsLSUrEZO5eSOKoIYS5Vv0ggpBNkh5fJKjM.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CIVIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/vqUWJb0YzGiKuQ7FfaY1ecDRJArZvLkRA8Llmf3p.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CR-V",
+    "image_url": "https://bcdn.aloparca.com/car-images/rCkuJqvTQkaSUTjiqXdKVpTOs2uVBXldofgWYF9X.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "JAZZ",
+    "image_url": "https://bcdn.aloparca.com/car-images/3ir7pT2BY4MzxSAmVK9XzXAsFHfy07en8AXRtXoY.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "ACCORD",
+    "image_url": "https://bcdn.aloparca.com/car-images/ABtFXF58WcLYsrhXbHbkyFNTwbj53efNzEyKqesW.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "HR-V",
+    "image_url": "https://bcdn.aloparca.com/car-images/vA0wArrUp8XDzBSVI8wpR3CLNtDwqmbiTBOtf8hj.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CRX",
+    "image_url": "https://bcdn.aloparca.com/car-images/FH08XnuwFPwWKWjiN5s4zzpD8cGgwDn6l7DF1014.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "PRELUDE",
+    "image_url": "https://bcdn.aloparca.com/car-images/AUnnVoUHz2NsCJT3qURjQLARCuBwTgF6KCiEvN3O.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "FR-V",
+    "image_url": "https://bcdn.aloparca.com/car-images/QwVvdS3zKQ5Ge4aNVnIPfioIsVBZTiii2f7rkEA1.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CR-Z",
+    "image_url": "https://bcdn.aloparca.com/car-images/sUhymF87gq5PmgTFyR2e3dYGoKa0bNizOJPfBUhb.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "INSIGHT",
+    "image_url": "https://bcdn.aloparca.com/car-images/GNFOYtUOjR1md7OyAlZ3wLIsu1WVcMB3jPL3DL86.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "LOGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/BRgaMFVO8lU8crvAkTqZyEVKkDso3zHYvkWB6ABR.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "LEGEND",
+    "image_url": "https://bcdn.aloparca.com/car-images/NonHjDkTlZQBS3NMKN34eIeFDmvtb1YSNznp1Z7f.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "STREAM",
+    "image_url": "https://bcdn.aloparca.com/car-images/sOYQM3ZuIe6g7TCtxKZXgJ7GGPPerMy11D12JVZT.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "S2000",
+    "image_url": "https://bcdn.aloparca.com/car-images/dBJjR3ldSF7iz8te3J5x2tHmdpFxEuPN92pDmNz0.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "INTEGRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7QL4nR7HQJFFtniNWXLwHph0LdDRG4E9bpBJuD3P.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "SHUTTLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/qeVnjFiazQc2vGFGHw4aux5UHeks9sKPf8alBqMA.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "ODYSSEY",
+    "image_url": "https://bcdn.aloparca.com/car-images/Q5gPf9QH1tSQc1uOOHcNDrylvYfjdKwSGqknLE7E.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CONCERTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/tIXhmDKn8pwGVy04g9U9mevtV1BcR0W95s3Wsstu.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "PILOT",
+    "image_url": "https://bcdn.aloparca.com/car-images/4IVvoq1NE8bBYr96Vf7mkL6xm1UmmKVfifyUpKuF.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "e",
+    "image_url": "https://bcdn.aloparca.com/car-images/5NerKopXTXK1dPGKcMM68vgnKECZBmpFXQQ6KiAx.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CITY",
+    "image_url": "https://bcdn.aloparca.com/car-images/CDIFdvnkN5EUvZQFKkm7ByoOjnNJ9FPHFUOBuYxu.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "NSX",
+    "image_url": "https://bcdn.aloparca.com/car-images/baWYKKDTYDnABNCovsFUWFgjxFJOgDmDwTSevxmA.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "N600",
+    "image_url": "https://bcdn.aloparca.com/car-images/Gkl3oKWMSUdlOTqeFzWIuMYB3MiFsZOMhNHl5Dn0.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "ELEMENT",
+    "image_url": "https://bcdn.aloparca.com/car-images/XyrIdJmzPte68CRd2yz8nQqB3oOTSFZ9TllzRuL8.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "STEPWGN",
+    "image_url": "https://bcdn.aloparca.com/car-images/uM60L7t3GEhf3tp25e97lY9KCjBfv4kdLQF8J0Dq.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "ELYSION",
+    "image_url": "https://bcdn.aloparca.com/car-images/J6ztuudNCY5rN4fAT0PtUXQsgPNGWpp0tKQgNDvp.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "CROSSTOUR",
+    "image_url": "https://bcdn.aloparca.com/car-images/g1wM6Y1nFdwxM8jSoi2rL9cZOqck5uL3mEEWiG5f.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "VEZEL",
+    "image_url": "https://bcdn.aloparca.com/car-images/XfEgGD2gyEEa6GfqUDEw8BdsjE4KCQxq39I02ssK.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "PASSPORT",
+    "image_url": "https://bcdn.aloparca.com/car-images/d9AigJDa02iNWfisjRQsnf4S0Bhwzc0CXeuWxo4v.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "AIRWAVE",
+    "image_url": "https://bcdn.aloparca.com/car-images/NhRU3U7HprE6uyBq7SSZNpfzLn2fX5IX0WNxAWaM.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "MDX",
+    "image_url": "https://bcdn.aloparca.com/car-images/jNVVAKL61PWfBFMW7TdGpySKnsExix5jxAohGMp9.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "BRIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/Q03kclyq4rKZgk1w98tZKZgCSUwpAeljwWSnqiWX.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "N-WGN",
+    "image_url": "https://bcdn.aloparca.com/car-images/zHpHu0u2BgGHuPbBqxSJNxkZQfzSfaE9PKzMF45P.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "QUINTET",
+    "image_url": "https://bcdn.aloparca.com/car-images/xsoUvcm1oAgAfiJ9fV0gC8b2HYZeVawCNppan9Yj.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "SMX",
+    "image_url": "https://bcdn.aloparca.com/car-images/57O5jXj8vitPg7jTVeYwmhj702UsYUd1vBsUPFX6.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "LIFE",
+    "image_url": "https://bcdn.aloparca.com/car-images/DO6cQU0OA03VFaSa6VHTreIeEnyTKgx4NkLsgPBu.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "ORTHIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/hZ2AEy7n5TRjQyq8ucJlbuveslMnQjmszyMq6jqi.png?width=219"
+  },
+  {
+    "brand": "honda",
+    "model_name": "VAMOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/BW7hfVHsxMuP4upAgim2RfKytGLS2EyCUlN16qss.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "GRAND CHEROKEE",
+    "image_url": "https://bcdn.aloparca.com/car-images/AA2i006lHmKEVlDuXRzev59weRqYMBzDtbtT57aH.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "CHEROKEE",
+    "image_url": "https://bcdn.aloparca.com/car-images/DwCFEGACO3qccCektTEMRExt7XbqUjrYRExsK94n.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "COMPASS",
+    "image_url": "https://bcdn.aloparca.com/car-images/QDsbkjtbekoZt01Ew9vYV2RvXZgiaIjxH4LwtT26.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "WRANGLER",
+    "image_url": "https://bcdn.aloparca.com/car-images/vrJu7emMrUt9EtIV6S3CQBDOfmW0CTlnKH0nPvah.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "RENEGADE",
+    "image_url": "https://bcdn.aloparca.com/car-images/vj8rjbjFrfsl1OIcC38tihc2iO6jgktha4sXAcrz.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "COMMANDER",
+    "image_url": "https://bcdn.aloparca.com/car-images/HxIKgUlhjDSHuo1yRwhlOO35a9aVbZRbLLfLjYmA.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "PATRIOT",
+    "image_url": "https://bcdn.aloparca.com/car-images/XKJqJZVis4yAGwZW60EHEH4dTvikU4FDWFwFP2AQ.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "WILLYS",
+    "image_url": "https://bcdn.aloparca.com/car-images/d7YD6vqIMDIdrq4CAgOgU4QZWYncgzFQCGnhc6Jg.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "GLADIATOR",
+    "image_url": "https://bcdn.aloparca.com/car-images/n5Lip9UggiRIuS9Ul9HBDt2E6coTkJOjdQoWGDrh.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "GRAND WAGONEER",
+    "image_url": "https://bcdn.aloparca.com/car-images/7ncMcfhM8bbzdlkuYO6xQO9YUKnMsnB8jI9HG0m8.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "COMANCHE",
+    "image_url": "https://bcdn.aloparca.com/car-images/16n0ufjbM59TwsPr4RmPp5Iksb8ZVhHoQgeIevm6.png?width=219"
+  },
+  {
+    "brand": "jeep",
+    "model_name": "WAGONEER",
+    "image_url": "https://bcdn.aloparca.com/car-images/fgF7KLG4elYFu8q9Xff8hP2vJ8gHgBilYKSb9oDU.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CEE'D",
+    "image_url": "https://bcdn.aloparca.com/car-images/T1AWWU5yCe3481r5q14cFKR2beLjy9lhkqZRomz6.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SPORTAGE",
+    "image_url": "https://bcdn.aloparca.com/car-images/2vmJ8yE6JfwxaqTDqATk1DlJqW4jmD5px1XJBLZb.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SORENTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/9NzMJKY6UL5gjUYBfYSpG9KfnKgxpXlscmbsWcxQ.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "PICANTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/xg55NAGNEqxmHnNo0nd46ftyEP3ZKdgykIAvZuxh.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "RIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/iStyD4g2nPz70jW6WUnb0y4P5l4l9VkMpK43LezT.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CARENS",
+    "image_url": "https://bcdn.aloparca.com/car-images/UX70hJd8xcrkHPizKixDU9Gsgsd85BwTWyfDlr2Z.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "PROCEED",
+    "image_url": "https://bcdn.aloparca.com/car-images/PHy4PPzc2iTxEZU0Wa7vUTupQsiSDcnf0SjqWDcB.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "VENGA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Xb5577NwIxkigo1iPNWosp6WW40zrrU6lHCIoLAa.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "OPTIMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/etThv2axvg10QCMpcN6wEF18IAPonFmitJO5KZ4U.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SOUL",
+    "image_url": "https://bcdn.aloparca.com/car-images/lEVHTe1WVrJLaIffOZu9jNc4LXpIOvH1FNkbbcq1.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "STINGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/eJMQmCA4YGBHG0ioRAsWJot3T1Nm4pAT8curt4t0.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "STONIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/kyAHsLG8uFY24HSjucaQ9ABvEV4x5sxpdKk7sfCP.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CERATO",
+    "image_url": "https://bcdn.aloparca.com/car-images/uMBNfaR2Hy7iPOCtYm6dhk9PXn6IdBVemh3D4r30.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "XCEED",
+    "image_url": "https://bcdn.aloparca.com/car-images/LVQ6G9UuwGh4NJnib233q3mNXE4oRPLD3W4FJR1T.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "NIRO",
+    "image_url": "https://bcdn.aloparca.com/car-images/uGIK8a7Kp5Ay2lWC1hJJrrl1YaYPJEOzJT5pjCcg.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "MAGENTIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/piGSpWti6bthBkzPMOTG00el0POdnCuH0lk3dQNv.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "OPIRUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/dDBQ03JXZUS39fXhhjQSYMyx5IBvHj1jMpZqFANG.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "EV6",
+    "image_url": "https://bcdn.aloparca.com/car-images/u3EdgfMvqZn35R1Dwr6kGlYUDNu9buYAO7SecPya.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SHUMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/jCQLjh35vQtXCMnHbTl6MpvxzOmT47226mddLIZR.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SEPHIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/5qR2tuBESZQRnmOt8Xz8z7jdAq1hmUomv0SPFCAd.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "PRIDE",
+    "image_url": "https://bcdn.aloparca.com/car-images/WsfAMiBpnzP0fDUWaiX8oS9QJmo0MoofS69DScMb.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "JOICE",
+    "image_url": "https://bcdn.aloparca.com/car-images/yqXdhcnlfdafeF44ya3LZbjB4Sxp2yiUgMZn2ybn.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "RETONA",
+    "image_url": "https://bcdn.aloparca.com/car-images/TRHg79gLnaSAI8PcwCuJuiToo9lhupNRNuZhgCZB.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CLARUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/28md29veswytULwiHBpI7NnFKx0uayXkOvejkNge.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "PREGIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/iUOhwBaXDWjkFgDBFdlVzHAqxhmmiGKJHxF81YXa.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CARNIVAL",
+    "image_url": "https://bcdn.aloparca.com/car-images/PcJQSjRqmBOSGYYQHw7E5mihKXUoC8JJPQ9b9ovE.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "K2700",
+    "image_url": "https://bcdn.aloparca.com/car-images/ptt9f1X3TSExUG2vAP1rU3nU7OZEZ1GzK8NA35Md.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "BESTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/QxCaGMFl8UVh48mhS6i8lksCkdBTxTMlgTJTILGP.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "MOHAVE / BORREGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/RvXiMPJbOuNf7CutJZKRJiJ07JIMGYQ2s3KBJDRE.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CADENZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/fa8XeRg7iXV7mbXl0HK3J4tVevwLFGu2iWHaUFWJ.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "K2500",
+    "image_url": "https://bcdn.aloparca.com/car-images/S3DlySee9AhztCStYJF0sFQPijwCmZKwgFxFZ7ir.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "AVELLA",
+    "image_url": "https://bcdn.aloparca.com/car-images/MzPTYTi0o5tPyuhVIk6aJbuEHJpgai0SKDbgxcyS.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SELTOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/6gfomkb8MhDj9ZhrMuiPkt8dIDckWHLn6whwKCyP.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "BONGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/rwZQ7WeIBmWnMQFXEHdMr8NnuEdOjF9WpMXYSz7K.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "ROADSTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/HE00dgpBfzK2XtQ5KvuLABtBHbf3lAf2XvQEBEPd.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "K2900",
+    "image_url": "https://bcdn.aloparca.com/car-images/oRGozR8kjmMS4Nc9Y10ewrYlqOr7xrsZ7IoIVxWo.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "TELLURIDE",
+    "image_url": "https://bcdn.aloparca.com/car-images/1ZDzTbkUbIh2GfsJwTBSUUIa2xBYMosZZZylZjsf.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "ELAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/vMteMzZaRRBHbiF2V27iOeJrpOiNfCm0wkSF3Ntd.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "QUORIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/sBbwL8d9w6AyBmA3vfz6FwfL7Bd7UPpJyhTd7WDo.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "SONET",
+    "image_url": "https://bcdn.aloparca.com/car-images/crkh2AbwnNd213m6T2CELm4Q9hvEuZ8HNE5iY7n2.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "POTENTIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/GzYvWIqylb7uausg2bGMh5osQs29UhLNgwdrmb6h.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "ENTERPRISE",
+    "image_url": "https://bcdn.aloparca.com/car-images/7uE7eSl6WXkKjyg2gfIv0jgNhpjIaNqqH5uFE4FQ.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "K9",
+    "image_url": "https://bcdn.aloparca.com/car-images/O9gxapssST0NBWIGdQKWItH6w8Ouiboc2G4bw3A4.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CONCORD",
+    "image_url": "https://bcdn.aloparca.com/car-images/3f0lDrsTfYEgeghwSAglIxjh5zX0Eg8o0GRj2QtO.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "TOWNER",
+    "image_url": "https://bcdn.aloparca.com/car-images/cCDvA4KWkiSeinN5ueRSD5qcmyDWNknxEBsRiztc.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "RAY",
+    "image_url": "https://bcdn.aloparca.com/car-images/Z6z997kmWIOSoO9oHamwswLk3YYVzrQ7rJylpIA8.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "PEGAS",
+    "image_url": "https://bcdn.aloparca.com/car-images/AzWyBt1n5kvIWq9VaEBnKtF6HTZSpMMb9j8N4xDk.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "CERES",
+    "image_url": "https://bcdn.aloparca.com/car-images/CpxTwmby4gjJ1YWkmOxwmG5EItj9llEKVLeNZG6B.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "K3600",
+    "image_url": "https://bcdn.aloparca.com/car-images/fjwGgqkITC19I6z2aAkrm8Vwt4idDMp9ecwQJV1E.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "K8",
+    "image_url": "https://bcdn.aloparca.com/car-images/jnfKPBxPHVkKTCMbFFoOJ5pOFZ7sek6rHqmwvZYM.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "TRADE",
+    "image_url": "https://bcdn.aloparca.com/car-images/okMWRPEC4pqOJP2cHW4yPNM8SJFYlQohluoO7qSS.png?width=219"
+  },
+  {
+    "brand": "kia",
+    "model_name": "VISTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/Nx4GKfh2LWSj2KOJQoyhzjajzzftAcFZZ41sgk4g.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "C-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/5fyJZdZW3Ke8XQJfLzRa1PQkDydEKK8ZVPvy8aNv.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "E-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/F2MlpELcBrxf3OkDfgzZ1TTtRpCPU3lWxusNsIdP.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "SPRINTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/CPZ0KhprG3l7egvvyWs2Krl0uSfYoj8eaYPDELG1.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "A-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/5oTbmLudmZwII216U9bdxaD5AYRder2kiTSttoD9.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "VITO",
+    "image_url": "https://bcdn.aloparca.com/car-images/eU0STYn7FXCTS5YiE4qlFBuC7cQLYgK2k9bToLJI.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "B-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/DR4XKdG6FxKQsZxgeysWZxeIxiMeXRHzzSPjTxuc.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "S-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/R3o3l1dOANna0RDBI2p7CwAe4LrvdL6HkhQ17vyC.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "Baureihe 124",
+    "image_url": "https://bcdn.aloparca.com/car-images/rRx2NA9XUeKnsTj8tpg9ddhWzeo539NDlX0IDp2y.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "CLK",
+    "image_url": "https://bcdn.aloparca.com/car-images/AnoB8QxOdgBYIaZgoERdotiq1AHBpfMwJV94ao4Q.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "190",
+    "image_url": "https://bcdn.aloparca.com/car-images/idFD7GRrNkEalAkYAP33oIVVn067wC6s7xIesIQl.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "SLK",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ki5vcXvuVGZx7Up6zteN7A1t15Dm9ztisTiF0EI6.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "VIANO",
+    "image_url": "https://bcdn.aloparca.com/car-images/pKqROYmkgGDnjLlRRXeuFcPWJXWeEdw14Wkmey5J.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "CLS",
+    "image_url": "https://bcdn.aloparca.com/car-images/BdDwhPqlSa3JHUwnmLrQOlsRf6CsXf1gz4OMcL50.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "SL",
+    "image_url": "https://bcdn.aloparca.com/car-images/1UPGT0nBYeUV0lhEyRUJQjwQ2CsN9ZMPDaJ6AUSR.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "V-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/0n4uB68zjRFZzbZai8UpyvHjqDsndsg7frVfj8Nb.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "CLA",
+    "image_url": "https://bcdn.aloparca.com/car-images/7l98M7c50xkqtsZVGKaR3OErDnXy1VkQzJYcA8xH.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GLK",
+    "image_url": "https://bcdn.aloparca.com/car-images/1Pqy0MMS8UTCxtsfCCrE86uNwRoM6tncvd4vv2a5.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GLC",
+    "image_url": "https://bcdn.aloparca.com/car-images/jnc5R774cXY0D5TAxA0pqRoIL0B5b2MaUukw9uZT.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "Baureihe 123",
+    "image_url": "https://bcdn.aloparca.com/car-images/ok97pIZ1U6oeEHsUvt5LknKI1DZxblPH1TIIRVOw.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "G-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/xOU3OyVfYF3N4d2IcxtePlZpa34XLzvlkmop7ziD.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/69SuJIyO2jb0xoQGIUEGHXwh74az08tNhxeA9ois.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "MARCO POLO",
+    "image_url": "https://bcdn.aloparca.com/car-images/5xCIYqOneVhO6PJPonRFAlIxtBFAOZr1JdARgMmA.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "R-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/YGqrw9Q8oTckGbKbwnVDEEzs8ifJazTcKaNgev9t.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GLA",
+    "image_url": "https://bcdn.aloparca.com/car-images/eO2OtLmQwIRseLgkEQWgetCzbzbVHF9RMlMfxv1H.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GL",
+    "image_url": "https://bcdn.aloparca.com/car-images/tIlysd345SMaYTTVUXcINwAm1hw7BaWLVIXYBXZP.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "CITAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/pWrOiRo0RfCYb0HO2qmKGLtHNM9DNWZfmnsuzVBO.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "T2",
+    "image_url": "https://bcdn.aloparca.com/car-images/yNH0MQWOwmCd9gm7oKzSof8kehbJUotRmNBXTPAJ.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "/8",
+    "image_url": "https://bcdn.aloparca.com/car-images/WPuDMr1ZcF5ewHa7OXMsTn3Dzk1aOmTDdbD0jA0G.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "VANEO",
+    "image_url": "https://bcdn.aloparca.com/car-images/D9Q7TOXlwoLwHyjtbiDpjyUnKmUmCzlCORagzK5M.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "VARIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/mMBotf1W1opwNGjgMghuMFX06OFSS2IRMaIpu7BP.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "CLC",
+    "image_url": "https://bcdn.aloparca.com/car-images/qTqZTnoHmcDqJHuSnBeyZ06DDDXW1HedNGoPyDWe.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "HECKFLOSSE",
+    "image_url": "https://bcdn.aloparca.com/car-images/ERrRl5qQU0OYtiAPxsaPElDnJ2dgQvTQL1TOTVSA.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "PAGODE",
+    "image_url": "https://bcdn.aloparca.com/car-images/uqfExb7pWHpwCmC1mmK64aBCnKWDxfxGbBirja6X.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "AMG GT",
+    "image_url": "https://bcdn.aloparca.com/car-images/WAoBesU26KqLBtCailNrFF9X8qyjQ3qK7113GDhU.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GLB",
+    "image_url": "https://bcdn.aloparca.com/car-images/ufjTz6IZaHCiFjcATo5Fg7oie6Wky1xRP8VJPisO.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GLS",
+    "image_url": "https://bcdn.aloparca.com/car-images/GY1LoKgY4sMjTSTm7N1m2v1r59iPidbRsJ77jQ5C.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "X-Serisi",
+    "image_url": "https://bcdn.aloparca.com/car-images/EmKxETtXEyJB7J8qgNfgnBHg0lRdHB5v3EVzhNVB.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "Baureihe 111",
+    "image_url": "https://bcdn.aloparca.com/car-images/PEpFudidhZrH9zWTm3g1k2u1sg94LjNIS7bynzZI.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "PONTON",
+    "image_url": "https://bcdn.aloparca.com/car-images/yYw5W8p4hJTzFG7fglXZ9rX3OEueV305DAJO7ycT.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "170",
+    "image_url": "https://bcdn.aloparca.com/car-images/oZHQ52xHcp8HP0KIkAaiXJXfn6PhDKoesqR9fnAW.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "SLC",
+    "image_url": "https://bcdn.aloparca.com/car-images/Vh2bNsDuqanyX0qOgrZIxFWQeClCTede5UfYdfcb.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "HENSCHEL",
+    "image_url": "https://bcdn.aloparca.com/car-images/Fn5a4vtZxuDyVRwjVbrOKinNlOWb0nCveF3pugLE.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "EQC",
+    "image_url": "https://bcdn.aloparca.com/car-images/DqlFISYSmMa6JC67UXHwfza9XoyWXsYUWHnDODK9.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "EQA",
+    "image_url": "https://bcdn.aloparca.com/car-images/u2HLL3cjrK0ZccDVoZLE4iVUj6zypgmYEQDItrUE.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "SLS AMG",
+    "image_url": "https://bcdn.aloparca.com/car-images/x6B7v41JJMYZL9KrpcxAi0CINTQF9Rb0gutsEXmP.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "EQS",
+    "image_url": "https://bcdn.aloparca.com/car-images/Qsx5F8d1dcrXKejSGCyF3OteJrUMHyd6l1TN7Alk.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "SLR",
+    "image_url": "https://bcdn.aloparca.com/car-images/Aj2KF7qzbliadkK5Ni5rlYV5a2cERb3hwxXVZyrR.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "EQB",
+    "image_url": "https://bcdn.aloparca.com/car-images/Lkb54acxat72QevO491MqJaqZgsl9rU0TgckJSpl.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "PULLMANN",
+    "image_url": "https://bcdn.aloparca.com/car-images/O0EwypKfMCQUG1Ii9hW72sojQbJilTGWuBHvDwdN.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "EQE",
+    "image_url": "https://bcdn.aloparca.com/car-images/Oruww667aEtfoQdaBI8p9sBxZdKE1KcX9uKQphGD.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "MB",
+    "image_url": "https://bcdn.aloparca.com/car-images/RRAIDuHJ4EuMzVPW0fC1QInbydD5p6GTopfPXEuP.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "EQV",
+    "image_url": "https://bcdn.aloparca.com/car-images/G3Uc7rPafJE8DqzhsyfMusJhwyM8caOon6PDQgnA.png?width=219"
+  },
+  {
+    "brand": "mercedes",
+    "model_name": "GULLWING",
+    "image_url": "https://bcdn.aloparca.com/car-images/vdgwqyKZcGXHRmI6eyAq7J4zTiXF9gDay98Egphm.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "COLT",
+    "image_url": "https://bcdn.aloparca.com/car-images/bGW9llZDkQYjitQbAdOmgQr8WvhCNnpDJoOsJ6SM.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "OUTLANDER",
+    "image_url": "https://bcdn.aloparca.com/car-images/UJEhgiVmZ3W0JX8CnQ8Vn52kGipKvnFFyqsuzfSf.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "PAJERO",
+    "image_url": "https://bcdn.aloparca.com/car-images/lXx9eqWFljXuTt6l23Og2yDC6JoLQKv0q30vCHEB.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "ASX",
+    "image_url": "https://bcdn.aloparca.com/car-images/y3SypfAdtrpTdxXB7kyk7S0Tp4e4IcfsTgAaEYvv.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "LANCER",
+    "image_url": "https://bcdn.aloparca.com/car-images/Y87OZvgT7Ubbsdjshw0O4CdLNsbbDqA3wc08OiPN.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "MIRAGE",
+    "image_url": "https://bcdn.aloparca.com/car-images/890fBgKZBNM6nlw9eF9xDqlyKRDDLTJqz6rNE619.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "SPACE STAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZYeDnLRNpX5m2THggYyQwlFfkYcM6446YQIadqRp.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "CARISMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/npZPUNwSl0D7W1gKSJqAfKTJHTEtAsJPDqAcEoPk.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "ECLIPSE",
+    "image_url": "https://bcdn.aloparca.com/car-images/EEhjcpbUaocqUpoerABv4LlrLYwoAvnxjKntUuq7.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "GRANDIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/lzhwGeslZqOGw3sPP1xwaYKqdzSgRXrQB8tMOJcs.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "GALANT",
+    "image_url": "https://bcdn.aloparca.com/car-images/uDmT5GL7BPP4PkqVXMru4n9NjgA6dKLAwyy9ELhD.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "L300 / DELICA",
+    "image_url": "https://bcdn.aloparca.com/car-images/X9DvFflETiVqK1nm2FgB1gLBPHmXYnmhqIl6Y7cg.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "PAJERO PININ",
+    "image_url": "https://bcdn.aloparca.com/car-images/aYdTZAMtCx8mzt7uPJJebSra7jKAwAN8ko1t7iZb.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "PAJERO SPORT",
+    "image_url": "https://bcdn.aloparca.com/car-images/67GYOqECjtUlUnLgob4S8NRrEUvsRZRw3QsHaGRw.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "SPACE WAGON",
+    "image_url": "https://bcdn.aloparca.com/car-images/kcfJBemM2YdnrR8I38IXug06w1AsMIMLoalsZC5E.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "SPACE RUNNER",
+    "image_url": "https://bcdn.aloparca.com/car-images/mB7K75Kd9s5BlLQdiLDVKhlLtkss6ME7vkY5VRqo.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "GALLOPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/IVlkj9E9A9Mz8tFi74CrGzfRUhSrT4wkeu2nCJr8.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "SIGMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/sB5XFHJzkeQ9rKvQvKxcW14rlUqeofpSYWA6jKRp.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "SAPPORO",
+    "image_url": "https://bcdn.aloparca.com/car-images/zFPLmImMLxKLmTwGtq5cift9K8Z229qhnUT6vCeB.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "i",
+    "image_url": "https://bcdn.aloparca.com/car-images/FuAZb04Qmif1B6rBbEyocRHeP3bzi6Cj7IQ6GBuu.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "STARION",
+    "image_url": "https://bcdn.aloparca.com/car-images/qQ0csLMA1D4PV4ED2jXpxmMcXqhZxD4VVJmpJdJr.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "FTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/49gzU8y7jiz6V8cZlmAGPZwJ20nQiL9jVY1rzjHp.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "DELICA / SPACE GEAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/3p5ZqC688qdgwJWTBLk7aXZ3kBv1Uld50wFwIpsL.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "LANCER CELESTE",
+    "image_url": "https://bcdn.aloparca.com/car-images/dgrAHwvM6bI5SaVnHHBx55oSOnKbVo75JKQzutGm.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "CORDIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/FU7uSEfa0Kwn4lRvxSmKasd7FV3zH5iWMhjNxY43.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "GTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/sJbQ6fAAOBM56AsiUa09S3JOT3aoynuUoBalzvoB.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "SANTAMO",
+    "image_url": "https://bcdn.aloparca.com/car-images/gTU7R9rgSZoWzl5L6PGZN7a4ODJ03aRUDiLfMQUh.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "PAJERO JUNIOR",
+    "image_url": "https://bcdn.aloparca.com/car-images/HMc3SCpNAXdoDsDSRJTEOYpZThMtfeCgD1EfRCTu.png?width=219"
+  },
+  {
+    "brand": "mitsubishi",
+    "model_name": "TREDIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ldn0O3C027AK57ACX65SbozvS8YO7ocF9MQXao5b.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "QASHQAI",
+    "image_url": "https://bcdn.aloparca.com/car-images/vzEF8VdO6WcQPoxVDf5Xuk8LWZvV5oss1Nhkz7bR.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "MICRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/sFsUyFJIOSHgzk2vWwR4WXbgEnpUdMfrSbyAYUl6.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "X-TRAIL",
+    "image_url": "https://bcdn.aloparca.com/car-images/XoPBDVvxhlPccXhlolsM49c4S9uSdb7cC8Dj0Zcs.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NAVARA",
+    "image_url": "https://bcdn.aloparca.com/car-images/qjMoVflN9NzdsdZvRZp0VUPT31qMaJD9IRL3i8q1.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NOTE",
+    "image_url": "https://bcdn.aloparca.com/car-images/vxlCeiYQYhjbKo4pngHNL6iWc8Msa7JzXEvGGFre.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "JUKE",
+    "image_url": "https://bcdn.aloparca.com/car-images/OtdgqoTuBPD37Zm8QHysXq6F7YXN65WWi5abNoui.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "ALMERA",
+    "image_url": "https://bcdn.aloparca.com/car-images/2OtklZHZrDyvTYXqhrlTfIAhNeD89J2vP06lXcxR.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PATHFINDER",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZKH5dJ4RQORzGW4z6C7jWAZ8D4RdtR0Imc0Q1VkZ.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PRIMERA",
+    "image_url": "https://bcdn.aloparca.com/car-images/O6E9QBEF4RxFCy048d5HzjZyzp5x5MGbPSbWrw94.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV200",
+    "image_url": "https://bcdn.aloparca.com/car-images/alSaY5JxOYWzq3WxoWKitm0L6EY9Hc7OxaqhHbDj.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PATROL",
+    "image_url": "https://bcdn.aloparca.com/car-images/nuZB0R1jltinaWnW0wtcdak9ixkxW16SEgx2Cur5.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PULSAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/EES407KTmQiz0p7JvNPwddok5fBRj4dffdE6yTNK.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "MURANO",
+    "image_url": "https://bcdn.aloparca.com/car-images/P4DbGjRnavj6bfmup9wWvY8sQSbPCapNklbculpH.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TERRANO",
+    "image_url": "https://bcdn.aloparca.com/car-images/a4UbW65NlOlWOTfFWtdd5G4XNphLHM04o9sX5MeF.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PRIMASTAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/UnrNc2klTgF5S0ZIrukUVZ7lnRKxcM95Mb2k16NI.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PIXO",
+    "image_url": "https://bcdn.aloparca.com/car-images/2H01vwaYr5aZv23Tk735tCAmYZSHhlIb9HId5FTs.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TIIDA",
+    "image_url": "https://bcdn.aloparca.com/car-images/9DQ9qSBEZ4z6d3WexijOlvNLBiKX6DR41YYlNZc6.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PICK UP",
+    "image_url": "https://bcdn.aloparca.com/car-images/HseBBBJZuFAR5y1qh4ZCSjkg7y3jc0rjBx9MK4GC.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "GT-R",
+    "image_url": "https://bcdn.aloparca.com/car-images/S3qBQNDw0vEgQggmMA2D6W9zlsSszRMsNfB3jo8L.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV400",
+    "image_url": "https://bcdn.aloparca.com/car-images/llsAksId0t1JMY5Xhv0xzd6buaqY039WIe4dQs3B.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "SUNNY",
+    "image_url": "https://bcdn.aloparca.com/car-images/aiSEQei6bctQ598rMWPJ0eURJXjpodn1jrgIYTMq.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV300",
+    "image_url": "https://bcdn.aloparca.com/car-images/7lgImgysKbeclmywQhz955hzMbAiX5mIag8ItFVm.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "LEAF",
+    "image_url": "https://bcdn.aloparca.com/car-images/CbrkHUX9grHYBqpGSMruupYTb3FYoTpQGGAm280r.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "CABSTAR E",
+    "image_url": "https://bcdn.aloparca.com/car-images/QeILcR8GULAJMHtNRIzbvbHATgdOoS7L2eG11OYn.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "INTERSTAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/o7u4tJHY0C0Kd6oZGKRItSOkKHjugVjJbla6tDvq.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "MAXIMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/YoaQNLlhr5dKlBDxQm8Nq4U082pacLd7tFKTXTR4.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "SKYLINE",
+    "image_url": "https://bcdn.aloparca.com/car-images/R5SzZKGtmjOUe7Zk3OmBis32bSf5MMtsABLOlotY.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "SERENA",
+    "image_url": "https://bcdn.aloparca.com/car-images/oWecSCtnuP2nTmtIK0yEpW8B20w4g0tO8YwPdOwp.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "CUBE",
+    "image_url": "https://bcdn.aloparca.com/car-images/Omcwr5DUzwvMiZy8oGfM40fdONPpMDt5xI8htiMb.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "KUBISTAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/VsYHptycbk85g8it1WvhY2tjZKnTDWEFaHFokxGC.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "BLUEBIRD",
+    "image_url": "https://bcdn.aloparca.com/car-images/YHE0UStE952HLp1GviqAea04QYX8W1lyPyyjd8fV.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "SILVIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ezGAV0X0u9jAHlNNdH87cmT7NgP4rtBxREdrT4Ip.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NT400",
+    "image_url": "https://bcdn.aloparca.com/car-images/7NvMkQ5YuW9DGJQ3fUoo7HrJewglKtQZhg9zSQ1J.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "VANETTE",
+    "image_url": "https://bcdn.aloparca.com/car-images/f3suLAZAvNuTBkuKNLRMzHX1Z1AofxUuOIbw02Kd.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NP300 PICKUP",
+    "image_url": "https://bcdn.aloparca.com/car-images/m2yvCxxE06jZb944CSR1x64f7n8S8brG2V7MzYxE.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "CABSTAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/yzCHuzIkq4DFFo1RBmESQ37AVWUdhxtIJ64ZfnET.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TRADE",
+    "image_url": "https://bcdn.aloparca.com/car-images/iX8Rw7feQEuvpUwdbwiwiC6sxLWHLllvL9N57xac.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "ROGUE",
+    "image_url": "https://bcdn.aloparca.com/car-images/TzY7sRGutLXwQKCKdsacQqyzT7YiaE6we7R4HMjQ.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV250",
+    "image_url": "https://bcdn.aloparca.com/car-images/SmLD5Rxwdlnxbynfs9wRIpHH9TqMi6FRNjYNr0RL.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "ALTIMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/JSyTb2vxuiIkNSo38FuhoGvsJo4w6SG6TQtsyTDF.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TOWNSTAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/n6JDyFai8PJ7QV9z4GgxCBqZsMMOu1het4F8uksf.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TEANA",
+    "image_url": "https://bcdn.aloparca.com/car-images/HbaY8ubZsR14ACKCts9Rc0H3U8imEtHkMKtxj2gi.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "240Z",
+    "image_url": "https://bcdn.aloparca.com/car-images/BFi91ljIONGWIklos8Zkbc4tXQSghDyac3VtAyOe.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TITAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/IVFCao7SLZFV7Un6OWWsNmsTAHUAmlrhqnrLkRa0.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "DATSUN",
+    "image_url": "https://bcdn.aloparca.com/car-images/IecERy7Ct0CotUwKhZtMGx6z8HeS0hQchIvooMIn.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "LAUREL",
+    "image_url": "https://bcdn.aloparca.com/car-images/GLyMkOxGLKI5UTTZauUByWeaafYgGqq1bBm8KUZH.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "CHERRY",
+    "image_url": "https://bcdn.aloparca.com/car-images/AqdwaDVupihY0gEIFOT4Viwt3hsTV40JuW3Xk00D.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "URVAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/Lkyk3R7Z7A2DQMxhEPSDaLgCRd1uUE0j2U6I5quM.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PRAIRIE",
+    "image_url": "https://bcdn.aloparca.com/car-images/3cnMyXQipmqqPV30CPysYzvpD9x5pEPtN8GSw4k8.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "SENTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/XzmBWw5JU4mqNXUAg2B8HHvv86qXbZL96kJH0L4i.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "VERSA",
+    "image_url": "https://bcdn.aloparca.com/car-images/0V0x7ofCkuh5CCvqN8ZMReFCeOZAwFeLqbtraYGm.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "ARMADA",
+    "image_url": "https://bcdn.aloparca.com/car-images/YfTxnPyzMnivkhDX3wCTAoSxfUxI9CWi1KwBVMhz.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "FIGARO",
+    "image_url": "https://bcdn.aloparca.com/car-images/QvqOhm4yOicgyn6Y9sdiUscMFu5cAaFxmdYJqNCo.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "240",
+    "image_url": "https://bcdn.aloparca.com/car-images/YQnbnDeaJTZ3znLv9xBOieyVYaByTsqRbu2dI60U.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "180 SX",
+    "image_url": "https://bcdn.aloparca.com/car-images/9GYHznWW5kf5BpZYLdGBqHCTKeda7ugrIwX4Auz6.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "QUEST",
+    "image_url": "https://bcdn.aloparca.com/car-images/njwN0ZofNRrLiG8vd6GanxnS1jTshZw3waDI22V6.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "XTERRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Pxs10LTfWjLxkcN4oDP9oGfP7hknqRDHP2DVvn8W.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "KICKS",
+    "image_url": "https://bcdn.aloparca.com/car-images/TEeP3Rqp50yM6JqR8DcyIyKcT5QBR7iFUE7Telq6.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "STANZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/sdNicJPTAVRRFkfIUKOo1Dk97EneqLbuPd47YGm3.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "ELGRAND",
+    "image_url": "https://bcdn.aloparca.com/car-images/ze48APvK8hyytKMdQEsf8SxH0hOpE7wtjhuiAuPV.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV 3500",
+    "image_url": "https://bcdn.aloparca.com/car-images/cYXJZ53p9wmDWcwPVWulZ6IkmZZNlEGYex22qZO7.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV350",
+    "image_url": "https://bcdn.aloparca.com/car-images/1OpDR9VPOPAb5a1duOPYxSpiO46GF3PdUYxFKqk9.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "CEDRIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/G8mtM8C9I8FMavNmlZtlo96HhUANrzvqIZtsddkR.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "NV 2500",
+    "image_url": "https://bcdn.aloparca.com/car-images/V3NdVOATJoCfNe9A5XeMFPiqeeV942spYXrNJmqp.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "TERRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/wEYmzoiPavOV1EkGYHi7w8UhDJojWdYMPcIjOzPu.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "PRESEA",
+    "image_url": "https://bcdn.aloparca.com/car-images/gWhNqVR4df3bcFfCjWK1HxMmFhtqHDqRLZy5GdGH.png?width=219"
+  },
+  {
+    "brand": "nissan",
+    "model_name": "LARGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/WQiS909U3wdmFpY07hCuvRSQgsyHMiydQaqMgAUo.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ASTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/L6sN3SV79njTWpK2SLgy5E4aiyH0VTSVKzG3FvT3.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "CORSA",
+    "image_url": "https://bcdn.aloparca.com/car-images/awy1l13Rny1567iN7qQbNfHs2IibRbF9dfMZoisA.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ZAFIRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/qTHLmh8YIqOpNKGArMPKJS7CsfEERIadDV92Z6N2.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "INSIGNIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/1wEWh0RkGMMHQZJXsT3vzq0BvNr2FRLfT5bm1bnS.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "MERIVA",
+    "image_url": "https://bcdn.aloparca.com/car-images/1G0WHaSz2oDkXI5RmsfAErSnTodfWjCUekfjAxpr.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "VECTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/SxsHHeKxaZMt0zrKMY7B00QxoL8N6GYXhKKc1VTl.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "VIVARO",
+    "image_url": "https://bcdn.aloparca.com/car-images/izrANBsANrwAQshL0df4Yzm1VMc1z71Xb1yonKAS.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "MOKKA",
+    "image_url": "https://bcdn.aloparca.com/car-images/lFoLkelvzygDLH6YgD8ddj3n0covBSXf5tYPjfNm.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "COMBO",
+    "image_url": "https://bcdn.aloparca.com/car-images/G2cd8lC8Nqn981KX6hbG6n0t7fuohv2Yq2NXQzQf.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ADAM",
+    "image_url": "https://bcdn.aloparca.com/car-images/KvI8R4M9cZmOcT1Efm70FD8EcK0qJDNkADbFTQFw.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "OMEGA",
+    "image_url": "https://bcdn.aloparca.com/car-images/EfUf4DVS4UBi5Y8YNxNM9krJ026fRNEMvzyKQhVk.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "MOVANO",
+    "image_url": "https://bcdn.aloparca.com/car-images/vU3vNZg9T4dkeAjPwyck8co9M1UDYk6dOUDP8U6w.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "AGILA",
+    "image_url": "https://bcdn.aloparca.com/car-images/kHDXKhFZ8ef0IOFupBigt5VwsbZqdhjfRKhO6TYU.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "SIGNUM",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZfoxPvyatPKtDOGYnc3SYHRIkNubsGyB9s6RLjfH.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "CROSSLAND X",
+    "image_url": "https://bcdn.aloparca.com/car-images/yvvEybgoclbuvgIe3Tzo2t5DMciAwf7oUGk4Y1Bm.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "KADETT",
+    "image_url": "https://bcdn.aloparca.com/car-images/RjzOKAiafDrK8c40BmPE8AInaz9mGUL4J1vbAeSw.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "TIGRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Da7I6S0p0neNs6kRJawZlu5etiTIcbbfzp3qIKTK.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ANTARA",
+    "image_url": "https://bcdn.aloparca.com/car-images/hxtUFujnnSFtmy3kiJYOmMacsqw4O1rHwFNzaMEd.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "FRONTERA",
+    "image_url": "https://bcdn.aloparca.com/car-images/9nmW4paD0z4DgL29pwiJPS2nREEXuSnsfIOzHHFs.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ROCKS-E",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZEKRVkQGJUsVX6ulhYeZunZkEOBtn5RczO6p6wnu.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "GRANDLAND X",
+    "image_url": "https://bcdn.aloparca.com/car-images/GlFtbhcXtdDQisVftXj1knqjbAEL2in8BYcc7Hfv.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "CASCADA",
+    "image_url": "https://bcdn.aloparca.com/car-images/FEuXxoMcqQJcn5lFrJNtM2Qp75Z5ab3K1LqU2KML.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "REKORD",
+    "image_url": "https://bcdn.aloparca.com/car-images/xhQusMTDwl9T0uz755X4CJZX7SIfCjklScOZhx3G.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ASCONA",
+    "image_url": "https://bcdn.aloparca.com/car-images/fI4XtopmuHl9tngJRWlWwsNeVbOo94FEVhU750fC.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "KARL",
+    "image_url": "https://bcdn.aloparca.com/car-images/C9jALesoEErEKB25GZ8f1oOE7hXsvCp6VKxdIgQA.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "MANTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/1jyw6yUMMUeTNwuJ3jeqzTN0TGGZ3fT4Gu30EuVA.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "GT",
+    "image_url": "https://bcdn.aloparca.com/car-images/sSv8JzfxoQDk52ew8lRU5rLiLybza3LyvLxIWBk9.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "SENATOR",
+    "image_url": "https://bcdn.aloparca.com/car-images/FzBbCLs4yhu7Qpeg6e2FJ9CJ7NdEyFs2VTkLAZ6i.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "COMMODORE",
+    "image_url": "https://bcdn.aloparca.com/car-images/Y48pjwaGEnqLyjv70rwye5Dq519xqnG7Lh4vwDcV.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "MONZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/BMpUYxfLGXPlC1k2hlhhV544tZXjTCZgySkSOC44.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "AMPERA",
+    "image_url": "https://bcdn.aloparca.com/car-images/L40GNqry1jL3LOoefuFx0gbF6vB8No7rgX6haoX9.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "MONTEREY",
+    "image_url": "https://bcdn.aloparca.com/car-images/WoUXLodcxAFncX1G2Uz0ICwa0FcVHPsR1SyU4a89.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "CAMPO",
+    "image_url": "https://bcdn.aloparca.com/car-images/USoyAtUp9M9yNkDm5zrVzDl06k1fu2IA3EoF9XqB.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "SINTRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/jCktVPcZaLzv3NCbxtGIb3QNpaw6nxwvoCASwrUy.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ADMIRAL",
+    "image_url": "https://bcdn.aloparca.com/car-images/wjFqecYKnjSWsxhMz2xiSWh6l6WaqDHmD0VJw7MD.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "DIPLOMAT",
+    "image_url": "https://bcdn.aloparca.com/car-images/y8iZR9NPPM6o5Pe7XtIGo2EP3gwpgwe16po3HkJJ.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "SPEEDSTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/kfCcvdg3usel832LhCBIfVQ4ZL9t7NrCZ8Bxf62j.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "OLYMPIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/A3WsCaEWZFC88SQ5Ff9d2NLZDQBQP0Wgfr3guVVa.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "KAPITÄN",
+    "image_url": "https://bcdn.aloparca.com/car-images/wuzxZWA1laZ1xpErjNDO3RNvqcnQrDUC1xrTjAom.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "ARENA",
+    "image_url": "https://bcdn.aloparca.com/car-images/6X0HfNIZDDT38hzpnx2PSVryzAphx6rdk2sOWvjw.png?width=219"
+  },
+  {
+    "brand": "opel",
+    "model_name": "BLAZER",
+    "image_url": "https://bcdn.aloparca.com/car-images/am3wMMlpSJqUokxArW3KHRz67L0hU4PJ2j5kCxx2.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "206",
+    "image_url": "https://bcdn.aloparca.com/car-images/fNUXAz6S6z33ya0fLP44WBjCFPAE2LGleoqaxduj.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "207",
+    "image_url": "https://bcdn.aloparca.com/car-images/6a5mSo9D8QfGkj769cYx1FoCXz3cT9Rg1qqYOB1b.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "308",
+    "image_url": "https://bcdn.aloparca.com/car-images/vMXNYLOkKZiVeKylXReYyrb2bwOMLZTD2vGDPGFV.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "307",
+    "image_url": "https://bcdn.aloparca.com/car-images/mCWWd9gRbMSrZa0IUT973XcGv9D2ipvPCQUPOV5l.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "BOXER",
+    "image_url": "https://bcdn.aloparca.com/car-images/k4TUqj0a6wlEo9k3TRWw0ynMs7kjfIf7aDLtE0Ro.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "208",
+    "image_url": "https://bcdn.aloparca.com/car-images/TxE8OspdXktJOZ0cQkT5VYZaNVQvirm8keOGgfyQ.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "PARTNER",
+    "image_url": "https://bcdn.aloparca.com/car-images/g7KZI1wlsl00fzs6zeVyXYa04cBxqTgFuHkyJyif.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "508",
+    "image_url": "https://bcdn.aloparca.com/car-images/ctl5L4iXLQ6TCnyI13dMab0OkEzwsdM99M6y9iJQ.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "3008",
+    "image_url": "https://bcdn.aloparca.com/car-images/8j8WFZtcqlAztkSK3rffZJ2tK0GZBjFSxKgb3N9O.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "407",
+    "image_url": "https://bcdn.aloparca.com/car-images/IDHRrYAmHpkSJowomNGUGAWoWuWCfv0PO51Ll4z9.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "2008",
+    "image_url": "https://bcdn.aloparca.com/car-images/cQoYBsdr9TD1cU8Bz0RckDmjaO31Dg5DXlrTFTKv.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "5008",
+    "image_url": "https://bcdn.aloparca.com/car-images/1FmVWRRCVOyfgF5XoxDABCpBVJapP95rk9cpE9uH.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "107",
+    "image_url": "https://bcdn.aloparca.com/car-images/fRPw5SlROoKPFXT7kP3k8VbSRWX9gDh8IesS6s6d.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "306",
+    "image_url": "https://bcdn.aloparca.com/car-images/4iNJk2iHVSEeAoKtPXf7pd6p4toOhUrWTMFIOwZ2.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "EXPERT",
+    "image_url": "https://bcdn.aloparca.com/car-images/oTNmNpaMQhP6NqsTBlDakI43kqVsUFbrPsLDpZ2v.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "106",
+    "image_url": "https://bcdn.aloparca.com/car-images/deU5D1EJtFxEH7tItjiAx0R5UOQJvcCLOHSYyDaK.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "J5",
+    "image_url": "https://bcdn.aloparca.com/car-images/UJQYj0xS6pnEklNxprI79MwPMe2XlEUHC0olR8XF.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "807",
+    "image_url": "https://bcdn.aloparca.com/car-images/rqlZp5NZuwUFz28tsFnrqCVumcGpMSEROQx57Qlv.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "406",
+    "image_url": "https://bcdn.aloparca.com/car-images/SaAQDWK2CGUunelg2GjT1wMRf2cCMuYXLjYpe8so.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "205",
+    "image_url": "https://bcdn.aloparca.com/car-images/QOP4qw0NMD9uIi79iO9hgMc71VrO3LD4WjCdxwpo.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "RIFTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZIF0KvRogySv5uaD2oWnchquzwH9LMTacStxPOAW.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "RCZ",
+    "image_url": "https://bcdn.aloparca.com/car-images/79GKX4BvcleuzjZsHXg4JYBCNrCQqBdtpKCEgCOo.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "1007",
+    "image_url": "https://bcdn.aloparca.com/car-images/zB5vyaOCEHWicrbwHPAnHLVkdhBw9s4DPOZkO82N.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "108",
+    "image_url": "https://bcdn.aloparca.com/car-images/BYDb51FTLoTpVQjQpsjztEZ1tfDvmYMN6Y0LVCXz.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "TRAVELLER",
+    "image_url": "https://bcdn.aloparca.com/car-images/MRUilyTrM7CwpDPzQNsViqbX7SU6CcJ7u6LnSXbW.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "607",
+    "image_url": "https://bcdn.aloparca.com/car-images/gfQozstiq3Sga9B2ATpNo4BZopC8DGUz8wMGAFT1.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "4007",
+    "image_url": "https://bcdn.aloparca.com/car-images/nY0sRvYzaSNkhQhXYM6MkZS4Ui21LMiGbEzZnRr3.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "BIPPER",
+    "image_url": "https://bcdn.aloparca.com/car-images/aptHtRnbFre5pRGeGvRFYRLo32EzkbC7Bj6WeqO3.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "504",
+    "image_url": "https://bcdn.aloparca.com/car-images/fYd0OkXK7eEL3sHztSzvYTXdyLBJszSNEm8VEPwj.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "309",
+    "image_url": "https://bcdn.aloparca.com/car-images/FdCGu4LftQqz7O6m5hOEwep1O0kKqhSPOu6L44HM.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "405",
+    "image_url": "https://bcdn.aloparca.com/car-images/vmKEtEzFgFEozTfpF9h86GqIsHp4h0KYyMFIbsYl.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "806",
+    "image_url": "https://bcdn.aloparca.com/car-images/KRA7GGfVtB3zyVxUYYvF1ANCWCcIF5bUsWBRKmVp.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "4008",
+    "image_url": "https://bcdn.aloparca.com/car-images/nBsi8kbbzPv5OUafcDBDK8Wlmu6xQ4TwBJFT7FuN.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "304",
+    "image_url": "https://bcdn.aloparca.com/car-images/KPXUxjNiDB9tq4NZjHRQTRFVJ5Ao9SJmBbn4pEjl.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "505",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZJQ9VKredsWA4lGscXpVdcmia1qTCkKNLu9xkQRH.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "404",
+    "image_url": "https://bcdn.aloparca.com/car-images/PwIVwztKLm06xKi6gvjIU6DfMdSOnLwPD1vhqn6Y.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "605",
+    "image_url": "https://bcdn.aloparca.com/car-images/uF5Bs154ptrCt7kp3glEqwOvXqJcSRXeSvsV7Lz2.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "305",
+    "image_url": "https://bcdn.aloparca.com/car-images/hVCt13Vr5ZIqamyQ1x6TDktRmYQLf1GgNPcnjv6J.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "204",
+    "image_url": "https://bcdn.aloparca.com/car-images/V7LpYA7Cape4ybLJX2mHcwSZzATwhHZlELqePwUn.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "ION",
+    "image_url": "https://bcdn.aloparca.com/car-images/VgbHKqD9vS3d1R0e61onlfJeQPGBlJbfGOfPv6nc.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "301",
+    "image_url": "https://bcdn.aloparca.com/car-images/ttOBmlesd66cf2aq0uP5aVORkglW5qIWYE36vlP6.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "J9",
+    "image_url": "https://bcdn.aloparca.com/car-images/HZOVgcKo8xHWRYSSd40L2Z1aclR8aVmBqb04UVr5.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "104",
+    "image_url": "https://bcdn.aloparca.com/car-images/8CRVu9QBzsX8v8FYapVcUu886xPZU3OxUHf9BM4Y.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "J7",
+    "image_url": "https://bcdn.aloparca.com/car-images/QiuCgoYgb24Mo9j4JtqapnVL3OLlbT305JgDNLj6.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "604",
+    "image_url": "https://bcdn.aloparca.com/car-images/6eIJJGFFckzERBACs64oEgcGxqtOB11wlnC87ROq.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "408",
+    "image_url": "https://bcdn.aloparca.com/car-images/l6YAu4sZt1z7ACupIoi4Kc1sLHXzvzcoe6TNVGlT.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "LANDTREK",
+    "image_url": "https://bcdn.aloparca.com/car-images/IUcSUzjUzmZsEwfodqpPJB4oKFXwnzm7QtpcffjZ.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "HOGGAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/aiK0tADYghFeyOhKo4R4SIqRWJb7iDk1ukUlP2Ac.png?width=219"
+  },
+  {
+    "brand": "peugeot",
+    "model_name": "PICK UP",
+    "image_url": "https://bcdn.aloparca.com/car-images/DaVjOIldQdhv5C2X9Z6zVx7BVNfragc8zvuoZOQN.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "CAYENNE",
+    "image_url": "https://bcdn.aloparca.com/car-images/b0WbZdWuAUtfXfogQSLGNHc2EJ8xSRjanwMEOXvc.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "911",
+    "image_url": "https://bcdn.aloparca.com/car-images/MN0gmCV5Qi8hVZeneboSQti9ThNxU3fOUbOQuW7m.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "BOXSTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/RPYeApdpk9SiFbyVfa6PJtQeB2SPLc4t5JuY3dj4.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "PANAMERA",
+    "image_url": "https://bcdn.aloparca.com/car-images/QjLrEAKSTq1DNLFAVI9kD2hCPwwXEb8Xytul5tFm.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "944",
+    "image_url": "https://bcdn.aloparca.com/car-images/FxYFjEH9EGfNRB35O93afeiY6rejklUJweKsB3c9.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "MACAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/CRFD576DuVuVtugBBZvQSeL21uEWo2fLRQ3kWbfx.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "924",
+    "image_url": "https://bcdn.aloparca.com/car-images/vWMuO4YMm1ESK5f7rSYJT5AFVOdN7wFknu2DNfum.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "CAYMAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/6FnLKbFWTQwyqTUCqxCDC8Si6XObjl0a0Xzvs247.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "928",
+    "image_url": "https://bcdn.aloparca.com/car-images/3RomLokCsXmiOppIhJN0Lrts29c4hUzPs32ZOjQA.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "718",
+    "image_url": "https://bcdn.aloparca.com/car-images/nDmDDqbuCnSLL6HicqygxvLRcA8PD0cZ9gDOEj3B.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "914",
+    "image_url": "https://bcdn.aloparca.com/car-images/95lEEjhZBb6IU2AkJtAwnqylv5ffhsrKb260BaKI.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "968",
+    "image_url": "https://bcdn.aloparca.com/car-images/HHrt3jZab7SOGwbWaF1xqpbq2FiumOlvcinXUfO3.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "356",
+    "image_url": "https://bcdn.aloparca.com/car-images/EE8GplX3TSGN8PmDOM4tvpm7PbabRVoL6nWRxZ0S.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "TAYCAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/LPWcrzQxB1H1SMzQErw9x5NfmOHz37JTW7Wu7exp.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "912",
+    "image_url": "https://bcdn.aloparca.com/car-images/jlaZwLo55tbKT5Rznvwztv67d1VSw4YlUSJFAld7.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "CARRERA GT",
+    "image_url": "https://bcdn.aloparca.com/car-images/0WNjpIbKtuHcdUpLDTad7Ejtl7jiwlffyI6daUVJ.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "918",
+    "image_url": "https://bcdn.aloparca.com/car-images/S3RUHvnZSOhXR02WL4IPHzK3YZWNXClDnA7S7Ig1.png?width=219"
+  },
+  {
+    "brand": "porsche",
+    "model_name": "959",
+    "image_url": "https://bcdn.aloparca.com/car-images/ibTnfms9iJ5tkBQb4WLVnltE2Ulj1doSfOdYBArb.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "MEGANE",
+    "image_url": "https://bcdn.aloparca.com/car-images/QGQ8UOKZ9ltDwJl8EzFEgPkJ8eM0S5aulTXUrNJN.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "CLIO",
+    "image_url": "https://bcdn.aloparca.com/car-images/uTs84PpQdtxviw9tfwlDAQJ7EX7Nd0BvttGcso22.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "TWINGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/CAUqlfyVqxcUGZcyRwO0J3F2QUaErS7DgoyA4itS.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "SCÉNIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/DhdqWiw3FAvi56Jczh45SkPuqDFEiYF7noNSB3iw.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "MASTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/fEt8gksH3J5oq4Sg00BeqFFHAKL9jICbLQsVROw8.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "TRAFIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/4ywKHzyXPK5LkToVKkF7GGmzimWdCqSZXupk8J7t.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "KANGOO",
+    "image_url": "https://bcdn.aloparca.com/car-images/ukqUeLNea1gVQpLlFkcjrx3uevM2W5VfJLYAJjwk.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "LAGUNA",
+    "image_url": "https://bcdn.aloparca.com/car-images/2Ps1fHGaI6cSdu6wSGqxH48dkpfpub8ueLtywuLx.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "ESPACE",
+    "image_url": "https://bcdn.aloparca.com/car-images/pPiixtSazZOoXdnvqP0gaUNQhpXhoXyxzAP7ZdOQ.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "GRAND SCÉNIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/E7fTOvVmc9ucLezaIBQc00Rta0tC28B2XtrtFrmC.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "CAPTUR",
+    "image_url": "https://bcdn.aloparca.com/car-images/cSR8JqeykhABNK5Q3oVZU8GmDvuYSQLcxRX5gXjb.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "KADJAR",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ehkq89LSM9c9T79APO0OPpg2A8v4Uy89vyLuvrfY.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "KOLEOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/dxb44606vv5Ouxec8USQWOHtdMczZrO3tSyV75tp.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "TALISMAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/gxFt9CCqbmJyhJ88QWlkkZQ6PxWbUcFxpVKFXS01.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "ZOE",
+    "image_url": "https://bcdn.aloparca.com/car-images/Vy618CcSddWDbjKiZeo0dFrJ4PmrhjgBcewlNoG5.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "4",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZwJsboMSNIsHcxazEAuxd96bxH5LAYlHxc19DeqW.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "ARKANA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ohcLLAOgNXK8dJPATuOIPXlNiinot7H3TpSHpwl0.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "19",
+    "image_url": "https://bcdn.aloparca.com/car-images/ymbcg88O0yaStyG0OxO1fkxDjnRgxmFp3YwvRpO0.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "TWIZY",
+    "image_url": "https://bcdn.aloparca.com/car-images/o9HJGzsEpnDVNQxGYhyDOERYKOXN2qEkTZoPyYfi.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "SUPER 5",
+    "image_url": "https://bcdn.aloparca.com/car-images/QMVlAhw6nk4LFgcihF4tTwtXRtZIwMd5gOFSFKct.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "WIND",
+    "image_url": "https://bcdn.aloparca.com/car-images/b0mUHVFeZNF7bX4vfY9Bf0DxNWrQv567qC5g8LiX.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "5",
+    "image_url": "https://bcdn.aloparca.com/car-images/ug54y4USHltyBQ5WumgKuM7oMbnaClhZW3Y7cDRK.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "VEL SATIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/FThsCIyzrVmEgKtsui9qv2mH9KxJj0fBU52d93rT.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "FLUENCE",
+    "image_url": "https://bcdn.aloparca.com/car-images/ug01KLEkq4KFyUkmVImiu1lD23KbvAsVAvYzl5si.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "SAFRANE",
+    "image_url": "https://bcdn.aloparca.com/car-images/xevzBd4zr82YPNzIjOxd1y3uQYJJobbEqRgKLa05.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "LATITUDE",
+    "image_url": "https://bcdn.aloparca.com/car-images/BNzh8MIGrN1q45inC0wthub9AELxU9SDiXgV8PUM.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "21",
+    "image_url": "https://bcdn.aloparca.com/car-images/v1wxjvMzahsEhp0Vrq53h6nPqnsouSHOMojI4qU7.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "SANDERO / STEPWAY",
+    "image_url": "https://bcdn.aloparca.com/car-images/3nQgdcuXDCIR0JuwfSBk9GJM1rlQMIVambEfq0Mb.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "LOGAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/4mkUaRU9vkKSiFqYrrmuTEUBrv7eMJ3Yr5uJnX6P.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "EXPRESS",
+    "image_url": "https://bcdn.aloparca.com/car-images/hF8UA9Iq5pxOMwEMErSguU74yQlZGXlNJj41uCjw.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "ALASKAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/JxL0mAuEGnQsoANrX8FHQzIlUB4BMtOpmGIez3zQ.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "AVANTIME",
+    "image_url": "https://bcdn.aloparca.com/car-images/2sEYZMHDNwuyIrLjRF0fuz1SVuFR6BAUYn8pUGz9.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "DUSTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/WtwWDkQJN3QioLj6q7i73u8dGGSmU3jbh1b1pRSH.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "MASCOTT",
+    "image_url": "https://bcdn.aloparca.com/car-images/eHw4Xdy7st6WAuceSiJJW8rkFOYDFKqci01gRD2R.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "12",
+    "image_url": "https://bcdn.aloparca.com/car-images/ElHyzZ4DgMaaB533wz3iIoVuX3RIHWu8m0wVrHO6.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "11",
+    "image_url": "https://bcdn.aloparca.com/car-images/XS7Hc4WCwQvXAubu7SrvAbbGYa4VW7a8YhMPNSLR.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "25",
+    "image_url": "https://bcdn.aloparca.com/car-images/hD4BttOswBVK5dauXjbB8Y4GURlYYQDUcMlcTPN8.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "9",
+    "image_url": "https://bcdn.aloparca.com/car-images/K6bY2wYzTUsNMWa6vLO7icmmwklzzusuTOKa8fXL.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "18",
+    "image_url": "https://bcdn.aloparca.com/car-images/2L7vlFo757pyxcT9HjKj7vLhebzynRkdoJzdDT8Q.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "16",
+    "image_url": "https://bcdn.aloparca.com/car-images/RIKVJQTsZtJoCSbiYQUHQ9G1tK3TsM1fk1ok8FOF.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "6",
+    "image_url": "https://bcdn.aloparca.com/car-images/acJ8Ym17zB49VBIb6zL7vDpZ63Y9XN7qaWvpjmak.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "8",
+    "image_url": "https://bcdn.aloparca.com/car-images/XA0FZHvwlCXmuag0No3duOVW11VhTjf0vuphtZkF.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "17",
+    "image_url": "https://bcdn.aloparca.com/car-images/4ImQ2v8Wu5sHGoDs26eJD4qdFxelVIFT8QHTYPQv.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "FUEGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/TX39hll6ElGFOAT3y3vullMipAPY4AOJhZZB4yYX.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "KAPTUR",
+    "image_url": "https://bcdn.aloparca.com/car-images/KmEMbl7wJhI88JfLvHMvQ1HpLyp0cyHakLt3ip1h.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "RODEO",
+    "image_url": "https://bcdn.aloparca.com/car-images/AmLnLbher3aYybY5wncMv95yZE8RCeoALuNTVxW5.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "ESTAFETTE",
+    "image_url": "https://bcdn.aloparca.com/car-images/v8TCIYk9FYJMhGaJhUdSWjZy50oQk3PQE1bhWCx4.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "DAUPHINE",
+    "image_url": "https://bcdn.aloparca.com/car-images/1TQZNzzuRFCiqCWVKjZF28lk5Yy5WdKIY9rzVj7g.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "SPORT SPIDER",
+    "image_url": "https://bcdn.aloparca.com/car-images/pssWegajzdYyMFwib4enjJsPggec3hvB3VuLp47d.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "LODGY",
+    "image_url": "https://bcdn.aloparca.com/car-images/53p6FGhcOURrDvqhGzJou29w3CC2VHng5rr3tABc.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "10",
+    "image_url": "https://bcdn.aloparca.com/car-images/VRt4zpgyAWsIB7HDaqyjPBJAQzsBFhGvPBZam1h0.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "DOKKER",
+    "image_url": "https://bcdn.aloparca.com/car-images/i6226gS9Ll4zpvgCZQeWVAB90FCCSchCKfCDAINo.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "20",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ejcoi03Zz5EpEq2nSLTy5CMz1OcbWZ0SxXjwJDNo.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "15",
+    "image_url": "https://bcdn.aloparca.com/car-images/njmPP2dV3YaAPrbfxU63c9WBSIJI9jYjJyaW1ybH.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "30",
+    "image_url": "https://bcdn.aloparca.com/car-images/e2SJ4QuPmxRtKUIMzwUNJeYScjuii1zPevaM5fXo.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "14",
+    "image_url": "https://bcdn.aloparca.com/car-images/gLtvggtOTckE7Jk7OOOI6MZWI3yxbtiCLlF5yEzD.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "SCALA",
+    "image_url": "https://bcdn.aloparca.com/car-images/oh1LclHjm8MXhMVUVSlIXNRS2temlK0wJv5DEAm9.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "KWID",
+    "image_url": "https://bcdn.aloparca.com/car-images/yotiWXysahibtZzK3omNGem0UUz7B7D4nhwrSH65.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "OROCH",
+    "image_url": "https://bcdn.aloparca.com/car-images/LEEEvgZ57OW6Bva3ACvQrFZcFMN74YCT2sLxcn3P.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "TALIANT",
+    "image_url": "https://bcdn.aloparca.com/car-images/Eoy22KhgRF1t6H6QYhaz1o5gUD7JOaxklSMrEqMv.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "PULSE",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZQnvg6pYJ0KasEO3QexiJQzEiwIazq8jwnotVekF.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "TRIBER",
+    "image_url": "https://bcdn.aloparca.com/car-images/p8zW9xoDVUePsxNv15ayisaD1XFSUvmcjj1gg0Hx.png?width=219"
+  },
+  {
+    "brand": "renault",
+    "model_name": "KIGER",
+    "image_url": "https://bcdn.aloparca.com/car-images/nFuXEJIIq43z6wh6GoY9F5vNPsEjoISONgdur6ul.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "YARIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/Geu85wpFcFmW9I3s4VJjSVz1z5aYzaRPRW4aocRd.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "AVENSIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/CNnLbPdWydD2A5LL4nW6Ojguwf9z5ELAO5yVgAyq.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "COROLLA",
+    "image_url": "https://bcdn.aloparca.com/car-images/EBgGCy9AmlD7vZl2sCbpPBVqQ6oRE9cwIyecxMEn.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "AURIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/yVbAueitferzWzOqvRITy6KhRwli4MxDLxlYqf4p.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "AYGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ww6ojf42rxUjKjZZmusSLLj0tgOi1woftL3G6wq4.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "LAND CRUISER",
+    "image_url": "https://bcdn.aloparca.com/car-images/9NOvxRbb9AhmKvFg8RGnfSpjcWDBH5fBEvfR1y8q.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "PRIUS",
+    "image_url": "https://bcdn.aloparca.com/car-images/HHc0uvoSkVtZK7zLUv9JjVYhiCbbJMg8qXawNn4o.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "VERSO",
+    "image_url": "https://bcdn.aloparca.com/car-images/ojuIEtClVsQNWOeoyw9QIUhJb5t2JFUbo60mChBl.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "C-HR",
+    "image_url": "https://bcdn.aloparca.com/car-images/bFQ9DRyErZn2TfImD3ufDrTREFEqoI4DbB6QcgSE.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CELICA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Rgx8RUhPDA4bL7reSgiTy9ibDDFPxJPcD5fbCXKB.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "PROACE",
+    "image_url": "https://bcdn.aloparca.com/car-images/Rva4TWKQ60I3Hh2GganScnpemWwW1EvhFdaxl9qF.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "STARLET",
+    "image_url": "https://bcdn.aloparca.com/car-images/IFpP4SGJCiuXBRrli6lxNDx3kMR0TDMTStTWbaTJ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "IQ",
+    "image_url": "https://bcdn.aloparca.com/car-images/e8MuIMhti8xL6wuHw0IHm2CaDHfwO3FPojAY5cRq.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "GT 86",
+    "image_url": "https://bcdn.aloparca.com/car-images/d6ebqnyEeKkqBvoRmaomOJKSErc4bW6zhj0VgTNv.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CAMRY",
+    "image_url": "https://bcdn.aloparca.com/car-images/bneiVybUcPe6Zz1ES25M2lXNivMyeeKdmajSVH7R.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "SUPRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/ITmHlEbHwA3yDJoaLjKTdV8oXHwESHsBm80rjwj0.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "HIACE",
+    "image_url": "https://bcdn.aloparca.com/car-images/gK7tFm7MyC0cdrD3yo1p3ZhW8qzbVJOCYT6qF1Ok.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "VERSO S",
+    "image_url": "https://bcdn.aloparca.com/car-images/z8YYsxXOI9wCj4uRoiLXFs9jjgRun0foJq5Zxdmt.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CARINA",
+    "image_url": "https://bcdn.aloparca.com/car-images/xZGHnCNtnoo8Z7yVxSoZyiND9UPRyYIxuQnleA6u.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "PROACE VERSO",
+    "image_url": "https://bcdn.aloparca.com/car-images/D5TOQkjvKHcuXW2zlz2xLOa5wA1aysMotwknpPOz.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "URBAN CRUISER",
+    "image_url": "https://bcdn.aloparca.com/car-images/QmLh0xZGGcAmBTjuPVKhkQTH1JZT78RxGeCBl8vW.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "PASEO",
+    "image_url": "https://bcdn.aloparca.com/car-images/dP4YTIBWw7p59u0mqGSN1a7EnpgQc60Pbxjn520X.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "PICNIC",
+    "image_url": "https://bcdn.aloparca.com/car-images/pW6lpDfX662b7mdGkARNoPUe7xbxE98tBmQjYBjG.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "Agya / Wigo",
+    "image_url": "https://bcdn.aloparca.com/car-images/qF5po4bpk3pKkOH98pZpd2NTQ2VQtk8U53bTi3Ba.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "SIENNA",
+    "image_url": "https://bcdn.aloparca.com/car-images/1YgXGB0cPqT4Kqfy6YU8msxy9ZZI9jtNzx7o2jac.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "FJ",
+    "image_url": "https://bcdn.aloparca.com/car-images/PcBMIqnpbQn0dm8AVEXJCouq0R8bK5RKiycksZ3P.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "HIGHLANDER",
+    "image_url": "https://bcdn.aloparca.com/car-images/OnXyQo41vDaZAgBCiSyYag5NQWKsgfrkIyfeOc1R.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "TUNDRA",
+    "image_url": "https://bcdn.aloparca.com/car-images/oWLbm0QC58L9qPTlRDYH8ustvpSgrGdqWJcj8qpZ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "ALPHARD",
+    "image_url": "https://bcdn.aloparca.com/car-images/BC8fyzAZKAYWZAitlCO79QoUGxtawwll2F0gZR1P.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "DYNA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Ufe61lPOK7L4NWHcmv5XqvCYdyftBbj1W67Pazgw.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "TACOMA",
+    "image_url": "https://bcdn.aloparca.com/car-images/C7sejq1y7FQ13qE6YBPX05SFRjr1p7w5qz4isfs9.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "ALTEZZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/fmKqnDHkPeFKA546udW1q0jfn5KYW7HkFhNaQIRB.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "MIRAI",
+    "image_url": "https://bcdn.aloparca.com/car-images/Gy1jK2SA3E1kfM3UJX6LC2nIAvqEyfu0V6HBoVwL.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "VENZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/QzqDmf3BoVtonnSmEXd79DhmSeXuF63iv2mkjzOJ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "AVALON",
+    "image_url": "https://bcdn.aloparca.com/car-images/lwzqm7lTZuXcdb5CMGnWN24URsBcFDysrMRA6QZe.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "FORTUNER",
+    "image_url": "https://bcdn.aloparca.com/car-images/DSPKYyPSlE3JvJa0toKiiaWnalhOgEPW8uqRXijf.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "TERCEL",
+    "image_url": "https://bcdn.aloparca.com/car-images/eT5IIKVCTqgKHWb2wYA7bWW5mbHAIjzyXlnGOtZJ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "LITEACE",
+    "image_url": "https://bcdn.aloparca.com/car-images/WcS0CsUhU1jnYYkdo2uZpXM7udrKoWB7jVjQABQL.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "SEQUOIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/gfCciNwdqF4pWhKfeAzZV57odjrTQnKGcfVwmqTe.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CENTURY",
+    "image_url": "https://bcdn.aloparca.com/car-images/oAlTtS8afGNQZbjw2tlTOSRScJbz893y0rVoiT8U.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CROWN",
+    "image_url": "https://bcdn.aloparca.com/car-images/DPkOLWcWjTtnimN1rhMRmDe6a11SI7010dzaziF2.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "1000/Publica",
+    "image_url": "https://bcdn.aloparca.com/car-images/F9Eg3hXSzLmmQehpIOTzsgtRrTuM41UMHZt6XL0o.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CORONA",
+    "image_url": "https://bcdn.aloparca.com/car-images/YHVvs5jYNoqcQDr57VNxjBATh6Romcz52eoU2sZa.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "bB",
+    "image_url": "https://bcdn.aloparca.com/car-images/xgSEHe7uA0L5x6nfVKTUgN94F2HdpiVfe6KADVHl.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "MATRIX",
+    "image_url": "https://bcdn.aloparca.com/car-images/KfEttjC2bAbuRFuWLfR0yeRHYJu52Kji68lQ3VaX.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "CRESSIDA",
+    "image_url": "https://bcdn.aloparca.com/car-images/pTVhqd7zDOijZUhE7qIUST7lSvWXlJMBydbyMXDZ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "SOLARA",
+    "image_url": "https://bcdn.aloparca.com/car-images/OYiJCXi0Vr4bTAuZsXASdHvhGEGltwvwwuCJsp7X.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "TOWNACE",
+    "image_url": "https://bcdn.aloparca.com/car-images/G5EtVVbXXGkhoZ0JMzG0OeqXg4ENP2E0bgVRBfEr.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "RUSH",
+    "image_url": "https://bcdn.aloparca.com/car-images/XVVKwYfXEXpsR8DQd2PNflZ1U3FJ0NZhKXOyaqCs.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "COASTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/KBB1EQ9XjnL0lgX5xdXYTi2yfHV36F1ValaXuQsG.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "WISH",
+    "image_url": "https://bcdn.aloparca.com/car-images/IpdEUWPvqFpdKenmvRKFozma9hSNqL9PxhSSohbt.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "ECHO",
+    "image_url": "https://bcdn.aloparca.com/car-images/rD7YHJsF8YZEzoQNo4kZwq8LHztlI0xptOIFsQSu.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "ESTIMA EMINA / LUCIDA",
+    "image_url": "https://bcdn.aloparca.com/car-images/EpK2zblnuXkROHKApZZ3k4bUwc8lsdZCXwgRc9fe.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "AURION",
+    "image_url": "https://bcdn.aloparca.com/car-images/bovwfQzZGM4toamnWXvSxxWje83ojThZqG0Q45St.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "SIENTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/o3KGCL26mN9JFSSqKvSKf8rsfJrCBsOfQNIsTCsa.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "GRANVIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/xdjexEozBwKAv2CpCYJKDeDVNb8IToXW5TqXasZL.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "HARRIER",
+    "image_url": "https://bcdn.aloparca.com/car-images/X408proFCMqLfzzYwn5N9uihsUqbATKZkApAW5lQ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "SPRINTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/yBCy8aFh3oLt1GAykBsfM4Vzmn3Njy2IFA7s35QA.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "AVANZA",
+    "image_url": "https://bcdn.aloparca.com/car-images/u8A4Faw6KUxdem73aKeVGkVUUxm8gsiXGwcWUvWH.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "VISTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/q2Te45AIQxLpkVp6U2JWiePtHBWKaLrQGDJ7EsJJ.png?width=219"
+  },
+  {
+    "brand": "toyota",
+    "model_name": "PROBOX",
+    "image_url": "https://bcdn.aloparca.com/car-images/dGZJh2PyGdAekYHqyeyPHupgHz8qjdH7fMJPDMkE.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "GOLF",
+    "image_url": "https://bcdn.aloparca.com/car-images/IACaev3KuJwAwH1CeXnrmA9BPPsa02GIWt2IEWZE.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "PASSAT",
+    "image_url": "https://bcdn.aloparca.com/car-images/nu8TtAPtIdnpzZmujlglxIDlHD6Xj9u3VjvhqazV.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "POLO",
+    "image_url": "https://bcdn.aloparca.com/car-images/N8OiFpyAYChbRk7Y8Pvt85VUcsFLfyDjyzTjXlhU.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TRANSPORTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/W8OaBZMS4JYluoeyu6wcyjyxS3axiNN47o3KfWHJ.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TOURAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/YUtXmEbgTJHqfqCzle8HUARb8tVBB6TasjdnRPvZ.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "CADDY",
+    "image_url": "https://bcdn.aloparca.com/car-images/Dy5kouCiW9ErIacHmjYszPXwrFxOv892IT2dfvsj.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TIGUAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/ZitezmlyqITeA8u3WZzyovRuPheVL0qNrJZBwXD5.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "MULTIVAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/xY3JUVKfKPuzvmMQNAEoMaXofVJTBWaZeBlvKEvE.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "SHARAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/qDsh33phIoNyZw8oW1OBsvH0JG0cLzJQTp0wQrKJ.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "UP",
+    "image_url": "https://bcdn.aloparca.com/car-images/c9dnXF9EX9k9nbtuhKIsNCogLBPw3Wcagr8RH1ys.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TOUAREG",
+    "image_url": "https://bcdn.aloparca.com/car-images/DnAa5CGma4YVdhc3mk3Dbhd3lmNT74KrhxFNA8YG.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "CRAFTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/gN90hb3GILvpfRv18QFer65b1NKKMYrhakG6LIuK.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "LUPO",
+    "image_url": "https://bcdn.aloparca.com/car-images/6m0sGMbjLBuG3XTGdtsVToUw4LXMz9c00gYBE269.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "T-ROC",
+    "image_url": "https://bcdn.aloparca.com/car-images/Y2TBSIe6pZca5xggAky4WDY7gqWzAgf0XJxXYoIp.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "SCIROCCO",
+    "image_url": "https://bcdn.aloparca.com/car-images/NSGke3JwtugzNP2IWN5fzETa8ZujE1QI1WXgviUo.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "FOX",
+    "image_url": "https://bcdn.aloparca.com/car-images/IQAQjRpKC8mWTY6hRLdQ7C8tI5zBYMr7GHmvm5nQ.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "BORA",
+    "image_url": "https://bcdn.aloparca.com/car-images/tWF7ZYIQhT12J4hq6qkC9xv8UHjsgJ3uokh8vIFT.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "LT",
+    "image_url": "https://bcdn.aloparca.com/car-images/tKy2mC3U2wxtmLLA5cCGV6XdANe9dU6Sw8yVTNVm.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "CALIFORNIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/1PNTmvzHpjv1ROwOMzqFbonW6G0M76VHcW1uflK6.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "JETTA",
+    "image_url": "https://bcdn.aloparca.com/car-images/bRgSPvGzpUPXLv31ywM05OnV8ScYQurAts9iVBOh.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "NEW BEETLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/hjXCBLx8MbkaQcTJtg3Ffg5k1C4hithKioHQhcKt.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "EOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/38BlRRnFNfVIhiv6CwvNlNPUMtbTVTZeW3RIF3Bw.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "AMAROK",
+    "image_url": "https://bcdn.aloparca.com/car-images/L7czyBYjMC6jfYfxcmbnv8rZLWWC3Tu0Rugz8jC7.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "T-CROSS",
+    "image_url": "https://bcdn.aloparca.com/car-images/kCOOg5LsTBD1dOMZYcrgCG6VCy8cfbUdhFP2J14t.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "CC",
+    "image_url": "https://bcdn.aloparca.com/car-images/DccKyX5NMsfI6HkLII5o8g2Ivg2A9HF2XsTrhIiC.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "PHAETON",
+    "image_url": "https://bcdn.aloparca.com/car-images/F0IDBv2BoqTreHCY2sT4RL4l9WF1cbrBnijUalsb.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "KAEFER",
+    "image_url": "https://bcdn.aloparca.com/car-images/1Flj6T0mB1MGbPfTRwLnac2P42XKGYkaXssZffIZ.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "BEETLE",
+    "image_url": "https://bcdn.aloparca.com/car-images/vGwU2yHS2CsIY5ZMnCh2vbZQQoej9Yqf77wb2B4e.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ARTEON",
+    "image_url": "https://bcdn.aloparca.com/car-images/w51qZZsRLhmywA0CDTXfm2aAIt18GNqpc8o5hhCG.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "CORRADO",
+    "image_url": "https://bcdn.aloparca.com/car-images/nEnoxfAIHi3qUaZb2BPsi1oWUJa6ewbrAT0PtZYo.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "VENTO",
+    "image_url": "https://bcdn.aloparca.com/car-images/dvcEGACZGYXCEuuDpwIS49801AMv7HLYcgdEzhEE.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ID.3",
+    "image_url": "https://bcdn.aloparca.com/car-images/FFnBYuNaCJLz63017uaMjitm435i76SHb46ZycZj.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ID.4",
+    "image_url": "https://bcdn.aloparca.com/car-images/0VvRlb2VI3e8rTHShhd4QlzlRTIDY3ZB8VxHX1k2.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "GOL",
+    "image_url": "https://bcdn.aloparca.com/car-images/CLlzzhO7oQekoPs6uWsbOu2poNxjHUfjkMPvKP1z.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TARO",
+    "image_url": "https://bcdn.aloparca.com/car-images/qkdJR5YEMyFaLr7T6sqj0ZTlYt4FeWiDZqmyKxWm.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ILTIS",
+    "image_url": "https://bcdn.aloparca.com/car-images/XgVlN1d3ru1Q69H5IHbyRewcx4QcGTLtF4oH6zZ0.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "166",
+    "image_url": "https://bcdn.aloparca.com/car-images/mDUqXhh4TtshHOO06Z6Dhs7KzCs0H7aKZEC6kO3G.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "DERBY",
+    "image_url": "https://bcdn.aloparca.com/car-images/lZqnOHYcSvuQpRZQLvWrxbL60Z6QxrQzVZuj57gS.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TAIGO",
+    "image_url": "https://bcdn.aloparca.com/car-images/BwqkQq7D5cRwx7F8ou08ORHO300uam4lbC53l6tD.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "1500/1600",
+    "image_url": "https://bcdn.aloparca.com/car-images/UnBD9REquVXPgk01u5Azrd1SzMMJ4wDh2aWV82r6.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "KARMANN GHIA",
+    "image_url": "https://bcdn.aloparca.com/car-images/Gu1S1JtpzTe2dMaCwXtfr6ubWdZhfvZnnPHb4Uqc.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "181",
+    "image_url": "https://bcdn.aloparca.com/car-images/z7Wj2k4SdcnkFxwF97QCnm7KUWBmf7a27PE9N9v6.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "411/412",
+    "image_url": "https://bcdn.aloparca.com/car-images/fVbOCy3WpDfGxJKT3fTT42DlX9tGgAfXzJyxCxI1.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ATLAS",
+    "image_url": "https://bcdn.aloparca.com/car-images/j2cFVwV6ktx7CLdYi606mVZkfynqMV7Lp30uc6N3.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "SANTANA",
+    "image_url": "https://bcdn.aloparca.com/car-images/V7Vx9kIvjosq31KpRMiKIUI6RDIEB3ZQ8gmwJ6w6.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "K70",
+    "image_url": "https://bcdn.aloparca.com/car-images/ztvGbEmnmNzMZpeWF34lZTdqKg2pZVdbqAsXvMP0.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ROUTAN",
+    "image_url": "https://bcdn.aloparca.com/car-images/64zInneOrFR2s0IBJ9wsadnHNZVXSYSmmpDnSKGB.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "ID.5",
+    "image_url": "https://bcdn.aloparca.com/car-images/V8BRFYCGOdsEaVgKr92Xtzx3ZAzyKfkJUZ3x4Ged.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "KOMBI",
+    "image_url": "https://bcdn.aloparca.com/car-images/Fobi7cCI4NevgatnJ2OoCTyQ5DRFiNmP16Opqo1M.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "XL1",
+    "image_url": "https://bcdn.aloparca.com/car-images/bxwvQnXPZUMHclMHA05Qus1vTTw7fhymMXWfPRwa.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "POINTER",
+    "image_url": "https://bcdn.aloparca.com/car-images/jbJ7yciqVPtGxqDAgxYQ7XW25rh5wMjPF9iYILLL.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "VARIANT",
+    "image_url": "https://bcdn.aloparca.com/car-images/8RFVKgJfZuugBzNPXVQ9UllgB3eVQxcTUaI0mqad.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "AMEO",
+    "image_url": "https://bcdn.aloparca.com/car-images/NbUVQBJtggZ290RQvqhG9Wh9qUG7cqyhOwcUWH5M.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "TAOS",
+    "image_url": "https://bcdn.aloparca.com/car-images/GTuClf22ZAnsSegdMFF2oifxYAXxdLOaLxqfM4cB.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "VOYAGE",
+    "image_url": "https://bcdn.aloparca.com/car-images/codpS3ZzSwm0vf6kaDzFlUzJX0zNqks8Z0RX4dc6.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "SPACEFOX",
+    "image_url": "https://bcdn.aloparca.com/car-images/N68upp0BXpekxHuZ8LEVPzaxaHVDj4RMUiEVjuJ1.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "FRIDOLIN",
+    "image_url": "https://bcdn.aloparca.com/car-images/rYb0HcCgxQzV6z7dPJTm1r2GzBLAKHqbztfOFjB5.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "SAVEIRO",
+    "image_url": "https://bcdn.aloparca.com/car-images/lwYBnUn4bf8R0i4pni8853lGnCUuvApxn5HqJt22.png?width=219"
+  },
+  {
+    "brand": "volkswagen",
+    "model_name": "PARATI",
+    "image_url": "https://bcdn.aloparca.com/car-images/BHljDazTrtPaEfeUC9Jnc3i36YlaqPOS7RDCO4HB.png?width=219"
+  }
+]

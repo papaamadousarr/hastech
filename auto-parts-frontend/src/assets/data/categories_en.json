@@ -1,0 +1,1871 @@
+[
+  {
+    "name": "Filters",
+    "slug": "filters",
+    "image": "https://bcdn.aloparca.com/category/image/10105.png",
+    "subcategories": [
+      {
+        "name": "Transmission Oil Filter",
+        "slug": "transmission-oil-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sanziman-yag-filtresi.jpg"
+      },
+      {
+        "name": "Air Filter",
+        "slug": "air-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/hava-filtresi.png"
+      },
+      {
+        "name": "Polen Filter",
+        "slug": "polen-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/polen-filtresi.jpg"
+      },
+      {
+        "name": "Oil Filter",
+        "slug": "oil-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yag-filtresi.jpg"
+      },
+      {
+        "name": "Fuel Filter",
+        "slug": "fuel-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtresi.jpg"
+      },
+      {
+        "name": "Hydraulic Oil Filter",
+        "slug": "hydraulic-oil-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/hidrolik-yag-filtresi.jpg"
+      },
+      {
+        "name": "Cabin Filter",
+        "slug": "cabin-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kabin-filtresi.jpg"
+      },
+      {
+        "name": "Fuel Tank Filter",
+        "slug": "fuel-tank-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-deposu-filtresi.jpg"
+      },
+      {
+        "name": "Fuel Pump Filter",
+        "slug": "fuel-pump-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-pompasi-filtresi.jpg"
+      },
+      {
+        "name": "Fuel Injection Filter",
+        "slug": "fuel-injection-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-enjeksiyon-filtresi.jpg"
+      },
+      {
+        "name": "Fuel Line Filter",
+        "slug": "fuel-line-filter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-hatti-filtresi.jpg"
+      },
+      {
+        "name": "Fuel Filter Box",
+        "slug": "fuel-filter-box",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-kutusu.jpg"
+      },
+      {
+        "name": "Fuel Filter Container",
+        "slug": "fuel-filter-container",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-contasi.jpg"
+      },
+      {
+        "name": "Fuel Filter Cap",
+        "slug": "fuel-filter-cap",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-kapagi.jpg"
+      },
+      {
+        "name": "Fuel Filter Cap",
+        "slug": "fuel-filter-cap",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-tapa.jpg"
+      },
+      {
+        "name": "Fuel Filter Hose",
+        "slug": "fuel-filter-hose",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-hortumu.jpg"
+      },
+      {
+        "name": "Fuel Filter Clamp",
+        "slug": "fuel-filter-clamp",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-kelepcesi.jpg"
+      },
+      {
+        "name": "Fuel Filter Bearing",
+        "slug": "fuel-filter-bearing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-rulmani.jpg"
+      },
+      {
+        "name": "Fuel Filter Sensor",
+        "slug": "fuel-filter-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-sensoru.jpg"
+      },
+      {
+        "name": "Fuel Filter Valve",
+        "slug": "fuel-filter-valve",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-valfi.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Oils and Fluids",
+    "slug": "oils-and-fluids",
+    "image": "https://bcdn.aloparca.com/category/image/01J7ATK5G0KQF8RVWG7NZ4YR76.png",
+    "subcategories": [
+      {
+        "name": "Motor Oil",
+        "slug": "motor-oil",
+        "image": null,
+        "icon": "M"
+      },
+      {
+        "name": "Antifreeze",
+        "slug": "antifreeze",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Brake Hydraulic Oil",
+        "slug": "brake-hydraulic-oil",
+        "image": null,
+        "icon": "F"
+      },
+      {
+        "name": "Transmission Oil",
+        "slug": "transmission-oil",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Steering Oil",
+        "slug": "steering-oil",
+        "image": null,
+        "icon": "D"
+      },
+      {
+        "name": "Motor Maintenance Additives",
+        "slug": "motor-maintenance-additives",
+        "image": null,
+        "icon": "M"
+      },
+      {
+        "name": "Maintenance and Cleaning",
+        "slug": "maintenance-and-cleaning",
+        "image": null,
+        "icon": "B"
+      }
+    ]
+  },
+  {
+    "name": "Brakes",
+    "slug": "brakes",
+    "image": "https://bcdn.aloparca.com/category/image/10106.png",
+    "subcategories": [
+      {
+        "name": "ABS Sensor",
+        "slug": "abs-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/abs-sensoru.png"
+      },
+      {
+        "name": "Brake Pad",
+        "slug": "brake-pad",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-disk-balata.png"
+      },
+      {
+        "name": "Brake Shoe Lining",
+        "slug": "brake-shoe-lining",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-pabuclu-balata.png"
+      },
+      {
+        "name": "Brake Pedal",
+        "slug": "brake-pedal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/el-fren-kolu.jpg"
+      },
+      {
+        "name": "Brake Disc",
+        "slug": "brake-disc",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-disk-ayna.png"
+      },
+      {
+        "name": "Brake Center",
+        "slug": "brake-center",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-ana-merkez.jpg"
+      },
+      {
+        "name": "Brake Hose",
+        "slug": "brake-hose",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-hortumu.jpg"
+      },
+      {
+        "name": "Brake Caliper",
+        "slug": "brake-caliper",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-kaliper.jpg"
+      },
+      {
+        "name": "Brake Pad",
+        "slug": "brake-pad",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kampana.jpg"
+      },
+      {
+        "name": "Brake Cable",
+        "slug": "brake-cable",
+        "image": "https://bcdn.aloparca.com/subcategory/images/balata-ikaz-kablosu.jpg"
+      },
+      {
+        "name": "Brake Limiter",
+        "slug": "brake-limiter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-limitor.jpg"
+      },
+      {
+        "name": "Brake Wire",
+        "slug": "brake-wire",
+        "image": "https://bcdn.aloparca.com/subcategory/images/el-fren-teli.jpg"
+      },
+      {
+        "name": "Brake Vacuum Pump",
+        "slug": "brake-vacuum-pump",
+        "image": null,
+        "icon": "F"
+      },
+      {
+        "name": "Westinghouse",
+        "slug": "westinghouse",
+        "image": "https://bcdn.aloparca.com/subcategory/images/westinghouse.jpg"
+      },
+      {
+        "name": "Brake Cylinder",
+        "slug": "brake-cylinder",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-silindiri.jpg"
+      },
+      {
+        "name": "Brake Pad",
+        "slug": "brake-pad",
+        "image": "https://bcdn.aloparca.com/subcategory/images/el-fren-balatasi.jpg"
+      },
+      {
+        "name": "Brake Sensor",
+        "slug": "brake-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fren-musuru.jpg"
+      },
+      {
+        "name": "Westinghouse Hose",
+        "slug": "westinghouse-hose",
+        "image": "https://bcdn.aloparca.com/subcategory/images/westinghouse-hortumu.jpg"
+      },
+      {
+        "name": "Brake Hydraulic Oil",
+        "slug": "brake-hydraulic-oil",
+        "image": null,
+        "icon": "F"
+      },
+      {
+        "name": "Reverse Gear Sensor",
+        "slug": "reverse-gear-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/geri-vites-musuru.jpg"
+      },
+      {
+        "name": "Tire Pressure Sensor",
+        "slug": "tire-pressure-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/lastik-basinc-sensoru.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Ignition System",
+    "slug": "ignition-system",
+    "image": "https://bcdn.aloparca.com/category/image/01J7WTWZBXHB16776VFZQ3H99B.png",
+    "subcategories": [
+      {
+        "name": "Ignition Spark Plug",
+        "slug": "ignition-spark-plug",
+        "image": "https://bcdn.aloparca.com/subcategory/images/atesleme-bujisi.png"
+      },
+      {
+        "name": "Spark Plug Wire",
+        "slug": "spark-plug-wire",
+        "image": "https://bcdn.aloparca.com/subcategory/images/buji-kablosu.jpg"
+      },
+      {
+        "name": "Heating Spark Plug",
+        "slug": "heating-spark-plug",
+        "image": "https://bcdn.aloparca.com/subcategory/images/isitma-bujisi.jpg"
+      },
+      {
+        "name": "Distributor",
+        "slug": "distributor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/distributor.png"
+      },
+      {
+        "name": "Distributor Parts",
+        "slug": "distributor-parts",
+        "image": "https://bcdn.aloparca.com/subcategory/images/distributor-kapagi.jpg"
+      },
+      {
+        "name": "Ignition Coil",
+        "slug": "ignition-coil",
+        "image": "https://bcdn.aloparca.com/subcategory/images/atesleme-bobini.png"
+      },
+      {
+        "name": "Glow Plug Relay",
+        "slug": "glow-plug-relay",
+        "image": null,
+        "icon": "K"
+      }
+    ]
+  },
+  {
+    "name": "Suspension",
+    "slug": "suspension",
+    "image": "https://bcdn.aloparca.com/category/image/10111.png",
+    "subcategories": [
+      {
+        "name": "Coil Spring Rubber",
+        "slug": "coil-spring-rubber",
+        "image": "https://bcdn.aloparca.com/subcategory/images/helezon-get-lastigi.jpg"
+      },
+      {
+        "name": "Coil Spring",
+        "slug": "coil-spring",
+        "image": "https://bcdn.aloparca.com/subcategory/images/helezon-yayi.jpg"
+      },
+      {
+        "name": "Shock Absorber Mount and Bearing",
+        "slug": "shock-absorber-mount-and-bearing",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Shock Absorber Boot and Bumper",
+        "slug": "shock-absorber-boot-and-bumper",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Shock Absorber",
+        "slug": "shock-absorber",
+        "image": "https://bcdn.aloparca.com/subcategory/images/amortisor.png"
+      },
+      {
+        "name": "Swing Arm",
+        "slug": "swing-arm",
+        "image": "https://bcdn.aloparca.com/subcategory/images/salincak.png"
+      },
+      {
+        "name": "Tie Rod",
+        "slug": "tie-rod",
+        "image": "https://bcdn.aloparca.com/subcategory/images/rot-mili.jpg"
+      },
+      {
+        "name": "Tie Rod End",
+        "slug": "tie-rod-end",
+        "image": "https://bcdn.aloparca.com/subcategory/images/rot-basi.png"
+      },
+      {
+        "name": "Ball Joint",
+        "slug": "ball-joint",
+        "image": "https://bcdn.aloparca.com/subcategory/images/rotil-ve-rotilli-kol.jpg"
+      },
+      {
+        "name": "Stabilizer Bar Link",
+        "slug": "stabilizer-bar-link",
+        "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demir-aski-rotu.jpg"
+      },
+      {
+        "name": "Complete Axle",
+        "slug": "complete-axle",
+        "image": "https://bcdn.aloparca.com/subcategory/images/aks-komple.png"
+      },
+      {
+        "name": "Axle Head",
+        "slug": "axle-head",
+        "image": "https://bcdn.aloparca.com/subcategory/images/aks-kafasi.jpg"
+      },
+      {
+        "name": "Axle Boot",
+        "slug": "axle-boot",
+        "image": "https://bcdn.aloparca.com/subcategory/images/aks-korugu.jpg"
+      },
+      {
+        "name": "Axle Carrier",
+        "slug": "axle-carrier",
+        "image": "https://bcdn.aloparca.com/subcategory/images/aks-tasiyici.jpg"
+      },
+      {
+        "name": "Swing Arm Bushing",
+        "slug": "swing-arm-bushing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/salincak-burcu.jpg"
+      },
+      {
+        "name": "Wheel Hub",
+        "slug": "wheel-hub",
+        "image": "https://bcdn.aloparca.com/subcategory/images/porya.png"
+      },
+      {
+        "name": "Wheel Hub and Bearing",
+        "slug": "wheel-hub-and-bearing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/porya-rulmani.jpg"
+      },
+      {
+        "name": "Stabilizer Bar",
+        "slug": "stabilizer-bar",
+        "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demiri.jpg"
+      },
+      {
+        "name": "Stabilizer Bar Bushing",
+        "slug": "stabilizer-bar-bushing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/viraj-demir-lastigi.jpg"
+      },
+      {
+        "name": "Stabilizer Link",
+        "slug": "stabilizer-link",
+        "image": "https://bcdn.aloparca.com/subcategory/images/denge-kolu.jpg"
+      },
+      {
+        "name": "Shock Absorber Bearing",
+        "slug": "shock-absorber-bearing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/amortisor-rulmani.jpg"
+      },
+      {
+        "name": "Shock Absorber Mount",
+        "slug": "shock-absorber-mount",
+        "image": "https://bcdn.aloparca.com/subcategory/images/amortisor-tabla-takozu.jpg"
+      },
+      {
+        "name": "Axle Seal",
+        "slug": "axle-seal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tavan-saci.jpg"
+      },
+      {
+        "name": "Cross Member Torsion Mount Bushing",
+        "slug": "cross-member-torsion-mount-bushing",
+        "image": null,
+        "icon": "T"
+      }
+    ]
+  },
+  {
+    "name": "Clutch",
+    "slug": "clutch",
+    "image": "https://bcdn.aloparca.com/category/image/10150.png",
+    "subcategories": [
+      {
+        "name": "Clutch Fork",
+        "slug": "clutch-fork",
+        "image": "https://bcdn.aloparca.com/subcategory/images/debriyaj-catali.jpg"
+      },
+      {
+        "name": "Clutch Center and Bearing",
+        "slug": "clutch-center-and-bearing",
+        "image": null,
+        "icon": "D"
+      },
+      {
+        "name": "Clutch Pedal",
+        "slug": "clutch-pedal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/debriyaj-pedali.jpg"
+      },
+      {
+        "name": "Clutch Kit",
+        "slug": "clutch-kit",
+        "image": "https://bcdn.aloparca.com/subcategory/images/debriyaj-seti.png"
+      },
+      {
+        "name": "Clutch Sensor",
+        "slug": "clutch-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/debriyaj-musuru.jpg"
+      },
+      {
+        "name": "Clutch Cable",
+        "slug": "clutch-cable",
+        "image": "https://bcdn.aloparca.com/subcategory/images/debriyaj-teli.jpg"
+      },
+      {
+        "name": "Flywheel",
+        "slug": "flywheel",
+        "image": "https://bcdn.aloparca.com/subcategory/images/volan.jpg"
+      },
+      {
+        "name": "Transmission Oil",
+        "slug": "transmission-oil",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Flywheel Bolt and Bearing",
+        "slug": "flywheel-bolt-and-bearing",
+        "image": null,
+        "icon": "V"
+      }
+    ]
+  },
+  {
+    "name": "Timing Chain and Bearings",
+    "slug": "timing-chain-and-bearings",
+    "image": "https://bcdn.aloparca.com/category/image/01J7WV3B6CNEHGNNA2J5QY9DXP.png",
+    "subcategories": [
+      {
+        "name": "Timing Belt Kit",
+        "slug": "timing-belt-kit",
+        "image": "https://bcdn.aloparca.com/subcategory/images/triger-kayis-seti.png"
+      },
+      {
+        "name": "Timing Belt",
+        "slug": "timing-belt",
+        "image": "https://bcdn.aloparca.com/subcategory/images/triger-kayisi.jpg"
+      },
+      {
+        "name": "Timing Chain",
+        "slug": "timing-chain",
+        "image": "https://bcdn.aloparca.com/subcategory/images/triger-zinciri.jpg"
+      },
+      {
+        "name": "Timing Chain Kit",
+        "slug": "timing-chain-kit",
+        "image": "https://bcdn.aloparca.com/subcategory/images/triger-zincir-seti.jpg"
+      },
+      {
+        "name": "Timing Chain Tensioner Bearing",
+        "slug": "timing-chain-tensioner-bearing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/triger-gergi-rulmani.jpg"
+      },
+      {
+        "name": "V Belt",
+        "slug": "v-belt",
+        "image": null,
+        "icon": "V"
+      },
+      {
+        "name": "V Belt Kit",
+        "slug": "v-belt-kit",
+        "image": null,
+        "icon": "V"
+      },
+      {
+        "name": "V Belt Tensioner Bearing",
+        "slug": "v-belt-tensioner-bearing",
+        "image": null,
+        "icon": "V"
+      },
+      {
+        "name": "Power Steering Belt",
+        "slug": "power-steering-belt",
+        "image": null,
+        "icon": "D"
+      },
+      {
+        "name": "Oil Pump Chain Kit",
+        "slug": "oil-pump-chain-kit",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yag-pompa-zincir-seti.jpg"
+      },
+      {
+        "name": "Oil Pump Chain",
+        "slug": "oil-pump-chain",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yag-pompa-zinciri.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Fuel System",
+    "slug": "fuel-system",
+    "image": "https://bcdn.aloparca.com/category/image/10354.png",
+    "subcategories": [
+      {
+        "name": "Throttle Cable",
+        "slug": "throttle-cable",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gaz-teli.jpg"
+      },
+      {
+        "name": "Fuel Tank Float",
+        "slug": "fuel-tank-float",
+        "image": "https://bcdn.aloparca.com/subcategory/images/depo-samandirasi.png"
+      },
+      {
+        "name": "EGR Valve",
+        "slug": "egr-valve",
+        "image": "https://bcdn.aloparca.com/subcategory/images/egr-valfi.jpg"
+      },
+      {
+        "name": "Fuel Hose",
+        "slug": "fuel-hose",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-borusu.jpg"
+      },
+      {
+        "name": "Fuel Pump",
+        "slug": "fuel-pump",
+        "image": "https://bcdn.aloparca.com/subcategory/images/mazot-pompasi.jpg"
+      },
+      {
+        "name": "Fuel Pressure Valve",
+        "slug": "fuel-pressure-valve",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-basinc-kontrol-valfi.jpg"
+      },
+      {
+        "name": "Throttle Body",
+        "slug": "throttle-body",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gaz-kelebegi.jpg"
+      },
+      {
+        "name": "Fuel Injector",
+        "slug": "fuel-injector",
+        "image": "https://bcdn.aloparca.com/subcategory/images/enjektor.jpg"
+      },
+      {
+        "name": "Accelerator Pedal",
+        "slug": "accelerator-pedal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gaz-pedali.jpg"
+      },
+      {
+        "name": "Air Filter Box and Parts",
+        "slug": "air-filter-box-and-parts",
+        "image": "https://bcdn.aloparca.com/subcategory/images/hava-filtre-kabi.jpg"
+      },
+      {
+        "name": "Idle Control Valve",
+        "slug": "idle-control-valve",
+        "image": "https://bcdn.aloparca.com/subcategory/images/rolanti-ayar-valfi.jpg"
+      },
+      {
+        "name": "Idle Control Motor",
+        "slug": "idle-control-motor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/rolanti-ayar-motoru.jpg"
+      },
+      {
+        "name": "Fuel Cutoff Valve",
+        "slug": "fuel-cutoff-valve",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-otomatigi.jpg"
+      },
+      {
+        "name": "Fuel Filter Sensor",
+        "slug": "fuel-filter-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yakit-filtre-sensoru.jpg"
+      },
+      {
+        "name": "EGR Cooler",
+        "slug": "egr-cooler",
+        "image": "https://bcdn.aloparca.com/subcategory/images/egr-sogutucu.jpg"
+      },
+      {
+        "name": "Adblue System",
+        "slug": "adblue-system",
+        "image": "https://bcdn.aloparca.com/subcategory/images/debriyaj-baski.jpg"
+      },
+      {
+        "name": "High Pressure Pump",
+        "slug": "high-pressure-pump",
+        "image": null,
+        "icon": "Y"
+      },
+      {
+        "name": "Throttle Position Sensor",
+        "slug": "throttle-position-sensor",
+        "image": null,
+        "icon": "G"
+      }
+    ]
+  },
+  {
+    "name": "Transmission",
+    "slug": "transmission",
+    "image": "https://bcdn.aloparca.com/category/image/10338.png",
+    "subcategories": [
+      {
+        "name": "Speed Sensor",
+        "slug": "speed-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kilometre-hiz-sensoru.png"
+      },
+      {
+        "name": "Transmission Mount",
+        "slug": "transmission-mount",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sanziman-takozu.png"
+      },
+      {
+        "name": "Reverse Gear Sensor",
+        "slug": "reverse-gear-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/geri-vites-musuru.jpg"
+      },
+      {
+        "name": "Transmission Oil Pan",
+        "slug": "transmission-oil-pan",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sanziman-yag-karteri.jpg"
+      },
+      {
+        "name": "Gear Cable",
+        "slug": "gear-cable",
+        "image": null,
+        "icon": "V"
+      },
+      {
+        "name": "Transmission Oil Cooler",
+        "slug": "transmission-oil-cooler",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sanziman-yag-sogutucu.jpg"
+      },
+      {
+        "name": "Driveshaft Mount",
+        "slug": "driveshaft-mount",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Seal",
+        "slug": "seal",
+        "image": null,
+        "icon": "K"
+      },
+      {
+        "name": "Transmission Oil",
+        "slug": "transmission-oil",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Transmission Motor",
+        "slug": "transmission-motor",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Driveshaft",
+        "slug": "driveshaft",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Transmission Card",
+        "slug": "transmission-card",
+        "image": null,
+        "icon": "Ş"
+      },
+      {
+        "name": "Bearing Repair Kit",
+        "slug": "bearing-repair-kit",
+        "image": null,
+        "icon": "R"
+      }
+    ]
+  },
+  {
+    "name": "Lighting",
+    "slug": "lighting",
+    "image": "https://bcdn.aloparca.com/category/image/01JJ44R9GR4BJMK692YGPNP5W5.png",
+    "subcategories": [
+      {
+        "name": "Fender Signal",
+        "slug": "fender-signal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/camurluk-sinyali.jpg"
+      },
+      {
+        "name": "Mirror Signal",
+        "slug": "mirror-signal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/dikiz-ayna-sinyali.jpg"
+      },
+      {
+        "name": "Headlight",
+        "slug": "headlight",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far.png"
+      },
+      {
+        "name": "Daytime Running Light",
+        "slug": "daytime-running-light",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gunduz-fari.jpg"
+      },
+      {
+        "name": "Turn Signal Light",
+        "slug": "turn-signal-light",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sinyal-lambasi.jpg"
+      },
+      {
+        "name": "Fog Light",
+        "slug": "fog-light",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sis-fari.jpg"
+      },
+      {
+        "name": "Brake Light",
+        "slug": "brake-light",
+        "image": "https://bcdn.aloparca.com/subcategory/images/stop-lambasi.png"
+      },
+      {
+        "name": "Additional Brake Light",
+        "slug": "additional-brake-light",
+        "image": null,
+        "icon": "E"
+      },
+      {
+        "name": "Bulb",
+        "slug": "bulb",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Mirror Glass",
+        "slug": "mirror-glass",
+        "image": "https://bcdn.aloparca.com/subcategory/images/ayna-cami.jpg"
+      },
+      {
+        "name": "Rear View Mirror",
+        "slug": "rear-view-mirror",
+        "image": "https://bcdn.aloparca.com/subcategory/images/dikiz-aynasi.png"
+      },
+      {
+        "name": "Reverse Light",
+        "slug": "reverse-light",
+        "image": "https://bcdn.aloparca.com/subcategory/images/geri-vites-lambasi.jpg"
+      },
+      {
+        "name": "Headlight Adjustment Motor",
+        "slug": "headlight-adjustment-motor",
+        "image": null,
+        "icon": "F"
+      },
+      {
+        "name": "Headlight Control Unit",
+        "slug": "headlight-control-unit",
+        "image": null,
+        "icon": "F"
+      },
+      {
+        "name": "License Plate Light",
+        "slug": "license-plate-light",
+        "image": null,
+        "icon": "P"
+      }
+    ]
+  },
+  {
+    "name": "Engine",
+    "slug": "engine",
+    "image": "https://bcdn.aloparca.com/category/image/10102.png",
+    "subcategories": [
+      {
+        "name": "Engine Oil Cooler",
+        "slug": "engine-oil-cooler",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-yag-sogutucu.jpg"
+      },
+      {
+        "name": "Main Bearing",
+        "slug": "main-bearing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/ana-yatak.jpg"
+      },
+      {
+        "name": "Engine Mount",
+        "slug": "engine-mount",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-takozu.png"
+      },
+      {
+        "name": "Camshaft",
+        "slug": "camshaft",
+        "image": "https://bcdn.aloparca.com/subcategory/images/eksantrik-mili.jpg"
+      },
+      {
+        "name": "Cylinder Liner",
+        "slug": "cylinder-liner",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gomlek.jpg"
+      },
+      {
+        "name": "Cylinder Head Gasket",
+        "slug": "cylinder-head-gasket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/silindir-kapak-contasi.png"
+      },
+      {
+        "name": "Oil Pan Gasket",
+        "slug": "oil-pan-gasket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/karter-contasi.jpg"
+      },
+      {
+        "name": "Connecting Rod Bearing",
+        "slug": "connecting-rod-bearing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kol-yatak.jpg"
+      },
+      {
+        "name": "Crankshaft",
+        "slug": "crankshaft",
+        "image": "https://bcdn.aloparca.com/subcategory/images/krank.jpg"
+      },
+      {
+        "name": "Crankshaft Pulley",
+        "slug": "crankshaft-pulley",
+        "image": "https://bcdn.aloparca.com/subcategory/images/krank-kasnak.jpg"
+      },
+      {
+        "name": "Camshaft Cover Gasket",
+        "slug": "camshaft-cover-gasket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/eksantrik-kapak-contasi.jpg"
+      },
+      {
+        "name": "Gasket Set",
+        "slug": "gasket-set",
+        "image": "https://bcdn.aloparca.com/subcategory/images/takim-conta.jpg"
+      },
+      {
+        "name": "Camshaft Seal",
+        "slug": "camshaft-seal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/eksantrik-kecesi.jpg"
+      },
+      {
+        "name": "Piston Ring",
+        "slug": "piston-ring",
+        "image": "https://bcdn.aloparca.com/subcategory/images/piston.jpg"
+      },
+      {
+        "name": "Turbocharger",
+        "slug": "turbocharger",
+        "image": "https://bcdn.aloparca.com/subcategory/images/turbo-sarj.jpg"
+      },
+      {
+        "name": "Engine Oil Pan",
+        "slug": "engine-oil-pan",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-yag-karteri.jpg"
+      },
+      {
+        "name": "Oil Pump",
+        "slug": "oil-pump",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yag-pompasi.jpg"
+      },
+      {
+        "name": "Manifold",
+        "slug": "manifold",
+        "image": "https://bcdn.aloparca.com/subcategory/images/manifold.jpg"
+      },
+      {
+        "name": "Cylinder Head",
+        "slug": "cylinder-head",
+        "image": "https://bcdn.aloparca.com/subcategory/images/silindir-kapagi.jpg"
+      },
+      {
+        "name": "Crankshaft Gear",
+        "slug": "crankshaft-gear",
+        "image": "https://bcdn.aloparca.com/subcategory/images/krank-disli.jpg"
+      },
+      {
+        "name": "Valve",
+        "slug": "valve",
+        "image": "https://bcdn.aloparca.com/subcategory/images/supap.jpg"
+      },
+      {
+        "name": "Valve Seal",
+        "slug": "valve-seal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/supap-lastigi.jpg"
+      },
+      {
+        "name": "Valve Guide and Seat",
+        "slug": "valve-guide-and-seat",
+        "image": "https://bcdn.aloparca.com/subcategory/images/supap-gayd-ve-baga.jpg"
+      },
+      {
+        "name": "Valve Tappet",
+        "slug": "valve-tappet",
+        "image": "https://bcdn.aloparca.com/subcategory/images/supap-tapet.jpg"
+      },
+      {
+        "name": "Valve Spring",
+        "slug": "valve-spring",
+        "image": "https://bcdn.aloparca.com/subcategory/images/supap-tusu.jpg"
+      },
+      {
+        "name": "Camshaft Position Sensor",
+        "slug": "camshaft-position-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/eksantrik-devir-sensoru.jpg"
+      },
+      {
+        "name": "MAP Sensor",
+        "slug": "map-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/map-sensoru.jpg"
+      },
+      {
+        "name": "Crankshaft Position Sensor",
+        "slug": "crankshaft-position-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/krank-sensoru.jpg"
+      },
+      {
+        "name": "Crankshaft Seal",
+        "slug": "crankshaft-seal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/krank-kecesi.jpg"
+      },
+      {
+        "name": "Engine Coolant Drain Plug",
+        "slug": "engine-coolant-drain-plug",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-su-tapasi.jpg"
+      },
+      {
+        "name": "Connecting Rod",
+        "slug": "connecting-rod",
+        "image": "https://bcdn.aloparca.com/subcategory/images/piston-kolu.jpg"
+      },
+      {
+        "name": "Piston Ring Set",
+        "slug": "piston-ring-set",
+        "image": "https://bcdn.aloparca.com/subcategory/images/segman.jpg"
+      },
+      {
+        "name": "Valve Cover Gasket",
+        "slug": "valve-cover-gasket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/ust-kapak-contasi.jpg"
+      },
+      {
+        "name": "Oil Pressure Sensor",
+        "slug": "oil-pressure-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yag-musuru.jpg"
+      },
+      {
+        "name": "Oil Level Sensor and Dipstick",
+        "slug": "oil-level-sensor-and-dipstick",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-yag-cubugu.jpg"
+      },
+      {
+        "name": "Knock Sensor",
+        "slug": "knock-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/vuruntu-sensoru.jpg"
+      },
+      {
+        "name": "Oil Jet",
+        "slug": "oil-jet",
+        "image": "https://bcdn.aloparca.com/subcategory/images/yaglama-jeti.jpg"
+      },
+      {
+        "name": "Valve Cover",
+        "slug": "valve-cover",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-ust-kapagi.jpg"
+      },
+      {
+        "name": "Miscellaneous Gaskets",
+        "slug": "miscellaneous-gaskets",
+        "image": null,
+        "icon": "Ç"
+      },
+      {
+        "name": "Turbo Hose and Gasket",
+        "slug": "turbo-hose-and-gasket",
+        "image": null,
+        "icon": "T"
+      },
+      {
+        "name": "Manifold Gasket",
+        "slug": "manifold-gasket",
+        "image": null,
+        "icon": "M"
+      },
+      {
+        "name": "Oil Pump Gasket",
+        "slug": "oil-pump-gasket",
+        "image": null,
+        "icon": "Y"
+      },
+      {
+        "name": "Engine Reconditioning",
+        "slug": "engine-reconditioning",
+        "image": null,
+        "icon": "M"
+      },
+      {
+        "name": "Gaskets and Seals",
+        "slug": "gaskets-and-seals",
+        "image": null,
+        "icon": "C"
+      },
+      {
+        "name": "Electrical and Sensors",
+        "slug": "electrical-and-sensors",
+        "image": null,
+        "icon": "E"
+      },
+      {
+        "name": "Mass Air Flow Sensor",
+        "slug": "mass-air-flow-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/hava-debimetresi.png"
+      },
+      {
+        "name": "Oxygen (Lambda) Sensor",
+        "slug": "oxygen-lambda-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/oksijen-lambda-sensoru.png"
+      },
+      {
+        "name": "Fuel Stop Sensor",
+        "slug": "fuel-stop-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/mazot-stop-musuru.jpg"
+      },
+      {
+        "name": "Turbo Solenoid Valve",
+        "slug": "turbo-solenoid-valve",
+        "image": null,
+        "icon": "T"
+      },
+      {
+        "name": "Cylinder Head Stud",
+        "slug": "cylinder-head-stud",
+        "image": "https://bcdn.aloparca.com/subcategory/images/direk.jpg"
+      },
+      {
+        "name": "Moon Bearing",
+        "slug": "moon-bearing",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Camshaft Vanos Gear",
+        "slug": "camshaft-vanos-gear",
+        "image": null,
+        "icon": "E"
+      },
+      {
+        "name": "Eksantrik Konum Valfi",
+        "slug": "eksantrik-konum-valfi",
+        "image": null,
+        "icon": "E"
+      },
+      {
+        "name": "Kol Burcu",
+        "slug": "kol-burcu",
+        "image": null,
+        "icon": "K"
+      },
+      {
+        "name": "Yağ Seperatörü",
+        "slug": "yag-seperatoru",
+        "image": null,
+        "icon": "Y"
+      },
+      {
+        "name": "Yağ Filtre Kütüğü",
+        "slug": "yag-filtre-kutugu",
+        "image": null,
+        "icon": "Y"
+      },
+      {
+        "name": "Nox Sensörü",
+        "slug": "nox-sensoru",
+        "image": null,
+        "icon": "N"
+      },
+      {
+        "name": "Hava Hortumu",
+        "slug": "hava-hortumu",
+        "image": null,
+        "icon": "H"
+      }
+    ]
+  },
+  {
+    "name": "External Body",
+    "slug": "external-body",
+    "image": "https://bcdn.aloparca.com/category/image/10101.png",
+    "subcategories": [
+      {
+        "name": "Bagaj Amortisörü",
+        "slug": "bagaj-amortisoru",
+        "image": "https://bcdn.aloparca.com/subcategory/images/bagaj-amortisoru.png"
+      },
+      {
+        "name": "Tavan Anteni",
+        "slug": "tavan-anteni",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tavan-anteni.jpg"
+      },
+      {
+        "name": "Motor Kaput Amortisörü",
+        "slug": "motor-kaput-amortisoru",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-kaput-amortisoru.jpg"
+      },
+      {
+        "name": "Motor Alt Muhafaza",
+        "slug": "motor-alt-muhafaza",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-alt-muhafaza.jpg"
+      },
+      {
+        "name": "Motor Kaput Kilidi",
+        "slug": "motor-kaput-kilidi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/motor-kaput-kilidi.jpg"
+      },
+      {
+        "name": "Silecek Süpürgesi",
+        "slug": "silecek-supurgesi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/silecek-supurgesi.png"
+      },
+      {
+        "name": "Cam Krikosu",
+        "slug": "cam-krikosu",
+        "image": "https://bcdn.aloparca.com/subcategory/images/cam-krikosu.jpg"
+      },
+      {
+        "name": "Silecek Mekanizması",
+        "slug": "silecek-mekanizmasi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/silecek-mekanizmasi.jpg"
+      },
+      {
+        "name": "Silecek Motoru",
+        "slug": "silecek-motoru",
+        "image": "https://bcdn.aloparca.com/subcategory/images/silecek-motoru.jpg"
+      },
+      {
+        "name": "Cam Su Deposu",
+        "slug": "cam-su-deposu",
+        "image": "https://bcdn.aloparca.com/subcategory/images/cam-su-deposu.jpg"
+      },
+      {
+        "name": "Ayna Kapağı",
+        "slug": "ayna-kapagi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/ayna-kapagi.jpg"
+      },
+      {
+        "name": "Dikiz Aynası",
+        "slug": "dikiz-aynasi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/dikiz-aynasi.png"
+      },
+      {
+        "name": "Ayna Camı",
+        "slug": "ayna-cami",
+        "image": "https://bcdn.aloparca.com/subcategory/images/ayna-cami.jpg"
+      },
+      {
+        "name": "Sürgülü Kapı Makarası",
+        "slug": "surgulu-kapi-makarasi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/surgulu-kapi-makarasi.jpg"
+      },
+      {
+        "name": "Kapı Kilidi",
+        "slug": "kapi-kilidi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kapi-kilidi.jpg"
+      },
+      {
+        "name": "Kaput Teli",
+        "slug": "kaput-teli",
+        "image": null,
+        "icon": "K"
+      }
+    ]
+  },
+  {
+    "name": "Steering",
+    "slug": "steering",
+    "image": "https://bcdn.aloparca.com/category/image/10112.png",
+    "subcategories": [
+      {
+        "name": "Power Steering Pump",
+        "slug": "power-steering-pump",
+        "image": "https://bcdn.aloparca.com/subcategory/images/direksiyon-pompasi.png"
+      },
+      {
+        "name": "Steering Boot",
+        "slug": "steering-boot",
+        "image": "https://bcdn.aloparca.com/subcategory/images/direksiyon-korugu.jpg"
+      },
+      {
+        "name": "Power Steering Reservoir",
+        "slug": "power-steering-reservoir",
+        "image": "https://bcdn.aloparca.com/subcategory/images/direksiyon-hidrolik-yag-deposu.jpg"
+      },
+      {
+        "name": "Steering Box",
+        "slug": "steering-box",
+        "image": "https://bcdn.aloparca.com/subcategory/images/direksiyon-kutusu.jpg"
+      },
+      {
+        "name": "Power Steering Fluid",
+        "slug": "power-steering-fluid",
+        "image": null,
+        "icon": "D"
+      },
+      {
+        "name": "Airbag Clock Spring",
+        "slug": "airbag-clock-spring",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Light Signal and Wiper Switch",
+        "slug": "light-signal-and-wiper-switch",
+        "image": null,
+        "icon": "F"
+      },
+      {
+        "name": "Steering Hose",
+        "slug": "steering-hose",
+        "image": null,
+        "icon": "D"
+      }
+    ]
+  },
+  {
+    "name": "Cooling and Heating",
+    "slug": "cooling-and-heating",
+    "image": "https://bcdn.aloparca.com/category/image/10341.png",
+    "subcategories": [
+      {
+        "name": "Water Pump",
+        "slug": "water-pump",
+        "image": "https://bcdn.aloparca.com/subcategory/images/devirdaim-su-pompasi.png"
+      },
+      {
+        "name": "Heater Motor",
+        "slug": "heater-motor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kalorifer-motoru.jpg"
+      },
+      {
+        "name": "AC Hose",
+        "slug": "ac-hose",
+        "image": "https://bcdn.aloparca.com/subcategory/images/klima-hortumu.jpg"
+      },
+      {
+        "name": "AC Compressor",
+        "slug": "ac-compressor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/klima-kompresoru.png"
+      },
+      {
+        "name": "Temperature Sensor",
+        "slug": "temperature-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/hararet-musuru.jpg"
+      },
+      {
+        "name": "Radiator Fan and Motor",
+        "slug": "radiator-fan-and-motor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/radyator-fan-ve-motoru.jpg"
+      },
+      {
+        "name": "Water Radiator",
+        "slug": "water-radiator",
+        "image": "https://bcdn.aloparca.com/subcategory/images/su-radyatoru.png"
+      },
+      {
+        "name": "Cooling Fan",
+        "slug": "cooling-fan",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sogutma-fani-fan-termik.jpg"
+      },
+      {
+        "name": "Thermostat",
+        "slug": "thermostat",
+        "image": "https://bcdn.aloparca.com/subcategory/images/termostat.jpg"
+      },
+      {
+        "name": "AC Radiator",
+        "slug": "ac-radiator",
+        "image": "https://bcdn.aloparca.com/subcategory/images/klima-radyatoru.jpg"
+      },
+      {
+        "name": "Turbo Radiator",
+        "slug": "turbo-radiator",
+        "image": "https://bcdn.aloparca.com/subcategory/images/turbo-radyatoru.jpg"
+      },
+      {
+        "name": "Radiator Overflow Tank",
+        "slug": "radiator-overflow-tank",
+        "image": "https://bcdn.aloparca.com/subcategory/images/radyator-yedek-su-deposu.jpg"
+      },
+      {
+        "name": "Radiator Overflow Tank Cap",
+        "slug": "radiator-overflow-tank-cap",
+        "image": "https://bcdn.aloparca.com/subcategory/images/radyator-yedek-su-depo-kapagi.jpg"
+      },
+      {
+        "name": "Heater Radiator",
+        "slug": "heater-radiator",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kalorifer-radyatoru.jpg"
+      },
+      {
+        "name": "Exhaust Temperature Sensor",
+        "slug": "exhaust-temperature-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/egzoz-sicaklik-sensoru.jpg"
+      },
+      {
+        "name": "AC Pressure Sensor",
+        "slug": "ac-pressure-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/klima-basinc-musuru.jpg"
+      },
+      {
+        "name": "Thermostat Housing",
+        "slug": "thermostat-housing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/termostat-govdesi.jpg"
+      },
+      {
+        "name": "Fan Sensor",
+        "slug": "fan-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/fan-musuru.jpg"
+      },
+      {
+        "name": "Radiator Hose",
+        "slug": "radiator-hose",
+        "image": null,
+        "icon": "R"
+      },
+      {
+        "name": "Heater Hose",
+        "slug": "heater-hose",
+        "image": null,
+        "icon": "K"
+      },
+      {
+        "name": "Heater Resistor",
+        "slug": "heater-resistor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/kalorifer-rezistansi.jpg"
+      },
+      {
+        "name": "Radiator Cap",
+        "slug": "radiator-cap",
+        "image": "https://bcdn.aloparca.com/subcategory/images/radyator-kapagi.jpg"
+      },
+      {
+        "name": "AC Receiver Drier",
+        "slug": "ac-receiver-drier",
+        "image": "https://bcdn.aloparca.com/subcategory/images/klima-tupu.jpg"
+      },
+      {
+        "name": "Water Circulation Hose",
+        "slug": "water-circulation-hose",
+        "image": null,
+        "icon": "D"
+      },
+      {
+        "name": "Water Flange",
+        "slug": "water-flange",
+        "image": "https://bcdn.aloparca.com/subcategory/images/saft-kaplini.jpg"
+      },
+      {
+        "name": "Evaporator",
+        "slug": "evaporator",
+        "image": null,
+        "icon": "E"
+      },
+      {
+        "name": "Valve",
+        "slug": "valve",
+        "image": null,
+        "icon": "V"
+      },
+      {
+        "name": "Heater Valve",
+        "slug": "heater-valve",
+        "image": null,
+        "icon": "K"
+      }
+    ]
+  },
+  {
+    "name": "Electric",
+    "slug": "electric",
+    "image": "https://bcdn.aloparca.com/category/image/10110.png",
+    "subcategories": [
+      {
+        "name": "Alternator",
+        "slug": "alternator",
+        "image": "https://bcdn.aloparca.com/subcategory/images/alternator.jpg"
+      },
+      {
+        "name": "Cam Su Motoru",
+        "slug": "cam-su-motoru",
+        "image": "https://bcdn.aloparca.com/subcategory/images/cam-su-motoru.jpg"
+      },
+      {
+        "name": "Cam Açma Düğmesi",
+        "slug": "cam-acma-dugmesi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/cam-acma-dugmesi.png"
+      },
+      {
+        "name": "Dörtlü Flaşör Düğmesi",
+        "slug": "dortlu-flasor-dugmesi",
+        "image": "https://bcdn.aloparca.com/subcategory/images/dortlu-flasor-dugmesi.jpg"
+      },
+      {
+        "name": "Engine Starter",
+        "slug": "engine-starter",
+        "image": "https://bcdn.aloparca.com/subcategory/images/mars-dinamosu.jpg"
+      },
+      {
+        "name": "Headlight Switch",
+        "slug": "headlight-switch",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-anahtari.jpg"
+      },
+      {
+        "name": "Headlight Control Lever",
+        "slug": "headlight-control-lever",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-kumanda-kolu.jpg"
+      },
+      {
+        "name": "Mirror Control Button",
+        "slug": "mirror-control-button",
+        "image": "https://bcdn.aloparca.com/subcategory/images/ayna-kumanda-dugmesi.jpg"
+      },
+      {
+        "name": "Alternator Pulley",
+        "slug": "alternator-pulley",
+        "image": "https://bcdn.aloparca.com/subcategory/images/alternator-pulley.jpg"
+      },
+      {
+        "name": "Sinyal Kumanda Kolu",
+        "slug": "sinyal-kumanda-kolu",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sinyal-kumanda-kolu.jpg"
+      },
+      {
+        "name": "Parking Sensor",
+        "slug": "park-sensor",
+        "image": "https://bcdn.aloparca.com/subcategory/images/park-sensoru.jpg"
+      },
+      {
+        "name": "Silecek Kumanda Kolu",
+        "slug": "silecek-kumanda-kolu",
+        "image": "https://bcdn.aloparca.com/subcategory/images/silecek-kumanda-kolu.jpg"
+      },
+      {
+        "name": "Dış Hava Sıcaklık Sensörü",
+        "slug": "dis-hava-sicaklik-sensoru",
+        "image": "https://bcdn.aloparca.com/subcategory/images/dis-hava-sicaklik-sensoru.jpg"
+      },
+      {
+        "name": "Marş Dinamo Parçaları",
+        "slug": "mars-dinamo-parcalari",
+        "image": null,
+        "icon": "M"
+      },
+      {
+        "name": "Alternatör Parçaları",
+        "slug": "alternator-parcalari",
+        "image": null,
+        "icon": "A"
+      },
+      {
+        "name": "Korna",
+        "slug": "korna",
+        "image": null,
+        "icon": "K"
+      },
+      {
+        "name": "Röle ve Flaşör",
+        "slug": "role-ve-flasor",
+        "image": null,
+        "icon": "R"
+      }
+    ]
+  },
+  {
+    "name": "Bumper and Components",
+    "slug": "bumper-and-components",
+    "image": "https://bcdn.aloparca.com/category/image/10101.png",
+    "subcategories": [
+      {
+        "name": "Bumper Reflector",
+        "slug": "bumper-reflector",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-reflektoru.jpg"
+      },
+      {
+        "name": "Fog Light Frame",
+        "slug": "fog-light-frame",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sis-fari-cercevesi.jpg"
+      },
+      {
+        "name": "Bumper",
+        "slug": "bumper",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon.png"
+      },
+      {
+        "name": "Bumper Tow Hook Cover",
+        "slug": "bumper-tow-hook-cover",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-ceki-demir-kapagi.jpg"
+      },
+      {
+        "name": "Bumper Bakelite",
+        "slug": "bumper-bakelite",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-bakaliti.jpg"
+      },
+      {
+        "name": "Impact Absorber",
+        "slug": "impact-absorber",
+        "image": "https://bcdn.aloparca.com/subcategory/images/darbe-emici.jpg"
+      },
+      {
+        "name": "License Plate Strip",
+        "slug": "license-plate-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/plaka-kusagi.jpg"
+      },
+      {
+        "name": "License Plate Holder",
+        "slug": "license-plate-holder",
+        "image": "https://bcdn.aloparca.com/subcategory/images/plakalik.jpg"
+      },
+      {
+        "name": "Turn Signal Frame",
+        "slug": "turn-signal-frame",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sinyal-cercevesi.jpg"
+      },
+      {
+        "name": "Fog Light Bracket",
+        "slug": "fog-light-bracket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sis-far-braketi.jpg"
+      },
+      {
+        "name": "Fog Light Strip",
+        "slug": "fog-light-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sis-far-kusagi.jpg"
+      },
+      {
+        "name": "Fog Light Housing",
+        "slug": "fog-light-housing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sis-far-yuvasi.jpg"
+      },
+      {
+        "name": "Fog Light Cover Strip",
+        "slug": "fog-light-cover-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/sis-kapak-citasi.jpg"
+      },
+      {
+        "name": "Bumper Lower Shield",
+        "slug": "bumper-lower-shield",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-alt-muhafaza.jpg"
+      },
+      {
+        "name": "Bumper Lower Part",
+        "slug": "bumper-lower-part",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-alt-parca.jpg"
+      },
+      {
+        "name": "Bumper Strip",
+        "slug": "bumper-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-bandi.jpg"
+      },
+      {
+        "name": "Bumper Step",
+        "slug": "bumper-step",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-basamagi.jpg"
+      },
+      {
+        "name": "Bumper Bracket",
+        "slug": "bumper-bracket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-braketi.jpg"
+      },
+      {
+        "name": "Bumper Beam",
+        "slug": "bumper-beam",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-demiri.jpg"
+      },
+      {
+        "name": "Bumper Headlight Washer Cover",
+        "slug": "bumper-headlight-washer-cover",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-far-yikama-kapagi.jpg"
+      },
+      {
+        "name": "Bumper Air Deflector",
+        "slug": "bumper-air-deflector",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-hava-yonlendirici.jpg"
+      },
+      {
+        "name": "Bumper Protection",
+        "slug": "bumper-protection",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-korumasi.jpg"
+      },
+      {
+        "name": "Bumper Strip",
+        "slug": "bumper-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-kusagi.jpg"
+      },
+      {
+        "name": "Bumper Corner",
+        "slug": "bumper-corner",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-kosesi.jpg"
+      },
+      {
+        "name": "Bumper Nickel Plating",
+        "slug": "bumper-nickel-plating",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-nikelaji.jpg"
+      },
+      {
+        "name": "Bumper Grille Housing",
+        "slug": "bumper-grille-housing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-panjur-yuvasi.jpg"
+      },
+      {
+        "name": "Bumper Grille Frame",
+        "slug": "bumper-grille-frame",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-panjur-cercevesi.jpg"
+      },
+      {
+        "name": "Bumper Grille Strip",
+        "slug": "bumper-grille-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-panjur-citasi.jpg"
+      },
+      {
+        "name": "Bumper Grille",
+        "slug": "bumper-grille",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-panjuru.jpg"
+      },
+      {
+        "name": "Bumper Reinforcement",
+        "slug": "bumper-reinforcement",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-takviyesi.jpg"
+      },
+      {
+        "name": "Bumper Cross Member",
+        "slug": "bumper-cross-member",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-traversi.jpg"
+      },
+      {
+        "name": "Bumper Strip",
+        "slug": "bumper-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-citasi.jpg"
+      },
+      {
+        "name": "Bumper Upper Part",
+        "slug": "bumper-upper-part",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-ust-parca.jpg"
+      },
+      {
+        "name": "Reinforcement Bracket",
+        "slug": "reinforcement-bracket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/takviye-braketi.jpg"
+      },
+      {
+        "name": "Bumper Coating",
+        "slug": "bumper-coating",
+        "image": "https://bcdn.aloparca.com/subcategory/images/tampon-kaplamasi.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Grille and Panel",
+    "slug": "grille-and-panel",
+    "image": "https://bcdn.aloparca.com/category/image/10101.png",
+    "subcategories": [
+      {
+        "name": "Headlight Bakelite",
+        "slug": "headlight-bakelite",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-bakaliti.jpg"
+      },
+      {
+        "name": "Headlight Bracket",
+        "slug": "headlight-bracket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-braketi.jpg"
+      },
+      {
+        "name": "Headlight Eyebrow",
+        "slug": "headlight-eyebrow",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-kasi.jpg"
+      },
+      {
+        "name": "Headlight Strip",
+        "slug": "headlight-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-kusagi.jpg"
+      },
+      {
+        "name": "Headlight Sheet Metal",
+        "slug": "headlight-sheet-metal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-saci.jpg"
+      },
+      {
+        "name": "Headlight Housing Sheet Metal",
+        "slug": "headlight-housing-sheet-metal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-yuva-saci.jpg"
+      },
+      {
+        "name": "Headlight Housing",
+        "slug": "headlight-housing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-yuvasi.jpg"
+      },
+      {
+        "name": "Headlight Frame",
+        "slug": "headlight-frame",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-cercevesi.jpg"
+      },
+      {
+        "name": "Daytime Running Light Grille",
+        "slug": "daytime-running-light-grille",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gunduz-far-panjuru.jpg"
+      },
+      {
+        "name": "Daytime Running Light Housing",
+        "slug": "daytime-running-light-housing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/gunduz-far-yuvasi.jpg"
+      },
+      {
+        "name": "Ventilation Grille",
+        "slug": "ventilation-grille",
+        "image": "https://bcdn.aloparca.com/subcategory/images/havalandirma-izgarasi.jpg"
+      },
+      {
+        "name": "Panel Bracket",
+        "slug": "panel-bracket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panel-braketi.jpg"
+      },
+      {
+        "name": "Panel Cover",
+        "slug": "panel-cover",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panel-kapagi.jpg"
+      },
+      {
+        "name": "Panel Reinforcement",
+        "slug": "panel-reinforcement",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panel-takviyesi.jpg"
+      },
+      {
+        "name": "Grille Bracket",
+        "slug": "grille-bracket",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-braketi.jpg"
+      },
+      {
+        "name": "Grille Strip",
+        "slug": "grille-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-kusagi.jpg"
+      },
+      {
+        "name": "Grille Panel",
+        "slug": "grille-panel",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-paneli.jpg"
+      },
+      {
+        "name": "Grille Sheet Metal",
+        "slug": "grille-sheet-metal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-saci.jpg"
+      },
+      {
+        "name": "Grille Reinforcement",
+        "slug": "grille-reinforcement",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-takviyesi.jpg"
+      },
+      {
+        "name": "Grille Strip",
+        "slug": "grille-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-citasi.jpg"
+      },
+      {
+        "name": "Brake Light Housing",
+        "slug": "brake-light-housing",
+        "image": "https://bcdn.aloparca.com/subcategory/images/stop-lamba-yuvasi.jpg"
+      },
+      {
+        "name": "Headlight Connection Sheet Metal",
+        "slug": "headlight-connection-sheet-metal",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-baglanti-saci.jpg"
+      },
+      {
+        "name": "Headlight Lower Strip",
+        "slug": "headlight-lower-strip",
+        "image": "https://bcdn.aloparca.com/subcategory/images/far-alt-citasi.jpg"
+      },
+      {
+        "name": "Panel Cross Member",
+        "slug": "panel-cross-member",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panel-traversi.jpg"
+      },
+      {
+        "name": "Panel Carrier",
+        "slug": "panel-carrier",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panel-tasiyici.jpg"
+      },
+      {
+        "name": "Grille Frame",
+        "slug": "grille-frame",
+        "image": "https://bcdn.aloparca.com/subcategory/images/panjur-cercevesi.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Service Equipment",
+    "slug": "service-equipment",
+    "image": "https://bcdn.aloparca.com/category/image/01JT3CG3RW3AXAPW9999MGGNKY.jpg",
+    "subcategories": [
+      {
+        "name": "Service Lifts",
+        "slug": "service-lifts",
+        "image": null,
+        "icon": "S"
+      },
+      {
+        "name": "Tire Service Equipment",
+        "slug": "tire-service-equipment",
+        "image": null,
+        "icon": "L"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+<!-- navigation.component.html -->
+<nav class="main-nav">
+  <div class="nav-container">
+    <ul class="nav-list">
+     <!-- Existing Navigation Items -->
+     <li class="nav-item">
+       <a [routerLink]="['/category', 'auto-parts']" class="nav-link">
+         <i class="fas fa-car-alt"></i> AUTO PARTS
+       </a>
+     </li>
+     <li class="nav-item">
+       <a [routerLink]="['/category', 'oils']" class="nav-link">
+         <i class="fas fa-oil-can"></i> OILS
+       </a>
+     </li>
+     <li class="nav-item">
+       <a [routerLink]="['/category', 'accessories']" class="nav-link">
+         <i class="fas fa-cogs"></i> ACCESSORIES
+       </a>
+     </li>
+     <li class="nav-item">
+       <a [routerLink]="['/category', 'promotions']" class="nav-link">
+         <i class="fas fa-tag"></i> PROMOTIONS
+       </a>
+     </li>
+   </ul>
+ </div>
+</nav>

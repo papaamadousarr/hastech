@@ -1,0 +1,85 @@
+.container {
+  max-width: 1200px;
+}
+.bg-white {
+  border: 1px solid #eee;
+}
+.brand-logo {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+.brand-card:hover .brand-logo {
+  filter: grayscale(0%);
+}
+
+/* Alphabet bar container */
+.flex.flex-wrap.justify-center.mb-8 {
+  margin-bottom: 2rem;
+  background: #fff;
+  border: 1px solid #e5e7eb; /* Tailwind's border-gray-200 */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0.5rem 0;
+}
+
+/* Alphabet buttons */
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  min-width: 2.5rem;
+  text-align: center;
+}
+
+button.bg-\[\#f85a00\] {
+  background: #f85a00 !important;
+  color: #fff !important;
+}
+
+button:hover:not(.bg-\[\#f85a00\]) {
+  background: #f85a00;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+
+.alphabet-bar {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 0.5rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.alphabet-tab {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  margin: 0 0.05rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.alphabet-tab.active {
+  background: #f85a00;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.alphabet-tab:hover:not(.active) {
+  background: #f85a00;
+  color: #fff;
+}

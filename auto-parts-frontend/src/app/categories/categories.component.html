@@ -1,0 +1,39 @@
+<div class="category-container">
+  <h1 class="category-title">Auto Parts Categories</h1>
+  <div class="category-grid">
+    <ng-container *ngFor="let category of categories; let i = index">
+      <div class="category-card">
+        <img [src]="category.image" [alt]="category.name" class="category-img" />
+        <div class="category-content">
+          <h3 class="category-name">{{ category.name }}</h3>
+          <ul class="subcategory-list">
+            <li *ngFor="let sub of category.subcategories?.slice(0,3)">
+              <img *ngIf="sub?.image" [src]="sub.image" class="subcategory-icon-img" alt="" />
+              <span *ngIf="!sub?.image" class="subcategory-icon">🔧</span>
+              <a [routerLink]="['/category', category.slug, sub?.slug]" class="subcategory-link">{{ sub?.name }}</a>
+            </li>
+          </ul>
+          <button *ngIf="category.subcategories && category.subcategories.length > 3"
+                  class="show-more-btn"
+                  [ngClass]="{'active': category.showAll}"
+                  (click)="toggleShowAll(category)">
+            {{ category.showAll ? 'Show Less' : 'Show More' }}
+            <span [ngClass]="{'rotate-180': category.showAll}">▼</span>
+          </button>
+        </div>
+
+      </div>
+      <!-- Expanded card OUTSIDE the card, so it pushes grid down -->
+      <div *ngIf="category.showAll" class="subcategory-expanded-card">
+        <div class="subcategory-expanded-title">{{ category.name }} - All Subcategories</div>
+        <ul class="subcategory-expanded-list">
+          <li *ngFor="let sub of category.subcategories">
+            <img *ngIf="sub?.image" [src]="sub.image" class="subcategory-icon-img" alt="" />
+            <span *ngIf="!sub?.image" class="subcategory-icon">🔧</span>
+            <a [routerLink]="['/category', category.slug, sub?.slug]" class="subcategory-link">{{ sub?.name }}</a>
+          </li>
+        </ul>
+      </div>
+    </ng-container>
+  </div>
+</div>

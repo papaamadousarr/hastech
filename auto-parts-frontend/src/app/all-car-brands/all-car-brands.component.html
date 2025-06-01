@@ -1,0 +1,23 @@
+<div class="container mx-auto px-4 py-8">
+  <h2 class="text-2xl font-bold text-center mb-8">All Car Brands</h2>
+  <div class="alphabet-bar flex flex-wrap justify-center mb-8 bg-white border border-gray-200 rounded-lg overflow-hidden px-2 py-2">
+    <span 
+      class="alphabet-tab"
+      [ngClass]="{ 'active': selectedLetter === 'ALL' }"
+      (click)="selectLetter('ALL')">All</span>
+    <span 
+      *ngFor="let letter of alphabet"
+      class="alphabet-tab"
+      [ngClass]="{ 'active': selectedLetter === letter }"
+      (click)="selectLetter(letter)">{{letter}}</span>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+    <div 
+      *ngFor="let brand of filteredBrands" 
+      class="brand-card bg-white rounded-lg p-4 flex flex-col items-center justify-center cursor-pointer hover:shadow-lg transition-shadow"
+      (click)="goToBrandModels(brand.code)">
+      <img [src]="brand.logo" [alt]="brand.name" class="brand-logo h-16 object-contain mb-2">
+      <span class="text-gray-800 font-medium">{{brand.name}}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+<div class="product-detail-container">
+  <div class="product-detail-main">
+    <div class="product-image-section">
+      <img [src]="product.image" [alt]="product.name" class="product-detail-img" />
+      <div class="brand-badge">{{ product.brand }}</div>
+    </div>
+    <div class="product-info-section">
+      <h1>{{ product.name }}</h1>
+      <div class="product-desc">{{ product.details }}</div>
+      <div class="product-meta">
+        <span><b>Brand:</b> {{ product.brand }}</span>
+        <span><b>Code:</b> {{ product.code }}</span>
+      </div>
+      <div class="product-price-stock">
+        <span class="product-price">{{ product.price | number:'1.0-0' }} CFA</span>
+        <span *ngIf="product.inStock" class="in-stock">In Stock</span>
+        <span *ngIf="!product.inStock" class="out-of-stock">Out of Stock</span>
+      </div>
+      <div class="product-qty-actions" *ngIf="product.inStock">
+        <button (click)="decrementQty()">-</button>
+        <input type="number" [(ngModel)]="product.quantity" min="1" />
+        <button (click)="incrementQty()">+</button>
+        <button class="add-to-cart-btn" (click)="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="product-features-section">
+    <h2>Product Features</h2>
+    <div class="features-grid">
+      <div class="feature-card" *ngIf="product.mountSide"><b>Mount Side</b><br>{{ product.mountSide }}</div>
+      <div class="feature-card" *ngIf="product.length"><b>Length [mm]</b><br>{{ product.length }}</div>
+      <div class="feature-card" *ngIf="product.width"><b>Width [mm]</b><br>{{ product.width }}</div>
+      <div class="feature-card" *ngIf="product.height"><b>Height [mm]</b><br>{{ product.height }}</div>
+      <!-- Add more features as needed -->
+    </div>
+    <button class="show-more-btn">Show More Features</button>
+  </div>
+  <div class="compatible-vehicles-section">
+    <h2>Compatible Vehicles</h2>
+    <div>{{ product.compatibleVehicles }}</div>
+  </div>
+  <div class="oem-numbers-section">
+    <h2>OEM Numbers</h2>
+    <div class="oem-list">
+      <span *ngFor="let oem of product.oemNumbers" class="oem-badge">{{ oem }}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+{
+    "title": "Jeep",
+    "models": [
+        {
+            "name": "GRAND CHEROKEE",
+            "image": "https://bcdn.aloparca.com/car-images/AA2i006lHmKEVlDuXRzev59weRqYMBzDtbtT57aH.png?width=219"
+        },
+        {
+            "name": "CHEROKEE",
+            "image": "https://bcdn.aloparca.com/car-images/DwCFEGACO3qccCektTEMRExt7XbqUjrYRExsK94n.png?width=219"
+        },
+        {
+            "name": "COMPASS",
+            "image": "https://bcdn.aloparca.com/car-images/QDsbkjtbekoZt01Ew9vYV2RvXZgiaIjxH4LwtT26.png?width=219"
+        },
+        {
+            "name": "WRANGLER",
+            "image": "https://bcdn.aloparca.com/car-images/vrJu7emMrUt9EtIV6S3CQBDOfmW0CTlnKH0nPvah.png?width=219"
+        },
+        {
+            "name": "RENEGADE",
+            "image": "https://bcdn.aloparca.com/car-images/vj8rjbjFrfsl1OIcC38tihc2iO6jgktha4sXAcrz.png?width=219"
+        },
+        {
+            "name": "COMMANDER",
+            "image": "https://bcdn.aloparca.com/car-images/HxIKgUlhjDSHuo1yRwhlOO35a9aVbZRbLLfLjYmA.png?width=219"
+        },
+        {
+            "name": "PATRIOT",
+            "image": "https://bcdn.aloparca.com/car-images/XKJqJZVis4yAGwZW60EHEH4dTvikU4FDWFwFP2AQ.png?width=219"
+        },
+        {
+            "name": "WILLYS",
+            "image": "https://bcdn.aloparca.com/car-images/d7YD6vqIMDIdrq4CAgOgU4QZWYncgzFQCGnhc6Jg.png?width=219"
+        },
+        {
+            "name": "GLADIATOR",
+            "image": "https://bcdn.aloparca.com/car-images/n5Lip9UggiRIuS9Ul9HBDt2E6coTkJOjdQoWGDrh.png?width=219"
+        },
+        {
+            "name": "GRAND WAGONEER",
+            "image": "https://bcdn.aloparca.com/car-images/7ncMcfhM8bbzdlkuYO6xQO9YUKnMsnB8jI9HG0m8.png?width=219"
+        },
+        {
+            "name": "COMANCHE",
+            "image": "https://bcdn.aloparca.com/car-images/16n0ufjbM59TwsPr4RmPp5Iksb8ZVhHoQgeIevm6.png?width=219"
+        },
+        {
+            "name": "WAGONEER",
+            "image": "https://bcdn.aloparca.com/car-images/fgF7KLG4elYFu8q9Xff8hP2vJ8gHgBilYKSb9oDU.png?width=219"
+        }
+    ]
+}

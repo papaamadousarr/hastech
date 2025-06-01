@@ -1,0 +1,169 @@
+{
+    "title": "Opel",
+    "models": [
+        {
+            "name": "ASTRA",
+            "image": "https://bcdn.aloparca.com/car-images/L6sN3SV79njTWpK2SLgy5E4aiyH0VTSVKzG3FvT3.png?width=219"
+        },
+        {
+            "name": "CORSA",
+            "image": "https://bcdn.aloparca.com/car-images/awy1l13Rny1567iN7qQbNfHs2IibRbF9dfMZoisA.png?width=219"
+        },
+        {
+            "name": "ZAFIRA",
+            "image": "https://bcdn.aloparca.com/car-images/qTHLmh8YIqOpNKGArMPKJS7CsfEERIadDV92Z6N2.png?width=219"
+        },
+        {
+            "name": "INSIGNIA",
+            "image": "https://bcdn.aloparca.com/car-images/1wEWh0RkGMMHQZJXsT3vzq0BvNr2FRLfT5bm1bnS.png?width=219"
+        },
+        {
+            "name": "MERIVA",
+            "image": "https://bcdn.aloparca.com/car-images/1G0WHaSz2oDkXI5RmsfAErSnTodfWjCUekfjAxpr.png?width=219"
+        },
+        {
+            "name": "VECTRA",
+            "image": "https://bcdn.aloparca.com/car-images/SxsHHeKxaZMt0zrKMY7B00QxoL8N6GYXhKKc1VTl.png?width=219"
+        },
+        {
+            "name": "VIVARO",
+            "image": "https://bcdn.aloparca.com/car-images/izrANBsANrwAQshL0df4Yzm1VMc1z71Xb1yonKAS.png?width=219"
+        },
+        {
+            "name": "MOKKA",
+            "image": "https://bcdn.aloparca.com/car-images/lFoLkelvzygDLH6YgD8ddj3n0covBSXf5tYPjfNm.png?width=219"
+        },
+        {
+            "name": "COMBO",
+            "image": "https://bcdn.aloparca.com/car-images/G2cd8lC8Nqn981KX6hbG6n0t7fuohv2Yq2NXQzQf.png?width=219"
+        },
+        {
+            "name": "ADAM",
+            "image": "https://bcdn.aloparca.com/car-images/KvI8R4M9cZmOcT1Efm70FD8EcK0qJDNkADbFTQFw.png?width=219"
+        },
+        {
+            "name": "OMEGA",
+            "image": "https://bcdn.aloparca.com/car-images/EfUf4DVS4UBi5Y8YNxNM9krJ026fRNEMvzyKQhVk.png?width=219"
+        },
+        {
+            "name": "MOVANO",
+            "image": "https://bcdn.aloparca.com/car-images/vU3vNZg9T4dkeAjPwyck8co9M1UDYk6dOUDP8U6w.png?width=219"
+        },
+        {
+            "name": "AGILA",
+            "image": "https://bcdn.aloparca.com/car-images/kHDXKhFZ8ef0IOFupBigt5VwsbZqdhjfRKhO6TYU.png?width=219"
+        },
+        {
+            "name": "SIGNUM",
+            "image": "https://bcdn.aloparca.com/car-images/ZfoxPvyatPKtDOGYnc3SYHRIkNubsGyB9s6RLjfH.png?width=219"
+        },
+        {
+            "name": "CROSSLAND X",
+            "image": "https://bcdn.aloparca.com/car-images/yvvEybgoclbuvgIe3Tzo2t5DMciAwf7oUGk4Y1Bm.png?width=219"
+        },
+        {
+            "name": "KADETT",
+            "image": "https://bcdn.aloparca.com/car-images/RjzOKAiafDrK8c40BmPE8AInaz9mGUL4J1vbAeSw.png?width=219"
+        },
+        {
+            "name": "TIGRA",
+            "image": "https://bcdn.aloparca.com/car-images/Da7I6S0p0neNs6kRJawZlu5etiTIcbbfzp3qIKTK.png?width=219"
+        },
+        {
+            "name": "ANTARA",
+            "image": "https://bcdn.aloparca.com/car-images/hxtUFujnnSFtmy3kiJYOmMacsqw4O1rHwFNzaMEd.png?width=219"
+        },
+        {
+            "name": "FRONTERA",
+            "image": "https://bcdn.aloparca.com/car-images/9nmW4paD0z4DgL29pwiJPS2nREEXuSnsfIOzHHFs.png?width=219"
+        },
+        {
+            "name": "ROCKS-E",
+            "image": "https://bcdn.aloparca.com/car-images/ZEKRVkQGJUsVX6ulhYeZunZkEOBtn5RczO6p6wnu.png?width=219"
+        },
+        {
+            "name": "GRANDLAND X",
+            "image": "https://bcdn.aloparca.com/car-images/GlFtbhcXtdDQisVftXj1knqjbAEL2in8BYcc7Hfv.png?width=219"
+        },
+        {
+            "name": "CASCADA",
+            "image": "https://bcdn.aloparca.com/car-images/FEuXxoMcqQJcn5lFrJNtM2Qp75Z5ab3K1LqU2KML.png?width=219"
+        },
+        {
+            "name": "REKORD",
+            "image": "https://bcdn.aloparca.com/car-images/xhQusMTDwl9T0uz755X4CJZX7SIfCjklScOZhx3G.png?width=219"
+        },
+        {
+            "name": "ASCONA",
+            "image": "https://bcdn.aloparca.com/car-images/fI4XtopmuHl9tngJRWlWwsNeVbOo94FEVhU750fC.png?width=219"
+        },
+        {
+            "name": "KARL",
+            "image": "https://bcdn.aloparca.com/car-images/C9jALesoEErEKB25GZ8f1oOE7hXsvCp6VKxdIgQA.png?width=219"
+        },
+        {
+            "name": "MANTA",
+            "image": "https://bcdn.aloparca.com/car-images/1jyw6yUMMUeTNwuJ3jeqzTN0TGGZ3fT4Gu30EuVA.png?width=219"
+        },
+        {
+            "name": "GT",
+            "image": "https://bcdn.aloparca.com/car-images/sSv8JzfxoQDk52ew8lRU5rLiLybza3LyvLxIWBk9.png?width=219"
+        },
+        {
+            "name": "SENATOR",
+            "image": "https://bcdn.aloparca.com/car-images/FzBbCLs4yhu7Qpeg6e2FJ9CJ7NdEyFs2VTkLAZ6i.png?width=219"
+        },
+        {
+            "name": "COMMODORE",
+            "image": "https://bcdn.aloparca.com/car-images/Y48pjwaGEnqLyjv70rwye5Dq519xqnG7Lh4vwDcV.png?width=219"
+        },
+        {
+            "name": "MONZA",
+            "image": "https://bcdn.aloparca.com/car-images/BMpUYxfLGXPlC1k2hlhhV544tZXjTCZgySkSOC44.png?width=219"
+        },
+        {
+            "name": "AMPERA",
+            "image": "https://bcdn.aloparca.com/car-images/L40GNqry1jL3LOoefuFx0gbF6vB8No7rgX6haoX9.png?width=219"
+        },
+        {
+            "name": "MONTEREY",
+            "image": "https://bcdn.aloparca.com/car-images/WoUXLodcxAFncX1G2Uz0ICwa0FcVHPsR1SyU4a89.png?width=219"
+        },
+        {
+            "name": "CAMPO",
+            "image": "https://bcdn.aloparca.com/car-images/USoyAtUp9M9yNkDm5zrVzDl06k1fu2IA3EoF9XqB.png?width=219"
+        },
+        {
+            "name": "SINTRA",
+            "image": "https://bcdn.aloparca.com/car-images/jCktVPcZaLzv3NCbxtGIb3QNpaw6nxwvoCASwrUy.png?width=219"
+        },
+        {
+            "name": "ADMIRAL",
+            "image": "https://bcdn.aloparca.com/car-images/wjFqecYKnjSWsxhMz2xiSWh6l6WaqDHmD0VJw7MD.png?width=219"
+        },
+        {
+            "name": "DIPLOMAT",
+            "image": "https://bcdn.aloparca.com/car-images/y8iZR9NPPM6o5Pe7XtIGo2EP3gwpgwe16po3HkJJ.png?width=219"
+        },
+        {
+            "name": "SPEEDSTER",
+            "image": "https://bcdn.aloparca.com/car-images/kfCcvdg3usel832LhCBIfVQ4ZL9t7NrCZ8Bxf62j.png?width=219"
+        },
+        {
+            "name": "OLYMPIA",
+            "image": "https://bcdn.aloparca.com/car-images/A3WsCaEWZFC88SQ5Ff9d2NLZDQBQP0Wgfr3guVVa.png?width=219"
+        },
+        {
+            "name": "KAPITÄN",
+            "image": "https://bcdn.aloparca.com/car-images/wuzxZWA1laZ1xpErjNDO3RNvqcnQrDUC1xrTjAom.png?width=219"
+        },
+        {
+            "name": "ARENA",
+            "image": "https://bcdn.aloparca.com/car-images/6X0HfNIZDDT38hzpnx2PSVryzAphx6rdk2sOWvjw.png?width=219"
+        },
+        {
+            "name": "BLAZER",
+            "image": "https://bcdn.aloparca.com/car-images/am3wMMlpSJqUokxArW3KHRz67L0hU4PJ2j5kCxx2.png?width=219"
+        }
+    ]
+}

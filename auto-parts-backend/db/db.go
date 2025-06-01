@@ -16,11 +16,11 @@ func ConnectDB() error {
 	// Update these credentials with your actual MongoDB Atlas credentials
 	username := "dbHassan"
 	password := "1qDMW6Ps9Rgp0Rs0" // Make sure this is your actual password
-	cluster := "hastechcluster.ikp2w.mongodb.net"
+	cluster := "hastechcluster.ikp2w.mongodb.net/"
 	dbName := "Ecommerce"
 
 	// Construct the connection string
-	uri := "mongodb+srv://" + username + ":" + password + "@" + cluster + "/" + dbName + "?retryWrites=true&w=majority&authSource=admin"
+	uri := "mongodb+srv://" + username + ":" + password + "@" + cluster + dbName + "?retryWrites=true&w=majority&appName=hastechCluster"
 
 	// Create client options
 	clientOptions := options.Client().ApplyURI(uri)

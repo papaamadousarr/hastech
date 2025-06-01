@@ -1,0 +1,83 @@
+<!-- vehicle-search.component.html -->
+<div class="vehicle-search-container p-4">
+  <h2 class="text-lg font-medium mb-4">Select Car Brand First </h2>
+  
+  <!-- Brand Selection -->
+  <div class="mb-4">
+    <div class="select-wrapper">
+      <select 
+        [(ngModel)]="selectedBrand" 
+        (change)="onBrandSelect()"
+        name="brand"
+        class="form-select"
+      >
+        <option value="">1. Select Car Brand </option>
+        <option *ngFor="let brand of brands" [value]="brand.id">
+          {{brand.name}}
+        </option>
+
+      </select>
+    </div>
+  </div>
+
+  <!-- Model Selection -->
+  <div class="mb-4">
+    <div class="select-wrapper">
+      <select 
+        [(ngModel)]="selectedModel"
+        (change)="onModelSelect()"
+        name="model"
+        class="form-select"
+        [disabled]="!selectedBrand"
+      >
+        <option value="">2. Select Car Model </option>
+        <option *ngFor="let model of models" [value]="model.id">
+          {{model.name}}<span *ngIf="model.years"> ({{model.years}})</span>
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Engine Selection -->
+  <div class="mb-4">
+    <div class="select-wrapper">
+      <select 
+        [(ngModel)]="selectedEngine"
+        name="engine"
+        class="form-select"
+        [disabled]="!selectedModel"
+      >
+        <option value="">3.Select Car Engine Type </option>
+        <option *ngFor="let engine of engines" [value]="engine.id">
+          {{engine.name}} ({{engine.power}})
+        </option>
+
+
+      </select>
+    </div>
+  </div>
+
+  <!-- Search Button -->
+  <button 
+    (click)="onSearch()"
+    [disabled]="!selectedBrand || !selectedModel || !selectedEngine"
+    class="search-button"
+  >
+    Ara
+  </button>
+
+  <!-- Chassis Number Search -->
+  <div class="mt-6">
+    <h3 class="text-md font-medium mb-2">Search by VIN Number</h3>
+    <div class="flex gap-2">
+      <input 
+        type="text" 
+        placeholder="Şase Numarası (17 karakter)"
+        class="chassis-input"
+      >
+      <button class="chassis-search-button">
+        Ara
+      </button>
+    </div>
+  </div>
+</div>

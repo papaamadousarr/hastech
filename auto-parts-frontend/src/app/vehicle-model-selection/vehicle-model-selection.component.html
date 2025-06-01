@@ -1,0 +1,117 @@
+<div class="container mx-auto px-4 py-8 max-w-6xl">
+  <!-- Brand Info (Centered at the top, full width) -->
+  <div class="bg-white rounded-lg shadow flex flex-col md:flex-row items-center md:items-center mb-8 px-8 py-4">
+    <img [src]="brandLogo" [alt]="selectedBrand" class="w-16 h-16 mr-4">
+    <div>
+      <h1 class="text-2xl font-semibold">{{selectedBrand | uppercase}} Auto Parts</h1>
+      <p class="text-gray-500">All Models</p>
+    </div>
+  </div>
+
+  <!-- Search and Brand Image Row -->
+  <div class="flex flex-col md:flex-row gap-8 mb-10 items-start">
+    <!-- Left Card: Vehicle Search only -->
+    <div class="md:w-1/2 w-full">
+      <div class="bg-white rounded-lg shadow p-6">
+        <app-vehicle-search [brand]="selectedBrand"></app-vehicle-search>
+      </div>
+    </div>
+    <!-- Right: Big Brand Image -->
+    <div class="md:w-1/2 w-full flex justify-center items-center">
+      <div class="bg-white rounded-lg shadow flex items-center justify-center" style="width: 224px; height: 224px;">
+        <img [src]="brandLogo" [alt]="selectedBrand"
+             class="object-contain"
+             style="max-width: 160px; max-height: 160px;" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Car Models Grid (Full width below) -->
+  <div class="bg-white rounded-lg shadow p-6 mt-6">
+    <h2 class="text-xl font-semibold mb-4">{{selectedBrand | uppercase}} Models</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div *ngFor="let model of visibleModels" (click)="goToModelDetail(model.name)" class="cursor-pointer">
+        <div class="bg-[#f5f6fa] rounded-lg flex flex-col items-center justify-center p-4 hover:shadow-md transition-all duration-300 h-full">
+          <img [src]="model.image_url" [alt]="model.name" class="w-full h-32 object-contain mb-2">
+          <h3 class="text-base font-semibold text-center">{{model.name}}</h3>
+          <p *ngIf="model.years" class="text-xs text-gray-500 text-center mt-1">{{model.years}}</p>
+        </div>
+      </div>
+    </div>
+    <!-- Show More Button -->
+    <div *ngIf="!showAllModels && models.length > modelsPerRow * 2" class="flex justify-center mt-6">
+      <button (click)="showMoreModels()" class="w-full md:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded transition">
+        Show More {{selectedBrand | uppercase}} Models
+      </button>
+    </div>
+  </div>
+
+  <!-- Loading State -->
+  <div *ngIf="loading" class="text-center py-8">
+    <p class="text-gray-600">Loading vehicle models...</p>
+  </div>
+
+  <!-- Error State -->
+  <div *ngIf="error" class="text-center py-8 text-red-600">
+    {{ error }}
+  </div>
+
+  <!-- Content -->
+  <div *ngIf="!loading && !error">
+    <!-- Breadcrumb -->
+    <!--
+    <div class="mb-6">
+      <div class="flex items-center text-sm">
+        <button (click)="goBack()" class="text-gray-600 hover:text-[#f85a00] flex items-center">
+          <span class="mr-2">←</span> 
+          {{ selectedVariant ? 'Back to Variants' : (selectedModel ? 'Back to Models' : 'Back to Brands') }}
+        </button>
+        <span class="mx-2 text-gray-400">/</span>
+        <span class="text-gray-900 capitalize">{{selectedBrand}}</span>
+        <ng-container *ngIf="selectedModel">
+          <span class="mx-2 text-gray-400">/</span>
+          <span class="text-gray-900">{{selectedModel}}</span>
+        </ng-container>
+        <ng-container *ngIf="selectedVariant">
+          <span class="mx-2 text-gray-400">/</span>
+          <span class="text-gray-900">{{selectedVariant.model_variant}}</span>
+        </ng-container>
+      </div>
+    </div>
+    -->
+
+    <!-- Variants Grid -->
+    <div *ngIf="selectedModel && !selectedVariant" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div *ngFor="let variant of variants" 
+           (click)="onVariantSelect(variant)"
+           class="cursor-pointer">
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+          <div class="p-4">
+            <img [src]="variant.image_url" 
+                 [alt]="variant.model_variant"
+                 class="w-full h-48 object-contain">
+          </div>
+          <div class="p-4 border-t">
+            <h3 class="text-lg font-medium">{{variant.model_variant}}</h3>
+            <p class="text-sm text-gray-600 mt-1">{{getYearsFromVariant(variant.model_variant!)}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Engine Types Grid -->
+    <div *ngIf="selectedVariant" class="space-y-6">
+      <h2 class="text-xl font-semibold mb-4">Select Engine Type</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div *ngFor="let engine of engineTypes"
+             (click)="onEngineSelect(engine)"
+             class="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer">
+          <div class="flex flex-col">
+            <span class="text-lg font-medium">{{engine.name}}</span>
+            <span class="text-sm text-gray-600">{{engine.power}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

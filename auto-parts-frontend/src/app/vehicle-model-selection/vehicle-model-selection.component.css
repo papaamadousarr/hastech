@@ -1,0 +1,28 @@
+.model-card {
+    cursor: pointer;
+  }
+  
+  .model-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .model-card .bg-white {
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    transition: box-shadow 0.2s;
+  }
+  
+  .model-card:hover .bg-white {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  }
+  
+  .model-card-bg {
+    background: #f5f6fa;
+    border-radius: 12px;
+    transition: box-shadow 0.2s;
+  }

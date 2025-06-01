@@ -1,0 +1,145 @@
+<!-- OUTSIDE main content container -->
+<div class="main-content-container">
+  <ol class="breadcrumb-bar flex text-[0.85rem] whitespace-nowrap mb-2">
+    <li class="flex items-center flex-shrink-0">
+      <a routerLink="/" class="text-[#4d7187] hover:text-blue-800 py-3">Home</a>
+    </li>
+    <li class="flex items-center flex-shrink-0" *ngIf="category">
+      <span class="mx-2 text-gray-400">|</span>
+      <a routerLink="/category" class="text-[#4d7187] hover:text-blue-800 py-3">Categories</a>
+    </li>
+    <li class="flex items-center flex-shrink-0" *ngIf="category">
+      <span class="mx-2 text-gray-400">|</span>
+      <a [routerLink]="['/category', category.slug]" class="text-[#4d7187] hover:text-blue-800 py-3">{{ category.name }}</a>
+    </li>
+    <li class="flex items-center flex-shrink-0" *ngIf="selectedSubcategory">
+      <span class="mx-2 text-gray-400">|</span>
+      <a [routerLink]="['/category', category.slug, selectedSubcategory.slug]" class="text-[#4d7187] hover:text-blue-800 py-3">{{ selectedSubcategory.name }}</a>
+    </li>
+  </ol>
+
+  <!-- INSIDE main content container -->
+  <div class="product-category-page">
+   
+    <!-- 1. Subcategory header at the top -->
+    <div class="subcategory-header">
+      
+      <div class="subcategory-header-content">
+        <img *ngIf="selectedSubcategory?.image" [src]="selectedSubcategory.image" [alt]="selectedSubcategory.name" class="subcategory-header-img">
+        <div>
+          <h1 class="subcategory-title">{{ selectedSubcategory?.name }} <span class="product-count">({{ products.length }} products)</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Row: vehicle-search (left) and main category image (right) -->
+    <div class="search-and-category-row">
+      <div class="sidebar-vehicle-search">
+        <app-vehicle-search></app-vehicle-search>
+      </div>
+      <div class="sidebar-category-img" *ngIf="category?.image">
+        <img [src]="category.image" [alt]="category.name" class="main-category-img">
+      </div>
+    </div>
+
+    <!-- 3. Row: category sidebar (dropdown) and product list -->
+    <div class="category-main-layout">
+      <!-- Category Sidebar Dropdown -->
+      <aside class="sidebar">
+        <div class="sidebar-categories-list">
+          <h2 class="sidebar-title">Categories</h2>
+          <div class="sidebar-divider"></div>
+          <ul class="main-category-list">
+            <li *ngFor="let cat of categories" [class.selected-main-category]="isCategoryExpanded(cat.slug)">
+              <div class="main-category-header-row" (click)="toggleCategoryDropdown(cat.slug)">
+                <img *ngIf="cat.image; else defaultIcon" [src]="cat.image" [alt]="cat.name" class="sidebar-maincategory-icon">
+                <ng-template #defaultIcon>
+                  <span class="sidebar-maincategory-icon" style="font-size:18px;">🛒</span>
+                </ng-template>
+                <span>{{ cat.name }}</span>
+                <svg
+                  class="dropdown-arrow"
+                  [ngClass]="{'expanded': isCategoryExpanded(cat.slug)}"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  width="16"
+                  height="16"
+                >
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <ul *ngIf="isCategoryExpanded(cat.slug)" class="subcategory-dropdown">
+                <li *ngFor="let sub of cat.subcategories" [class.selected-subcategory]="selectedSubcategory?.slug === sub.slug">
+                  <a [routerLink]="['/category', cat.slug, sub.slug]">
+                    <img *ngIf="sub.image" [src]="sub.image" class="sidebar-subcategory-img" alt="">
+                    <span>{{ sub.name }}</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Main Content: Product List -->
+      <section class="product-list-section">
+        <div class="product-list">
+          <div *ngFor="let product of filteredProducts" class="product-card-horizontal">
+            <div class="product-image-col">
+              <div class="product-img-wrapper">
+                <a [routerLink]="['/product', product.code]">
+                  <img [src]="product.image" [alt]="product.name" class="product-img-horizontal" />
+                </a>
+                <div *ngIf="!product.inStock" class="out-of-stock-badge">Out of Stock</div>
+              </div>
+            </div>
+            <div class="product-details-col">
+              <h3 class="product-name">{{ product.name }}</h3>
+              <div class="product-desc">{{ product.details }}</div>
+              <div class="product-meta">
+                <div><strong>Product Code:</strong> {{ product.code }}</div>
+                <div *ngIf="product.mountSide"><strong>Mount Side:</strong> {{ product.mountSide }}</div>
+                <div *ngIf="product.length"><strong>Length [mm]:</strong> {{ product.length }}</div>
+                <div *ngIf="product.width"><strong>Width [mm]:</strong> {{ product.width }}</div>
+                <div *ngIf="product.height"><strong>Height [mm]:</strong> {{ product.height }}</div>
+                <div *ngIf="product.weight"><strong>Weight [kg]:</strong> {{ product.weight }}</div>
+                <a class="show-more-link" href="#">Show More</a>
+              </div>
+            </div>
+            <div class="product-action-col">
+              <div [ngClass]="{'product-price-big': true, 'out-of-stock-price': !product.inStock}">
+                {{ product.price | number:'1.0-0' }} CFA
+              </div>
+              <div *ngIf="product.inStock" class="stock-status in-stock">
+                ● In Stock
+              </div>
+              <div *ngIf="!product.inStock" class="stock-status out-of-stock">
+                <span>✗ Temporarily out of stock</span>
+              </div>
+              <ng-container *ngIf="product.inStock; else outOfStockActions">
+                <div class="product-qty-actions">
+                  <button (click)="decrementQty(product)">-</button>
+                  <input type="number" [(ngModel)]="product.quantity" min="1" />
+                  <button (click)="incrementQty(product)">+</button>
+                </div>
+                <button class="add-to-cart-btn" (click)="addToCart(product)">Add to Cart</button>
+              </ng-container>
+              <ng-template #outOfStockActions>
+                <button class="stock-notify-btn">Get Stock Notification</button>
+              </ng-template>
+              <div class="product-details-link">
+                <a href="#">Product Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="filteredProducts.length === 0" class="no-products-message">
+          <p>No products found for this subcategory.</p>
+        </div>
+      </section>
+    </div>
+
+    
+  </div>
+</div>
