@@ -1,1 +1,159 @@
-<p>search works!</p>
+<div class="search-container">
+  <div class="search-header">
+    <h1>Recherche de pièces auto</h1>
+    <p>Trouvez rapidement les pièces dont vous avez besoin</p>
+  </div>
+
+  <div class="search-form-container">
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()" class="search-form">
+      <div class="search-input-group">
+        <div class="search-input-wrapper">
+          <input 
+            type="text" 
+            formControlName="query"
+            placeholder="Rechercher une pièce, marque, référence..."
+            class="search-input"
+            (focus)="onInputFocus()"
+            (blur)="onInputBlur()">
+          
+          <button type="submit" class="search-button">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill="currentColor"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Suggestions -->
+        <div *ngIf="showSuggestions && suggestions.length > 0" class="suggestions-dropdown">
+          <div *ngFor="let suggestion of suggestions" 
+               (click)="onSuggestionClick(suggestion)"
+               class="suggestion-item">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" class="suggestion-icon">
+              <path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill="currentColor"/>
+            </svg>
+            <span>{{ suggestion }}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filtres avancés -->
+      <div class="advanced-filters">
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="category">Catégorie</label>
+            <select id="category" formControlName="category" class="filter-select">
+              <option value="">Toutes les catégories</option>
+              <option value="engine">Moteur</option>
+              <option value="brakes">Freins</option>
+              <option value="suspension">Suspension</option>
+              <option value="electrical">Électrique</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="brand">Marque</label>
+            <select id="brand" formControlName="brand" class="filter-select">
+              <option value="">Toutes les marques</option>
+              <option value="bosch">Bosch</option>
+              <option value="delphi">Delphi</option>
+              <option value="valeo">Valeo</option>
+              <option value="continental">Continental</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="vehicleBrand">Marque véhicule</label>
+            <select id="vehicleBrand" formControlName="vehicleBrand" class="filter-select">
+              <option value="">Toutes les marques</option>
+              <option value="audi">Audi</option>
+              <option value="bmw">BMW</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="volkswagen">Volkswagen</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="minPrice">Prix min</label>
+            <input type="number" id="minPrice" formControlName="minPrice" class="filter-input" placeholder="0">
+          </div>
+
+          <div class="filter-group">
+            <label for="maxPrice">Prix max</label>
+            <input type="number" id="maxPrice" formControlName="maxPrice" class="filter-input" placeholder="1000">
+          </div>
+
+          <div class="filter-group">
+            <label for="sortBy">Trier par</label>
+            <select id="sortBy" formControlName="sortBy" class="filter-select">
+              <option value="relevance">Pertinence</option>
+              <option value="price">Prix</option>
+              <option value="name">Nom</option>
+              <option value="newest">Plus récents</option>
+            </select>
+          </div>
+
+          <div class="filter-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" formControlName="inStock" class="filter-checkbox">
+              <span class="checkmark"></span>
+              En stock uniquement
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="search-actions">
+        <button type="button" (click)="clearSearch()" class="btn-secondary">
+          Effacer
+        </button>
+        <button type="submit" class="btn-primary">
+          Rechercher
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Résultats de recherche -->
+  <div *ngIf="searchResults.length > 0 || isLoading" class="search-results">
+    <div class="results-header">
+      <h2>Résultats de recherche</h2>
+      <span class="results-count">{{ searchResults.length }} produit(s) trouvé(s)</span>
+    </div>
+
+    <div *ngIf="isLoading" class="loading-spinner">
+      <div class="spinner"></div>
+      <p>Recherche en cours...</p>
+    </div>
+
+    <div *ngIf="!isLoading && searchResults.length > 0" class="products-grid">
+      <div *ngFor="let product of searchResults" 
+           (click)="onProductClick(product)"
+           class="product-card">
+        <div class="product-image">
+          <img [src]="getProductImage(product)" 
+               [alt]="product.name"
+               (error)="$event.target.src='assets/images/placeholders/product.jpg'">
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">{{ product.name }}</h3>
+          <p class="product-details">{{ product.details }}</p>
+          <div class="product-meta">
+            <span class="product-code">{{ product.code }}</span>
+            <span class="product-price">{{ formatPrice(product.price) }}</span>
+          </div>
+          <div class="product-stock" [ngClass]="{'in-stock': product.inStock, 'out-of-stock': !product.inStock}">
+            {{ product.inStock ? 'En stock' : 'Rupture de stock' }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="!isLoading && searchResults.length === 0" class="no-results">
+      <div class="no-results-icon">🔍</div>
+      <h3>Aucun résultat trouvé</h3>
+      <p>Essayez de modifier vos critères de recherche</p>
+    </div>
+  </div>
+</div>

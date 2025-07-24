@@ -59,7 +59,7 @@
         <div class="relative inline-block text-left hidden md:block" 
              (mouseleave)="mouseLeave()" 
              (mouseenter)="mouseEnter()">
-             <button [@isOpen]="isOpen ? 'open' : 'closed'" 
+             <button 
              (click)="isOpen = !isOpen" 
              (mouseenter)="isOpen = true; activeCategory = null; activeCategoryImage = null;" 
              type="button" 
@@ -100,19 +100,9 @@
         </div>
       </div>
 
-      <!-- Search Bar -->
-      <div class="flex-1">
-        <form (ngSubmit)="handleSearch()" class="flex">
-          <input type="text" 
-                 [(ngModel)]="searchTerm"
-                 name="search"
-                 placeholder="Search for parts..." 
-                 class="w-full px-4 py-2 rounded-l-md border-gray-300 focus:ring-[#f85a00] focus:border-[#f85a00]">
-          <button type="submit" 
-                  class="px-6 py-2 bg-[#f85a00] text-white rounded-r-md hover:bg-[#d94e00] focus:outline-none focus:ring-2 focus:ring-[#f85a00] focus:ring-offset-2">
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
+      <!-- Global Search Component -->
+      <div class="flex-1 relative">
+        <app-global-search></app-global-search>
       </div>
 
       <!-- Cart -->

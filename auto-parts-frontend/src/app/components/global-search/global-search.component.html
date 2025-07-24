@@ -1,0 +1,67 @@
+<form (submit)="onSearchSubmit($event)" class="flex">
+  <div class="relative w-full">
+    <input 
+      type="text"
+      [formControl]="searchControl"
+      [placeholder]="placeholder"
+      (focus)="onInputFocus()"
+      (blur)="onInputBlur()"
+      class="w-full px-4 py-2 rounded-l-md border-gray-300 focus:ring-[#f85a00] focus:border-[#f85a00]"
+      autocomplete="off"
+    />
+
+    
+    <!-- Suggestions dropdown -->
+    <div *ngIf="showDropdown && ((searchResults && searchResults.products && searchResults.products.length > 0) || suggestions.length > 0)" 
+         class="absolute top-full left-0 right-0 bg-white border border-gray-300 rounded-b-md shadow-lg z-50 max-h-80 overflow-y-auto">
+      
+      <!-- Quick results section -->
+      <div *ngIf="searchResults && searchResults.products && searchResults.products.length > 0" class="border-b border-gray-100">
+        <div class="px-3 py-2 bg-gray-50 text-xs text-gray-500 font-medium uppercase tracking-wider">
+          Produits
+        </div>
+        <div *ngFor="let product of searchResults.products.slice(0, 3)" 
+             class="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
+             [routerLink]="['/product', product.id || product.slug]">
+          <div class="w-8 h-8 bg-gray-200 rounded mr-3 flex items-center justify-center">
+            <i class="fas fa-cog text-gray-400 text-xs"></i>
+          </div>
+          <div class="flex-1">
+            <div class="text-sm font-medium text-gray-900">{{ product.name }}</div>
+            <div class="text-xs text-gray-500">{{ product.brand }} - {{ product.sku || product.id }}</div>
+          </div>
+          <div class="text-sm font-medium text-[#f85a00]">{{ formatPrice(product.price) }}</div>
+        </div>
+      </div>
+
+      <!-- Search suggestions section -->
+      <div *ngIf="suggestions.length > 0">
+        <div class="px-3 py-2 bg-gray-50 text-xs text-gray-500 font-medium uppercase tracking-wider">
+          Suggestions
+        </div>
+        <div *ngFor="let suggestion of suggestions.slice(0, 5)" 
+             class="px-4 py-2 hover:bg-gray-50 cursor-pointer flex items-center"
+             (click)="onSuggestionClick(suggestion)">
+          <i class="fas fa-search text-gray-400 mr-3"></i>
+          <span class="text-sm text-gray-900">{{ suggestion }}</span>
+        </div>
+      </div>
+
+      <!-- View all results -->
+      <div *ngIf="searchControl.value?.trim()" 
+           class="border-t border-gray-100 px-4 py-3 bg-gray-50">
+        <button (click)="onSearchSubmit()" 
+                class="text-sm text-[#f85a00] hover:text-[#d94e00] font-medium flex items-center">
+          <i class="fas fa-arrow-right mr-2"></i>
+          Voir tous les résultats pour "{{ searchControl.value }}"
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <button type="submit" 
+          class="px-6 py-2 bg-[#f85a00] text-white rounded-r-md hover:bg-[#d94e00] focus:outline-none focus:ring-2 focus:ring-[#f85a00] focus:ring-offset-2">
+    <i class="fas fa-search"></i>
+  </button>
+</form>
+

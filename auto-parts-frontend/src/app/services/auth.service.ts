@@ -51,7 +51,7 @@ login(credentials: { email: string; password: string }) {
   return this.http.post<LoginResponse>(`${this.apiUrl}/login`, credentials).pipe(
     tap(response => {
       console.log('AuthService - Login response:', response);
-      if (response?.token) {
+      if (response?.token && isPlatformBrowser(this.platformId)) {
         // Clear any existing data
         localStorage.clear();
         
@@ -75,7 +75,9 @@ login(credentials: { email: string; password: string }) {
     catchError(error => {
       console.error('AuthService - Login error:', error);
       this.updateAuthStatus(false);
-      localStorage.clear();
+      if (isPlatformBrowser(this.platformId)) {
+        localStorage.clear();
+      }
       return throwError(() => error);
     })
   );
@@ -117,7 +119,9 @@ login(credentials: { email: string; password: string }) {
   // Add this method to handle logout more comprehensively
 logout(): void {
   console.log('AuthService - Logging out');
-  localStorage.clear();
+  if (isPlatformBrowser(this.platformId)) {
+    localStorage.clear();
+  }
   this.updateAuthStatus(false);
   this.router.navigate(['/login-signup']).then(() => {
     console.log('Redirected to login page');
@@ -195,6 +199,7 @@ isLoggedIn(): boolean {
   }
   // Get current user data
 getCurrentUser(): any {
+  if (!isPlatformBrowser(this.platformId)) return null;
   const userStr = localStorage.getItem('user');
   if (!userStr) return null;
   try {

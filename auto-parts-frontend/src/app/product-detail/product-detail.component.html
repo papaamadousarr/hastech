@@ -1,24 +1,24 @@
-<div class="product-detail-container">
+<div class="product-detail-container" *ngIf="product">
   <div class="product-detail-main">
     <div class="product-image-section">
-      <img [src]="product.image" [alt]="product.name" class="product-detail-img" />
-      <div class="brand-badge">{{ product.brand }}</div>
+      <img [src]="getCurrentImage()" [alt]="product.name" class="product-detail-img" />
+      <div class="brand-badge">{{ product.category || 'Auto Parts' }}</div>
     </div>
     <div class="product-info-section">
       <h1>{{ product.name }}</h1>
-      <div class="product-desc">{{ product.details }}</div>
+      <div class="product-desc">{{ product.availability || 'Available' }}</div>
       <div class="product-meta">
-        <span><b>Brand:</b> {{ product.brand }}</span>
-        <span><b>Code:</b> {{ product.code }}</span>
+        <span><b>Category:</b> {{ product.category }}</span>
+        <span><b>Subcategory:</b> {{ product.subcategory }}</span>
       </div>
       <div class="product-price-stock">
-        <span class="product-price">{{ product.price | number:'1.0-0' }} CFA</span>
-        <span *ngIf="product.inStock" class="in-stock">In Stock</span>
-        <span *ngIf="!product.inStock" class="out-of-stock">Out of Stock</span>
+        <span class="product-price">{{ formatPrice(product.price || 0) }}</span>
+        <span *ngIf="product.inStock !== false" class="in-stock">In Stock</span>
+        <span *ngIf="product.inStock === false" class="out-of-stock">Out of Stock</span>
       </div>
-      <div class="product-qty-actions" *ngIf="product.inStock">
+      <div class="product-qty-actions" *ngIf="product.inStock !== false">
         <button (click)="decrementQty()">-</button>
-        <input type="number" [(ngModel)]="product.quantity" min="1" />
+        <input type="number" [(ngModel)]="quantity" min="1" />
         <button (click)="incrementQty()">+</button>
         <button class="add-to-cart-btn" (click)="addToCart()">Add to Cart</button>
       </div>
@@ -31,18 +31,85 @@
       <div class="feature-card" *ngIf="product.length"><b>Length [mm]</b><br>{{ product.length }}</div>
       <div class="feature-card" *ngIf="product.width"><b>Width [mm]</b><br>{{ product.width }}</div>
       <div class="feature-card" *ngIf="product.height"><b>Height [mm]</b><br>{{ product.height }}</div>
-      <!-- Add more features as needed -->
+      <div class="feature-card" *ngIf="product.weight"><b>Weight [kg]</b><br>{{ product.weight }}</div>
+      <div class="feature-card" *ngIf="product.material"><b>Material</b><br>{{ product.material }}</div>
+      <div class="feature-card" *ngIf="product.warranty"><b>Warranty</b><br>{{ product.warranty }}</div>
+      <div class="feature-card" *ngIf="product.originCountry"><b>Origin</b><br>{{ product.originCountry }}</div>
+      <div class="feature-card" *ngIf="product.packageQty"><b>Package Qty</b><br>{{ product.packageQty }}</div>
+      <div class="feature-card" *ngIf="product.year"><b>Year</b><br>{{ product.year }}</div>
+      <div class="feature-card" *ngIf="product.engine"><b>Engine</b><br>{{ product.engine }}</div>
+      <div class="feature-card" *ngIf="product.model"><b>Model</b><br>{{ product.model }}</div>
+      <div class="feature-card" *ngIf="product.vehicleGroup"><b>Vehicle Group</b><br>{{ product.vehicleGroup }}</div>
+      <div class="feature-card" *ngIf="product.bsgSubCategory"><b>BSG SubCategory</b><br>{{ product.bsgSubCategory }}</div>
+      <div class="feature-card" *ngIf="product.productSubCategory"><b>Product SubCategory</b><br>{{ product.productSubCategory }}</div>
+      <div class="feature-card" *ngIf="product.productCategory"><b>Product Category</b><br>{{ product.productCategory }}</div>
+      <!-- Caractéristiques supplémentaires affichées seulement si showAllFeatures est true -->
+      <div class="feature-card" *ngIf="showAllFeatures && product.description2Eng"><b>Description 2</b><br>{{ product.description2Eng }}</div>
+      <div class="feature-card" *ngIf="showAllFeatures && product.description2Fr"><b>Description 2 (FR)</b><br>{{ product.description2Fr }}</div>
+      <div class="feature-card" *ngIf="showAllFeatures && product.descriptionFr"><b>Description (FR)</b><br>{{ product.descriptionFr }}</div>
+      <div class="feature-card" *ngIf="showAllFeatures && product.descriptionEng"><b>Description (EN)</b><br>{{ product.descriptionEng }}</div>
+      <!-- Informations supplémentaires -->
+      <div class="feature-card" *ngFor="let feature of getAdditionalFeatures()" [ngClass]="{'additional-feature': showAllFeatures}">
+        <b>{{ feature.label }}</b><br>{{ feature.value }}
+      </div>
     </div>
-    <button class="show-more-btn">Show More Features</button>
+    <button class="show-more-btn" (click)="toggleFeatures()">
+      {{ showAllFeatures ? 'Show Less Features' : 'Show More Features' }}
+    </button>
   </div>
-  <div class="compatible-vehicles-section">
-    <h2>Compatible Vehicles</h2>
-    <div>{{ product.compatibleVehicles }}</div>
-  </div>
-  <div class="oem-numbers-section">
-    <h2>OEM Numbers</h2>
-    <div class="oem-list">
-      <span *ngFor="let oem of product.oemNumbers" class="oem-badge">{{ oem }}</span>
+  <div class="compatible-vehicles-section" *ngIf="hasCompatibleCars()">
+    <h2 class="section-title">
+      <i class="fas fa-car"></i>
+      Véhicules compatibles avec les produits de filtre à air
+    </h2>
+    <div class="accordion-container">
+      <div *ngFor="let brandGroup of getBrandGroups()" class="accordion-item">
+        <div class="accordion-header" (click)="toggleBrand(brandGroup.brand)">
+          <span class="brand-name">{{ brandGroup.brand }}</span>
+          <i class="fas" [class.fa-plus]="!isBrandExpanded(brandGroup.brand)" [class.fa-minus]="isBrandExpanded(brandGroup.brand)"></i>
+        </div>
+        <div class="accordion-content" [class.expanded]="isBrandExpanded(brandGroup.brand)">
+          <div class="models-list">
+            <div *ngFor="let model of brandGroup.models" class="model-item">
+              <div class="model-name">{{ model.name }}</div>
+              <div class="model-details" *ngIf="model.details">
+                <span class="detail-label">Type:</span> {{ model.details }}
+              </div>
+              <div class="model-year" *ngIf="model.yearRange">
+                <span class="detail-label">Années:</span> {{ model.yearRange }}
+              </div>
+              <div class="model-specs" *ngIf="model.specifications">
+                <span class="detail-label">Spécifications:</span> {{ model.specifications }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="oem-numbers-section" *ngIf="hasOemNumbers()">
+    <h2 class="section-title">
+      <i class="fas fa-barcode"></i>
+      Pièces de rechange pour filtre à air
+    </h2>
+    <h3 class="oem-subtitle">Numéros OEM</h3>
+    <div class="oem-container">
+      <div *ngFor="let oem of getOemNumbers()" class="oem-item">
+        <div class="oem-number-display">{{ oem }}</div>
+        <div class="oem-brands">
+          <span class="brand-badge" *ngFor="let brand of getOemBrands(oem)">{{ brand }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="loading" class="loading-container">
+  <div class="loading-spinner"></div>
+  <p>Loading product details...</p>
+</div>
+
+<div *ngIf="error" class="error-container">
+  <p>{{ error }}</p>
+  <button (click)="reloadProduct()">Retry</button>
 </div>

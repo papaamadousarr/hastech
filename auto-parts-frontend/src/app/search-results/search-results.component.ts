@@ -2,24 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { ProductService } from '../services/product.service';
+import { ProductService, FilteredProductsResponse, Category, SubCategory, Part } from '../services/product.service';
 import { VehicleDetails } from '../interfaces/product-category.interface';
-import { catchError, finalize } from 'rxjs/operators';
-import { of } from 'rxjs';
+import { catchError, finalize, forkJoin, of } from 'rxjs';
 import { VehicleService } from '../services/vehicle.service';
-
-interface Category {
-  id: string;
-  name: string;
-  icon: string;
-  subcategories: Subcategory[];
-}
-
-interface Subcategory {
-  id: string;
-  name: string;
-  link?: string;
-}
 
 interface VehicleInfo {
   brand: string;
@@ -41,244 +27,38 @@ export class SearchResultsComponent implements OnInit {
   searchQuery: string = '';
   error: string | null = null;
   loading = false;
-  //vehicle?: VehicleImage;
-  //loading = false;
-  //imagePath: string = '';
-  //vehicleImage: string = '';
-
-
-  categories = [
-    {
-      id: 'filters',
-      name: 'Filters',
-      icon: 'assets/icons/filter-icon.png',
-      subcategories: [
-        { id: 'air-filter', name: 'Air Filter' },
-        { id: 'pollen-filter', name: 'Pollen Filter' },
-        { id: 'oil-filter', name: 'Oil Filter' },
-        { id: 'fuel-filter', name: 'Fuel Filter' },
-        { id: 'oil-drain-plug', name: 'Oil Drain Plug' }
-      ]
-    },
-    {
-      id: 'oils',
-      name: 'Oils and Fluids',
-      icon: 'https://bcdn.aloparca.com/category/image/01J7ATK5G0KQF8RVWG7NZ4YR76.png',
-      subcategories: [
-        { id: 'engine-oil', name: 'Engine Oil' }
-      ]
-    },
-    {
-      id: 'brakes',
-      name: 'Brakes',
-      icon: 'https://bcdn.aloparca.com/category/image/10103.png',
-      subcategories: [
-        { id: 'brake-disc', name: 'Brake Disc' },
-        { id: 'brake-pad', name: 'Brake Pad' },
-        { id: 'brake-pad-sensor', name: 'Brake Pad Sensor Cable' },
-        { id: 'abs-sensor', name: 'ABS Sensor' },
-        { id: 'brake-switch', name: 'Brake Switch' },
-        { id: 'reverse-gear-switch', name: 'Reverse Gear Switch' },
-        { id: 'brake-vacuum-pump', name: 'Brake Vacuum Pump' },
-        { id: 'brake-caliper', name: 'Brake Caliper' },
-        { id: 'brake-master-cylinder', name: 'Brake Master Cylinder' },
-        { id: 'brake-hose', name: 'Brake Hose' },
-        { id: 'handbrake-cable', name: 'Handbrake Cable' },
-        { id: 'tire-pressure-sensor', name: 'Tire Pressure Sensor' }
-      ]
-    },
-    {
-      id: 'ignition',
-      name: 'Ignition System',
-      icon: 'https://bcdn.aloparca.com/category/image/10354.png',
-      subcategories: [
-        { id: 'glow-plug', name: 'Glow Plug' }
-      ]
-    },
-    {
-      id: 'suspension',
-      name: 'Suspension',
-      icon: 'https://bcdn.aloparca.com/category/image/10113.png',
-      subcategories: [
-        { id: 'shock-absorber', name: 'Shock Absorber' },
-        { id: 'strut-mount-bearing', name: 'Strut Mount and Bearing' },
-        { id: 'shock-boot', name: 'Shock Absorber Boot and Buffer' },
-        { id: 'shock-bearing', name: 'Shock Absorber Bearing' },
-        { id: 'sway-bar-bush', name: 'Sway Bar Bush' },
-        { id: 'complete-axle', name: 'Complete Axle' },
-        { id: 'subframe-bush', name: 'Subframe Bush' },
-        { id: 'strut-top-mount', name: 'Strut Top Mount' },
-        { id: 'axle-carrier', name: 'Axle Carrier' },
-        { id: 'tie-rod-end', name: 'Tie Rod End' },
-        { id: 'ball-joint', name: 'Ball Joint and Control Arm' },
-        { id: 'axle-carrier-complete', name: 'Axle Carrier Complete' },
-        { id: 'control-arm-bush', name: 'Control Arm Bush' },
-        { id: 'cv-joint-boot', name: 'CV Joint Boot' },
-        { id: 'wheel-hub-bearing', name: 'Wheel Hub and Bearing' },
-        { id: 'control-arm', name: 'Control Arm' },
-        { id: 'sway-bar-link', name: 'Sway Bar Link' },
-        { id: 'steering-rack', name: 'Steering Rack' }
-      ]
-    },
-    {
-      id: 'clutch',
-      name: 'Clutch',
-      icon: 'https://bcdn.aloparca.com/category/image/10106.png',
-      subcategories: [
-        { id: 'flywheel-bolt-bearing', name: 'Flywheel Bolt and Bearing' },
-        { id: 'clutch-set', name: 'Clutch Set' },
-        { id: 'clutch-central-bearing', name: 'Clutch Central and Bearing' },
-        { id: 'flywheel', name: 'Flywheel' }
-      ]
-    },
-    {
-      id: 'timing',
-      name: 'Timing Chain and Bearing',
-      icon: 'https://bcdn.aloparca.com/category/image/10107.png',
-      subcategories: [
-        { id: 'timing-chain', name: 'Timing Chain' },
-        { id: 'timing-chain-set', name: 'Timing Chain Set' },
-        { id: 'timing-tensioner', name: 'Timing Tensioner Bearing' },
-        { id: 'v-belt-tensioner', name: 'V-Belt Tensioner Bearing' },
-        { id: 'v-belt', name: 'V-Belt' },
-        { id: 'oil-pump-chain-set', name: 'Oil Pump Chain Set' },
-        { id: 'oil-pump-chain', name: 'Oil Pump Chain' }
-      ]
-    },
-    {
-      id: 'fuel',
-      name: 'Fuel System',
-      icon: 'https://bcdn.aloparca.com/category/image/10108.png',
-      subcategories: [
-        { id: 'injector', name: 'Injector' },
-        { id: 'throttle-body', name: 'Throttle Body' },
-        { id: 'egr-valve', name: 'EGR Valve' },
-        { id: 'fuel-hose', name: 'Fuel Hose' },
-        { id: 'air-filter-box', name: 'Air Filter Box and Parts' },
-        { id: 'egr-cooler', name: 'EGR Cooler' }
-      ]
-    },
-    {
-      id: 'transmission',
-      name: 'Transmission',
-      icon: 'https://bcdn.aloparca.com/category/image/10109.png',
-      subcategories: [
-        { id: 'transmission-mount', name: 'Transmission Mount' },
-        { id: 'drive-shaft-mount', name: 'Drive Shaft Mount' },
-        { id: 'seal', name: 'Seal' },
-        { id: 'reverse-gear-switch', name: 'Reverse Gear Switch' }
-      ]
-    },
-    {
-      id: 'lighting',
-      name: 'Lighting',
-      icon: 'https://bcdn.aloparca.com/category/image/10110.png',
-      subcategories: [
-        { id: 'license-plate-light', name: 'License Plate Light' },
-        { id: 'headlight', name: 'Headlight' },
-        { id: 'tail-light', name: 'Tail Light' },
-        { id: 'rear-view-mirror', name: 'Rear View Mirror' },
-        { id: 'bulb', name: 'Bulb' },
-        { id: 'mirror-glass', name: 'Mirror Glass' }
-      ]
-    },
-    {
-      id: 'engine',
-      name: 'Engine',
-      icon: 'https://bcdn.aloparca.com/category/image/10111.png',
-      subcategories: [
-        { id: 'valve-guide', name: 'Valve Guide and Seat' },
-        { id: 'connecting-rod-bearing', name: 'Connecting Rod Bearing' },
-        { id: 'rocker-cover-gasket', name: 'Rocker Cover Gasket' },
-        { id: 'manifold', name: 'Manifold' },
-        { id: 'main-bearing', name: 'Main Bearing' },
-        { id: 'turbo-hose-gasket', name: 'Turbo Hose and Gasket' },
-        { id: 'camshaft-sensor', name: 'Camshaft Position Sensor' },
-        { id: 'crankshaft-pulley', name: 'Crankshaft Pulley' },
-        { id: 'oil-pressure-switch', name: 'Oil Pressure Switch' },
-        { id: 'cylinder-head', name: 'Cylinder Head' },
-        { id: 'engine-mount', name: 'Engine Mount' },
-        { id: 'air-hose', name: 'Air Hose' },
-        { id: 'map-sensor', name: 'MAP Sensor' },
-        { id: 'gasket-set', name: 'Gasket Set' },
-        { id: 'rocker-cover', name: 'Rocker Cover' },
-        { id: 'crankshaft-gear', name: 'Crankshaft Gear' },
-        { id: 'head-gasket', name: 'Cylinder Head Gasket' },
-        { id: 'crankshaft-sensor', name: 'Crankshaft Sensor' },
-        { id: 'turbocharger', name: 'Turbocharger' },
-        { id: 'valve-stem-seal', name: 'Valve Stem Seal' },
-        { id: 'oil-pan-gasket', name: 'Oil Pan Gasket' },
-        { id: 'manifold-gasket', name: 'Manifold Gasket' },
-        { id: 'crankshaft-seal', name: 'Crankshaft Seal' },
-        { id: 'oil-pump', name: 'Oil Pump' },
-        { id: 'engine-oil-cooler', name: 'Engine Oil Cooler' },
-        { id: 'cylinder-head-bolt', name: 'Cylinder Head Bolt' },
-        { id: 'mass-air-flow-sensor', name: 'Mass Air Flow Sensor' }
-      ]
-    },
-    {
-      id: 'steering',
-      name: 'Steering',
-      icon: 'https://bcdn.aloparca.com/category/image/10112.png',
-      subcategories: [
-        { id: 'steering-pump', name: 'Steering Pump' },
-        { id: 'steering-boot', name: 'Steering Boot' }
-      ]
-    },
-    {
-      id: 'body',
-      name: 'Body Parts',
-      icon: 'https://bcdn.aloparca.com/category/image/10101.png',
-      subcategories: [
-        { id: 'wiper-blade', name: 'Wiper Blade' },
-        { id: 'rear-view-mirror', name: 'Rear View Mirror' },
-        { id: 'mirror-glass', name: 'Mirror Glass' },
-        { id: 'sliding-door-roller', name: 'Sliding Door Roller' }
-      ]
-    },
-    {
-      id: 'cooling-heating',
-      name: 'Cooling and Heating',
-      icon: 'https://bcdn.aloparca.com/category/image/10104.png',
-      subcategories: [
-        { id: 'water-pump-hose', name: 'Water Pump Hose' },
-        { id: 'ac-compressor', name: 'AC Compressor' },
-        { id: 'ac-radiator', name: 'AC Radiator' },
-        { id: 'thermostat', name: 'Thermostat' },
-        { id: 'blower-motor', name: 'Blower Motor' },
-        { id: 'expansion-tank', name: 'Radiator Expansion Tank' },
-        { id: 'radiator-fan', name: 'Radiator Fan and Motor' },
-        { id: 'intercooler', name: 'Intercooler' },
-        { id: 'water-pump', name: 'Water Pump' },
-        { id: 'thermostat-housing', name: 'Thermostat Housing' },
-        { id: 'ac-pressure-switch', name: 'AC Pressure Switch' },
-        { id: 'temperature-switch', name: 'Temperature Switch' },
-        { id: 'radiator-hose', name: 'Radiator Hose' },
-        { id: 'expansion-tank-cap', name: 'Expansion Tank Cap' },
-        { id: 'heater-radiator', name: 'Heater Radiator' },
-        { id: 'exhaust-temp-sensor', name: 'Exhaust Temperature Sensor' },
-        { id: 'heater-hose', name: 'Heater Hose' }
-      ]
-    },
-    {
-      id: 'electrical',
-      name: 'Electrical',
-      icon: 'https://bcdn.aloparca.com/category/image/10105.png',
-      subcategories: [
-        { id: 'alternator', name: 'Alternator' },
-        { id: 'washer-pump', name: 'Washer Pump' },
-        { id: 'starter-motor', name: 'Starter Motor' },
-        { id: 'alternator-pulley', name: 'Alternator Pulley' },
-        { id: 'relay-flasher', name: 'Relay and Flasher' },
-        { id: 'ambient-temp-sensor', name: 'Ambient Temperature Sensor' }
-      ]
-    }
-  ];
-
+  vehicleImage: string = '';
+  
+  // Données dynamiques de la base
+  categories: Category[] = [];
+  selectedSubcategory: SubCategory | null = null;
   products: any[] = [];
   errorMessage = '';
-  selectedSubcategory: any = null;
   searchParams: any;
+  subcategories: SubCategory[] = [];
+
+  // États pour les modals
+  isVehicleModalOpen = false;
+  isCarSelectorOpen = false;
+
+  // Filtres avancés
+  advancedFilters = {
+    priceRange: { min: 0, max: 10000 },
+    brands: [] as string[],
+    categories: [] as string[],
+    inStockOnly: false,
+    sortBy: 'relevance' as 'relevance' | 'price' | 'name' | 'newest',
+    sortOrder: 'asc' as 'asc' | 'desc'
+  };
+
+  // Pagination
+  currentPage = 1;
+  itemsPerPage = 12;
+  totalPages = 0;
+
+  // Suggestions et autocomplétion
+  searchSuggestions: string[] = [];
+  showSuggestions = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -295,46 +75,373 @@ export class SearchResultsComponent implements OnInit {
           model: params['model'],
           engine: params['engine'] || ''
         };
+        // Reset vehicle image when parameters change
+        this.vehicleImage = '';
+        this.loadCategories();
         this.loadPartsForVehicle();
+      }
+      const categoryId = params['category'] || params['id'];
+      if (categoryId) {
+        this.productService.getSubCategoriesByCategory(categoryId).subscribe((subs: any) => {
+          this.subcategories = subs;
+        });
+      }
+
+      // Appliquer les filtres depuis l'URL
+      this.applyFiltersFromUrl(params);
+    });
+  }
+
+  private applyFiltersFromUrl(params: any): void {
+    if (params['minPrice']) this.advancedFilters.priceRange.min = Number(params['minPrice']);
+    if (params['maxPrice']) this.advancedFilters.priceRange.max = Number(params['maxPrice']);
+    if (params['brands']) this.advancedFilters.brands = params['brands'].split(',');
+    if (params['categories']) this.advancedFilters.categories = params['categories'].split(',');
+    if (params['inStock']) this.advancedFilters.inStockOnly = params['inStock'] === 'true';
+    if (params['sortBy']) this.advancedFilters.sortBy = params['sortBy'];
+    if (params['sortOrder']) this.advancedFilters.sortOrder = params['sortOrder'];
+    if (params['page']) this.currentPage = Number(params['page']);
+  }
+
+  // Méthodes de filtrage avancé
+  onPriceRangeChange(): void {
+    this.applyAdvancedFilters();
+  }
+
+  onBrandFilterChange(brand: string, checked: boolean): void {
+    if (checked) {
+      this.advancedFilters.brands.push(brand);
+    } else {
+      this.advancedFilters.brands = this.advancedFilters.brands.filter(b => b !== brand);
+    }
+    this.applyAdvancedFilters();
+  }
+
+  onCategoryFilterChange(category: string, checked: boolean): void {
+    if (checked) {
+      this.advancedFilters.categories.push(category);
+    } else {
+      this.advancedFilters.categories = this.advancedFilters.categories.filter(c => c !== category);
+    }
+    this.applyAdvancedFilters();
+  }
+
+  onSortChange(sortBy: string): void {
+    this.advancedFilters.sortBy = sortBy as any;
+    this.applyAdvancedFilters();
+  }
+
+  onSortOrderChange(sortOrder: string): void {
+    this.advancedFilters.sortOrder = sortOrder as any;
+    this.applyAdvancedFilters();
+  }
+
+  onStockFilterChange(checked: boolean): void {
+    this.advancedFilters.inStockOnly = checked;
+    this.applyAdvancedFilters();
+  }
+
+  private applyAdvancedFilters(): void {
+    let filteredProducts = [...this.products];
+
+    // Filtre par prix
+    filteredProducts = filteredProducts.filter(product => 
+      product.price >= this.advancedFilters.priceRange.min && 
+      product.price <= this.advancedFilters.priceRange.max
+    );
+
+    // Filtre par marques
+    if (this.advancedFilters.brands.length > 0) {
+      filteredProducts = filteredProducts.filter(product =>
+        this.advancedFilters.brands.includes(product.brand)
+      );
+    }
+
+    // Filtre par catégories
+    if (this.advancedFilters.categories.length > 0) {
+      filteredProducts = filteredProducts.filter(product =>
+        this.advancedFilters.categories.includes(product.category)
+      );
+    }
+
+    // Filtre par disponibilité
+    if (this.advancedFilters.inStockOnly) {
+      filteredProducts = filteredProducts.filter(product => product.inStock);
+    }
+
+    // Tri
+    this.sortProducts(filteredProducts);
+
+    this.products = filteredProducts;
+    this.updatePagination();
+    this.updateUrlWithFilters();
+  }
+
+  private sortProducts(products: any[]): void {
+    switch (this.advancedFilters.sortBy) {
+      case 'price':
+        products.sort((a, b) => {
+          const comparison = (a.price || 0) - (b.price || 0);
+          return this.advancedFilters.sortOrder === 'asc' ? comparison : -comparison;
+        });
+        break;
+      case 'name':
+        products.sort((a, b) => {
+          const comparison = (a.name || a.productName || '').localeCompare(b.name || b.productName || '');
+          return this.advancedFilters.sortOrder === 'asc' ? comparison : -comparison;
+        });
+        break;
+      case 'newest':
+        products.sort((a, b) => {
+          const aDate = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+          const bDate = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+          const comparison = bDate - aDate;
+          return this.advancedFilters.sortOrder === 'asc' ? -comparison : comparison;
+        });
+        break;
+      default:
+        // Pertinence - garder l'ordre original
+        break;
+    }
+  }
+
+  private updatePagination(): void {
+    this.totalPages = Math.ceil(this.products.length / this.itemsPerPage);
+    if (this.currentPage > this.totalPages) {
+      this.currentPage = 1;
+    }
+  }
+
+  private updateUrlWithFilters(): void {
+    const params: any = {
+      brand: this.vehicleInfo?.brand,
+      model: this.vehicleInfo?.model,
+      engine: this.vehicleInfo?.engine
+    };
+
+    if (this.advancedFilters.priceRange.min > 0) params.minPrice = this.advancedFilters.priceRange.min;
+    if (this.advancedFilters.priceRange.max < 10000) params.maxPrice = this.advancedFilters.priceRange.max;
+    if (this.advancedFilters.brands.length > 0) params.brands = this.advancedFilters.brands.join(',');
+    if (this.advancedFilters.categories.length > 0) params.categories = this.advancedFilters.categories.join(',');
+    if (this.advancedFilters.inStockOnly) params.inStock = 'true';
+    if (this.advancedFilters.sortBy !== 'relevance') params.sortBy = this.advancedFilters.sortBy;
+    if (this.advancedFilters.sortOrder !== 'asc') params.sortOrder = this.advancedFilters.sortOrder;
+    if (this.currentPage > 1) params.page = this.currentPage;
+
+    this.router.navigate([], {
+      relativeTo: this.route,
+      queryParams: params,
+      queryParamsHandling: 'merge'
+    });
+  }
+
+  // Pagination
+  get paginatedProducts(): any[] {
+    const startIndex = (this.currentPage - 1) * this.itemsPerPage;
+    const endIndex = startIndex + this.itemsPerPage;
+    return this.products.slice(startIndex, endIndex);
+  }
+
+  onPageChange(page: number): void {
+    this.currentPage = page;
+    this.updateUrlWithFilters();
+  }
+
+  // Recherche avec suggestions
+  onSearchInput(event: any): void {
+    const query = event.target.value;
+    if (query.length >= 2) {
+      this.loadSearchSuggestions(query);
+    } else {
+      this.searchSuggestions = [];
+      this.showSuggestions = false;
+    }
+  }
+
+  private loadSearchSuggestions(query: string): void {
+    // Simuler des suggestions basées sur les produits existants
+    const suggestions = this.products
+      .filter(product => 
+        product.name.toLowerCase().includes(query.toLowerCase()) ||
+        product.code.toLowerCase().includes(query.toLowerCase())
+      )
+      .map(product => product.name)
+      .slice(0, 5);
+
+    this.searchSuggestions = [...new Set(suggestions)];
+    this.showSuggestions = this.searchSuggestions.length > 0;
+  }
+
+  onSuggestionClick(suggestion: string): void {
+    this.searchQuery = suggestion;
+    this.showSuggestions = false;
+    this.onSearchParts(new Event('submit'));
+  }
+
+  // Actions rapides
+  quickAddToCart(product: any): void {
+    // Implémenter l'ajout rapide au panier
+    console.log('Quick add to cart:', product);
+  }
+
+  quickAddToFavorites(product: any): void {
+    // Implémenter l'ajout rapide aux favoris
+    console.log('Quick add to favorites:', product);
+  }
+
+  // Utilitaires
+  getAvailableBrands(): string[] {
+    return [...new Set(this.products.map(p => p.brand))].sort();
+  }
+
+  getAvailableCategories(): string[] {
+    return [...new Set(this.products.map(p => p.category))].sort();
+  }
+
+  getPriceRange(): { min: number; max: number } {
+    if (this.products.length === 0) return { min: 0, max: 10000 };
+    
+    const prices = this.products.map(p => p.price);
+    return {
+      min: Math.min(...prices),
+      max: Math.max(...prices)
+    };
+  }
+
+  formatPrice(price: number): string {
+    return new Intl.NumberFormat('fr-FR', {
+      style: 'currency',
+      currency: 'EUR'
+    }).format(price);
+  }
+
+  getPageNumbers(): number[] {
+    const pages: number[] = [];
+    const maxVisiblePages = 5;
+    
+    if (this.totalPages <= maxVisiblePages) {
+      for (let i = 1; i <= this.totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      const start = Math.max(1, this.currentPage - 2);
+      const end = Math.min(this.totalPages, start + maxVisiblePages - 1);
+      
+      for (let i = start; i <= end; i++) {
+        pages.push(i);
+      }
+    }
+    
+    return pages;
+  }
+
+  loadCategories() {
+    this.loading = true;
+    this.error = null;
+
+    this.productService.getAllCategories()
+      .pipe(
+        catchError(error => {
+          console.error('Error loading categories:', error);
+          this.error = 'Erreur lors du chargement des catégories: ' + (error.message || error);
+          return of([]);
+        }),
+        finalize(() => {
+          this.loading = false;
+        })
+      )
+      .subscribe({
+        next: (categories) => {
+          // Ensure categories is an array before mapping
+          if (Array.isArray(categories)) {
+            // Correction : chaque catégorie a un id unique et un tableau vide pour subCategories
+            this.categories = categories.map((cat, idx) => ({
+              ...cat,
+              id: cat.id || (cat as any)._id || `cat-${idx}`,
+              subCategories: [] // Initialiser avec un tableau vide
+            }));
+
+            console.log('Loaded categories:', this.categories);
+
+            // Charger toutes les sous-catégories en parallèle
+            this.loadAllSubcategories();
+          } else {
+            console.warn('Categories response is not an array in search-results:', categories);
+            this.categories = [];
+          }
+        }
+      });
+  }
+
+  private loadAllSubcategories() {
+    const validCategories = this.categories.filter(cat => cat.id);
+    
+    if (validCategories.length === 0) {
+      console.warn('No valid categories found');
+      return;
+    }
+
+    console.log('Loading subcategories for categories:', validCategories.map(c => ({ id: c.id, name: c.name, slug: c.slug })));
+
+    // Créer un tableau d'observables pour charger toutes les sous-catégories en parallèle
+    // Utiliser le slug au lieu de l'id pour correspondre à l'API backend
+    const subcategoryObservables = validCategories.map(category => 
+      this.productService.getSubCategoriesByCategory(category.slug).pipe(
+        catchError(error => {
+          console.error(`Error loading subcategories for ${category.name}:`, error);
+          return of([]);
+        })
+      )
+    );
+
+    // Charger toutes les sous-catégories en parallèle
+    forkJoin(subcategoryObservables).subscribe({
+      next: (subcategoriesArrays) => {
+        console.log('Received subcategories arrays:', subcategoriesArrays);
+        
+        // Assigner les sous-catégories à chaque catégorie
+        validCategories.forEach((category, index) => {
+          const subcategories = subcategoriesArrays[index];
+          category.subCategories = subcategories || [];
+          console.log(`Assigned ${subcategories?.length || 0} subcategories to category ${category.name}:`, subcategories);
+        });
+
+        // Mettre à jour la propriété globale subcategories avec toutes les sous-catégories
+        this.subcategories = subcategoriesArrays.flat();
+        console.log('Updated global subcategories:', this.subcategories);
+      },
+      error: (error) => {
+        console.error('Error loading subcategories in parallel:', error);
       }
     });
   }
 
-  private loadCategories() {
-    this.productService.getMainCategories()
-      .pipe(
-        catchError(error => {
-          this.errorMessage = 'Error loading categories';
-          console.error('Error:', error);
-          return of([]);
-        })
-      )
-      .subscribe(categories => {
-        this.categories = categories.map(cat => ({
-          id: cat.id,
-          name: cat.name,
-          icon: cat.imageUrl,
-          subcategories: []
-        }));
-      });
-  }
-
   private loadPartsForVehicle() {
-    if (this.vehicleInfo) {
+    if (!this.vehicleInfo) return;
+
       this.loading = true;
-      this.productService.getProductsByVehicle(this.vehicleInfo.brand, this.vehicleInfo.model, this.vehicleInfo.engine)
+    this.error = null;
+
+    this.productService.getProductsByVehicle(
+      this.vehicleInfo.brand,
+      this.vehicleInfo.model,
+      this.vehicleInfo.engine
+    )
         .pipe(
           catchError(error => {
-            this.errorMessage = 'Error loading products';
-            console.error('Error:', error);
-            return of([]);
+        console.error('Error loading parts:', error);
+        this.error = 'Error loading parts: ' + (error.message || error);
+        return of({ products: [], total: 0, filters: {} });
           }),
-          finalize(() => this.loading = false)
+      finalize(() => {
+        this.loading = false;
+      })
         )
-        .subscribe(products => {
-          this.products = products;
+    .subscribe({
+      next: (response) => {
+        this.products = response.products;
+      }
         });
-    }
   }
 
   onCategorySelect(categoryId: string) {
@@ -343,102 +450,161 @@ export class SearchResultsComponent implements OnInit {
   }
 
   private loadSubcategories(categoryId: string) {
-    this.productService.getSubCategories(categoryId)
+    console.log('Loading subcategories for category ID:', categoryId);
+    
+    // Trouver la catégorie par son ID
+    const category = this.categories.find(c => c.id === categoryId);
+    if (!category) {
+      console.warn('Category not found for ID:', categoryId);
+      return;
+    }
+    
+    // Utiliser le slug de la catégorie au lieu de l'ID
+    console.log('Using category slug for API call:', category.slug);
+    this.productService.getSubCategoriesByCategory(category.slug)
       .pipe(
         catchError(error => {
-          this.errorMessage = 'Error loading subcategories';
-          console.error('Error:', error);
+          console.error('Error loading subcategories:', error);
           return of([]);
         })
       )
-      .subscribe(subcategories => {
-        const category = this.categories.find(c => c.id === this.selectedCategory);
-        if (category) {
-          category.subcategories = subcategories.map(sub => ({
-            id: sub.id,
-            name: sub.name
-          }));
+      .subscribe({
+        next: (subcategories) => {
+          console.log('Received subcategories for category', category.name, ':', subcategories);
+          
+          // Mettre à jour la catégorie avec ses sous-catégories
+          category.subCategories = subcategories || [];
+          console.log(`Updated category ${category.name} with ${subcategories?.length || 0} subcategories`);
+          
+          // Mettre à jour aussi la propriété globale
+          this.subcategories = subcategories || [];
         }
       });
   }
 
   getVehicleImage(): string {
     if (!this.vehicleInfo?.brand || !this.vehicleInfo?.model) {
-        return 'https://bcdn.aloparca.com/model_series_cars_photo/10266.jpg?width=192'; // Return default image path until we have a better solution
+        return 'https://bcdn.aloparca.com/model_series_cars_photo/10266.jpg?width=192';
     }
 
-    // Initialize a variable to hold the image path
-    let imagePath: string = '';
+    // If we already have the image, return it
+    if (this.vehicleImage) {
+        return this.vehicleImage;
+    }
 
-    // Subscribe to the observable to get the image path
+    // Only make the API call once and store the result
     this.productService.getModelImage(this.vehicleInfo.brand, this.vehicleInfo.model)
-        .subscribe(image => {
-            imagePath = image; // Assign the image path to the variable
+        .pipe(
+            catchError(error => {
+                console.error('Error loading vehicle image:', error);
+                return of('https://bcdn.aloparca.com/model_series_cars_photo/10266.jpg?width=192');
+            })
+        )
+        .subscribe({
+            next: (imageUrl) => {
+                this.vehicleImage = imageUrl || 'https://bcdn.aloparca.com/model_series_cars_photo/10266.jpg?width=192';
+            }
         });
 
-    return imagePath; // This will return an empty string initially
+    return 'https://bcdn.aloparca.com/model_series_cars_photo/10266.jpg?width=192';
   }
 
   onSubcategorySelect(categoryId: string, subcategoryId: string) {
-    // Navigate to parts list for this subcategory
-    this.router.navigate(['/parts'], {
-      queryParams: {
-        ...this.vehicleInfo,
-        category: categoryId,
-        subcategory: subcategoryId
+    this.productService.getParts(subcategoryId)
+      .pipe(
+        catchError(error => {
+          console.error('Error loading parts:', error);
+          return of([]);
+        })
+      )
+      .subscribe({
+        next: (parts) => {
+          // Ici vous pouvez naviguer vers une page de produits ou afficher les pièces
       }
     });
   }
 
   onSearchParts(event: Event) {
     event.preventDefault();
-    if (this.searchQuery.trim()) {
-      // Navigate to search results with current vehicle info and search query
-      this.router.navigate(['/parts/search'], {
-        queryParams: {
-          ...this.vehicleInfo,
-          q: this.searchQuery
-        }
-      });
-    }
+    if (!this.searchQuery.trim()) return;
+
+    // Logique de recherche
   }
 
   changeVehicle() {
-    // Navigate back to vehicle selection
-    this.productService.clearVehicleSelection();
-    this.router.navigate(['/']);
+    this.router.navigate(['/vehicle-search']);
   }
 
   showVehicleDetails() {
-    // Navigate to vehicle details page
-    this.router.navigate(['/vehicle-details'], {
-      queryParams: this.vehicleInfo
-    });
+    this.isVehicleModalOpen = true;
   }
 
-  // Helper method to get brand display name
+  closeVehicleModal() {
+    this.isVehicleModalOpen = false;
+  }
+
+  openCarSelector() {
+    this.isCarSelectorOpen = true;
+  }
+
+  closeCarSelector() {
+    this.isCarSelectorOpen = false;
+  }
+
   getBrandDisplayName(brandId: string): string {
-    // Add logic to convert brand ID to display name if needed
-    return brandId.replace('_', ' ');
+    // Logique pour afficher le nom de la marque
+    return brandId;
   }
 
-  // Helper method to get model display name
   getModelDisplayName(modelId: string): string {
-    // Add logic to convert model ID to display name if needed
-    return modelId.replace('_', ' ');
+    // Logique pour afficher le nom du modèle
+    return modelId;
   }
 
-  // Helper method to get engine display name
   getEngineDisplayName(engineId: string): string {
-    // Add logic to convert engine ID to display name if needed
-    return engineId.replace('_', ' ');
+    // Logique pour afficher le nom du moteur
+    return engineId;
   }
 
   onCategoryClick(categoryId: string) {
-    this.router.navigate([], {
-      relativeTo: this.route,
-      queryParams: { ...this.searchParams, category: categoryId },
-      queryParamsHandling: 'merge'
+    // Navigation vers la page de catégorie
+    this.router.navigate(['/category', categoryId], {
+      queryParams: {
+        brand: this.vehicleInfo?.brand,
+        model: this.vehicleInfo?.model,
+        engine: this.vehicleInfo?.engine
+      }
     });
+  }
+
+  onSubcategoryClick(categoryId: string, subcategoryId: string) {
+    // Navigation vers la page de sous-catégorie
+    this.router.navigate(['/category', categoryId, subcategoryId], {
+      queryParams: {
+        brand: this.vehicleInfo?.brand,
+        model: this.vehicleInfo?.model,
+        engine: this.vehicleInfo?.engine
+      }
+    });
+  }
+
+  // Méthode de débogage pour vérifier les sous-catégories
+  debugSubcategories(category: any): void {
+    console.log(`Debug subcategories for category ${category.name}:`, category.subCategories);
+  }
+
+  // Méthode pour obtenir le nombre de sous-catégories d'une catégorie
+  getSubcategoryCount(category: any): number {
+    return category.subCategories ? category.subCategories.length : 0;
+  }
+
+  // Méthode pour vérifier si une catégorie a des sous-catégories
+  hasSubcategories(category: any): boolean {
+    return category.subCategories && category.subCategories.length > 0;
+  }
+
+  // Méthode trackBy pour optimiser le rendu des sous-catégories
+  trackBySubcategory(index: number, subcategory: any): string {
+    return subcategory.id || index.toString();
   }
 }

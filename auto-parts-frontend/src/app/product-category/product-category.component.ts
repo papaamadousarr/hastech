@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Router } from '@angular/router';
-import { ProductService } from '../services/product.service';
+import { ProductService, SubCategory } from '../services/product.service';
 import { ActivatedRoute } from '@angular/router';
 import { catchError, finalize } from 'rxjs/operators';
 import { of } from 'rxjs';
-import { ProductMainCategory, ProductSubCategory } from '../interfaces/product-category.interface';
+import { ProductMainCategory } from '../interfaces/product-category.interface';
 import { VehicleSearchComponent } from '../vehicle-search/vehicle-search.component';
 import { HttpClient } from '@angular/common/http';
 import { PRODUCTS } from '../../assets/data/products';
@@ -36,13 +36,13 @@ export class ProductCategoryComponent implements OnInit {
   models: any[] = [];
   engines: any[] = [];
   mainCategories: ProductMainCategory[] = [];
-  subCategories: ProductSubCategory[] = [];
+  subCategories: SubCategory[] = [];
   filteredBrands: any[] = [];
   categories: any[] = [];
   category: any;
   subcategories: any[] = [];
   selectedSubcategory: any;
-  products: any[] = PRODUCTS;
+  products: any[] = [];
 
 
   // UI state properties
@@ -51,6 +51,155 @@ export class ProductCategoryComponent implements OnInit {
   isLoading: boolean = false;
   errorMessage: string = '';
   expandedCategorySlug: string | null = null;
+  showAdvancedFilters = false;
+
+  // Ajout pour la gestion des filtres
+  filters = {
+    searchTerm: '',
+    vehicleBrand: '',
+    vehicleModel: '',
+    vehicleEngine: '',
+    priceMin: null,
+    priceMax: null,
+    oemNumber: '',
+    inStockOnly: false
+  };
+
+  // Méthodes manquantes pour le template
+  onSearchTermChange(event: any) {
+    const value = (event.target as HTMLInputElement).value;
+    this.filters.searchTerm = value;
+    this.applyFilters();
+  }
+
+  onVehicleBrandFilterChange(event: any) {
+    const value = (event.target as HTMLSelectElement).value;
+    this.filters.vehicleBrand = value;
+    this.applyFilters();
+  }
+
+  onVehicleModelFilterChange(event: any) {
+    const value = (event.target as HTMLSelectElement).value;
+    this.filters.vehicleModel = value;
+    this.applyFilters();
+  }
+
+  onVehicleEngineFilterChange(event: any) {
+    const value = (event.target as HTMLSelectElement).value;
+    this.filters.vehicleEngine = value;
+    this.applyFilters();
+  }
+
+  onPriceRangeChange() {
+    this.applyFilters();
+  }
+
+  onOemNumberChange(event: any) {
+    const value = (event.target as HTMLInputElement).value;
+    this.filters.oemNumber = value;
+    this.applyFilters();
+  }
+
+  onAvailabilityChange(event: any) {
+    const value = (event.target as HTMLInputElement).checked;
+    this.filters.inStockOnly = value;
+    this.applyFilters();
+  }
+
+  applyFilters() {
+    // Filtrer les produits selon les critères
+    let filteredProducts = [...this.products];
+
+    // Filtre par terme de recherche
+    if (this.filters.searchTerm) {
+      const searchTerm = this.filters.searchTerm.toLowerCase();
+      filteredProducts = filteredProducts.filter(product =>
+        product.name.toLowerCase().includes(searchTerm) ||
+        product.details.toLowerCase().includes(searchTerm) ||
+        product.code.toLowerCase().includes(searchTerm)
+      );
+    }
+
+    // Filtre par marque de véhicule
+    if (this.filters.vehicleBrand) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.details.toLowerCase().includes(this.filters.vehicleBrand.toLowerCase())
+      );
+    }
+
+    // Filtre par modèle de véhicule
+    if (this.filters.vehicleModel) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.details.toLowerCase().includes(this.filters.vehicleModel.toLowerCase())
+      );
+    }
+
+    // Filtre par moteur de véhicule
+    if (this.filters.vehicleEngine) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.details.toLowerCase().includes(this.filters.vehicleEngine.toLowerCase())
+      );
+    }
+
+    // Filtre par prix minimum
+    if (this.filters.priceMin !== null && this.filters.priceMin !== undefined) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.price && product.price >= this.filters.priceMin!
+      );
+    }
+
+    // Filtre par prix maximum
+    if (this.filters.priceMax !== null && this.filters.priceMax !== undefined) {
+      filteredProducts = filteredProducts.filter(product =>
+        product.price && product.price <= this.filters.priceMax!
+      );
+    }
+
+    // Filtre par numéro OEM
+    if (this.filters.oemNumber) {
+      const oemNumber = this.filters.oemNumber.toLowerCase();
+      filteredProducts = filteredProducts.filter(product =>
+        product.code.toLowerCase().includes(oemNumber)
+      );
+    }
+
+    // Filtre par disponibilité
+    if (this.filters.inStockOnly) {
+      filteredProducts = filteredProducts.filter(product => product.inStock);
+    }
+
+    // Mettre à jour les produits affichés
+    this.products = filteredProducts;
+  }
+
+  clearFilters() {
+    this.filters = {
+      searchTerm: '',
+      vehicleBrand: '',
+      vehicleModel: '',
+      vehicleEngine: '',
+      priceMin: null,
+      priceMax: null,
+      oemNumber: '',
+      inStockOnly: false
+    };
+    // Recharger tous les produits
+    this.loadProducts();
+  }
+
+  private loadProducts() {
+    // Charger tous les produits depuis le service
+    this.productService.getAllProducts().subscribe({
+      next: (products) => {
+        this.products = products;
+        this.applyFilters();
+      },
+      error: (error) => {
+        console.error('Error loading products:', error);
+        this.errorMessage = 'Erreur lors du chargement des produits';
+      }
+    });
+  }
 
   constructor(
     private productService: ProductService,
@@ -62,175 +211,28 @@ export class ProductCategoryComponent implements OnInit {
   ngOnInit(): void {
     this.loadInitialData();
     this.handleRouteParams();
-    this.http.get<any[]>('assets/data/categories_en.json').subscribe(data => {
-      this.categories = data;
-      this.route.params.subscribe(params => {
-        const categorySlug = params['id'];
-        const subcategorySlug = params['subcategoryId'];
-        this.category = this.categories.find(cat => cat.slug === categorySlug);
-        this.subcategories = this.category ? this.category.subcategories : [];
-        this.selectedSubcategory = this.subcategories.find(sub => sub.slug === subcategorySlug);
-        this.expandedCategorySlug = categorySlug;
-  
-      });
+    
+    // Améliorer le chargement des catégories avec gestion d'erreurs
+    this.http.get<any[]>('assets/data/categories_en.json').subscribe({
+      next: (data) => {
+        this.categories = data;
+        this.route.params.subscribe(params => {
+          const categorySlug = params['id'];
+          const subcategorySlug = params['subcategoryId'];
+          this.category = this.categories.find(cat => cat.slug === categorySlug);
+          this.subcategories = this.category ? this.category.subcategories : [];
+          this.selectedSubcategory = this.subcategories.find(sub => sub.slug === subcategorySlug);
+          this.expandedCategorySlug = categorySlug;
+        });
+      },
+      error: (error) => {
+        console.error('Error loading categories from JSON:', error);
+        this.errorMessage = 'Erreur lors du chargement des catégories';
+      }
     });
 
-    this.products = [
-      {
-        name: 'Tie Rod',
-        subcategory: 'tie-rod',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/89/074944aaa984562d30df9d737a78e06046eb434c.webp?width=366',
-        details: 'Tie Rod BMW E36 91-99',
-        code: 'DELPHI-TA1455',
-        mountSide: 'Front axle right; Front axle left',
-        length: 226,
-        width: 43,
-        height: 43,
-        price: 17000,
-        inStock: true,
-        quantity: 1
-      },
-      {
-        name: 'Tie Rod',
-        subcategory: 'tie-rod',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/89/4a66323800755d0aefbc150262dc38aa7469fe9f.webp?width=366',
-        details: 'Tie Rod OPEL MER.A 03-10',
-        code: 'DELPHI-TA1904',
-        mountSide: 'Front axle right; Front axle left',
-        length: 334,
-        width: 37,
-        height: 37,
-        price: 11000,
-        inStock: true,
-        quantity: 1
-      },
-      {
-        name: 'Tie Rod',
-        subcategory: 'tie-rod',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/89/9a94307ee8371848ad3f85d65f02f9eaffab20a7.webp?width=366',
-        details: 'ROT MİLİ M.BENZ VITO 108 110 112 113CDİ 98-03',
-        code: 'DELPHI-TA1765',
-        mountSide: 'Front axle right; Front axle left',
-        length: 362,
-        width: 40,
-        height: 40,
-        price: 20000,
-        inStock: false,
-        quantity: 0
-      },
-      {
-        name: 'Tie Rod',
-        subcategory: 'tie-rod',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/89/8efb5f76a0dd97931d09ffbcb5617dba3932319c.webp?width=366',
-        details: 'ROT MİLİ OPEL CORSA C 00-',
-        code: 'DELPHI-TA2029',
-        mountSide: 'Front axle right; Front axle left',
-        length: 320,
-        width: 36,
-        height: 36,
-        price: 15000,
-        inStock: true,
-        quantity: 1
-      },
-      // Air Filter products
-      {
-        name: 'Air Filter',
-        subcategory: 'air-filter',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/21/6aab04d62b0cd8220415d245c540604d1dc86566.webp?width=366',
-        details: 'HYUNDAI ACCENT Air Filter',
-        code: 'BOSCH-1987435602',
-        length: 224,
-        width: 201,
-        height: 28,
-        price: 10000,
-        inStock: false,
-        quantity: 1
-      },
-      {
-        name: 'Air Filter',
-        subcategory: 'air-filter',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/256/1e1d2b50627b6425242ba55150f78ec1b8ed4e67.webp?width=366',
-        details: 'BSG Air Filter',
-        code: 'BSG-40135022',
-        length: 256,
-        width: 146,
-        height: 54,
-        price: 10000,
-        inStock: false,
-        quantity: 1
-      },
-      {
-        name: 'Air Filter',
-        subcategory: 'air-filter',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/256/f03d1a7fd4a42be4d4153c2ecf39b222cbbd61cf.webp?width=366',
-        details: 'BSG Air Filter',
-        code: 'BSG-40135007',
-        length: 247,
-        width: 160,
-        height: 38,
-        price: 8000,
-        inStock: true,
-        quantity: 1
-      },
-      // Oil Filter products
-      {
-        name: 'Oil Filter',
-        subcategory: 'oil-filter',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/21/014b22919ae63557f220937a563fd8e6d5bc7d56.webp?width=366',
-        details: 'Valeo Oil Filter (Short Type) - HYUNDAI H100',
-        code: 'VALEO-586090',
-        height: 110,
-        weight: 0.28,
-        thread: 'M26x1.5',
-        outerDiameter: 94,
-        price: 15000,
-        inStock: false,
-        quantity: 1
-      },
-      {
-        name: 'Oil Filter',
-        subcategory: 'oil-filter',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/21/014b22919ae63557f220937a563fd8e6d5bc7d56.webp?width=366',
-        details: 'Valeo Oil Filter - Renault/Dacia',
-        code: 'VALEO-586144',
-        height: 79,
-        weight: 0.28,
-        thread: 'M20x1.5',
-        outerDiameter: 75,
-        price: 15000,
-        inStock: true,
-        quantity: 1
-      },
-      // Headlight products
-      {
-        name: 'Headlight',
-        subcategory: 'headlight',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/2/6cb79d88e0e0864b59aa1be60aa5b1e11db63851.webp?width=366',
-        details: 'HEADLIGHT GOLF 98>SİSSİZ R',
-        code: 'HELLA-1EL007700081',
-        voltage: 12,
-        mountSide: 'Right',
-        lampType: 'H7/H1; PY21W; W5W',
-        lampDesign: 'FF; Halogen',
-        price: 175000,
-        inStock: true,
-        quantity: 1
-      },
-      {
-        name: 'Headlight',
-        subcategory: 'headlight',
-        image: 'https://bcdn.aloparca.com/yedek-parca-resimleri/2/1fdf06831ee8e71b4eb245b54aaf32d435ee6b71.webp?width=366',
-        details: 'L HEADLIGHT HALOJEN SKODA OCTAVIA II',
-        code: 'HELLA-1EL247052251',
-        voltage: 12,
-        mountSide: 'Left',
-        lampType: 'H7/H1; PY21W; W5W',
-        lampDesign: 'DE; FF; Halogen',
-        price: 150000,
-        inStock: false,
-        quantity: 0
-      }
-    ];
+    // Charger les produits depuis l'API
+    this.loadProducts();
   }
 
   private loadInitialData(): void {
@@ -241,9 +243,17 @@ export class ProductCategoryComponent implements OnInit {
   private handleRouteParams(): void {
     this.route.params.subscribe(params => {
       const categoryId = params['id'];
+      const subcategoryId = params['subcategoryId'];
+      
       if (categoryId) {
         this.selectedMainCategory = categoryId;
         this.loadSubCategories(categoryId);
+        
+        // Si une sous-catégorie est spécifiée dans l'URL, la charger
+        if (subcategoryId) {
+          console.log('Loading subcategory from URL:', subcategoryId);
+          this.loadProductsForSubcategory(subcategoryId);
+        }
       }
     });
 
@@ -274,12 +284,18 @@ export class ProductCategoryComponent implements OnInit {
         finalize(() => this.isLoading = false)
       )
       .subscribe(categories => {
-        this.mainCategories = categories.map(cat => ({
-          ...cat,
-          icon: '',
-          subCategories: [],
-          isExpanded: false
-        }));
+        // Ensure categories is an array before mapping
+        if (Array.isArray(categories)) {
+          this.mainCategories = categories.map(cat => ({
+            ...cat,
+            icon: '',
+            subCategories: [],
+            isExpanded: false
+          }));
+        } else {
+          console.warn('Categories response is not an array:', categories);
+          this.mainCategories = [];
+        }
       });
   }
 
@@ -287,7 +303,7 @@ export class ProductCategoryComponent implements OnInit {
     if (!mainCategoryId) return;
 
     this.isLoading = true;
-    this.productService.getSubCategories(mainCategoryId)
+    this.productService.getSubCategoriesByCategory(mainCategoryId)
       .pipe(
         catchError(error => {
           this.errorMessage = 'Error loading subcategories';
@@ -297,7 +313,13 @@ export class ProductCategoryComponent implements OnInit {
         finalize(() => this.isLoading = false)
       )
       .subscribe(subCategories => {
-        this.subCategories = subCategories;
+        // Ensure subCategories is an array before assignment
+        if (Array.isArray(subCategories)) {
+          this.subCategories = subCategories;
+        } else {
+          console.warn('SubCategories response is not an array:', subCategories);
+          this.subCategories = [];
+        }
       });
   }
 
@@ -431,7 +453,42 @@ export class ProductCategoryComponent implements OnInit {
   }
 
   toggleCategoryDropdown(slug: string): void {
-    this.expandedCategorySlug = this.expandedCategorySlug === slug ? null : slug;
+    if (this.expandedCategorySlug === slug) {
+      // Fermer le dropdown
+      this.expandedCategorySlug = null;
+    } else {
+      // Ouvrir le dropdown et charger les sous-catégories
+      this.expandedCategorySlug = slug;
+      
+      // Trouver la catégorie correspondante
+      const category = this.categories.find(cat => cat.slug === slug);
+      if (category) {
+        console.log('Loading subcategories for category:', category.name, 'with slug:', slug);
+        
+        // Charger les sous-catégories via l'API
+        this.isLoading = true;
+        this.productService.getSubCategoriesByCategory(slug)
+          .pipe(
+            catchError(error => {
+              console.error('Error loading subcategories for category:', slug, error);
+              this.errorMessage = 'Erreur lors du chargement des sous-catégories';
+              return of([]);
+            }),
+            finalize(() => this.isLoading = false)
+          )
+          .subscribe(subCategories => {
+            console.log('Received subcategories for category:', slug, subCategories);
+            
+            // Mettre à jour les sous-catégories de cette catégorie spécifique
+            if (Array.isArray(subCategories)) {
+              this.subCategories = subCategories;
+            } else {
+              console.warn('SubCategories response is not an array:', subCategories);
+              this.subCategories = [];
+            }
+          });
+      }
+    }
   }
 
   decrementQty(product: any) {
@@ -443,11 +500,51 @@ export class ProductCategoryComponent implements OnInit {
   }
 
   get filteredProducts() {
-    if (!this.selectedSubcategory) return [];
-    // Match by slug
-    return this.products.filter(product =>
-      product.subcategory &&
-      product.subcategory.toLowerCase() === this.selectedSubcategory.slug.toLowerCase()
-    );
+    // Retourner directement les produits chargés depuis l'API
+    return this.products;
+  }
+
+  // Méthode pour charger les produits d'une sous-catégorie
+  loadProductsForSubcategory(subcategoryId: string): void {
+    console.log('Loading products for subcategory:', subcategoryId);
+    
+    this.isLoading = true;
+    this.productService.getParts(subcategoryId)
+      .pipe(
+        catchError(error => {
+          console.error('Error loading products for subcategory:', subcategoryId, error);
+          this.errorMessage = 'Erreur lors du chargement des produits';
+          return of([]);
+        }),
+        finalize(() => this.isLoading = false)
+      )
+      .subscribe(products => {
+        console.log('Received products for subcategory:', subcategoryId, products);
+        
+        if (Array.isArray(products)) {
+          // Log la structure du premier produit pour debug
+          if (products.length > 0) {
+            console.log('First product structure:', products[0]);
+          }
+          this.products = products;
+        } else {
+          console.warn('Products response is not an array:', products);
+          this.products = [];
+        }
+      });
+  }
+
+  // Méthode pour gérer la sélection d'une sous-catégorie
+  onSubcategorySelect(subcategory: SubCategory): void {
+    console.log('Selected subcategory:', subcategory);
+    this.selectedSubcategory = subcategory;
+    
+    // Charger les produits pour cette sous-catégorie en utilisant le slug
+    if (subcategory.slug) {
+      this.loadProductsForSubcategory(subcategory.slug);
+    } else if (subcategory.id) {
+      // Fallback vers l'ID si le slug n'est pas disponible
+      this.loadProductsForSubcategory(subcategory.id);
+    }
   }
 }

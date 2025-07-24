@@ -1,0 +1,11 @@
+# Configuration MongoDB Atlas
+# Copiez ce fichier vers .env et modifiez les valeurs selon vos besoins
+
+MONGO_USERNAME=dbHassan
+MONGO_PASSWORD=1qDMW6Ps9Rgp0Rs0
+MONGO_CLUSTER=hastechcluster.ikp2w.mongodb.net
+
+# Base de données source et destination
+SOURCE_DB=auto_patrs_db
+TARGET_DB=Ecommerce
+COLLECTION_NAME=products 

@@ -12,19 +12,27 @@ import { AddressesComponent } from './account/addresses/addresses.component';
 import { NgModule } from '@angular/core';
 import { VehicleSearchComponent } from './vehicle-search/vehicle-search.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { GlobalSearchResultsComponent } from './global-search-results/global-search-results.component';
 import { VehicleModelSelectionComponent } from './vehicle-model-selection/vehicle-model-selection.component';
 import { VehicleBrandSelectionComponent } from './vehicle-brand-selection/vehicle-brand-selection.component';
 import { AllCarBrandsComponent } from './all-car-brands/all-car-brands.component';
 import { VehicleModelDetailComponent } from './vehicle-model-detail/vehicle-model-detail.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
-
-
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: ProductListComponent,
+    redirectTo: '/dashboard',
     pathMatch: 'full'
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent
+  },
+  {
+    path: 'products',
+    component: ProductListComponent
   },
   {
     path: 'categories',
@@ -45,10 +53,12 @@ export const routes: Routes = [
   {
     path: 'category/:id',
     component: ProductCategoryComponent,
+    data: { renderMode: 'dynamic' }
   },
   {
     path: 'category/:id/:subcategoryId',
     component: ProductCategoryComponent,
+    data: { renderMode: 'dynamic' }
   },
   {
     path: 'account/product-management',
@@ -63,14 +73,11 @@ export const routes: Routes = [
     data: { requiresAdmin: true }
   },
   { path: 'vehicle-search', component: VehicleSearchComponent },
+  { path: 'search', component: GlobalSearchResultsComponent }, // Nouvelle recherche unifiée
   { path: 'parts', component: SearchResultsComponent },
   { path: 'search-results', component: SearchResultsComponent },
   {
-    path: 'vehicle-models/:brand',
-    component: VehicleModelSelectionComponent
-  },
-  {
-    path: 'vehicle-models/:brand/:model',
+    path: 'vehicle-models/:brandId',
     component: VehicleModelSelectionComponent
   },
   {
@@ -82,19 +89,10 @@ export const routes: Routes = [
     component: AllCarBrandsComponent
   },
   {
-    path: 'vehicle-model/:brand/:model',
-    component: VehicleModelDetailComponent
-  },
-  {
     path: 'product/:code',
-    component: ProductDetailComponent
-  },
-  {
-    path: '**',
-    redirectTo: ''
+    component: ProductDetailComponent,
+    data: { renderMode: 'dynamic' }
   }
-
-
 ];
 
 @NgModule({

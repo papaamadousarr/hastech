@@ -69,9 +69,10 @@
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                 </svg>
               </div>
-              <ul *ngIf="isCategoryExpanded(cat.slug)" class="subcategory-dropdown">
-                <li *ngFor="let sub of cat.subcategories" [class.selected-subcategory]="selectedSubcategory?.slug === sub.slug">
-                  <a [routerLink]="['/category', cat.slug, sub.slug]">
+              <!-- Affichage dynamique des sous-catégories -->
+              <ul *ngIf="isCategoryExpanded(cat.slug) && subCategories?.length" class="subcategory-dropdown">
+                <li *ngFor="let sub of subCategories" [class.selected-subcategory]="selectedSubcategory?.slug === sub.slug">
+                  <a (click)="onSubcategorySelect(sub)" style="cursor: pointer;">
                     <img *ngIf="sub.image" [src]="sub.image" class="sidebar-subcategory-img" alt="">
                     <span>{{ sub.name }}</span>
                   </a>
@@ -84,11 +85,159 @@
 
       <!-- Main Content: Product List -->
       <section class="product-list-section">
+        <!-- Loading Overlay -->
+        <div *ngIf="isLoading" class="loading-overlay">
+          <div class="loading-spinner"></div>
+        </div>
+
+        <!-- Error Message -->
+        <div *ngIf="errorMessage" class="error-message">
+          {{ errorMessage }}
+        </div>
+        <!-- Advanced Filters Section -->
+        <div class="advanced-filters-section">
+          <div class="filters-header">
+            <h3>Filtres avancés</h3>
+            <button 
+              (click)="showAdvancedFilters = !showAdvancedFilters"
+              class="toggle-filters-btn"
+            >
+              {{ showAdvancedFilters ? 'Masquer' : 'Afficher' }} les filtres
+            </button>
+          </div>
+          
+          <div *ngIf="showAdvancedFilters" class="filters-content">
+            <div class="filters-grid">
+              <!-- Search Term Filter -->
+              <div class="filter-group">
+                <label>Recherche</label>
+                <input 
+                  type="text" 
+                  [(ngModel)]="filters.searchTerm"
+                  (input)="onSearchTermChange($event)"
+                  placeholder="Nom, code ou description..."
+                  class="filter-input"
+                >
+              </div>
+
+              <!-- Vehicle Brand Filter -->
+              <div class="filter-group">
+                <label>Marque véhicule</label>
+                <select 
+                  [(ngModel)]="filters.vehicleBrand"
+                  (change)="onVehicleBrandFilterChange($event)"
+                  class="filter-select"
+                >
+                  <option value="">Toutes les marques</option>
+                  <option *ngFor="let brand of filteredBrands" [value]="brand.name || brand">
+                    {{ brand.name || brand }}
+                  </option>
+                </select>
+              </div>
+
+              <!-- Vehicle Model Filter -->
+              <div class="filter-group">
+                <label>Modèle véhicule</label>
+                <select 
+                  [(ngModel)]="filters.vehicleModel"
+                  (change)="onVehicleModelFilterChange($event)"
+                  class="filter-select"
+                  [disabled]="!filters.vehicleBrand"
+                >
+                  <option value="">Tous les modèles</option>
+                  <option *ngFor="let model of models" [value]="model.name || model">
+                    {{ model.name || model }}
+                  </option>
+                </select>
+              </div>
+
+              <!-- Vehicle Engine Filter -->
+              <div class="filter-group">
+                <label>Moteur véhicule</label>
+                <select 
+                  [(ngModel)]="filters.vehicleEngine"
+                  (change)="onVehicleEngineFilterChange($event)"
+                  class="filter-select"
+                  [disabled]="!filters.vehicleModel"
+                >
+                  <option value="">Tous les moteurs</option>
+                  <option *ngFor="let engine of engines" [value]="engine.name || engine">
+                    {{ engine.name || engine }}
+                  </option>
+                </select>
+              </div>
+
+              <!-- Price Range Filter -->
+              <div class="filter-group">
+                <label>Prix minimum</label>
+                <input 
+                  type="number" 
+                  [(ngModel)]="filters.priceMin"
+                  (input)="onPriceRangeChange()"
+                  placeholder="Prix min"
+                  class="filter-input"
+                >
+              </div>
+
+              <div class="filter-group">
+                <label>Prix maximum</label>
+                <input 
+                  type="number" 
+                  [(ngModel)]="filters.priceMax"
+                  (input)="onPriceRangeChange()"
+                  placeholder="Prix max"
+                  class="filter-input"
+                >
+              </div>
+
+              <!-- OEM Number Filter -->
+              <div class="filter-group">
+                <label>Numéro OEM</label>
+                <input 
+                  type="text" 
+                  [(ngModel)]="filters.oemNumber"
+                  (input)="onOemNumberChange($event)"
+                  placeholder="Rechercher par numéro OEM..."
+                  class="filter-input"
+                >
+              </div>
+
+              <!-- Availability Filter -->
+              <div class="filter-group">
+                <label class="checkbox-label">
+                  <input 
+                    type="checkbox" 
+                    [(ngModel)]="filters.inStockOnly"
+                    (change)="onAvailabilityChange($event)"
+                    class="filter-checkbox"
+                  >
+                  En stock uniquement
+                </label>
+              </div>
+
+              <!-- Clear Filters Button -->
+              <div class="filter-group">
+                <button 
+                  (click)="clearFilters()"
+                  class="clear-filters-btn"
+                >
+                  Effacer les filtres
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Summary -->
+        <div class="results-summary">
+          <p>{{ filteredProducts.length }} produit(s) trouvé(s)</p>
+        </div>
+
         <div class="product-list">
           <div *ngFor="let product of filteredProducts" class="product-card-horizontal">
             <div class="product-image-col">
               <div class="product-img-wrapper">
-                <a [routerLink]="['/product', product.code]">
+                <a [routerLink]="['/product', product._id || product.id || product.slug || product.code]">
                   <img [src]="product.image" [alt]="product.name" class="product-img-horizontal" />
                 </a>
                 <div *ngIf="!product.inStock" class="out-of-stock-badge">Out of Stock</div>
@@ -98,7 +247,7 @@
               <h3 class="product-name">{{ product.name }}</h3>
               <div class="product-desc">{{ product.details }}</div>
               <div class="product-meta">
-                <div><strong>Product Code:</strong> {{ product.code }}</div>
+                <div><strong>Product Code:</strong> {{ product.code || product.slug || product._id }}</div>
                 <div *ngIf="product.mountSide"><strong>Mount Side:</strong> {{ product.mountSide }}</div>
                 <div *ngIf="product.length"><strong>Length [mm]:</strong> {{ product.length }}</div>
                 <div *ngIf="product.width"><strong>Width [mm]:</strong> {{ product.width }}</div>
@@ -129,10 +278,11 @@
                 <button class="stock-notify-btn">Get Stock Notification</button>
               </ng-template>
               <div class="product-details-link">
-                <a href="#">Product Details</a>
+                <a [routerLink]="['/product', product._id || product.id || product.slug || product.code]">Product Details</a>
               </div>
             </div>
           </div>
+
         </div>
         <div *ngIf="filteredProducts.length === 0" class="no-products-message">
           <p>No products found for this subcategory.</p>

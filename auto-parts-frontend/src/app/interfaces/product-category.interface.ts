@@ -12,6 +12,8 @@ export interface ProductMainCategory {
     name: string;
     parts: ProductPart[];
     isExpanded?: boolean;
+    image?: string;
+    slug?: string;
  }
  export interface ProductPart {
     id: string;

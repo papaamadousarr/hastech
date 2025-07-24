@@ -2,6 +2,31 @@
 <div class="vehicle-search-container p-4">
   <h2 class="text-lg font-medium mb-4">Select Car Brand First </h2>
   
+  <!-- Debug Information -->
+  <div class="mb-4 p-4 bg-gray-100 border border-gray-300 rounded">
+    <h3 class="text-sm font-medium mb-2">Debug Info:</h3>
+    <p class="text-xs">Loading: {{loading}}</p>
+    <p class="text-xs">Error: {{error}}</p>
+    <p class="text-xs">Brands count: {{brands.length}}</p>
+    <p class="text-xs">Models count: {{models.length}}</p>
+    <p class="text-xs">Engines count: {{engines.length}}</p>
+    <p class="text-xs">Selected Brand: {{selectedBrand}}</p>
+    <p class="text-xs">Selected Model: {{selectedModel}}</p>
+  </div>
+  
+  <!-- Loading State -->
+  <div *ngIf="loading" class="mb-4 p-4 bg-blue-50 border border-blue-200 rounded">
+    <div class="flex items-center">
+      <div class="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600 mr-2"></div>
+      <span class="text-blue-800">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Error State -->
+  <div *ngIf="error" class="mb-4 p-4 bg-red-50 border border-red-200 rounded">
+    <p class="text-red-800">{{ error }}</p>
+  </div>
+  
   <!-- Brand Selection -->
   <div class="mb-4">
     <div class="select-wrapper">
@@ -10,12 +35,12 @@
         (change)="onBrandSelect()"
         name="brand"
         class="form-select"
+        [disabled]="loading"
       >
         <option value="">1. Select Car Brand </option>
-        <option *ngFor="let brand of brands" [value]="brand.id">
+        <option *ngFor="let brand of brands" [value]="brand.name">
           {{brand.name}}
         </option>
-
       </select>
     </div>
   </div>
@@ -28,11 +53,11 @@
         (change)="onModelSelect()"
         name="model"
         class="form-select"
-        [disabled]="!selectedBrand"
+        [disabled]="!selectedBrand || loading"
       >
         <option value="">2. Select Car Model </option>
-        <option *ngFor="let model of models" [value]="model.id">
-          {{model.name}}<span *ngIf="model.years"> ({{model.years}})</span>
+        <option *ngFor="let model of models" [value]="model.name">
+          {{model.name}}
         </option>
       </select>
     </div>
@@ -45,14 +70,12 @@
         [(ngModel)]="selectedEngine"
         name="engine"
         class="form-select"
-        [disabled]="!selectedModel"
+        [disabled]="!selectedModel || loading"
       >
-        <option value="">3.Select Car Engine Type </option>
-        <option *ngFor="let engine of engines" [value]="engine.id">
-          {{engine.name}} ({{engine.power}})
+        <option value="">3. Select Car Engine Type </option>
+        <option *ngFor="let engine of engines" [value]="engine.name">
+          {{engine.name}} <span *ngIf="engine.power">({{engine.power}})</span>
         </option>
-
-
       </select>
     </div>
   </div>
@@ -60,7 +83,7 @@
   <!-- Search Button -->
   <button 
     (click)="onSearch()"
-    [disabled]="!selectedBrand || !selectedModel || !selectedEngine"
+    [disabled]="!selectedBrand || !selectedModel || !selectedEngine || loading"
     class="search-button"
   >
     Ara

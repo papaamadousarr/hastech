@@ -33,8 +33,6 @@ export class AccountComponent implements OnInit {
         const isAdmin = localStorage.getItem('isAdmin');
         this.isAdmin = isAdmin === 'true';
         
-        console.log('Init - Token:', !!token, 'IsAdmin:', this.isAdmin);
-    
         if (!token) {
             this.router.navigate(['/login-signup']);
             return;
@@ -48,7 +46,6 @@ export class AccountComponent implements OnInit {
         this.userService.getUserProfile().subscribe({
             next: (response: any) => {
                 this.user = response;
-                console.log('User Profile:', response);
                 
                 // Set admin status
                 this.isAdmin = response.email === 'lohassan123@gmail.com';
@@ -85,7 +82,6 @@ export class AccountComponent implements OnInit {
         }).subscribe({
             next: (response: any) => {
                 this.orders = response.orders;
-                console.log('Orders loaded:', this.orders);
             },
             error: (error) => {
                 console.error('Error loading orders:', error);

@@ -5,9 +5,12 @@ import (
 	"auto-parts-backend/db"
 	"auto-parts-backend/routes"
 	"log"
+	"os"
 
 	"github.com/gin-contrib/cors"
+	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
 )
 
 func setupCORS() gin.HandlerFunc {
@@ -32,12 +35,19 @@ func setupCORS() gin.HandlerFunc {
 }
 
 func main() {
+	// Load environment variables from .env file
+	if err := godotenv.Load(); err != nil {
+		log.Printf("Warning: .env file not found, using default values")
+	}
+
 	// Initialize Gin router
 	router := gin.Default()
 
 	router.Use(gin.Logger())
 	// Apply CORS middleware BEFORE routes
 	router.Use(setupCORS())
+	// Apply Gzip compression
+	router.Use(gzip.Gzip(gzip.DefaultCompression))
 	router.Use(gin.Recovery())
 
 	// Connect to database
@@ -54,8 +64,12 @@ func main() {
 	routes.RegisterRoutes(router)
 
 	// Start the server
-	port := ":3000"
-	log.Printf("Server is running on port%s", port)
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "3000"
+	}
+	port = ":" + port
+	log.Printf("Server is running on port %s", port)
 	if err := router.Run(port); err != nil {
 		log.Fatal("Server failed to start:", err)
 	}

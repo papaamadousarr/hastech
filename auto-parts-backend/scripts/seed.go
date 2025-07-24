@@ -4,10 +4,13 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"time"
 
 	"auto-parts-backend/db"
 	"auto-parts-backend/models"
 
+	"go.mongodb.org/mongo-driver/bson"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
@@ -19,6 +22,11 @@ func main() {
 		log.Fatal(err)
 	}
 	log.Println("Database seeded successfully!")
+
+	// Seed vehicle models for Hyundai
+	seedHyundaiModels()
+
+	log.Println("Seeding completed successfully!")
 }
 
 func seedDatabase(client *mongo.Client) error {
@@ -746,4 +754,180 @@ func generateYears(startYear, count int) []int {
 		years[i] = startYear - i
 	}
 	return years
+}
+
+func seedHyundaiModels() {
+	// First, get the Hyundai brand ID
+	brandCollection := db.Client.Database("Ecommerce").Collection("vehicle_brands")
+
+	var hyundaiBrand bson.M
+	err := brandCollection.FindOne(context.TODO(), bson.M{"name": "Hyundai"}).Decode(&hyundaiBrand)
+	if err != nil {
+		log.Printf("Hyundai brand not found, creating it...")
+
+		// Create Hyundai brand if it doesn't exist
+		hyundaiBrand = bson.M{
+			"_id":       primitive.NewObjectID(),
+			"name":      "Hyundai",
+			"slug":      "hyundai",
+			"imageURL":  "https://bcdn.aloparca.com/car-maker-images/marka_hyundai.svg",
+			"isActive":  true,
+			"sortOrder": 6,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		}
+
+		_, err = brandCollection.InsertOne(context.TODO(), hyundaiBrand)
+		if err != nil {
+			log.Printf("Failed to create Hyundai brand: %v", err)
+			return
+		}
+	}
+
+	hyundaiBrandID := hyundaiBrand["_id"].(primitive.ObjectID)
+	log.Printf("Using Hyundai brand ID: %s", hyundaiBrandID.Hex())
+
+	// Seed vehicle models
+	modelsCollection := db.Client.Database("Ecommerce").Collection("vehicle_models")
+
+	hyundaiModels := []bson.M{
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "i10",
+			"slug":      "i10",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2008'den itibaren",
+			"isActive":  true,
+			"sortOrder": 1,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "i20",
+			"slug":      "i20",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2008'den itibaren",
+			"isActive":  true,
+			"sortOrder": 2,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "i30",
+			"slug":      "i30",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2007'den itibaren",
+			"isActive":  true,
+			"sortOrder": 3,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Accent",
+			"slug":      "accent",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "1994'den itibaren",
+			"isActive":  true,
+			"sortOrder": 4,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Elantra",
+			"slug":      "elantra",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "1990'den itibaren",
+			"isActive":  true,
+			"sortOrder": 5,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Sonata",
+			"slug":      "sonata",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "1985'den itibaren",
+			"isActive":  true,
+			"sortOrder": 6,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Tucson",
+			"slug":      "tucson",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2004'den itibaren",
+			"isActive":  true,
+			"sortOrder": 7,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Santa Fe",
+			"slug":      "santa-fe",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2000'den itibaren",
+			"isActive":  true,
+			"sortOrder": 8,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Getz",
+			"slug":      "getz",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2002'den itibaren",
+			"isActive":  true,
+			"sortOrder": 9,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+		{
+			"_id":       primitive.NewObjectID(),
+			"brandId":   hyundaiBrandID,
+			"name":      "Matrix",
+			"slug":      "matrix",
+			"imageURL":  "https://bcdn.aloparca.com/car-images/vWDj4PB80q1K6uU4EbIPBku3kGWe0Lc7ywjy6Ji6.png?height=192",
+			"yearRange": "2001'den itibaren",
+			"isActive":  true,
+			"sortOrder": 10,
+			"createdAt": time.Now(),
+			"updatedAt": time.Now(),
+		},
+	}
+
+	// Clear existing models for Hyundai
+	_, err := modelsCollection.DeleteMany(context.TODO(), bson.M{"brandId": hyundaiBrandID})
+	if err != nil {
+		log.Printf("Failed to clear existing Hyundai models: %v", err)
+	}
+
+	// Insert new models
+	for _, model := range hyundaiModels {
+		_, err := modelsCollection.InsertOne(context.TODO(), model)
+		if err != nil {
+			log.Printf("Failed to insert model %s: %v", model["name"], err)
+		} else {
+			log.Printf("Inserted model: %s", model["name"])
+		}
+	}
+
+	log.Printf("Successfully seeded %d Hyundai models", len(hyundaiModels))
 }

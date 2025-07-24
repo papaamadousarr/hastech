@@ -1,0 +1,207 @@
+<div class="advanced-search-container">
+  <div class="search-header">
+    <h1>Recherche avancée</h1>
+    <p>Trouvez exactement ce que vous cherchez avec nos filtres avancés</p>
+  </div>
+
+  <div class="search-form-container">
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()" class="search-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="query">Recherche</label>
+          <input 
+            type="text" 
+            id="query" 
+            formControlName="query"
+            placeholder="Nom du produit, marque, référence..."
+            class="form-input">
+          <div *ngIf="suggestions.length > 0" class="suggestions">
+            <div *ngFor="let suggestion of suggestions" 
+                 (click)="selectSuggestion(suggestion)"
+                 class="suggestion-item">
+              <span class="suggestion-text">{{ suggestion.text }}</span>
+              <span class="suggestion-type">{{ getSuggestionTypeLabel(suggestion.type) }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="category">Catégorie</label>
+          <select id="category" formControlName="category" class="form-select">
+            <option value="">Toutes les catégories</option>
+            <option *ngFor="let cat of categories" [value]="cat">{{ cat }}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="subcategory">Sous-catégorie</label>
+          <select id="subcategory" formControlName="subcategory" class="form-select">
+            <option value="">Toutes les sous-catégories</option>
+            <option *ngFor="let subcat of subcategories" [value]="subcat">{{ subcat }}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="brand">Marque</label>
+          <select id="brand" formControlName="brand" class="form-select">
+            <option value="">Toutes les marques</option>
+            <option *ngFor="let brand of brands" [value]="brand">{{ brand }}</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="minPrice">Prix minimum</label>
+          <input 
+            type="number" 
+            id="minPrice" 
+            formControlName="minPrice"
+            placeholder="0"
+            class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="maxPrice">Prix maximum</label>
+          <input 
+            type="number" 
+            id="maxPrice" 
+            formControlName="maxPrice"
+            placeholder="1000"
+            class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="vehicleBrand">Marque véhicule</label>
+          <select id="vehicleBrand" formControlName="vehicleBrand" class="form-select">
+            <option value="">Toutes les marques</option>
+            <option *ngFor="let vBrand of vehicleBrands" [value]="vBrand">{{ vBrand }}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="vehicleModel">Modèle véhicule</label>
+          <select id="vehicleModel" formControlName="vehicleModel" class="form-select">
+            <option value="">Tous les modèles</option>
+            <option *ngFor="let vModel of vehicleModels" [value]="vModel">{{ vModel }}</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" formControlName="inStock" class="form-checkbox">
+            <span class="checkmark"></span>
+            En stock uniquement
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="sortBy">Trier par</label>
+          <select id="sortBy" formControlName="sortBy" class="form-select">
+            <option value="relevance">Pertinence</option>
+            <option value="name">Nom</option>
+            <option value="price">Prix</option>
+            <option value="newest">Plus récents</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="sortOrder">Ordre</label>
+          <select id="sortOrder" formControlName="sortOrder" class="form-select">
+            <option value="asc">Croissant</option>
+            <option value="desc">Décroissant</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" (click)="clearFilters()" class="btn-secondary">
+          Effacer les filtres
+        </button>
+        <button type="submit" class="btn-primary">
+          Rechercher
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div *ngIf="searchResults" class="search-results">
+    <div class="results-header">
+      <h2>Résultats de recherche</h2>
+      <div class="results-info">
+        <span>{{ searchResults.total }} produit(s) trouvé(s)</span>
+        <span *ngIf="searchResults.totalPages > 1">
+          Page {{ searchResults.page }} sur {{ searchResults.totalPages }}
+        </span>
+      </div>
+    </div>
+
+    <div *ngIf="searchResults.suggestions.length > 0" class="search-suggestions">
+      <h3>Suggestions</h3>
+      <div class="suggestions-tags">
+        <span *ngFor="let suggestion of searchResults.suggestions" 
+              (click)="applySuggestion(suggestion)"
+              class="suggestion-tag">
+          {{ suggestion }}
+        </span>
+      </div>
+    </div>
+
+    <div *ngIf="searchResults.products.length === 0" class="no-results">
+      <div class="no-results-icon">🔍</div>
+      <h3>Aucun résultat trouvé</h3>
+      <p>Essayez de modifier vos critères de recherche</p>
+      <button (click)="clearFilters()" class="btn-primary">
+        Effacer les filtres
+      </button>
+    </div>
+
+    <div *ngIf="searchResults.products.length > 0" class="products-grid">
+      <div *ngFor="let product of searchResults.products" class="product-card">
+        <div class="product-image">
+          <img [src]="product.image || 'assets/images/placeholders/product.jpg'" 
+               [alt]="product.name"
+               (error)="onImageError($event)">
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">{{ product.name }}</h3>
+          <div class="product-meta">
+            <span *ngIf="product.brand" class="product-brand">{{ product.brand }}</span>
+            <span *ngIf="product.oemNumber" class="product-oem">OEM: {{ product.oemNumber }}</span>
+          </div>
+          <div class="product-price">{{ formatPrice(product.price) }}</div>
+          <div class="product-stock" [ngClass]="{'in-stock': product.inStock, 'out-of-stock': !product.inStock}">
+            {{ product.inStock ? 'En stock' : 'Rupture de stock' }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="searchResults.totalPages > 1" class="pagination">
+      <button (click)="previousPage()" 
+              [disabled]="searchResults.page <= 1"
+              class="pagination-btn">
+        Précédent
+      </button>
+      
+      <div class="page-numbers">
+        <button *ngFor="let page of getPageNumbers()" 
+                (click)="goToPage(page)"
+                [class.active]="page === searchResults.page"
+                class="page-btn">
+          {{ page }}
+        </button>
+      </div>
+      
+      <button (click)="nextPage()" 
+              [disabled]="searchResults.page >= searchResults.totalPages"
+              class="pagination-btn">
+        Suivant
+      </button>
+    </div>
+  </div>
+</div> 

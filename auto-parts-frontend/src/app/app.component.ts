@@ -33,7 +33,6 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     VehicleBrandSelectionComponent,
     FooterComponent,
     HttpClientModule,
-    ProductDetailComponent,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './app.component.html',
@@ -59,7 +58,7 @@ export class AppComponent implements OnInit {
   }
 
   isHomeRoute(): boolean {
-    return this.router.url === '/';
+    return this.router.url === '/' || this.router.url === '/dashboard';
   }
 
   isAccountRoute(): boolean {

@@ -1,29 +1,32 @@
 <div class="container mx-auto px-4 py-8">
-    <!-- Title -->
-    <div class="text-center mb-8">
-      <h2 class="text-2xl font-semibold">Popular Car Brands Original Spare Parts</h2>
-    </div>
+  <h2 class="text-2xl font-semibold text-center mb-8">Popular Car Brands Original Spare Parts</h2>
   
-    <!-- Brands Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-      <div *ngFor="let brand of carBrands" 
-           (click)="onBrandSelect(brand.id)"
-           class="brand-card">
-        <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
-          <div class="flex flex-col items-center">
-            <img [src]="brand.logo" 
-                 [alt]="brand.name" 
-                 class="w-24 h-24 object-contain mb-4">
-            <h3 class="text-lg text-gray-800 text-center">{{brand.name}}</h3>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div *ngIf="loading" class="text-center py-8">
+    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-[#f85a00]"></div>
+    <p class="mt-2 text-gray-600">Loading brands...</p>
+  </div>
+
+  <div *ngIf="error" class="text-center py-8">
+    <p class="text-red-600">{{ error }}</p>
+    <button (click)="loadBrands()" class="mt-4 px-4 py-2 bg-[#f85a00] text-white rounded">
+      Retry
+    </button>
+  </div>
   
-    <!-- View All Brands Button -->
-    <div class="text-center mt-8">
-      <button class="view-all-button" (click)="viewAllBrands()">
-        View All Car Brands
-      </button>
+  <div *ngIf="!loading && !error" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+    <div *ngFor="let brand of carBrands" 
+         (click)="onBrandSelect(brand)"
+         class="brand-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 text-center cursor-pointer">
+      <img [src]="brand.imageURL" 
+           [alt]="brand.name" 
+           class="w-24 h-24 mx-auto mb-4 object-contain">
+      <h3 class="text-lg text-gray-800">{{brand.name}}</h3>
     </div>
   </div>
+
+  <div class="text-center mt-8">
+    <button class="px-8 py-3 bg-[#f85a00] hover:bg-[#d94e00] text-white font-medium rounded-md transition-all duration-200" (click)="viewAllBrands()">
+      View All Car Brands
+    </button>
+  </div>
+</div>

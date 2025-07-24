@@ -3,25 +3,36 @@ import { Component, OnInit, Output, EventEmitter, Input, OnChanges, SimpleChange
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ProductService, VehicleModel } from '../services/product.service';
+import { ProductService, VehicleModel, Engine } from '../services/product.service';
 import { HttpClient } from '@angular/common/http';
+import { catchError, finalize } from 'rxjs/operators';
+import { of } from 'rxjs';
 
 interface Brand {
-  id: string;
+  _id: string;
   name: string;
-  logo: string;
+  slug: string;
+  imageURL: string;
+  isActive: boolean;
 }
 
 interface Model {
-  id: string;
+  _id: string;
   name: string;
-  years: string;
+  brandId: string;
+  slug: string;
+  imageURL?: string;
+  isActive?: boolean;
+  sortOrder?: number;
+  createdAt?: string;
+  updatedAt?: string;
 }
 
 interface VehicleEngine {
   id: string;
   name: string;
   power: string;
+  variantId?: string;
 }
 
 @Component({
@@ -40,53 +51,80 @@ export class VehicleSearchComponent implements OnInit, OnChanges {
   selectedEngine: string = '';
 
   brands: Brand[] = [];
-  modelsByBrand: { [brand: string]: Model[] } = {};
-  enginesByModel: { [model: string]: VehicleEngine[] } = {};
-
-  vehicleData: any[] = [];
-
   models: Model[] = [];
   engines: VehicleEngine[] = [];
+
+  loading: boolean = false;
+  error: string | null = null;
 
   constructor(
     private router: Router,
     private productService: ProductService,
     private http: HttpClient
-  ) {}
+  ) {
+  }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['brand'] && changes['brand'].currentValue) {
-      this.selectedBrand = changes['brand'].currentValue.toUpperCase();
-      this.onBrandSelect();
+    if (changes['brand'] && changes['brand'].currentValue && !this.loading) {
+      this.selectedBrand = changes['brand'].currentValue;
+      // Attendre que les marques soient chargées avant de sélectionner
+      if (this.brands.length > 0) {
+        this.onBrandSelect();
+      }
     }
   }
 
   ngOnInit() {
-    if (this.brand) {
-      this.selectedBrand = this.brand.toUpperCase();
-      this.onBrandSelect();
-    }
+    
+    // Test API connection first
+    this.testAPIConnection();
+    
+    // Charger les marques après le test de connexion
+    this.loadBrands();
+    
+    // Ne pas déclencher onBrandSelect ici pour éviter les appels en cascade
+    // Cela sera géré par ngOnChanges si une marque est fournie
+  }
 
-    this.http.get<any[]>('assets/data/vehicle_details.json').subscribe(data => {
-      this.vehicleData = data;
-      this.buildBrandModelEngineMaps();
+  testAPIConnection() {
+    this.http.get('http://localhost:3000/api/vehicle_brands')
+      .subscribe({
+        next: (response) => {
+        },
+        error: (error) => {
+          this.error = 'Backend API is not accessible. Please check if the backend is running.';
+        }
     });
   }
 
-  buildBrandModelEngineMaps() {
-    // Extract unique brands with their logos
-    const brandMap = new Map<string, Brand>();
-    for (const vehicle of this.vehicleData) {
-      // Only add if not already present and has a logo/image_url
-      if (vehicle.brand && vehicle.image_url && !brandMap.has(vehicle.brand)) {
-        brandMap.set(vehicle.brand, {
-          id: vehicle.brand,
-          name: vehicle.brand.charAt(0).toUpperCase() + vehicle.brand.slice(1), // Capitalize
-          logo: vehicle.image_url
-        });
-      }
-    }
-    this.brands = Array.from(brandMap.values());
+  loadBrands() {
+    this.loading = true;
+    this.error = null;
+
+    this.productService.getAllVehicleBrands()
+      .pipe(
+        catchError(error => {
+          this.error = 'Error loading brands: ' + (error.message || error);
+          return of([]);
+        }),
+        finalize(() => {
+          this.loading = false;
+          
+          // Si une marque était présélectionnée, la sélectionner maintenant
+          if (this.brand && this.brands.length > 0) {
+            this.selectedBrand = this.brand;
+            this.onBrandSelect();
+          }
+        })
+      )
+      .subscribe({
+        next: (brands) => {
+          this.brands = brands;
+        },
+        error: (error) => {
+          this.error = 'Error loading brands: ' + (error.message || error);
+        }
+      });
   }
 
   onBrandSelect() {
@@ -95,49 +133,70 @@ export class VehicleSearchComponent implements OnInit, OnChanges {
     this.engines = [];
 
     if (this.selectedBrand) {
-      // Filter vehicleData for the selected brand and entries with a model_name
-      const modelsSet = new Set<string>();
-      const models: Model[] = [];
-
-      for (const vehicle of this.vehicleData) {
-        if (
-          vehicle.brand &&
-          vehicle.model_name &&
-          vehicle.brand.toLowerCase() === this.selectedBrand.toLowerCase() &&
-          !modelsSet.has(vehicle.model_name)
-        ) {
-          modelsSet.add(vehicle.model_name);
-          models.push({
-            id: vehicle.model_name,
-            name: vehicle.model_name,
-            years: vehicle.model_years || '' // Use years if available, else empty
-          });
-        }
-      }
-      this.models = models;
+      this.loadModels();
     } else {
       this.models = [];
     }
+  }
+
+  loadModels() {
+    this.loading = true;
+    this.error = null;
+
+    // Utiliser le nom de la marque au lieu de l'ID
+    this.productService.getModelsForBrand(this.selectedBrand)
+      .pipe(
+        catchError(error => {
+          this.error = 'Error loading models: ' + (error.message || error);
+          return of([]);
+        }),
+        finalize(() => {
+          this.loading = false;
+        })
+      )
+      .subscribe({
+        next: (models) => {
+          this.models = models;
+        },
+        error: (error) => {
+          this.error = 'Error loading models: ' + (error.message || error);
+        }
+      });
   }
 
   onModelSelect() {
     this.selectedEngine = '';
 
     if (this.selectedModel) {
-      this.enginesByModel = this.vehicleData.reduce((acc, vehicle) => {
-        if (!acc[vehicle.model]) {
-          acc[vehicle.model] = [];
-        }
-        acc[vehicle.model].push({
-          id: vehicle.engine,
-          name: vehicle.engine,
-          power: vehicle.power
-        });
-        return acc;
-      }, {} as { [key: string]: VehicleEngine[] });
-
-      this.engines = this.enginesByModel[this.selectedModel] || [];
+      this.loadEngines();
+    } else {
+      this.engines = [];
     }
+  }
+
+  loadEngines() {
+    this.loading = true;
+    this.error = null;
+
+    // Utiliser le nom du modèle au lieu de l'ID
+    this.productService.getEnginesForModel(this.selectedBrand, this.selectedModel)
+      .pipe(
+        catchError(error => {
+          this.error = 'Error loading engines: ' + (error.message || error);
+          return of([]);
+        }),
+        finalize(() => {
+          this.loading = false;
+        })
+      )
+      .subscribe({
+        next: (engines) => {
+          this.engines = engines;
+        },
+        error: (error) => {
+          this.error = 'Error loading engines: ' + (error.message || error);
+    }
+      });
   }
 
   onSearch() {

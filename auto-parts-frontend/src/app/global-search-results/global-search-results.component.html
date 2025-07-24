@@ -1,0 +1,331 @@
+<div class="global-search-results">
+  <!-- Header avec info de recherche -->
+  <div class="search-header bg-gray-50 border-b">
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <div class="flex items-center justify-between">
+        <div class="search-info">
+          <h1 class="text-2xl font-bold text-gray-900">
+            Résultats de recherche
+            <span *ngIf="searchQuery" class="text-blue-600">"{{ searchQuery }}"</span>
+          </h1>
+          
+          <!-- Type de recherche détecté -->
+          <div *ngIf="searchResults?.searchType" class="search-type-badge mt-2">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-sm font-medium"
+                  [ngClass]="{
+                    'bg-amber-100 text-amber-800': searchResults?.searchType === 'oem',
+                    'bg-green-100 text-green-800': searchResults?.searchType === 'product_code',
+                    'bg-blue-100 text-blue-800': searchResults?.searchType === 'keyword',
+                    'bg-purple-100 text-purple-800': searchResults?.searchType === 'mixed'
+                  }">
+              <span class="search-type-icon">
+                {{ getSearchTypeIcon(searchResults?.searchType || '') }}
+              </span>
+              {{ getSearchTypeLabel(searchResults?.searchType || '') }}
+            </span>
+          </div>
+          
+          <div class="results-count mt-2">
+            <span class="text-gray-600">
+              <span *ngIf="isLoading">Recherche en cours...</span>
+              <span *ngIf="!isLoading && searchResults">
+                {{ resultsCount }} résultat<span *ngIf="resultsCount > 1">s</span> trouvé<span *ngIf="resultsCount > 1">s</span>
+              </span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Actions de vue -->
+        <div class="view-controls flex items-center gap-4">
+          <button (click)="toggleViewMode()" 
+                  class="flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-gray-900 border border-gray-300 rounded-md">
+            <i [class]="viewMode === 'grid' ? 'fas fa-list' : 'fas fa-th'"></i>
+            <span>{{ viewMode === 'grid' ? 'Liste' : 'Grille' }}</span>
+          </button>
+          
+          <button (click)="toggleFilters()" 
+                  class="flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-gray-900 border border-gray-300 rounded-md"
+                  [class.bg-blue-50]="showFilters">
+            <i class="fas fa-filter"></i>
+            <span>Filtres</span>
+            <span *ngIf="hasActiveFilters()" class="w-2 h-2 bg-blue-600 rounded-full"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 py-6">
+    <div class="flex gap-6">
+      <!-- Sidebar avec filtres -->
+      <aside class="filters-sidebar w-64 flex-shrink-0" [class.hidden]="!showFilters">
+        <div class="bg-white rounded-lg shadow-sm border p-6 sticky top-4">
+          <form [formGroup]="filterForm">
+            <h3 class="text-lg font-semibold text-gray-900 mb-4">Filtres</h3>
+            
+            <!-- Catégorie -->
+            <div class="filter-group mb-6">
+              <label class="block text-sm font-medium text-gray-700 mb-2">Catégorie</label>
+              <select formControlName="category" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                <option value="">Toutes les catégories</option>
+                <option *ngFor="let category of availableCategories" [value]="category">
+                  {{ category }}
+                </option>
+              </select>
+            </div>
+
+            <!-- Marque -->
+            <div class="filter-group mb-6">
+              <label class="block text-sm font-medium text-gray-700 mb-2">Marque</label>
+              <select formControlName="brand" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                <option value="">Toutes les marques</option>
+                <option *ngFor="let brand of availableBrands" [value]="brand">
+                  {{ brand }}
+                </option>
+              </select>
+            </div>
+
+            <!-- Prix -->
+            <div class="filter-group mb-6">
+              <label class="block text-sm font-medium text-gray-700 mb-2">Prix</label>
+              <div class="flex gap-2">
+                <input formControlName="minPrice" type="number" placeholder="Min" 
+                       class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                <input formControlName="maxPrice" type="number" placeholder="Max"
+                       class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+              </div>
+              <div class="text-xs text-gray-500 mt-1">
+                Fourchette : {{ formatPrice(priceRange.min) }} - {{ formatPrice(priceRange.max) }}
+              </div>
+            </div>
+
+            <!-- Disponibilité -->
+            <div class="filter-group mb-6">
+              <label class="flex items-center">
+                <input formControlName="inStock" type="checkbox" 
+                       class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                <span class="ml-2 text-sm text-gray-700">En stock uniquement</span>
+              </label>
+            </div>
+
+            <!-- Actions -->
+            <div class="flex gap-2">
+              <button type="button" (click)="clearFilters()" 
+                      class="flex-1 px-4 py-2 text-gray-600 border border-gray-300 rounded-md hover:bg-gray-50">
+                Effacer
+              </button>
+              <button type="button" (click)="toggleFilters()" 
+                      class="flex-1 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                Appliquer
+              </button>
+            </div>
+          </form>
+        </div>
+      </aside>
+
+      <!-- Contenu principal -->
+      <main class="flex-1 min-w-0">
+        <!-- Barre de tri -->
+        <div class="results-toolbar bg-white rounded-lg shadow-sm border p-4 mb-6">
+          <div class="flex items-center justify-between">
+            <div class="results-info">
+              <span class="text-sm text-gray-600">
+                Page {{ currentPage }} sur {{ totalPages }} 
+                <span *ngIf="resultsCount > 0">({{ resultsCount }} résultats)</span>
+              </span>
+            </div>
+            
+            <div class="sort-controls">
+              <label class="text-sm text-gray-700 mr-2">Trier par :</label>
+              <select (change)="onSortChange($event)" [value]="filterForm.get('sortBy')?.value"
+                      class="px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+                <option *ngFor="let option of sortOptions" [value]="option.value">
+                  {{ option.label }}
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Suggestions intelligentes -->
+        <div *ngIf="hasSuggestions" 
+             class="suggestions-section bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+          <h4 class="text-sm font-medium text-blue-900 mb-2">Suggestions liées :</h4>
+          <div class="flex flex-wrap gap-2">
+            <button *ngFor="let suggestion of suggestions" 
+                    (click)="searchSuggestion(suggestion)"
+                    class="px-3 py-1 bg-white text-blue-700 border border-blue-300 rounded-full text-sm hover:bg-blue-100">
+              {{ suggestion }}
+            </button>
+          </div>
+        </div>
+
+        <!-- État de chargement -->
+        <div *ngIf="isLoading" class="loading-state text-center py-12">
+          <div class="inline-flex items-center gap-3">
+            <div class="animate-spin rounded-full h-6 w-6 border-2 border-blue-600 border-t-transparent"></div>
+            <span class="text-gray-600">Recherche en cours...</span>
+          </div>
+        </div>
+
+        <!-- Résultats -->
+        <div *ngIf="!isLoading && hasResults">
+          <!-- Mode grille -->
+          <div *ngIf="viewMode === 'grid'" class="products-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div *ngFor="let product of products" class="product-card bg-white rounded-lg shadow-sm border hover:shadow-md transition-shadow">
+              <div class="relative">
+                <img [src]="getProductImage(product)" 
+                     [alt]="product.name"
+                     (error)="onImageError($event)"
+                     class="w-full h-48 object-cover rounded-t-lg">
+                
+                <!-- Badge OEM si applicable -->
+                <div *ngIf="searchResults?.searchType === 'oem' || product.specifications?.oem_numbers?.length" 
+                     class="absolute top-2 left-2">
+                  <span class="bg-amber-500 text-white text-xs font-bold px-2 py-1 rounded">OEM</span>
+                </div>
+                
+                <!-- Bouton favoris -->
+                <button (click)="toggleFavorite(product)" 
+                        class="absolute top-2 right-2 p-2 bg-white rounded-full shadow-sm hover:bg-gray-50">
+                  <i [class]="product.isFavorite ? 'fas fa-heart text-red-500' : 'far fa-heart text-gray-400'"></i>
+                </button>
+              </div>
+              
+              <div class="p-4">
+                <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2">{{ product.name }}</h3>
+                
+                <div class="product-meta mb-3">
+                  <div *ngIf="product.brand" class="text-xs text-gray-600 mb-1">
+                    <span class="bg-gray-100 px-2 py-1 rounded">{{ product.brand }}</span>
+                  </div>
+                  
+                  <div class="flex items-center justify-between">
+                    <span class="text-lg font-bold text-green-600">{{ formatPrice(product.price) }}</span>
+                    <span class="text-xs px-2 py-1 rounded-full"
+                          [class]="product.availability === 'En stock' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'">
+                      {{ product.availability || 'Non renseigné' }}
+                    </span>
+                  </div>
+                </div>
+                
+                <div class="flex gap-2">
+                  <button (click)="viewProduct(product)" 
+                          class="flex-1 px-3 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50">
+                    Détails
+                  </button>
+                  <button (click)="addToCart(product)" 
+                          class="flex-1 px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                    Panier
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mode liste -->
+          <div *ngIf="viewMode === 'list'" class="products-list space-y-4">
+            <div *ngFor="let product of products" class="product-row bg-white rounded-lg shadow-sm border hover:shadow-md transition-shadow">
+              <div class="flex items-center p-4 gap-4">
+                <img [src]="getProductImage(product)" 
+                     [alt]="product.name"
+                     (error)="onImageError($event)"
+                     class="w-20 h-20 object-cover rounded-md flex-shrink-0">
+                
+                <div class="flex-1 min-w-0">
+                  <h3 class="font-semibold text-gray-900 mb-1">{{ product.name }}</h3>
+                  <div class="text-sm text-gray-600 mb-2">
+                    <span *ngIf="product.brand" class="mr-4">{{ product.brand }}</span>
+                    <span [class]="product.availability === 'En stock' ? 'text-green-600' : 'text-red-600'">
+                      {{ product.availability || 'Non renseigné' }}
+                    </span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <span class="text-lg font-bold text-green-600">{{ formatPrice(product.price) }}</span>
+                    <div *ngIf="searchResults?.searchType === 'oem' || product.specifications?.oem_numbers?.length" 
+                         class="bg-amber-100 text-amber-800 text-xs px-2 py-1 rounded">
+                      OEM
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="flex items-center gap-2 flex-shrink-0">
+                  <button (click)="toggleFavorite(product)" 
+                          class="p-2 text-gray-400 hover:text-red-500">
+                    <i [class]="product.isFavorite ? 'fas fa-heart text-red-500' : 'far fa-heart'"></i>
+                  </button>
+                  <button (click)="viewProduct(product)" 
+                          class="px-4 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50">
+                    Détails
+                  </button>
+                  <button (click)="addToCart(product)" 
+                          class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+                    Panier
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aucun résultat -->
+        <div *ngIf="!isLoading && !hasResults" 
+             class="no-results text-center py-12">
+          <div class="max-w-md mx-auto">
+            <div class="text-6xl mb-4">🔍</div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Aucun résultat trouvé</h3>
+            <p class="text-gray-600 mb-6">
+              Aucun produit ne correspond à votre recherche 
+              <span *ngIf="searchQuery" class="font-medium">"{{ searchQuery }}"</span>
+            </p>
+            <div class="space-y-3">
+              <p class="text-sm text-gray-500">Essayez :</p>
+              <ul class="text-sm text-gray-600 space-y-1">
+                <li>• Un numéro OEM (ex: 1234567890)</li>
+                <li>• Un code produit (ex: BSG123)</li>
+                <li>• Des mots-clés génériques (ex: frein, huile)</li>
+                <li>• Des termes moins spécifiques</li>
+              </ul>
+            </div>
+            <button (click)="clearFilters()" 
+                    class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+              Effacer tous les filtres
+            </button>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <div *ngIf="!isLoading && hasResults && totalPages > 1" 
+             class="pagination mt-8">
+          <div class="flex items-center justify-between">
+            <div class="text-sm text-gray-600">
+              Affichage {{ ((currentPage - 1) * itemsPerPage) + 1 }} à 
+              {{ Math.min(currentPage * itemsPerPage, searchResults?.total || 0) }} sur {{ searchResults?.total || 0 }} résultats
+            </div>
+            
+            <div class="flex items-center gap-2">
+              <button (click)="previousPage()" 
+                      [disabled]="currentPage <= 1"
+                      class="px-3 py-2 border border-gray-300 rounded-md disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50">
+                Précédent
+              </button>
+              
+              <button *ngFor="let page of getPageNumbers()" 
+                      (click)="goToPage(page)"
+                      [class]="page === currentPage ? 'bg-blue-600 text-white' : 'bg-white text-gray-600 hover:bg-gray-50'"
+                      class="px-3 py-2 border border-gray-300 rounded-md">
+                {{ page }}
+              </button>
+              
+              <button (click)="nextPage()" 
+                      [disabled]="currentPage >= totalPages"
+                      class="px-3 py-2 border border-gray-300 rounded-md disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50">
+                Suivant
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>

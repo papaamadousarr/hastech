@@ -1,12 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
-
-interface CarBrand {
-  name: string;
-  logo: string;
-  code: string;
-}
+import { VehicleService } from '../services/vehicle.service';
+import { VehicleBrand } from '../interfaces/vehicle.interface';
 
 @Component({
   selector: 'app-all-car-brands',
@@ -15,60 +11,64 @@ interface CarBrand {
   templateUrl: './all-car-brands.component.html',
   styleUrls: ['./all-car-brands.component.css']
 })
-export class AllCarBrandsComponent {
-  constructor(private router: Router) {}
+export class AllCarBrandsComponent implements OnInit {
+  constructor(
+    private router: Router,
+    private vehicleService: VehicleService
+  ) {}
 
-  allBrands: CarBrand[] = [
-    { name: 'ALFA ROMEO', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_alfaromeo.svg', code: 'alfa-romeo' },
-    { name: 'AUDI', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_audi.svg', code: 'audi' },
-    { name: 'BMW', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_bmw.svg', code: 'bmw' },
-    { name: 'CHERY', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_chery.svg', code: 'chery' },
-    { name: 'CHEVROLET', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_chevrolet.svg', code: 'chevrolet' },
-    { name: 'CHRYSLER', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_chrysler.svg', code: 'chrysler' },
-    { name: 'CITROËN', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_citroen.svg', code: 'citroen' },
-    { name: 'CUPRA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_cupra.svg', code: 'cupra' },
-    { name: 'DACIA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_dacia.svg', code: 'dacia' },
-    { name: 'DAEWOO', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_daewoo.svg', code: 'daewoo' },
-    { name: 'DAIHATSU', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_daihatsu.svg', code: 'daihatsu' },
-    { name: 'DODGE', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_dodge.svg', code: 'dodge' },
-    { name: 'DS', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_ds.svg', code: 'ds' },
-    { name: 'FIAT', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_fiat.svg', code: 'fiat' },
-    { name: 'FORD', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_ford.svg', code: 'ford' },
-    { name: 'HONDA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_honda.svg', code: 'honda' },
-    { name: 'HYUNDAI', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_hyundai.svg', code: 'hyundai' },
-    { name: 'INFINITI', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_infiniti.svg', code: 'infiniti' },
-    { name: 'ISUZU', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_isuzu.svg', code: 'isuzu' },
-    { name: 'IVECO', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_iveco.svg', code: 'iveco' },
-    { name: 'JAGUAR', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_jaguar.svg', code: 'jaguar' },
-    { name: 'JEEP', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_jeep.svg', code: 'jeep' },
-    { name: 'LANCIA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_lancia.svg', code: 'lancia' },
-    { name: 'LAND ROVER', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_landrover.svg', code: 'land-rover' },
-    { name: 'LEXUS', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_lexus.svg', code: 'lexus' },
-    { name: 'MAN', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_man.svg', code: 'man' },
-    { name: 'MAZDA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_mazda.svg', code: 'mazda' },
-    { name: 'MERCEDES-BENZ', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_mercedes-benz.svg', code: 'mercedes' },
-    { name: 'MINI', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_mini.svg', code: 'mini' },
-    { name: 'MITSUBISHI', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_mitsubishi.svg', code: 'mitsubishi' },
-    { name: 'NISSAN', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_nissan.svg', code: 'nissan' },
-    { name: 'OPEL', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_opel.svg', code: 'opel' },
-    { name: 'PEUGEOT', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_peugeot.svg', code: 'peugeot' },
-    { name: 'PORSCHE', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_porsche.svg', code: 'porsche' },
-    { name: 'RENAULT', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_renault.svg', code: 'renault' },
-    { name: 'SAAB', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_saab.svg', code: 'saab' },
-    { name: 'SEAT', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_seat.svg', code: 'seat' },
-    { name: 'SKODA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_skoda.svg', code: 'skoda' },
-    { name: 'SMART', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_smart.svg', code: 'smart' },
-    { name: 'SUBARU', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_subaru.svg', code: 'subaru' },
-    { name: 'SUZUKI', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_suzuki.svg', code: 'suzuki' },
-    { name: 'TESLA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_tesla.svg', code: 'tesla' },
-    { name: 'KIA', logo:'https://bcdn.aloparca.com/car-maker-images/marka_kia.svg', code: 'kia'},
-    { name: 'TOYOTA', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_toyota.svg', code: 'toyota' },
-    { name: 'VOLKSWAGEN', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_volkswagen.svg', code: 'volkswagen' },
-    { name: 'VOLVO', logo: 'https://bcdn.aloparca.com/car-maker-images/marka_volvo.svg', code: 'volvo' },
-  ];
-
+  allBrands: VehicleBrand[] = [];
+  loading: boolean = true;
+  error: string | null = null;
   alphabet: string[] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   selectedLetter: string = 'ALL';
+
+  ngOnInit() {
+    this.loadAllBrands();
+  }
+
+  loadAllBrands() {
+    this.loading = true;
+    this.error = null;
+
+    this.vehicleService.getVehicleBrands().subscribe({
+      next: (brands) => {
+        console.log('Loaded all brands:', brands);
+        this.allBrands = brands.filter(brand => brand.isActive);
+        this.loading = false;
+      },
+      error: (err) => {
+        console.error('Error loading brands:', err);
+        this.error = 'Failed to load vehicle brands. Please try again.';
+        this.loading = false;
+        
+        // Fallback to static data if API fails
+        this.allBrands = [
+          { _id: 'audi', name: 'AUDI', slug: 'audi', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_audi.svg', isActive: true, sortOrder: 1, createdAt: '', updatedAt: '' },
+          { _id: 'bmw', name: 'BMW', slug: 'bmw', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_bmw.svg', isActive: true, sortOrder: 2, createdAt: '', updatedAt: '' },
+          { _id: 'mercedes', name: 'MERCEDES-BENZ', slug: 'mercedes-benz', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_mercedes-benz.svg', isActive: true, sortOrder: 3, createdAt: '', updatedAt: '' },
+          { _id: 'volkswagen', name: 'VOLKSWAGEN', slug: 'volkswagen', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_volkswagen.svg', isActive: true, sortOrder: 4, createdAt: '', updatedAt: '' },
+          { _id: 'ford', name: 'FORD', slug: 'ford', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_ford.svg', isActive: true, sortOrder: 5, createdAt: '', updatedAt: '' },
+          { _id: 'toyota', name: 'TOYOTA', slug: 'toyota', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_toyota.svg', isActive: true, sortOrder: 6, createdAt: '', updatedAt: '' },
+          { _id: 'honda', name: 'HONDA', slug: 'honda', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_honda.svg', isActive: true, sortOrder: 7, createdAt: '', updatedAt: '' },
+          { _id: 'nissan', name: 'NISSAN', slug: 'nissan', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_nissan.svg', isActive: true, sortOrder: 8, createdAt: '', updatedAt: '' },
+          { _id: 'hyundai', name: 'HYUNDAI', slug: 'hyundai', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_hyundai.svg', isActive: true, sortOrder: 9, createdAt: '', updatedAt: '' },
+          { _id: 'kia', name: 'KIA', slug: 'kia', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_kia.svg', isActive: true, sortOrder: 10, createdAt: '', updatedAt: '' },
+          { _id: 'peugeot', name: 'PEUGEOT', slug: 'peugeot', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_peugeot.svg', isActive: true, sortOrder: 11, createdAt: '', updatedAt: '' },
+          { _id: 'renault', name: 'RENAULT', slug: 'renault', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_renault.svg', isActive: true, sortOrder: 12, createdAt: '', updatedAt: '' },
+          { _id: 'citroen', name: 'CITROËN', slug: 'citroen', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_citroen.svg', isActive: true, sortOrder: 13, createdAt: '', updatedAt: '' },
+          { _id: 'opel', name: 'OPEL', slug: 'opel', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_opel.svg', isActive: true, sortOrder: 14, createdAt: '', updatedAt: '' },
+          { _id: 'skoda', name: 'SKODA', slug: 'skoda', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_skoda.svg', isActive: true, sortOrder: 15, createdAt: '', updatedAt: '' },
+          { _id: 'seat', name: 'SEAT', slug: 'seat', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_seat.svg', isActive: true, sortOrder: 16, createdAt: '', updatedAt: '' },
+          { _id: 'volvo', name: 'VOLVO', slug: 'volvo', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_volvo.svg', isActive: true, sortOrder: 17, createdAt: '', updatedAt: '' },
+          { _id: 'porsche', name: 'PORSCHE', slug: 'porsche', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_porsche.svg', isActive: true, sortOrder: 18, createdAt: '', updatedAt: '' },
+          { _id: 'mini', name: 'MINI', slug: 'mini', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_mini.svg', isActive: true, sortOrder: 19, createdAt: '', updatedAt: '' },
+          { _id: 'land-rover', name: 'LAND ROVER', slug: 'land-rover', imageURL: 'https://bcdn.aloparca.com/car-maker-images/marka_landrover.svg', isActive: true, sortOrder: 20, createdAt: '', updatedAt: '' }
+        ];
+        this.loading = false;
+      }
+    });
+  }
 
   get filteredBrands() {
     if (this.selectedLetter === 'ALL') return this.allBrands;
@@ -79,7 +79,8 @@ export class AllCarBrandsComponent {
     this.selectedLetter = letter;
   }
 
-  goToBrandModels(brandCode: string) {
-    this.router.navigate(['/vehicle-models', brandCode]);
+  goToBrandModels(brand: VehicleBrand) {
+    console.log('Selected brand:', brand);
+    this.router.navigate(['/vehicle-models', brand._id]);
   }
 }

@@ -1,0 +1,7 @@
+/* Styles pour le GlobalSearchComponent intégré dans le header */
+/* Les styles sont maintenant gérés par Tailwind CSS dans le template */
+
+/* Ajuster la spécificité si nécessaire pour les dropdowns */
+.suggestions-dropdown {
+  z-index: 1000 !important;
+}

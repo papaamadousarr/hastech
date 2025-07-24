@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Router } from '@angular/router';
-import { FormsModule } from '@angular/forms';
 import { AuthService } from '../services/auth.service';
 import { UserService } from '../services/user.service';
 import { CartService } from '../services/cart.service';
 import { CategoriesComponent } from '../categories/categories.component';
+import { GlobalSearchComponent } from '../components/global-search/global-search.component';
 
 interface Category {
   id: number;
@@ -15,17 +15,17 @@ interface Category {
   imageUrl: string;
 }
 
+
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, RouterModule, FormsModule],
+  imports: [CommonModule, RouterModule, GlobalSearchComponent],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements OnInit, OnDestroy {
   isAuthenticated = false;
   userName: string | null = null;
-  searchTerm: string = '';
   cartItemCount: number = 0;
   showCategoriesDropdown: boolean = false;
   isCartOpen: boolean = false;
@@ -176,8 +176,11 @@ export class HeaderComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    // Vérifier si localStorage est disponible (éviter l'erreur SSR)
+    if (typeof window !== 'undefined' && window.localStorage) {
     const token = localStorage.getItem('token');
     this.isAuthenticated = !!token;
+    }
     
     this.authService.getAuthStatus().subscribe(
       status => {
@@ -194,9 +197,9 @@ export class HeaderComponent implements OnInit {
       this.loadUserProfile();
     }
 
-    this.cartService.cartItems$.subscribe(
-      items => {
-        this.cartItemCount = items.length;
+    this.cartService.cart$.subscribe(
+      (cart: any) => {
+        this.cartItemCount = cart.itemCount || 0;
       }
     );
   }
@@ -241,8 +244,10 @@ export class HeaderComponent implements OnInit {
   }
 
   logout(): void {
+    if (typeof window !== 'undefined' && window.localStorage) {
     localStorage.removeItem('token');
     localStorage.removeItem('isAdmin');
+    }
     this.authService.logout();
     this.isAuthenticated = false;
     this.userName = '';
@@ -258,13 +263,6 @@ export class HeaderComponent implements OnInit {
     this.showCategoriesDropdown = !this.showCategoriesDropdown;
   }
 
-  handleSearch(): void {
-    if (this.searchTerm.trim()) {
-      this.router.navigate(['/search'], {
-        queryParams: { q: this.searchTerm }
-      });
-    }
-  }
 
   handleImageError(event: any): void {
     event.target.src = 'https://via.placeholder.com/280x80?text=Alopieces+Auto';
@@ -276,5 +274,9 @@ export class HeaderComponent implements OnInit {
 
   getAccountDisplayText(): string {
     return this.isAuthenticated ? (this.userName || 'My Account') : 'Login/Sign Up';
+  }
+
+  ngOnDestroy(): void {
+    // Component cleanup
   }
 }
